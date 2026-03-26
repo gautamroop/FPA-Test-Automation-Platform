@@ -14,7 +14,7 @@ export default defineConfig({
   reporter: [
     ['list'],
     ['allure-playwright', { outputFolder: process.env.ALLURE_RESULTS_DIR ?? 'reports/allure-results' }],
-    ['html', { outputFolder: 'reports/salesforce/oms', open: 'never' }],
+    ['html', { outputFolder: 'reports/salesforce/oms/oms-test-report', open: 'never' }],
   ],
 
   use: {

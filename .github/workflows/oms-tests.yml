@@ -56,7 +56,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: oms-playwright-report
-          path: reports/salesforce/oms/
+          path: reports/salesforce/oms/oms-test-report/
           retention-days: 30
 
       # ── Publish to GitHub Pages repo ──────────────────────────────────────
@@ -65,26 +65,25 @@ jobs:
         env:
           GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.REPORT_TOKEN }}
         run: |
-          # Configure git identity for the clone
           git config --global user.email "ci@fpa-test-automation"
           git config --global user.name "FPA CI"
 
-          # Clone gautamroop.github.io (main branch)
+          # Clone fpa-test-report (main branch)
           git clone --branch main --single-branch --depth 1 \
-            "https://${{ secrets.REPORT_TOKEN }}@github.com/gautamroop/gautamroop.github.io.git" \
+            "https://${{ secrets.REPORT_TOKEN }}@github.com/gautamroop/fpa-test-report.git" \
             .tmp-report-publish
 
-          # Replace salesforce/oms subfolder with fresh report
-          rm -rf .tmp-report-publish/salesforce/oms
-          mkdir -p .tmp-report-publish/salesforce/oms
-          cp -r reports/salesforce/oms/. .tmp-report-publish/salesforce/oms/
+          # Replace salesforce/oms/oms-test-report subfolder with fresh report
+          rm -rf .tmp-report-publish/salesforce/oms/oms-test-report
+          mkdir -p .tmp-report-publish/salesforce/oms/oms-test-report
+          cp -r reports/salesforce/oms/oms-test-report/. .tmp-report-publish/salesforce/oms/oms-test-report/
 
           # Commit & push
           cd .tmp-report-publish
-          git add salesforce/oms
+          git add salesforce/oms/oms-test-report
           git commit -m "ci: publish OMS Playwright report [$(date -u '+%Y-%m-%d %H:%M UTC')]" \
             || echo "Nothing to commit"
           git push origin main
 
           echo ""
-          echo "Report live at: https://gautamroop.github.io/salesforce/oms/"
+          echo "Report live at: https://gautamroop.github.io/fpa-test-report/salesforce/oms/oms-test-report/"

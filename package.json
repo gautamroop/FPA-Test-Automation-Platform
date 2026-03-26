@@ -11,7 +11,7 @@
     "test:oms": "playwright test --project=oms",
     "report:allure": "allure generate reports/allure-results --clean -o reports/allure-report && allure open reports/allure-report",
     "report:html": "playwright show-report reports/html",
-    "report:oms": "playwright show-report reports/salesforce/oms",
+    "report:oms": "playwright show-report reports/salesforce/oms/oms-test-report",
     "publish:report": "node scripts/publish-report.js",
     "newman": "newman run test-data/collection.json -r html --reporter-html-export reports/newman/index.html"
   },

@@ -1,11 +1,11 @@
 /**
  * publish-report.js
  *
- * Publishes the Playwright HTML report from reports/salesforce/oms/ to the
- * GitHub Pages repo (gautamroop/gautamroop.github.io) under:
- *   salesforce/oms/
+ * Publishes the Playwright HTML report from reports/salesforce/oms/oms-test-report/ to the
+ * GitHub Pages repo (gautamroop/fpa-test-report) under:
+ *   salesforce/oms/oms-test-report/
  *
- * Live URL: https://gautamroop.github.io/salesforce/oms/
+ * Live URL: https://gautamroop.github.io/fpa-test-report/salesforce/oms/oms-test-report/
  *
  * Usage:
  *   npm run publish:report
@@ -29,11 +29,11 @@ if (!PAT) {
 }
 
 // ── Config ─────────────────────────────────────────────────────────────────
-const REPORT_OWNER  = 'gautamroop';
-const REPORT_REPO   = 'gautamroop.github.io';
-const REPORT_BRANCH = 'main';
-const LOCAL_REPORT_DIR = path.resolve(__dirname, '../reports/salesforce/oms');
-const DEST_SUBFOLDER   = 'salesforce/oms';
+const REPORT_OWNER     = 'gautamroop';
+const REPORT_REPO      = 'fpa-test-report';
+const REPORT_BRANCH    = 'main';
+const LOCAL_REPORT_DIR = path.resolve(__dirname, '../reports/salesforce/oms/oms-test-report');
+const DEST_SUBFOLDER   = 'salesforce/oms/oms-test-report';
 
 // ── Verify the local report exists ─────────────────────────────────────────
 if (!fs.existsSync(LOCAL_REPORT_DIR)) {
