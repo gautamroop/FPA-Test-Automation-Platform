@@ -1,0 +1,65 @@
+[
+  {
+    "pid": 1,
+    "rootPid": 1,
+    "uniqueName": "Application Type",
+    "label": "Application Type",
+    "listValues": "[\"Ecommerce\",\"OMS\",\"TPP\",\"SF Core\",\"MSD\"]",
+    "customFieldListValues": [
+      {
+        "pid": 4,
+        "rootPid": 4,
+        "confMetadataPid": 1,
+        "index": 4,
+        "value": "SF Core"
+      },
+      {
+        "pid": 1,
+        "rootPid": 1,
+        "confMetadataPid": 1,
+        "index": 1,
+        "value": "Ecommerce"
+      },
+      {
+        "pid": 2,
+        "rootPid": 2,
+        "confMetadataPid": 1,
+        "index": 2,
+        "value": "OMS"
+      },
+      {
+        "pid": 3,
+        "rootPid": 3,
+        "confMetadataPid": 1,
+        "index": 3,
+        "value": "TPP"
+      },
+      {
+        "pid": 5,
+        "rootPid": 5,
+        "confMetadataPid": 1,
+        "index": 5,
+        "value": "MSD"
+      }
+    ],
+    "required": true,
+    "subscriberUsecase": null,
+    "helpText": null,
+    "index": 1,
+    "mdClass": 0,
+    "defaultValue": null,
+    "dbColumnName": null,
+    "mdType": 4,
+    "displayAutoEmailColumn": false,
+    "displayAutoResultPerspective": false,
+    "displayManualEmailColumn": false,
+    "displayManualResultPerspective": false,
+    "entityMDList": [
+      {
+        "pid": 1,
+        "dbColumnName": "field_1",
+        "entityTypePid": 5
+      }
+    ]
+  }
+]

@@ -1,0 +1,228 @@
+{
+  "2": [
+    {
+      "name": "MSCanvasCombobox",
+      "displayName": "MS Canvas Combobox",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"div\"]},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"react-combobox-view\"]}]}]"
+    },
+    {
+      "name": "MSCanvasDropdown",
+      "displayName": "MS Canvas Dropdown",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"div\"]},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"appmagic-dropdown\"]}]}]"
+    },
+    {
+      "name": "ORACloudDropdown",
+      "displayName": "ORA-Cloud Dropdown",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"span\"]},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"xxa\"]},{\"target\":\"child\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"input\"]},{\"target\":\"child\",\"key\":\"role\",\"operator\":\"eq\",\"value\":[\"combobox\"]},{\"target\":\"child\",\"key\":\"readonly\",\"operator\":\"eq\",\"value\":[null,\"\",\"readonly\"]}]}]"
+    },
+    {
+      "name": "ORACloudSearchDropdown",
+      "displayName": "ORA-Cloud Search Dropdown",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"span\"]},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"xxa\"]}]}]"
+    },
+    {
+      "name": "MSDTable",
+      "displayName": "MSD Table",
+      "locatorProps": "[{\"attr\":\"wj-part\",\"preferred\":true},{\"attr\":\"role\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"div\"]},{\"target\":\"self\",\"key\":\"wj-part\",\"operator\":\"regex\",\"value\":\"root\"}]},{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"div\"},{\"target\":\"self\",\"key\":\"role\",\"operator\":\"eq\",\"value\":[\"grid\", \"treegrid\"]},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"ag-root\"]}]}]"
+    },
+    {
+      "name": "MSDLookupControl",
+      "displayName": "MSD Lookup Control",
+      "locatorProps": "[{\"attr\":\"data-id\",\"preferred\":true}, {\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"div\"]},{\"target\":\"self\",\"key\":\"id\",\"operator\":\"regex\",\"value\":\".*fieldControl-Lookup_.*_BasicContainer.*\"}]}]"
+    },
+    {
+      "name": "MSDTextBoxControl",
+      "displayName": "MSD TextBox Control",
+      "locatorProps": "[{\"attr\":\"data-id\",\"preferred\":true}, {\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"div\"]},{\"target\":\"self\",\"key\":\"id\",\"operator\":\"regex\",\"value\":\".*fieldControl.*container\"},{\"target\":\"child\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"input\"]},{\"target\":\"child\",\"key\":\"type\",\"operator\":\"eq\",\"value\":[\"text\"]}]}, {\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"span\"]},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"fui-Input\"]},{\"target\":\"child\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"input\"]},{\"target\":\"child\",\"key\":\"type\",\"operator\":\"eq\",\"value\":[\"text\"]}]}]"
+    },
+    {
+      "name": "SFButtonMenu",
+      "displayName": "SF Button Menu",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":true}, {\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"lightning-button-menu\"},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"slds-dropdown-trigger slds-dropdown-trigger_click\"]}]}]"
+    },
+    {
+      "name": "SFSearchDropDown",
+      "displayName": "SF Search Dropdown",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":false},{\"attr\":\"aq-attch-label\",\"preferred\":true},{\"attr\":\"data-lookup\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"div\"]},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"contentWrapper\"]}]},{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"lightning-lookup\"]}]}]"
+    },
+    {
+      "name": "SFDropdown",
+      "displayName": "SF Dropdown",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":false},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"a\"]},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"select\"]}]},{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"lightning-picklist\"]}, {\"target\":\"child\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"lightning-combobox\"]}]}]"
+    },
+    {
+      "name": "MatDropdown",
+      "displayName": "Mat Dropdown",
+      "locatorProps": "[{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"mat-select\"}]}]"
+    },
+    {
+      "name": "MatTable",
+      "displayName": "Mat Table",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":false}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"mat-table\"}]}]"
+    },
+    {
+      "name": "Selectize",
+      "displayName": "Selectize",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":false},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"selectize-control\"]}]}]"
+    },
+    {
+      "name": "WebTable",
+      "displayName": "Web Table",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":false},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"table\"}]},{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"div\"]},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"k-spreadsheet\"]}]}]"
+    },
+    {
+      "name": "WebRadioGroup",
+      "displayName": "Web Radio Group",
+      "locatorProps": "[{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"child\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"input\"},{\"target\":\"child\",\"key\":\"type\",\"operator\":\"eq\",\"value\":\"radio\"}]}]"
+    },
+    {
+      "name": "WebLink",
+      "displayName": "Web Link",
+      "locatorProps": "[{\"attr\":\"text\",\"preferred\":false},{\"attr\":\"href\",\"preferred\":false},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"a\"}]}]"
+    },
+    {
+      "name": "WebPasswordInput",
+      "displayName": "Web Password Input",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"type\",\"operator\":\"eq\",\"value\":[\"password\"]},{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"input\"]}]}]"
+    },
+    {
+      "name": "WebImage",
+      "displayName": "Web Image",
+      "locatorProps": "[{\"attr\":\"src\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"alt\",\"preferred\":true},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"img\"}]}]"
+    },
+    {
+      "name": "EhDropdown",
+      "displayName": "Eh Dropdown",
+      "locatorProps": "[{\"attr\":\"display-field\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":false},{\"attr\":\"text\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"eh-dropdown\"}]}]"
+    },
+    {
+      "name": "WebDropdown",
+      "displayName": "Web Dropdown",
+      "locatorProps": "[{\"attr\":\"id\",\"preferred\":false},{\"attr\":\"text\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"select\"},{\"target\":\"child\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"option\",\"optgroup\"]}]},{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"div\"]},{\"target\":\"self\",\"key\":\"class\",\"operator\":\"eq\",\"value\":[\"fui-Dropdown\"]}]},{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"kendo-dropdownlist\"]}]}]"
+    },
+    {
+      "name": "WebCheckbox",
+      "displayName": "Web Checkbox",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":\"input\"},{\"target\":\"self\",\"key\":\"type\",\"operator\":\"eq\",\"value\":\"checkbox\"}]}]"
+    },
+    {
+      "name": "WebButton",
+      "displayName": "Web Button",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"input\"]}, {\"target\":\"self\",\"key\":\"type\",\"operator\":\"eq\",\"value\":[\"submit\",\"button\",\"reset\"]}]},{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"button\"]}]}]"
+    },
+    {
+      "name": "WebInput",
+      "displayName": "Web Input",
+      "locatorProps": "[{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"type\",\"operator\":\"regex\",\"value\":\"^(?!(button|checkbox|color|file|hidden|image|radio|range|reset|submit)$).*\"},{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"input\"]}]},{\"ruleset\":[{\"target\":\"self\",\"key\":\"type\",\"operator\":\"np\",\"value\":[]},{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"input\"]}]},{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"textarea\"]}]}]"
+    },
+    {
+      "name": "WebElement",
+      "displayName": "Generic Element",
+      "locatorProps": "[{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"for\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":false},{\"attr\":\"name\",\"preferred\":true},{\"attr\":\"title\",\"preferred\":false},{\"attr\":\"text\",\"preferred\":false},{\"attr\":\"aq-attch-label\",\"preferred\":true}]",
+      "rules": null
+    }
+  ],
+  "4": [
+    {
+      "name": "TEElement",
+      "displayName": "TE Element",
+      "locatorProps": null,
+      "rules": null
+    }
+  ],
+  "5": [
+    {
+      "name": "DesktopWindow",
+      "displayName": "Window",
+      "locatorProps": null,
+      "rules": null
+    },
+    {
+      "name": "DesktopElement",
+      "displayName": "Windows Element",
+      "locatorProps": null,
+      "rules": null
+    }
+  ],
+  "6": [
+    {
+      "name": "MobileRadioGroup",
+      "displayName": "Mobile Radio Group",
+      "locatorProps": "[{\"attr\":\"accessibility-id\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":true},{\"attr\":\"label\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"tag\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"resource-id\",\"preferred\":true},{\"attr\":\"content-desc\",\"preferred\":true}, {\"attr\":\"name\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"android.widget.radiogroup\"]} ] }]"
+    },
+    {
+      "name": "MobilePasswordInput",
+      "displayName": "Mobile Password Input",
+      "locatorProps": "[{\"attr\":\"accessibility-id\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":true},{\"attr\":\"label\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"tag\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"resource-id\",\"preferred\":true},{\"attr\":\"content-desc\",\"preferred\":true}, {\"attr\":\"name\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"android.widget.edittext\"]}, {\"target\":\"self\",\"key\":\"password\",\"operator\":\"eq\",\"value\":[\"true\"]} ] },{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"xcuielementtypesecuretextfield\"]}]}]"
+    },
+    {
+      "name": "MobileDropdown",
+      "displayName": "Mobile Dropdown",
+      "locatorProps": "[{\"attr\":\"accessibility-id\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":true},{\"attr\":\"label\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"tag\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"resource-id\",\"preferred\":true},{\"attr\":\"content-desc\",\"preferred\":true}, {\"attr\":\"name\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"android.widget.spinner\"]} ] },{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"xcuielementtypepicker\"]}]}]"
+    },
+    {
+      "name": "MobileImage",
+      "displayName": "Mobile Image",
+      "locatorProps": "[{\"attr\":\"accessibility-id\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":true},{\"attr\":\"label\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"tag\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"resource-id\",\"preferred\":true},{\"attr\":\"content-desc\",\"preferred\":true}, {\"attr\":\"name\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"android.widget.imageview\"]} ] },{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"xcuielementtypeimage\"]}]}]"
+    },
+    {
+      "name": "MobileCheckbox",
+      "displayName": "Mobile Checkbox",
+      "locatorProps": "[{\"attr\":\"accessibility-id\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":true},{\"attr\":\"label\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"tag\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"resource-id\",\"preferred\":true},{\"attr\":\"content-desc\",\"preferred\":true}, {\"attr\":\"name\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"android.widget.checkbox\"]} ] },{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"xcuielementtypecheckbox\"]}]}]"
+    },
+    {
+      "name": "MobileInput",
+      "displayName": "Mobile Input",
+      "locatorProps": "[{\"attr\":\"accessibility-id\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":true},{\"attr\":\"label\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"tag\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"resource-id\",\"preferred\":true},{\"attr\":\"content-desc\",\"preferred\":true}, {\"attr\":\"name\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"android.widget.edittext\"]} ] },{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"xcuielementtypetextfield\"]}]}, {\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"xcuielementtypesearchfield\"]}]}]"
+    },
+    {
+      "name": "MobileButton",
+      "displayName": "Mobile Button",
+      "locatorProps": "[{\"attr\":\"accessibility-id\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":true},{\"attr\":\"label\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"tag\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"resource-id\",\"preferred\":true},{\"attr\":\"content-desc\",\"preferred\":true}, {\"attr\":\"name\",\"preferred\":true}]",
+      "rules": "[{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"android.widget.button\"]} ] }, {\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"android.widget.imagebutton\"]} ] },{\"ruleset\":[{\"target\":\"self\",\"key\":\"tag\",\"operator\":\"eq\",\"value\":[\"xcuielementtypebutton\"]}]}]"
+    },
+    {
+      "name": "MobileElement",
+      "displayName": "Mobile Element",
+      "locatorProps": "[{\"attr\":\"accessibility-id\",\"preferred\":true},{\"attr\":\"text\",\"preferred\":true},{\"attr\":\"label\",\"preferred\":true},{\"attr\":\"value\",\"preferred\":true},{\"attr\":\"type\",\"preferred\":true},{\"attr\":\"tag\",\"preferred\":true},{\"attr\":\"class\",\"preferred\":true},{\"attr\":\"id\",\"preferred\":true},{\"attr\":\"resource-id\",\"preferred\":true},{\"attr\":\"content-desc\",\"preferred\":true}, {\"attr\":\"name\",\"preferred\":true}]",
+      "rules": null
+    }
+  ],
+  "7": [
+    {
+      "name": "SAPElement",
+      "displayName": "SAP Element",
+      "locatorProps": null,
+      "rules": null
+    }
+  ]
+}

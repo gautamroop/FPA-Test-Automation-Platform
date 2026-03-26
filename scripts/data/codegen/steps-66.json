@@ -1,0 +1,81 @@
+{
+  "scnPid": 66,
+  "scnName": "Check Order Level Promotion",
+  "steps": [
+    {
+      "index": 1,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    },
+    {
+      "index": 2,
+      "ctxPid": 202,
+      "ctxName": "F&P Home Page",
+      "compPid": 291,
+      "compName": "Validate and Accept Cookies",
+      "methodName": "validateAndAcceptCookies",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 3,
+      "ctxPid": 203,
+      "ctxName": "F&P Login Page",
+      "compPid": 292,
+      "compName": "User Login",
+      "methodName": "userLogin",
+      "params": [
+        "email",
+        "password"
+      ],
+      "returns": []
+    },
+    {
+      "index": 4,
+      "ctxPid": 202,
+      "ctxName": "F&P Home Page",
+      "compPid": 337,
+      "compName": "Navigate to Product Type and Select Product Style",
+      "methodName": "navigateToProductTypeAndSelectProductStyle",
+      "params": [
+        "productCategory",
+        "productSubCategory"
+      ],
+      "returns": []
+    },
+    {
+      "index": 5,
+      "ctxPid": 239,
+      "ctxName": "F&P Products Page",
+      "compPid": 338,
+      "compName": "Select the Product and Add to Cart",
+      "methodName": "selectTheProductAndAddToCart",
+      "params": [
+        "deliveryPinCode",
+        "orderQuantity"
+      ],
+      "returns": [
+        "Order Qty"
+      ]
+    },
+    {
+      "index": 6,
+      "ctxPid": 242,
+      "ctxName": "F&P Order Details Page",
+      "compPid": 461,
+      "compName": "Verify Order Level Discount",
+      "methodName": "verifyOrderLevelDiscount",
+      "params": [],
+      "returns": [
+        "Order Level Discount"
+      ]
+    }
+  ]
+}

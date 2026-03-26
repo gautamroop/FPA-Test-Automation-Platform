@@ -1,0 +1,26 @@
+{
+  "pid": 63,
+  "rootPid": 63,
+  "scnName": "Verify Paid in Full-Checkbox",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 1048,
+    "field1": "2",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1762981843281,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 2,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1749465513019,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

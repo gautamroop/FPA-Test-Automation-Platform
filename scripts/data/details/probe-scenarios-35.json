@@ -1,0 +1,26 @@
+{
+  "pid": 35,
+  "rootPid": 35,
+  "scnName": "End-to End | Order Creation and Validation in SF",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 684,
+    "field1": "1",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1759825061806,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1749014917979,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

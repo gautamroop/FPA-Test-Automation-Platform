@@ -1,0 +1,661 @@
+[
+  {
+    "scnStep": {
+      "pid": 4636,
+      "index": 1,
+      "paramList": [],
+      "stepType": 1,
+      "scnPid": 208
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 4637,
+      "index": 2,
+      "displayIndex": 1,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 5206,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 183,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4637,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "URL"
+        }
+      ],
+      "compPid": 282,
+      "ctxPid": 197,
+      "stepType": 3,
+      "scnPid": 208
+    },
+    "compInputParams": [
+      {
+        "pid": 183,
+        "rootPid": 183,
+        "name": "URL",
+        "desc": "URL to invoke the browser with",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 282,
+        "index": 1,
+        "pubPid": 11763,
+        "primaryUsecasePid": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 197,
+    "ctxName": "Init Page",
+    "compName": "Invoke Browser",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 248,
+        "destCtxName": "Salesforce Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 413,
+        "destCtxName": "TPP Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": true,
+    "subscriberCompDetails": {
+      "subCompScmBasePid": 282,
+      "subPjPid": 2,
+      "subCustomerPid": 144,
+      "pubPjPid": 54,
+      "mpCompPid": 7716
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 4638,
+      "index": 3,
+      "displayIndex": 2,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 5200,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 1017,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4638,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "Password"
+        },
+        {
+          "pid": 5204,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 1016,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4638,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "Email"
+        }
+      ],
+      "compPid": 1662,
+      "ctxPid": 413,
+      "stepType": 3,
+      "scnPid": 208
+    },
+    "compInputParams": [
+      {
+        "pid": 1016,
+        "rootPid": 1016,
+        "name": "Email",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1662,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 1017,
+        "rootPid": 1017,
+        "name": "Password",
+        "valueTypePid": 3,
+        "required": true,
+        "componentPid": 1662,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 413,
+    "ctxName": "TPP Login Page",
+    "compName": "Login to MSD Trade Portal",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 1198,
+        "destCtxName": "TPP MSD Portal page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 456,
+        "destCtxName": "TPP Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4639,
+      "index": 4,
+      "displayIndex": 3,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 5210,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 1018,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4639,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "TPP Type"
+        }
+      ],
+      "compPid": 1663,
+      "ctxPid": 1198,
+      "stepType": 3,
+      "scnPid": 208
+    },
+    "compInputParams": [
+      {
+        "pid": 1018,
+        "rootPid": 1018,
+        "name": "TPP Type",
+        "desc": "",
+        "valueTypePid": 2,
+        "required": true,
+        "componentPid": 1663,
+        "listPid": 11,
+        "index": 1,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 456,
+    "ctxName": "TPP MSD Portal page",
+    "compName": "Navigate to MSD Portal",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 1198,
+        "destCtxName": "TPP MSD Portal page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 458,
+        "destCtxName": "TPP Agency Order Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4640,
+      "index": 5,
+      "displayIndex": 4,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 1796,
+      "ctxPid": 1198,
+      "stepType": 3,
+      "scnPid": 208
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 1198,
+    "ctxName": "TPP MSD Portal page",
+    "compName": "Validate and Accept Cookies",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 1283,
+        "destCtxName": "MSD Product Listing page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 1284,
+        "destCtxName": "MSD Customer info",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4641,
+      "index": 6,
+      "displayIndex": 5,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 1793,
+      "ctxPid": 1283,
+      "stepType": 3,
+      "scnPid": 208
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 1283,
+    "ctxName": "MSD Product Listing page",
+    "compName": "Select Product and Checkout",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 1284,
+        "destCtxName": "MSD Customer info",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4642,
+      "index": 7,
+      "displayIndex": 6,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 5201,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 1101,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4642,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "Email"
+        },
+        {
+          "pid": 5202,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 1104,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4642,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "suffix"
+        },
+        {
+          "pid": 5205,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 1105,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4642,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "Address"
+        },
+        {
+          "pid": 5207,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 1103,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4642,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "prefix"
+        },
+        {
+          "pid": 5209,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 1102,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4642,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "fixed text length"
+        }
+      ],
+      "compPid": 1791,
+      "ctxPid": 1284,
+      "stepType": 3,
+      "scnPid": 208
+    },
+    "compInputParams": [
+      {
+        "pid": 1101,
+        "rootPid": 1101,
+        "name": "Email",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1791,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 1102,
+        "rootPid": 1102,
+        "name": "fixed text length",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1791,
+        "index": 2,
+        "dataListMutable": false
+      },
+      {
+        "pid": 1103,
+        "rootPid": 1103,
+        "name": "prefix",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1791,
+        "index": 3,
+        "dataListMutable": false
+      },
+      {
+        "pid": 1104,
+        "rootPid": 1104,
+        "name": "suffix",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1791,
+        "index": 4,
+        "dataListMutable": false
+      },
+      {
+        "pid": 1105,
+        "rootPid": 1105,
+        "name": "Address",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1791,
+        "index": 5,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 1284,
+    "ctxName": "MSD Customer info",
+    "compName": "Provide Customer and Delivery details",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 1285,
+        "destCtxName": "MSD Payment info",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4643,
+      "index": 8,
+      "displayIndex": 7,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 5203,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 1107,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4643,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "I confirm I have collected the following amount:"
+        },
+        {
+          "pid": 5208,
+          "dsStepPid": null,
+          "dsTypePid": 1,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": "41111111",
+          "randomValue": false,
+          "compInputParamPid": 1106,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4643,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": "MSD Card Number"
+        }
+      ],
+      "compPid": 1794,
+      "ctxPid": 1285,
+      "stepType": 3,
+      "scnPid": 208
+    },
+    "compInputParams": [
+      {
+        "pid": 1106,
+        "rootPid": 1106,
+        "name": "MSD Card Number",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1794,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 1107,
+        "rootPid": 1107,
+        "name": "I confirm I have collected the following amount:",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1794,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 1285,
+    "ctxName": "MSD Payment info",
+    "compName": "Provide MSD card and Confirm Payment with Agent",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 1286,
+        "destCtxName": "MSD Checkout page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4644,
+      "index": 9,
+      "displayIndex": 8,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 1795,
+      "ctxPid": 1286,
+      "stepType": 3,
+      "scnPid": 208
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 1286,
+    "ctxName": "MSD Checkout page",
+    "compName": "Place the Order and Get Order Details",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 1198,
+        "destCtxName": "TPP MSD Portal page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 197,
+        "destCtxName": "Init Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4645,
+      "index": 10,
+      "displayIndex": 9,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 5211,
+          "dsStepPid": null,
+          "dsTypePid": 2,
+          "dsParamPid": 9,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 183,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4645,
+          "stepIndex": null,
+          "scnPid": 208,
+          "paramName": null
+        }
+      ],
+      "compPid": 282,
+      "ctxPid": 197,
+      "stepType": 3,
+      "scnPid": 208
+    },
+    "compInputParams": [
+      {
+        "pid": 183,
+        "rootPid": 183,
+        "name": "URL",
+        "desc": "URL to invoke the browser with",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 282,
+        "index": 1,
+        "pubPid": 11763,
+        "primaryUsecasePid": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 197,
+    "ctxName": "Init Page",
+    "compName": "Invoke Browser",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 248,
+        "destCtxName": "Salesforce Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 413,
+        "destCtxName": "TPP Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": true,
+    "subscriberCompDetails": {
+      "subCompScmBasePid": 282,
+      "subPjPid": 2,
+      "subCustomerPid": 144,
+      "pubPjPid": 54,
+      "mpCompPid": 7716
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 4646,
+      "index": 11,
+      "paramList": [],
+      "stepType": 2,
+      "scnPid": 208
+    }
+  }
+]

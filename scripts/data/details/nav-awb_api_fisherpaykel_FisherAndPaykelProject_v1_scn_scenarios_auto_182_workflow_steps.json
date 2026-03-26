@@ -1,0 +1,666 @@
+[
+  {
+    "scnStep": {
+      "pid": 3121,
+      "index": 1,
+      "paramList": [],
+      "stepType": 1,
+      "scnPid": 182
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 3124,
+      "index": 2,
+      "displayIndex": 1,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 3399,
+          "dsStepPid": null,
+          "dsTypePid": 1,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": "https://uat.fisherpaykel.com/nz/",
+          "randomValue": null,
+          "compInputParamPid": 183,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3124,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "URL"
+        }
+      ],
+      "compPid": 282,
+      "ctxPid": 197,
+      "stepType": 3,
+      "scnPid": 182
+    },
+    "compInputParams": [
+      {
+        "pid": 183,
+        "rootPid": 183,
+        "name": "URL",
+        "desc": "URL to invoke the browser with",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 282,
+        "index": 1,
+        "pubPid": 11763,
+        "primaryUsecasePid": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 197,
+    "ctxName": "Init Page",
+    "compName": "Invoke Browser",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 248,
+        "destCtxName": "Salesforce Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 413,
+        "destCtxName": "TPP Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": true,
+    "subscriberCompDetails": {
+      "subCompScmBasePid": 282,
+      "subPjPid": 2,
+      "subCustomerPid": 144,
+      "pubPjPid": 54,
+      "mpCompPid": 7716
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 3125,
+      "index": 3,
+      "displayIndex": 2,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 291,
+      "ctxPid": 202,
+      "stepType": 3,
+      "scnPid": 182
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 202,
+    "ctxName": "F&P Home Page",
+    "compName": "Validate and Accept Cookies",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 203,
+        "destCtxName": "F&P Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 458,
+        "destCtxName": "TPP Agency Order Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 3184,
+      "index": 4,
+      "displayIndex": 3,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 1337,
+      "ctxPid": 202,
+      "stepType": 3,
+      "scnPid": 182
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 202,
+    "ctxName": "F&P Home Page",
+    "compName": "Navigate to Help and Support and Select Book Online",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 927,
+        "destCtxName": "Book a Service",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 3128,
+      "index": 5,
+      "displayIndex": 4,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 3400,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 788,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3128,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "43 meadway"
+        }
+      ],
+      "compPid": 1319,
+      "ctxPid": 927,
+      "stepType": 3,
+      "scnPid": 182
+    },
+    "compInputParams": [
+      {
+        "pid": 788,
+        "rootPid": 788,
+        "name": "43 meadway",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1319,
+        "index": 1,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 927,
+    "ctxName": "Book a Service",
+    "compName": "Search and Select a Service Address",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 927,
+        "destCtxName": "Book a Service",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 3129,
+      "index": 6,
+      "displayIndex": 5,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 3401,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 790,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3129,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "Product Type"
+        }
+      ],
+      "compPid": 1321,
+      "ctxPid": 927,
+      "stepType": 3,
+      "scnPid": 182
+    },
+    "compInputParams": [
+      {
+        "pid": 790,
+        "rootPid": 790,
+        "name": "Product Type",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1321,
+        "index": 1,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 927,
+    "ctxName": "Book a Service",
+    "compName": "Select a Product and Click at Continue",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 927,
+        "destCtxName": "Book a Service",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 3130,
+      "index": 7,
+      "displayIndex": 6,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 1322,
+      "ctxPid": 927,
+      "stepType": 3,
+      "scnPid": 182
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 927,
+    "ctxName": "Book a Service",
+    "compName": "Select Service Time and Proceed with Book Now",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 927,
+        "destCtxName": "Book a Service",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 3131,
+      "index": 8,
+      "displayIndex": 7,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 3402,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 791,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3131,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "First name *"
+        },
+        {
+          "pid": 3403,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 792,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3131,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "Last name *"
+        },
+        {
+          "pid": 3404,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 793,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3131,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "Mobile number *"
+        },
+        {
+          "pid": 3405,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 794,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3131,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "Email address *"
+        }
+      ],
+      "compPid": 1323,
+      "ctxPid": 927,
+      "stepType": 3,
+      "scnPid": 182
+    },
+    "compInputParams": [
+      {
+        "pid": 791,
+        "rootPid": 791,
+        "name": "First name *",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1323,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 792,
+        "rootPid": 792,
+        "name": "Last name *",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1323,
+        "index": 2,
+        "dataListMutable": false
+      },
+      {
+        "pid": 793,
+        "rootPid": 793,
+        "name": "Mobile number *",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1323,
+        "index": 3,
+        "dataListMutable": false
+      },
+      {
+        "pid": 794,
+        "rootPid": 794,
+        "name": "Email address *",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1323,
+        "index": 4,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 927,
+    "ctxName": "Book a Service",
+    "compName": "Provide Customer details",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 927,
+        "destCtxName": "Book a Service",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 3132,
+      "index": 9,
+      "displayIndex": 8,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 3406,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 795,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3132,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "Please select a description that fits the problem with your appliance *"
+        },
+        {
+          "pid": 3407,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 796,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3132,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "Please provide a little more detail of the issue with your appliance *"
+        }
+      ],
+      "compPid": 1324,
+      "ctxPid": 927,
+      "stepType": 3,
+      "scnPid": 182
+    },
+    "compInputParams": [
+      {
+        "pid": 795,
+        "rootPid": 795,
+        "name": "Please select a description that fits the problem with your appliance *",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1324,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 796,
+        "rootPid": 796,
+        "name": "Please provide a little more detail of the issue with your appliance *",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1324,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 927,
+    "ctxName": "Book a Service",
+    "compName": "Provide a description that fits the problem with your appliance",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 927,
+        "destCtxName": "Book a Service",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 3133,
+      "index": 10,
+      "displayIndex": 9,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 1325,
+      "ctxPid": 927,
+      "stepType": 3,
+      "scnPid": 182
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 927,
+    "ctxName": "Book a Service",
+    "compName": "Confirm the Booking",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 927,
+        "destCtxName": "Book a Service",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 3139,
+      "index": 11,
+      "displayIndex": 10,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 3413,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 804,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3139,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "N"
+        },
+        {
+          "pid": 3414,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 805,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 3139,
+          "stepIndex": null,
+          "scnPid": 182,
+          "paramName": "initial custom date format"
+        }
+      ],
+      "compPid": 1330,
+      "ctxPid": 927,
+      "stepType": 3,
+      "scnPid": 182
+    },
+    "compInputParams": [
+      {
+        "pid": 804,
+        "rootPid": 804,
+        "name": "N",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1330,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 805,
+        "rootPid": 805,
+        "name": "initial custom date format",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1330,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [
+      {
+        "pid": 346,
+        "rootPid": 346,
+        "name": "Estimated Delivery Date",
+        "componentPid": 1330
+      },
+      {
+        "pid": 347,
+        "rootPid": 347,
+        "name": "Model Number",
+        "componentPid": 1330
+      },
+      {
+        "pid": 344,
+        "rootPid": 344,
+        "name": "Product Type",
+        "componentPid": 1330
+      },
+      {
+        "pid": 348,
+        "rootPid": 348,
+        "name": "Service Address",
+        "componentPid": 1330
+      },
+      {
+        "pid": 349,
+        "rootPid": 349,
+        "name": "Service Appointment Number",
+        "componentPid": 1330
+      },
+      {
+        "pid": 345,
+        "rootPid": 345,
+        "name": "Service Date",
+        "componentPid": 1330
+      }
+    ],
+    "ownerCtxPid": 927,
+    "ctxName": "Book a Service",
+    "compName": "Validate Booking and Get Booking Details",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": null,
+        "destCtxName": null,
+        "specialDestCtxPid": 3
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 3122,
+      "index": 12,
+      "paramList": [],
+      "stepType": 2,
+      "scnPid": 182
+    }
+  }
+]

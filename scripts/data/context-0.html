@@ -1,0 +1,2411 @@
+<!DOCTYPE html><html class="k-webkit k-webkit131"><head><style>@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><title>ACCELQ - Contexts</title><base href="/"><link href="/assets/images/favicon.svg" type="image/png" rel="icon"><link rel="stylesheet" data-name="vs/editor/editor.main" href="/node_modules/monaco-editor/min/vs/editor/editor.main.css"><script async="async" type="text/javascript" src="vs/basic-languages/xml/xml.js"></script></head><body class="ng-scope"><app-root class="ng-isolate-scope"><div class="aqs-full-height">
+    <!-- uiView: content --><div ui-view="content" class="aqs-full-height ng-scope"><template-loader class="ng-scope ng-isolate-scope"><!-- ngIf: !vm.isLoggedIn && vm.isValidationSessionDone --><div ng-if="!vm.isLoggedIn &amp;&amp; vm.isValidationSessionDone" class="ng-scope">
+    <login-page class="ng-isolate-scope"><div class="aq-7dot0-release-background"></div>
+<div class="aqs-login-page js-login-page aqs-display-flex aq-halign-center aqs-overflow-y-auto aqs-position-relative">
+    <!-- ngIf: vm.msgObj -->
+    <div class="qa-resolution-banner">
+        <div class="qa-info-container aqs-display-flex aq-valign-center ">
+            <i class="aqi--margin-right-4 qai-sm-info-orange-circle"></i>
+            <div class="qas-paragraph">Recommended resolution for best ACCELQ experience is 1200px width or higher</div>
+        </div>
+    </div>
+    <div class="aq-logincontent js-login-content aqs-display-flex aq-column aq-valign-center">
+        <div style="margin-top: 80px;">
+            <div class="aq-logo"></div>
+        </div>
+        <div class="aq-loginleft-title aqi--margin-top-30">Automation at Hyperspeed</div>
+        <div class="aqi--margin-top-10 aq-loginleft-desc">AI Powered Unified Platform for Continuous Delivery</div>
+        <div class="aqi--margin-top-30">
+            <div ng-hide="vm.loginFormOptions.hideLoginForm()">
+                <!-- ngIf: !vm.isResetPasswordState --><div class="aqs-display-inlineflex ng-scope ng-isolate-scope" ng-if="!vm.isResetPasswordState" aq-login-form="" options="vm.loginFormOptions"><div class="js-aq-re-login-dialog aqs-login-form aqs-display-inlineflex" ng-class="{'aq-disabled' : loginFormCtrl.isLoginInProgress || loginFormCtrl.loadIcon}">
+    <!-- ngIf: !loginFormCtrl.isUnsupportedBrowser && !loginFormCtrl.isImpersonationAuth --><form class="aqs-display-inlineflex ng-pristine ng-valid ng-scope" id="loginForm" ng-if="!loginFormCtrl.isUnsupportedBrowser &amp;&amp; !loginFormCtrl.isImpersonationAuth" name="loginForm" autocomplete="on">
+        <div class="aqs-display-flex aq-column aq-loginbox aq-no-hpadding aq-halign-spacebetween">
+            <div>
+                <div class="aq-logingbox-title-container aqs-display-flex aq-valign-center">
+                    <!-- <div class="aqi-xs-chevron-left aqs-cursor-pointer" ng-class="{'aqs-position-absolute': loginFormCtrl.isTenantLogoAvailable}" ng-if="loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].showBackBtn" ng-click="loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].backBtnHandler()"></div> -->
+                    <div class="aq-loginbox-title aq-hpadding aqs-display-flex aq-halign-center" ng-class="{'aq-nonlogin-header' : !loginFormCtrl.isLoginPage &amp;&amp; !options.adminMode }">
+                        <!-- ngIf: !loginFormCtrl.isTenantLogoAvailable --><div ng-if="!loginFormCtrl.isTenantLogoAvailable" class="ng-binding ng-scope">Login</div><!-- end ngIf: !loginFormCtrl.isTenantLogoAvailable -->
+                        <!-- ngIf: loginFormCtrl.isTenantLogoAvailable -->
+                    </div>
+                </div>
+                <div class="aq-form-info">
+                    <!-- ngIf: loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].iconClass -->
+                    <!-- ngIf: loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].helpText -->
+                </div>
+                <div class="aq-loginbox-form ">
+                    <div class="aqi--margin-top-24 aq-flex-grow aqs-display-flex aq-column" style="gap: 12px;">
+                        <!-- <div ng-if="loginFormCtrl.currentLoginState == loginFormCtrl.loginStates.ENTER_EMAIL || loginFormCtrl.currentLoginState == loginFormCtrl.loginStates.FORGOT_PASSWORD || loginFormCtrl.currentLoginState == loginFormCtrl.loginStates.MULTIPLE_LINKED_ACCOUNT_LOGIN || loginFormCtrl.currentLoginState == loginFormCtrl.loginStates.SSO_PAGE">
+                            <input type="{{loginFormCtrl.currentLoginState == loginFormCtrl.loginStates.SSO_PAGE ? 'text' : 'email'}}" autocomplete="email" name="email" ng-disabled="loginFormCtrl.isUnsupportedBrowser || loginFormCtrl.loadIcon" ng-class="{ 'qa-error' : loginFormCtrl.isLoginError }" id="aqSSOEmailInput"  ng-model="loginFormCtrl.username" placeholder="{{loginFormCtrl.currentLoginState == loginFormCtrl.loginStates.SSO_PAGE ? 'Username' : 'Email Address'}}" ng-focus="loginFormCtrl.restoreFlags();" class="aq-loginbox-input aq-input-control aqEmail js-email-input" style="cursor: auto;" autofocus>
+                        </div> -->
+                        <!-- ngIf: loginFormCtrl.currentLoginState == loginFormCtrl.loginStates.MULTIPLE_LINKED_ACCOUNT_LOGIN -->
+                        <!-- ngIf: loginFormCtrl.currentLoginState == loginFormCtrl.loginStates.ENTER_EMAIL -->
+                    </div>
+                    <!-- <div ng-if="loginFormCtrl.aqLoginMessage" class="aqi--margin-top-4 aqs-align-left">
+                        <div class="qas-help-text qa-error qa-small">{{loginFormCtrl.aqLoginMessage}}</div>
+                    </div> -->
+                    <!-- ngIf: !loginFormCtrl.isPasswordMode && !loginFormCtrl.isResetLinkSent && loginFormCtrl.isLoginPage --><div class="aq-loginbox-text ng-scope" ng-class="{'session-time-out-text': loginFormCtrl.isReAuthentication}" ng-if="!loginFormCtrl.isPasswordMode &amp;&amp; !loginFormCtrl.isResetLinkSent &amp;&amp; loginFormCtrl.isLoginPage">
+                        Please enter your email or username
+                    </div><!-- end ngIf: !loginFormCtrl.isPasswordMode && !loginFormCtrl.isResetLinkSent && loginFormCtrl.isLoginPage -->
+                    <!-- ngIf: loginFormCtrl.isPasswordMode -->
+
+                    <div class="aqi--margin-top-24" ng-show="!loginFormCtrl.isResetLinkSent">
+                        <!-- ngIf: !loginFormCtrl.isPasswordMode --><input type="text" autocomplete="username email" id="aq-username-or-email" ng-disabled="loginFormCtrl.isUnsupportedBrowser || loginFormCtrl.loadIcon" ng-class="{ 'aq-error' : loginFormCtrl.isLoginError }" ng-model="loginFormCtrl.username" placeholder="Email or Username" ng-focus="loginFormCtrl.restoreFlags();" class="aq-loginbox-input js-email-input ng-pristine ng-untouched ng-valid ng-scope ng-empty" autofocus="" ng-if="!loginFormCtrl.isPasswordMode" style=""><!-- end ngIf: !loginFormCtrl.isPasswordMode -->
+                        <input type="password" autocomplete="current-password" id="aq-password" tabindex="-1" name="password" ng-model="loginFormCtrl.password" class="aq-loginbox-input js-password ng-pristine ng-untouched ng-valid ng-empty" ng-class="{ 'aq-error' : loginFormCtrl.isLoginError }" hidden="" style="">
+                        <!-- ngIf: loginFormCtrl.isPasswordMode -->
+                        <!-- ngIf: loginFormCtrl.aqLoginMessage -->
+                    </div>
+                    <!-- <button class="aq-loginbox-button aqs-display-flex aq-valign-center aq-halign-center aqi--margin-top-16" ng-if="loginFormCtrl.isLoginPage"
+                        ng-class="{ 'aq-disabled' : loginFormCtrl.isUnsupportedBrowser || loginFormCtrl.loadIcon }"
+                        ng-click="(!loginFormCtrl.isUnsupportedBrowser) ? loginFormCtrl.ssoInitiateLogin() : '' ">
+                        <div>{{ loginFormCtrl.isPasswordMode ? 'LOG IN' : 'NEXT' }}</div>
+                        <div class="qas-spinner qa-size-12 qa-white aqi--margin-left-8" ng-if="loginFormCtrl.loadIcon"></div>
+                    </button> -->
+                    <!-- <button class="aq-loginbox-button aqs-display-flex aq-valign-center aq-halign-center aqi--margin-top-16" ng-if="!loginFormCtrl.isLoginPage && !loginFormCtrl.isResetLinkSent"
+                        ng-class="{ 'aq-disabled' : loginFormCtrl.isUnsupportedBrowser || loginFormCtrl.loadIcon }" ng-click="loginFormCtrl.sendResetPwdEmail()">
+                        <div>SEND RESET LINK</div>
+                        <div class="qas-spinner qa-size-12 qa-white aqi--margin-left-8" ng-if="loginFormCtrl.loadIcon"></div>
+                    </button> -->
+
+                    <!-- <div class="aqi--margin-top-12"> -->
+                        <!-- ngIf: loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].primaryBtnText --><button class="aq-loginbox-button aqs-display-flex aq-valign-center aq-halign-center aqi--margin-top-16 ng-scope" ng-if="loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].primaryBtnText" ng-class="{ 'aq-disabled' : loginFormCtrl.isUnsupportedBrowser || loginFormCtrl.isLoginInProgress }" ng-click="loginFormCtrl.submitForm()">
+                                <div class="ng-binding">Login</div>
+                                <!-- ngIf: loginFormCtrl.isLoginInProgress || loginFormCtrl.loadIcon -->
+                        </button><!-- end ngIf: loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].primaryBtnText -->
+                        <!-- <div class="aqi--margin-top-12 aq-loginbox-secondarybutton qas-title qa-light qa-regular aqs-cursor-pointer" ng-if="loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].isSecondaryBtnApplicable" ng-click="loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].secondaryBtnHandler()">
+                            {{ loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].secondaryBtnText }}
+                        </div>
+                        <button class="aq-loginbox-ssobtn  aqs-display-flex aq-valign-center aq-halign-center aqi--margin-top-32" ng-if="loginFormCtrl.currentLoginState == loginFormCtrl.loginStates.ENTER_EMAIL"
+                            ng-class="{ 'aq-disabled': loginFormCtrl.isUnsupportedBrowser || loginFormCtrl.isLoginInProgress }"  ng-click="loginFormCtrl.showSSOPage()">
+                            <div >Login with SSO</div>
+                        </button>
+                    </div> -->
+                    <!-- ngIf: loginFormCtrl.isLoginPage && !loginFormCtrl.isReAuthentication && loginFormCtrl.isPasswordMode -->
+                </div>
+            </div>
+            <!-- ngIf: !loginFormCtrl.isReAuthentication && !loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].hideTerms --><div class="aq-loginbox-terms aqi--margin-top-16 ng-scope" ng-if="!loginFormCtrl.isReAuthentication &amp;&amp; !loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].hideTerms">
+                <div>By logging in, you agree to our</div>
+                <div><a style="color: #0052CC;" target="_blank" ng-href="https://www.accelq.com/terms-and-conditions/" href="https://www.accelq.com/terms-and-conditions/">Terms of Service</a> and <a style="color: #0052CC;" target="_blank" ng-href="https://www.accelq.com/privacypolicy/" href="https://www.accelq.com/privacypolicy/">Privacy Policy</a></div>
+            </div><!-- end ngIf: !loginFormCtrl.isReAuthentication && !loginFormCtrl.loginStatesDetail[loginFormCtrl.currentLoginState].hideTerms -->
+        </div>
+    </form><!-- end ngIf: !loginFormCtrl.isUnsupportedBrowser && !loginFormCtrl.isImpersonationAuth -->
+    <!-- ngIf: loginFormCtrl.isUnsupportedBrowser && !loginFormCtrl.isImpersonationAuth -->
+    <!-- ngIf: loginFormCtrl.isImpersonationAuth -->
+</div>
+
+
+
+<script type="text/ng-template" id="aqTrialLicenseModalTmpl">
+    <div class="qas-license-agreement-dialog">
+        <header class="qa-tnc-header">
+            <div class="qa-accelq-logo"></div>
+            <p>Trial License Agreement</p>
+        </header>
+        <div class="qa-tnc-content">
+            <p class="qa-tnc-greet">Hi, {{options.vars.userName}}!</p>
+            <p class="aqi--margin-top-15">Welcome aboard! Before you start exploring the trial access, we would like you to review and acknowledge the terms of use.</p>
+            <br>
+            <p>Here are some key terms of usage of ACCELQ (Service). You can find the complete <a class="qa-tnc-link" href="https://www.accelq.com/terms-and-conditions/" target="_blank">Terms & Conditions</a> here.</p>
+        
+            <ul class="qa-tnc-list">
+                <li class="aqi--margin-bottom-16" >You shall use the Service only for your own internal use for evaluation. Not to be used for production requirements.</li>
+                <li  class="aqi--margin-bottom-16">You may not copy, reproduce, modify, translate, prepare derivative works of, de-compile, reverse engineer, disassemble or otherwise attempt to derive source code from the Service.</li>
+                <li  class="aqi--margin-bottom-16">You may not use, evaluate or view the Service for the purpose of building or aiding to build a competitive service or product.</li>
+            </ul>
+            <div class="qa-tnc-checkbox qas-checkbox-wrapper " ng-click="options.vars.tick = !options.vars.tick;">
+                <button type="button" class="qas-checkbox  aqi--margin-right-10" ng-class="{ 'qa-checked' : options.vars.tick}">
+                    <i class="qai-xs-tick qa-selected qa-checkbox-tick"></i>
+                </button>
+                <div class="qa-checkbox-label">
+                    I agree to the above and all other Terms & Conditions of using ACCELQ for trail and evaluation.
+                </div>
+            </div>  
+        </div>
+        <div class="qa-tnc-footer">
+            <div>
+                <button type="button" ng-click="options.methods.clear()"  class="aqs-button-default qa-tnc-decline-button">I, Decline</button>
+            </div>
+            <div>
+                <button type="button" ng-click="options.methods.save()" ng-disabled="!options.vars.tick" class="qas-btn-primary pull-right qa-tnc-accept-button">I, Accept</button>
+            </div>
+        </div>    
+    </div>
+</script>
+
+                
+</div><!-- end ngIf: !vm.isResetPasswordState -->
+                <!-- ngIf: vm.isResetPasswordState -->
+            </div>
+        </div>
+        <div style="margin-top: 68px;">
+            <div class="aq-7dot1-release-logo"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/ng-template" id="aqPasscodePromptDialogTmpl">
+    <div>
+        <form aq-form aq-form-validate class="js-passcode-prompt-form">
+            <div class="qas-title qa-light qa-regular aqi--margin-bottom-15">Please enter passcode to access the report</div>
+            <div aq-input-text qtheme="true" value="options.passCode" required></div>
+            <div class="qas-help-text qa-italic qa-small" ng-show="!options.errorMessage">Passcode found in top-right portion of notification</div>
+            <div class="qas-title qa-light qas-error-text qa-small" ng-show="options.errorMessage">{{options.errorMessage}}</div>
+        </form>
+    </div>
+</script>
+<!-- ngInclude: 'app/configuration/templates/content/conf-manage-projects-content.html' --><div data-ng-include="'app/configuration/templates/content/conf-manage-projects-content.html'" class="ng-scope"><script type="text/ng-template" id="aqCreateProjectTmpl" class="ng-scope">
+    <form aq-form aq-form-validate novalidate>
+        <div class="aqs-full-width" ng-show="options.errorMessage">
+            <div class="qas-section-message qa-error aqs-display-flex aqi--margin-bottom-15">
+                <div class="qai-24-section-message-error aqi--margin-right-10"></div>
+                <div class="aqi--align-down-3">{{options.errorMessage}}</div>
+            </div>            
+        </div>
+        <div class="aqs-adminproject-template" ng-if="options.selectedTab == options.enums.TABS.PROJECT_TEMPLATES">
+            <div ng-if="options.templates" class="aq-projecttemplate-wrapper">
+                <div class="aqs-display-flex aq-flex-wrap">
+                    <div ng-repeat="item in options.templates track by $index" 
+                        class="aq-project-item" ng-click="options.templateSelect($index)" 
+                        ng-class="{'aq-active': options.selectedTemplateIndex == $index, 'aq-disabled': item.disabled}">
+                        <div class="qa-overlay" ng-if="item.disabled"></div>
+                        <img ng-src="{{item.tpAppType.thumbnail}}" alt="Project Thumbnail" class="aq-project-thumbnail"/>
+                        <div class="qas-title qa-title aqi--margin-top-10">{{item.projectDisplayName}}</div>
+                        <div class="qas-button-text">{{item.cloudPlatform && item.cloudPlatform.cpRelease || ""}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-if="options.selectedTab == options.enums.TABS.PROJECT_BASIC_DETAILS">
+            <div class="qas-form-group">
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Project name
+                    </label>
+                    <div aq-entity-name id="uniquename" label="Name" value="options.newProject.projectDisplayName" maxsize="64" pattern="{{options.projectNameRegex}}" patterntext="{{options.patternText}}" name="projectName" autofocus qtheme="true" required></div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Description
+                    </label>
+                    <div aq-text-area name="description" label="Description" value="options.newProject.description" Maxlength="256" resize="true"></div>
+                </div>
+                <div class="qas-form-field aqs-display-flex aq-valign-center" ng-if="options.selectedTemplateIndex == 0">                   
+                    <button class="qas-checkbox" ng-class="{'qa-checked': options.isConfigSelected}" ng-click="options.isConfigSelected = !options.isConfigSelected">
+                        <i class="qai-xs-tick qa-selected qa-checkbox-tick"></i>
+                    </button>                  
+                    <div class="aqi--margin-left-5">
+                        Copy configuration from an existing Project
+                    </div>                    
+                </div>
+                <div class="qas-form-field qa-standard" ng-if="options.isConfigSelected">
+                    <label class="qa-label">Select Project for configuration</label>
+                    <div qa-drop-down items="options.existingProjects" text-property="projectDisplayName" uid-property="pid" selected-item="options.selectedProj" search="true" on-select="options.onProjSelect(e)"></div>
+                </div>
+            </div>
+        </div>
+        <div ng-if="options.selectedTab == options.enums.TABS.PROJECT_USER_DETAILS">
+            <div class="qas-form-group">
+                <div class="qas-form-field aqi--margin-bottom-25">
+                    <div style="height: 300px" qa-list-editor columns="options.inlineGridEditorOptions.columns" items="options.inlineGridEditorOptions.items"></div>
+                </div>                
+            </div>
+        </div>   
+    </form>
+</script>
+
+<script type="text/ng-template" id="aqAddProjectTemplate" class="ng-scope">
+    <div class="aqs-modal-normal">
+        <div class="container-fluid aqs-conf-project-modal">
+            <form id="manageProjectForm" class="aqForm" aq-form  aq-form-validate
+                            on-discard="options.close()" on-submit="options.onSave()">
+                <div class="row">
+                    <div class="header-block col-md-12 aqs-no-padding">
+                        <div class="title-row col-md-12">
+                            <span class="text">{{options.title}}</span>
+                            <div class="aqi-md-cross pull-right" ng-click="options.close();"></div>
+                        </div>
+                    </div>
+                    <div class="content-block col-md-12">
+                        <div id="aqManageProjectModalMsg" class="col-md-12 aqs-no-padding"></div>
+                        <div class="content-row col-md-12">
+                            <div class="col-md-12">Name</div>
+                            <div class="col-md-10">
+                                <div aq-entity-name id="uniquename" label="Name" value="options.newProject.projectDisplayName" maxsize="64" pattern="{{options.projectNameRegex}}" patterntext="{{options.patternText}}" name="projectName" autofocus required></div>
+                            </div>
+                        </div>
+                        <div class="content-row col-md-12">
+                            <div class="col-md-12">Description</div>
+                            <div class="col-md-10">
+                                <div aq-text-area  name="description" label="Description" value="options.newProject.description" Maxlength="256"></div>
+                            </div>
+                        </div>
+                        <div class="content-row col-md-12" ng-if="options.isBlankProject || options.isEdit">
+                            <div class="col-md-12"><span >Users</span></div>
+                            <div class="col-md-6">
+                                <div class="user-select" aq-search-drop-down on-select="options.onUserSelect(e)" items="options.userList" label=""
+                                    name="usersList" selected-item = "options.selectedUser" value="options.selectedUserName" search-options="options.searchOptions" chosen-options="options.chosenOptions" display-format="options.displayFormat(e)" text="Select" text-property="text" value-property="value"></div>
+                            </div>
+                            <div class="col-md-2 aqs-no-padding">
+                                <div class="aqs-button-primary" style="padding:2px 6px;" ng-click="options.addUser()" ng-class="{'disabled':options.isDisabledAddBtn}">Add User</div>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                        <div class="content-row col-md-12" ng-if="!options.isBlankProject && !options.isEdit">
+                            <div class="col-md-12"> <span>Copy Config From</span> </div>
+                            <div class="col-md-6">
+                                <div aq-drop-down items="options.existingProjects" text-property="projectDisplayName" value-property="pid" value="options.selectedProj" on-select="options.onProjSelect(e)"></div>
+                            </div>
+                        </div>
+                        <div class="content-row col-md-12" ng-show="options.isBlankProject || options.isEdit">
+                            <div class="col-md-12">
+                                <div class="aq-userlist">
+                                    <div class="col-md-12 aqs-no-padding">
+                                        <div class="row aqs-no-padding aqs-no-margin">
+                                            <div class="col-md-4 aqs-no-padding">
+                                                <div class="aqs-section-header">USER NAME</div>
+                                            </div>
+                                            <div class="col-md-3 aqs-no-padding">
+                                                <div class="aqs-section-header aqs-align-center">IS ADMIN</div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="aqs-section-header">ROLE</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 aq-user" ng-repeat="user in options.addUsersList track by $index"  ng-if="options.addUsersList.length >0">   
+                                        <div class="col-md-4 aqs-no-padding">
+                                            <div class="aqs-overflow-ellipsis" title="{{(user.value == options.currentUser.value || user.isSiteAdmin) ? options.tooltipForTA : user.text }}">{{user.text}}</div>
+                                            <div class="aqs-overflow-ellipsis aqs-para-sub-text" title="{{user.email}}">{{user.email}}</div>
+                                        </div>
+                                        <div class="col-md-3 aqs-no-padding aqs-align-center">
+                                            <div class="aqs-checkbox aq-legacy aq-component" ng-class="{'aq-checked' : user.isAdmin}" ng-click="user.isAdmin = !user.isAdmin">
+                                                <i class="fa fa-check aq-checkbox-tick"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 aq-component" ng-class="{'aq-disabled': false }">
+                                            <div class="aq-roledropdown" aq-drop-down items="options.rolesList" text-property="roleName" value-property="pid" value="user.rolePid" required></div>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <div class="aq-actionable aqi-md-trash aqi--align" ng-click=" !(user.value == options.currentUser.value || user.isSiteAdmin) && options.deleteUser(user)" ng-class="{ 'aq-mild-disabled' : (user.value == options.currentUser.value || user.isSiteAdmin) }" title="{{(user.value == options.currentUser.value || user.isSiteAdmin) ? options.tooltipForTA : ''}}"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-block col-md-12">
+                        <div class="button-row col-md-12 aqs-no-padding">
+                            <div class="button-default aq-form-discard">Cancel</div>
+                            <div class="button-primary aq-form-save">OK</div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</script>
+
+<script type="text/ng-template" id="cloneProjectTmpl" class="ng-scope">
+    <form class="form-inline js-form aq-form" id="cloneProjectForm" aq-form aq-form-validate>
+        <div class="aqi--margin-bottom-10 js-section-message qas-section-message aqs-display-flex aq-valign-center qa-error" ng-if="options.errorMessage">
+            <div class="qai-24-section-message-error aq-no-shrink"></div>
+            <div class="qa-desc-text aq-word-wrap" id="aqCloneProjectModalMsg">{{options.errorMessage}}</div>
+        </div>
+
+        <div class="qas-form-field">
+            <div class="qa-label">{{options.inputLabel}}</div>
+            <div aq-entity-name qtheme="true" pattern="{{options.projectNameRegex}}" patterntext="{{options.patternText}}"  label="Name" maxsize="64" value="options.projectDisplayName" name="projectName" required></div>
+        </div>
+    </form>
+</script>
+<script type="text/ng-template" id="deleteProjectTmpl" class="ng-scope">
+    <div class="aqs-modal-new">
+        <div class="container-fluid aqs-conf-project-modal">
+            <form id="deleteProjectForm" class="aqForm" aq-form  aq-form-validate on-discard="options.close()" on-submit="options.onOK()">
+                <div class="row">
+                    <div class="aq-header col-md-12">
+                        <div class="col-md-12 aqs-no-padding">
+                            <div class="col-md-10 aqs-no-padding">
+                                <div class="aqs-para-body-text-bold aq-header-name">
+                                    {{options.title}}
+                                </div>
+                            </div>
+                            <div class="col-md-2 aqs-no-padding aqs-align-right">
+                                <div class="aqi-md-cross" ng-click="options.close();"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aq-contents col-md-12">
+                        <div class="aq-globalerror" ng-show="options.errorMsg">{{options.errorMsg}}</div>
+                        <div class="aqs-alerts aq-warning aqi--margin-top-5"><span class="aq-message">Warning: This operation cannot be undone.</span></div>
+                        <div class="aqs-alerts aq-warning aqi--margin-top-5" ng-show="options.childBranches.length">
+                            <div class="aq-message"> 
+                                <span>{{options.warnMessage}}</span>
+                                <ol>
+                                    <li class="" ng-repeat="proj in options.childBranches">
+                                        {{proj.projectDisplayName}}
+                                    </li>
+                                </ol>
+                            </div>                            
+                        </div>                        
+                        <div class="aq-content">
+                            <div aq-check-box class="aq-form-control" name="warning1" label="All scenarios, contexts and actions will be deleted." value="options.warning1" autofocus required on-select="options.removeMsg()"></div>
+                            <div aq-check-box class="aq-form-control" name="warning2" label="All test results, data and parameters will be deleted." value="options.warning2" autofocus required on-select="options.removeMsg()"></div>
+                            <div aq-check-box class="aq-form-control" name="warning3" label="All Extension libraries owned by this Project will be deleted unless they are used by other Projects." value="options.warning3" autofocus required on-select="options.removeMsg()"></div>
+                        </div>
+                    </div>
+                    <div class="aq-footer col-md-12">
+                        <div class="col-md-7 col-md-offset-5 aqs-no-padding aqs-align-right">
+                            <div class="aqs-button-default" ng-click="options.close()">Cancel, Keep Project</div>
+                            <div class="aqs-button-primary" ng-click="options.deleteProject()" style="margin-left: 10px;">OK, Delete Project</div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="newProjectAssignTmpl" class="ng-scope">
+    <div class="aqs-modal-normal">
+        <div class="container-fluid aqs-conf-project-modal">
+            <div class="row">
+                <div class="header-block col-md-12 aqs-no-padding">
+                    <div class="title-row col-md-12">
+                        <span class="text">New Project</span>
+                        <div class="aqi-md-cross pull-right" ng-click="options.close();"></div>
+                    </div>
+                </div>
+                <div class="content-block col-md-12">
+                    <div class="content-row col-md-12" style="cursor:default;"> Choose an option below for setting up the configuration for the newly created project </div>
+                    <div class="content-row col-md-12" ng-click="options.isNewProjSelected = true;options.isExistingProjSelected=false;">
+                        <div class="col-md-1 aqs-no-padding">
+                            <div class="aqs-radio-button">
+                                <div class="radio-btn-circle" ng-class="{'selected': options.isNewProjSelected}"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-11" style="cursor:pointer;">Create Project with no pre-set configuration</div>
+                    </div>
+                    <div class="content-row col-md-12" ng-click="options.isExistingProjSelected = true;options.isNewProjSelected=false;">
+                        <div class="col-md-1 aqs-no-padding">
+                            <div class="aqs-radio-button">
+                                <div class="radio-btn-circle" ng-class="{'selected': options.isExistingProjSelected}"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-11" style="cursor:pointer;">Copy the configuration information and users from an existing project </div>
+                    </div>
+                </div>
+                <div class="footer-block col-md-12">
+                    <div class="button-row col-md-12 aqs-no-padding">
+                        <div class="button-primary" ng-class="{'disabled': !options.isExistingProjSelected && !options.isNewProjSelected}" ng-click="options.createProject();">Create</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqUpdateProjectTmpl" class="ng-scope">
+    <div ng-show="options.errorMsg" class="qas-section-message qa-error aqs-display-flex aqi--margin-bottom-15">
+        <div class="qai-24-section-message-error aqi--margin-right-10"></div>
+        <div class="aqi--align-down-3">{{options.errorMsg}}</div>
+    </div>
+    <div class="aqs-project-update aqs-display-flex aqi--margin-bottom-15">
+        <img class="aq-thumb" ng-src="{{options.thumbnail}}" alt="Project Template"/>
+        <div class="aqi--margin-left-10">
+            <div class="qas-paragraph qa-marginbtm">An update is available for {{options.projectType}} Add-on</div>
+            <div class="qa-content">
+                <div class="aqs-display-flex aq-halign-spacebetween">
+                    <div>
+                        <div class="qas-paragraph aqi--margin-bottom-10">Current Release</div>
+                        <div class="qas-paragraph">Update Available</div>
+
+                    </div>
+                    <div>
+                        <div class="qas-button-text aqi--margin-bottom-10">{{options.currentReleaseNumber}}</div>
+                        <div class="qas-button-text">
+                            <div>{{options.updatedReleaseNumber}}</div>
+                            <div>updated {{options.timeUpdated}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqGenericDiffModal" class="ng-scope">
+    <div class="aqs-generic-diff-dialog aqs-modal-new">
+        <div data-ng-include="'app/contextdesigner/directives/AQCodeEditorStatement.html'"></div>
+        <div class="aq-modal-content  js-diff-modal aqs-display-flex aq-column aqs-full-width aqs-full-height" ng-mousemove="options.methods.onModalMouseMove($event)" ng-mouseup="options.methods.onModalMouseUp($event)">
+           <div class="aqs-display-flex aq-title-section aq-halign-spacebetween">
+              <div class="aqs-display-flex aq-valign-center aq-title aq-flex-grow">
+                    <div class="aqs-category-badge aq-merge-tag aqi--margin-right-15 ng-hide"> {{options.titleOptions.badgeName}} </div>
+                    <div class="aqs-display-flex aq-flex-grow">                     
+                        <div class="aqs-display-flex aq-column aq-title-column">
+                            <span class="qas-sub-text">{{options.titleOptions.rhsSubtext}}</span>
+                        <span class="aqs-overflow-ellipsis qas-title">{{options.titleOptions.rhsEntityName}}</span>
+                    </div>
+                    <div class="aq-title-icon aqi--align-down-15" ng-class="options.titleOptions.iconClass"></div>
+                    <div class="aqs-display-flex aq-column aq-title-column">
+                        <span class="qas-sub-text">{{options.titleOptions.lhsSubtext}}</span>
+                        <span class="aqs-overflow-ellipsis qas-title">{{options.titleOptions.lhsEntityName}}</span>
+                    </div>
+                    </div>
+                    <div class="aqi--margin-left-10 qas-sub-text">{{options.subTitle}}</div>
+             </div>
+             <div class="aqs-display-flex aq-valign-center">
+                 <button class="qas-btn-secondary aqi--margin-right-25" ng-if="options.titleOptions.showInfoIcon" style="height: 32px;" ng-click="options.titleOptions.onInfoIconClick()">
+                     <i class="qai-xs-info-circle-dark-default"></i>
+                 </button>
+                 <button class="qa-closeicon" ng-click="options.closeModal()" ng-hide="options.titleOptions.hideCloseBtn">
+                    <i class="qai-md-cross"></i>
+                </button>
+              </div>
+           </div>
+           <div class="aqs-full-width aq-flex-grow aqs-display-flex js-parentdiff-block" style="position: relative;" ng-if="!options.summaryOptions.showSummarySection">
+                <div class="aq-left-nav js-left-nav aqs-full-height aqs-display-flex">
+                    <div class="aqs-full-height aqs-full-width aqs-display-flex aq-column aq-flex-grow">
+                    <div class="aqs-display-flex aq-leftnav-modulesection  aq-valign-center aq-halign-spacebetween">
+                       <div class="aqs-display-flex aq-flex-grow">
+                           <div class="aqs-display-flex aq-column">
+                                <div class="qas-group-header qa-small aqi--margin-left-10"> 
+                                    {{options.leftNavOptions.leftDropdown.header}}
+                                </div>
+                                <div class="aqs-display-flex aq-valign-center aq-dropdown-btn" ng-click="options.switches.showNavDropdownItems = true;"  tabindex="-1" ng-blur="options.switches.showNavDropdownItems=false;" ng-class="{'aq-open': options.switches.showNavDropdownItems}">
+                                    <div class="qas-title aq-no-shrink">{{options.leftNavOptions.leftDropdown.selectedItem.nameInDropdown ? options.leftNavOptions.leftDropdown.selectedItem.nameInDropdown : options.leftNavOptions.leftDropdown.selectedItem.name}}</div>
+                                    <div class="aqi--align-down-3 aq-action-icon aqi--margin-left-10">
+                                        <div class="qai-xs-chevron-down"></div>
+                                    </div>
+                                    <div class="aqs-dropdownmenu aq-moduledropdown" ng-if="options.switches.showNavDropdownItems">  
+                                        <div data-ng-include="'app/configuration/templates/content/conf-branching-summary.html'" ></div>
+                                    </div>
+                                </div>
+                           </div>                         
+                       </div> 
+                       <div class="aqs-display-flex">
+                           <div class="aq-filter-section aqs-display-flex aqi--margin-left-10 aq-no-shrink" ng-click="options.methods.showContextMenu({'selectedItem': {}, 'menuItems': options.filterOptions.menuItems, 'className': '.aq-filter-section','yAdditional': 40, 'clickHandler':options.filterOptions.menuItemClickHandler}, $event)">                          
+                                <div class="aqi-lg-funnel aq-filtericon" ng-class="{'aq-filteractive': options.filterOptions.selectedOption != options.filterOptions.defaultOption }"></div>                                
+                                <div class="aqi--margin-left-5 qas-form-label">{{options.filterOptions.filterDisplayName}}</div>                                                   
+                           </div> 
+                       </div>
+                    </div>
+                    <div class="aqs-full-height aq-leftnav-itemslist"
+                       ng-if="options.leftNavOptions && options.leftNavOptions.showLeftNav && !options.leftNavOptions.isCollapsed">                     
+                        <div class="aq-leftnav-skeleton aqs-full-height" ng-if="options.leftNavOptions.showSpinner" >
+                            <div class="aq-leftnav-resultcontainer js-leftnav-skeleton-container aqs-full-height" >
+                                <div class="aq-left-emptystate-item" ng-repeat="i in [].constructor(options.leftNavOptions.getEmptyStateSkeletonCount()) track by $index">
+                                    <div class="aq-leftnav-skeletonitem"></div>
+                                </div>
+                            </div>
+                        </div>
+                       <div ng-if="!options.leftNavOptions.showSpinner" class="aqs-display-flex aq-column">
+                          <div class="aqs-display-flex aq-column" ng-if="options.leftNavOptions.filteredSectionItems"
+                             ng-repeat="sectionItem in options.leftNavOptions.filteredSectionItems" ng-show="sectionItem.showHandler ? sectionItem.showHandler() : true">
+                             <div class="aq-leftnav-sectionhdr aqs-display-flex aq-valign-center aqs-full-width aq-halign-spacebetween">
+                                <div class="aqs-display-flex aq-valign-center aqs-full-width aqs-overflow-ellipsis" ng-click="sectionItem.isCollapsed = !sectionItem.isCollapsed" ng-class="{'aqs-cursor-pointer': sectionItem.subDivision.items.length}">
+                                   <div class="aq-action-icon aqi--align-down aqi--margin-right-10">
+                                      <i ng-class="{'qai-xs-chevron-down': !sectionItem.isCollapsed && sectionItem.subDivision.items.length, 'qai-xs-chevron-right-large': sectionItem.isCollapsed || !sectionItem.subDivision.items.length, 'qa-disabled': !sectionItem.subDivision.items.length}"></i>
+                                   </div>
+                                   <div class="qas-section-header aqs-overflow-ellipsis" ng-class="{'qa-disabled': !sectionItem.subDivision.items.length }">{{sectionItem.headerTitle}} ({{sectionItem.subDivision.items.length || 0}}) </div>
+                                </div>
+                                <div class="aqi--margin-left-10 js-popover-parent">
+                                    <div class="aq-ellipsis-icon" ng-class="{'aq-selected': sectionItem.isDropdownOpen}" ng-if="!sectionItem.isCollapsed && sectionItem.subDivision.items.length && sectionItem.showMenuOptions " ng-click="options.methods.showContextMenu({'selectedItem': sectionItem,'menuItems': sectionItem.menuOptions, 'className': '.js-popover-parent','yAdditional': 30, 'clickHandler': options.leftNavOptions.menuItemClickHandler}, $event)">
+                                        <div ng-class="{'aqi-md-ellipsis-active-white': sectionItem.isDropdownOpen, 'aqi-md-ellipsis-default': !sectionItem.isDropdownOpen}"></div>
+                                    </div>
+                                </div>                               
+                             </div>
+                             <div class="aqs-display-flex aq-column aqs-full-width aq-leftnav-section" ng-if="!sectionItem.isCollapsed && !sectionItem.subDivision.parentOptions">
+                                <div class="aqs-display-flex aq-leftnav-subitemhdr aq-valign-center aqs-full-width aq-halign-spacebetween" ng-repeat="subItem in sectionItem.subDivision.items" ng-click="options.leftNavOptions.onEntityClick(subItem, sectionItem.indexId)" ng-class="{'aq-selected': options.mergelyDiffOptions.vars.selectedEntity == subItem}">
+                                   <div class="aqs-display-flex aq-valign-center aqs-full-width aqs-overflow-ellipsis">
+                                      <div class="aqi--align-down-3" style="padding-right:5px;" ng-style="{'padding-left': !subItem.iconClass ? '14px' : '0px' }" ng-class="{'aq-semistate-icon': subItem.required}" ><i ng-class="subItem.iconClass"></i></div>
+                                      <div class="qas-paragraph aqs-overflow-ellipsis">{{subItem[sectionItem.subDivision.dispPropName]}}</div>
+                                   </div>
+                                   <div class="aqi--margin-left-10 js-popover-parent">
+                                       <div class=" aq-ellipsis-icon" ng-class="{'aq-selected': subItem.isDropdownOpen}" ng-if="sectionItem.subDivision.menuOptions && sectionItem.subDivision.menuOptions.length" ng-click="options.methods.showContextMenu({'selectedItem': subItem, 'menuItems': sectionItem.subDivision.menuOptions,'className':'.js-popover-parent','parentMod': sectionItem, 'yAdditional':30, 'clickHandler': options.leftNavOptions.menuItemClickHandler}, $event)">
+                                            <div ng-class="{'aqi-md-ellipsis-active-white': subItem.isDropdownOpen, 'aqi-md-ellipsis-default': !subItem.isDropdownOpen}"></div>
+                                        </div>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="aqs-display-flex aq-column aqs-full-width aq-leftnav-section aq-child-section" ng-if="!sectionItem.isCollapsed && sectionItem.subDivision.parentOptions">
+                                <div class="aqs-display-flex aq-column aqs-full-width" ng-repeat="subItem in sectionItem.subDivision.items">
+                                   <div class="aqs-display-flex aq-halign-spacebetween aq-leftnav-parent aqs-full-width aq-valign-center" ng-hide="subItem.isHideTitle">
+                                      <div class="aqs-display-flex aq-valign-center aqs-full-width aqs-overflow-ellipsis aq-leftnav-parent-header" ng-click="subItem.isHeaderStyle && (subItem.isCollapsed = !subItem.isCollapsed)" ng-class="{'aqs-cursor-pointer aq-title': subItem.isHeaderStyle}">
+                                        <div class="aq-action-icon aqi--align-down aqi--margin-right-10" ng-show="subItem.isHeaderStyle">
+                                            <i ng-class="{'qai-xs-chevron-down-default': !subItem.isCollapsed, 'qai-xs-chevron-right-large': subItem.isCollapsed}"></i>
+                                        </div>
+                                        <div class="aqs-overflow-ellipsis" ng-class="{'qas-section-header qa-small': subItem.isHeaderStyle, 'qas-secondary-text': !subItem.isHeaderStyle }">
+                                            {{subItem[sectionItem.subDivision.parentOptions.dispPropName]}}
+                                        </div>
+                                        <div class="qas-section-header qa-small aqi--margin-left-2" ng-if="subItem.isHeaderStyle">
+                                            {{ "(" + (subItem.items.length || 0) + ")" }}
+                                        </div>
+                                        <div class="aqs-display-flex aqi--margin-left-4" ng-show="subItem.showTooltip" ng-click="$event.stopPropagation();"> 
+                                            <div class="qai-xs-info-circle-dark-default" qa-help-popover on="click" show-close-btn="false"  body="{{subItem.tooltipText}}"></div>
+                                        </div>
+                                      </div>
+                                      <div class="aqi--margin-left-10 js-popover-parent">
+                                          <div class="aq-ellipsis-icon aqi--align-down-1" ng-if ="sectionItem.subDivision.parentOptions.showMenuOptions" ng-class="{'aq-selected': subItem.isDropdownOpen}" ng-click="options.methods.showContextMenu({'selectedItem': subItem, 'menuItems': sectionItem.subDivision.parentOptions.menuOptions,'className': '.js-popover-parent','parentMod': sectionItem, 'yAdditional':30, 'clickHandler': options.leftNavOptions.menuItemClickHandler}, $event)">
+                                                <div ng-class="{'aqi-md-ellipsis-active-white': subItem.isDropdownOpen, 'aqi-md-ellipsis-default': !subItem.isDropdownOpen}"></div>
+                                          </div>
+                                      </div>
+                                   </div>
+                                   <div class="aqs-display-flex aq-column aq-valign-center aqs-full-width aq-child-subitemhdr" ng-if="!subItem.isCollapsed" ng-repeat="childItem in subItem.items" ng-click="options.leftNavOptions.onEntityClick(childItem,sectionItem.indexId, subItem)" >
+                                      <div class="aqs-display-flex aq-leftnav-subitemhdr aq-valign-center  aq-halign-spacebetween" ng-class="{'aq-selected': options.mergelyDiffOptions.vars.selectedEntity == childItem}">
+                                         <div class="aqs-display-flex aq-valign-center aqs-full-width aqs-overflow-ellipsis">
+                                            <div class="aqi--align-down-3" style="padding-right:5px;" ng-style="{'padding-left': !childItem.iconClass ? '10px' : '0px' }" ng-class="{'aq-semistate-icon': childItem.required}" ><i ng-class="childItem.iconClass"></i></div>
+                                            <div class="qas-paragraph aqs-overflow-ellipsis">{{childItem[sectionItem.subDivision.dispPropName]}}</div>
+                                         </div>
+                                         <div class="aqi--margin-left-10 js-popover-parent">
+                                             <div class="aq-ellipsis-icon" ng-class="{'aq-selected': childItem.isDropdownOpen}" ng-if="sectionItem.subDivision.menuOptions && sectionItem.subDivision.menuOptions.length " ng-click="options.methods.showContextMenu({'selectedItem': childItem, 'menuItems': sectionItem.subDivision.menuOptions, 'className': '.js-popover-parent','parentMod': sectionItem, 'yAdditional':30, 'clickHandler': options.leftNavOptions.menuItemClickHandler})">
+                                                <div ng-class="{'aqi-md-ellipsis-active-white': childItem.isDropdownOpen, 'aqi-md-ellipsis-default': !childItem.isDropdownOpen}"></div>
+                                             </div>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="aqs-display-flex aqs-full-width aqs-cursor-pointer aq-leftnav-subitemhdr" ng-class="{'aq-selected': options.leftNavOptions.independentComp.showTemplate}" ng-click="options.leftNavOptions.onIndependentCompClick()" ng-if="options.leftNavOptions.independentComp && options.leftNavOptions.independentComp.showHandler()">
+                              <div class="aqs-display-flex qas-section-header">
+                                  <div ng-class="options.leftNavOptions.independentComp.iconClass" class="aqi--margin-right-5"></div>
+                                  <div class="">{{options.leftNavOptions.independentComp.name}}</div>
+                              </div>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="aq-leftnav-footer aqs-display-flex aqs-full-width">
+                        <div class="aqs-display-flex aqs-full-width aq-halign-spacebetween">
+                            <div class="aqs-display-flex aq-column aq-halign-center">
+                                <div class="qas-group-header qa-small ">{{options.leftNavOptions.leftDropdown.selectedItem.name}}</div>
+                                <div class="aqs-para-body-text-small"><span ng-if="options.leftNavOptions.leftDropdown.selectedItem.entitiesReviewed != options.leftNavOptions.leftDropdown.selectedItem.totalEntities"> Reviewed  {{options.leftNavOptions.leftDropdown.selectedItem.entitiesReviewed + ' of  ' + options.leftNavOptions.leftDropdown.selectedItem.totalEntities}} </span><span ng-if="options.leftNavOptions.leftDropdown.selectedItem.entitiesReviewed == options.leftNavOptions.leftDropdown.selectedItem.totalEntities"> Review Completed ({{options.leftNavOptions.leftDropdown.selectedItem.totalEntities}})</span></div>
+                            </div>
+                            <div class="aqs-display-flex aqi--margin-right-10" ng-if="options.leftNavOptions.footerOptions.showNextButton" title = "{{options.leftNavOptions.leftDropdown.nextModule.isDisabled ? ('Will be enabled once all the ' +  options.leftNavOptions.leftDropdown.selectedItem.tooltipName  + ' changes are reviewed'): ''}}">
+                                <button class="qas-btn-secondary-primary" ng-class="{'qa-disabled': options.leftNavOptions.leftDropdown.nextModule.isDisabled}" ng-click="!options.leftNavOptions.leftDropdown.nextModule.isDisabled && options.leftNavOptions.leftDropdown.clickHandler(options.leftNavOptions.leftDropdown.nextModule)">
+                                    <div class="aqs-display-flex aq-column aqi--margin-right-25">
+                                        <div class="aq-align-self-flexstart" style="font-size: 10px;letter-spacing: -0.1px;">NEXT</div>
+                                        <div class="">{{options.leftNavOptions.leftDropdown.nextModule.nameInDropdown ? options.leftNavOptions.leftDropdown.nextModule.nameInDropdown  :options.leftNavOptions.leftDropdown.nextModule.name}}</div>
+                                    </div>
+                                    <div>
+                                        <i ng-class="{'qai-xs-chevron-right-large': options.leftNavOptions.leftDropdown.nextModule.isDisabled, 'qai-xs-chevron-right-large-active': !options.leftNavOptions.leftDropdown.nextModule.isDisabled}"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <a class="qas-link aqs-display-flex aq-valign-center" ng-if="options.leftNavOptions.linkDetails.show" ng-click="options.summaryOptions.switchToSummary()">
+                                <i class="aqi-xs-chevron-left"></i>   
+                                <span class="aqi--margin-left-5">  {{options.leftNavOptions.linkDetails.name}} </span>
+                           </a>
+                        </div>                        
+                    </div>
+                 </div>           
+                 <div class="aq-leftnav-slider js-leftnav-slider" ng-mousedown="options.methods.onLeftNavMousedown($event)" ng-class="{'aq-slider-minstate': options.mergelyDiffOptions.isNavSliderMinPos, 'aq-slider-maxstate': options.mergelyDiffOptions.isNavSliderMaxPos}">
+                     <div class="aq-border-element"></div>
+                 </div>
+              </div>
+              <div class="aqs-display-flex aqs-full-height aq-right-main js-right-main">
+                 <div class="aqs-full-width aqs-full-height aqs-align-center aq-empty-state" ng-if="options.mergelyDiffOptions.switches.isEmptyState">
+                    <div class="aqs-loading aqs-align-center aqs-full-width aqs-display-flex aqs-full-height aq-align-center"
+                       ng-if="options.mergelyDiffOptions.switches.showLoader">
+                       <div class="aq-loading-dot aq-loading-dot-gap-2"></div>
+                       <div class="aq-loading-dot aq-loading-dot-gap-2"></div>
+                       <div class="aq-loading-dot"></div>
+                    </div>
+                    <span class="aqs-para-sub-text-italic-small aqi--margin-left-25 aqi--margin-top-15"
+                       ng-if="!options.mergelyDiffOptions.switches.showLoader"> {{options.diffOptions.emptyStateMsg}} </span>
+                 </div>
+                 <div ng-if="options.leftNavOptions.independentComp.showTemplate" class="aqs-full-width aqs-full-height">
+                    <div class="aqs-display-flex aq-column aqi--margin-left-15 aqi--margin-right-15 aqi--margin-top-25">
+                        <div class="aqs-display-flex aq-column">
+                            <div class="aqs-display-flex aq-column">
+                                <div class="qas-title-regular">Newly added Views</div>
+                                <div class="aqi--margin-top-25">Select one of the options below for the newly added Views in the Source Project</div>                                               
+                            </div>
+                             <div class="aqs-display-flex aqi--margin-top-15">
+                                <div class="qas-radio-btn-group aqi--margin-left-5">
+                                    <div>
+                                        <div class="qas-radiobtn-wrapper" ng-click="options.leftNavOptions.independentComp.copyNewViews = true;options.leftNavOptions.independentComp.copyAllViews = false;options.leftNavOptions.independentComp.onChangeHandler(options.leftNavOptions.independentComp)">
+                                            <input type="radio" class="qas-radio-btn" ng-class="{'qa-selected': options.leftNavOptions.independentComp.copyNewViews}"/>
+                                            <div class="qa-radiobtn-label">From the Source project, select minimum required Views and copy over to the Target project (Recommended)</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="qas-radiobtn-wrapper" ng-click="options.leftNavOptions.independentComp.copyNewViews = false;options.leftNavOptions.independentComp.copyAllViews = true;options.leftNavOptions.independentComp.onChangeHandler(options.leftNavOptions.independentComp)">
+                                            <input type="radio" class="qas-radio-btn" ng-class="{'qa-selected': options.leftNavOptions.independentComp.copyAllViews}"/>
+                                            <div class="qa-radiobtn-label">Copy all newly added Views from the Source project to Target project</div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="aqs-display aq-column aqi--margin-top-25">
+                            <div class="aqs-display-flex aq-column">
+                                <div class="qas-title-regular">Deleted Views</div>                                                                              
+                            </div>
+                             <div class="aqs-display-flex aqi--margin-top-20">
+                                <div class="qas-checkbox-wrapper aqi--margin-left-5" ng-click="options.leftNavOptions.independentComp.removeDeletedViews = !options.leftNavOptions.independentComp.removeDeletedViews;options.leftNavOptions.independentComp.onChangeHandler(options.leftNavOptions.independentComp) ">
+                                    <button class="qas-checkbox" ng-class="{ 'qa-checked' : options.leftNavOptions.independentComp.removeDeletedViews}" ng-click="$event.preventDefault();">
+                                        <i class="qai-xs-tick qa-selected qa-checkbox-tick"></i>
+                                    </button>
+                                    <div class="qa-checkbox-label aqi--margin-left-5">
+                                        Remove the Views that are deleted in the Source Project from the Target Project, unless there are dependencies.
+                                    </div>
+                                </div>
+                             </div>
+                        </div>                        
+                     </div>
+                 </div>
+                 <div ng-if="!options.mergelyDiffOptions.switches.isEmptyState && !options.diffOptions.hideDiffSection" class="aqs-display-flex aq-column aqs-full-height aqs-full-width">
+                    <div class="aqs-full-width aqs-full-height aqs-align-center" ng-show="options.mergelyDiffOptions.switches.showDiffSpinner">
+                        <div class="aqs-loading aqs-align-center aqs-full-width aqs-display-flex aqs-full-height aq-align-center">
+                           <div class="aq-loading-dot aq-loading-dot-gap-2"></div>
+                           <div class="aq-loading-dot aq-loading-dot-gap-2"></div>
+                           <div class="aq-loading-dot"></div>
+                        </div>                        
+                    </div>
+                    <div class="aqs-full-width aqs-full-height aqs-display-flex aq-column" ng-show="!options.mergelyDiffOptions.switches.showDiffSpinner">
+                        <div class="aqs-display-flex qas-section-message qa-info" style="margin:16px 16px 0px 16px" ng-if="options.mergelyDiffOptions.vars.selectedEntity && options.mergelyDiffOptions.vars.selectedEntity.infoOptions"> 
+                            <div class="aqs-display-flex aqi--margin-right-8"> 
+                                <div ng-class="options.mergelyDiffOptions.vars.selectedEntity.infoOptions.iconClass" class="aqi--align-down-2"></div>
+                            </div>
+                            <div class="aqs-display-flex aq-column">
+                                <div class="qas-title-regular"> {{options.mergelyDiffOptions.vars.selectedEntity.infoOptions.title}} </div>
+                                <div class="aqi--margin-top-10" ng-bind-html="options.mergelyDiffOptions.vars.selectedEntity.infoOptions.message"> </div>
+                            </div>
+                        </div>
+                        <div class="aq-difftitle-section aqs-display-flex aq-halign-spacebetween">
+                           <div class="aqs-display-flex aq-diff-title aq-valign-center">
+                              <span ng-show="options.diffOptions.tagTitle" class="" ng-class="options.diffOptions.tagClass">{{options.diffOptions.tagTitle}}</span>
+                              <span class="qas-title-regular aqi--margin-top-5 aqi--margin-bottom-5" title="{{options.diffOptions.title}}"> {{options.diffOptions.title}}</span>
+                              <span class="aq-refresh-icon aqi--margin-left-5 aqs-cursor-pointer" ng-click="options.diffOptions.onRefreshClick()"><i class="aqi-sm-refresh-alt-default aqi--align-down-1"></i></span>
+                            </div>
+                           <div class="aqs-display-flex aq-valign-center">
+                               <div class="aqi--margin-right-15" ng-if="options.diffOptions.infoText">{{options.diffOptions.infoText}}</div>
+                              <button class="aqi--margin-right-10" ng-class="(btn.disableHandler && btn.disableHandler())? btn.btnClass + ' qa-disabled': btn.btnClass" ng-if="options.diffOptions.showDecisionBtns" ng-repeat="btn in options.diffOptions.decisionBtnOptions" ng-click="options.leftNavOptions.menuItemClickHandler(btn)">
+                              <i ng-class="(btn.disableHandler && btn.disableHandler()) ? btn.iconClass + ' qa-disabled' : btn.iconClass" class="aqi--margin-right-5"></i> <span> {{ btn.getBtnName ? btn.getBtnName() : btn.btnName}}</span>
+                              </button>  
+                              <div ng-if="options.diffOptions.showHelpText" class="aqi--margin-right-15">
+                                <div aq-compile-template options="options.diffOptions.helpTextOptions"></div>
+                             </div> 
+                           </div>                       
+                        </div>
+                        <div class="aq-header-section aqs-display-flex aq-halign-spacebetween aqi--margin-left-10 aqi--margin-right-10">
+                           <div class="aq-entity-tabs aqs-display-flex">
+                              <div class="aq-tab-item aqs-display-inlineflex aq-valign-center"
+                                 ng-repeat="tab in options.diffOptions.tabItems" ng-class="{'aq-active qas-link-text': tab.isActive}"
+                                 ng-click="options.mergelyDiffOptions.methods.tabClickHandler(tab, $index)">
+                                 <div ng-if="tab.isDiffExists" class="aq-tabitem-dot aqi--margin-right-5" ng-class="{'aq-reviewed': tab.isReviewed || options.mergelyDiffOptions.vars.selectedEntity.isReviewed}"></div>
+                                 <div> {{tab.name.toUpperCase()}} </div>
+                                 <div class="aq-tabitem-hideborder"></div>
+                              </div>
+                           </div>                       
+                           <div class="aq-right-section aqs-display-inlineflex">                              
+                              <div class="aqs-display-flex aqi--margin-right-10" ng-if="options.mergelyDiffOptions.vars.diffInfoMessage">  
+                                <div class="qas-section-message aqs-display-flex">
+                                    <div ng-if="options.mergelyDiffOptions.switches.showHelpPopover" class="aqs-display-flex aq-valign-center" >
+                                        <div class="aqi-md-info-circle-active aqi--margin-right-10 aqi--align-down-1 aq-no-shrink" ng-if="!options.mergelyDiffOptions.switches.isError"></div>
+                                        <div class="aqi--margin-right-5 qai-xs-error-selected" ng-if="options.mergelyDiffOptions.switches.isError"></div>
+                                        <div class="aqs-display-flex">
+                                            <span class="aqs-dotted-underline-default aqs-cursor-pointer" ng-class="{'qas-error-text': options.mergelyDiffOptions.switches.isError}">{{options.mergelyDiffOptions.vars.diffInfoMessage}}</span>   
+                                            <div qa-popover class="js-qa-popover"  options="options.mergelyDiffOptions.vars.popoverOptions" on="options.mergelyDiffOptions.vars.helpTrigger" prefered-position="options.mergelyDiffOptions.vars.perferredPosition"></div>
+                                        </div>                                     
+                                    </div>
+                                    <div ng-if="!options.mergelyDiffOptions.switches.showHelpPopover" class="aqs-display-flex aq-valign-center" ng-class="{'qas-error-text': options.mergelyDiffOptions.switches.isError}">
+                                        <div class="aqi--margin-right-5 qai-xs-error-selected" ng-if="options.mergelyDiffOptions.switches.isError"></div>
+                                        <div class="aqi-md-info-circle-active aqi--margin-right-10 aqi--align-down-1" ng-if="!options.mergelyDiffOptions.switches.isError"></div>
+                                        <div ng-class="{'qas-error-text': options.mergelyDiffOptions.switches.isError}">{{options.mergelyDiffOptions.vars.diffInfoMessage}}</div>
+                                     </div>
+                                    <div class="aqi--margin-left-10 aqs-cursor-pointer" ng-if="(options.diffOptions.showLHSLink || options.diffOptions.showRHSLink) && options.mergelyDiffOptions.switches.hideDiffToolbar"><span class="aqi-sm-external-link-default aqi--align-down-1" ng-click="options.diffOptions.onExternalLinkClick(options.mergelyDiffOptions.switches.isRHSdiffCollapsed ? true : false);"></span></div>                                  
+                                 </div>                                 
+                             </div>
+                              <div class="aqs-display-inlineflex aqi--margin-right-5 aq-no-shrink"
+                                 ng-if="!options.mergelyDiffOptions.vars.selectedEntity.isIdentical && !(options.mergelyDiffOptions.switches.isLHSdiffCollapsed ||options.mergelyDiffOptions.switches.isRHSdiffCollapsed)">
+                                 <div class="aq-toolbar-icon"
+                                    ng-click="options.mergelyDiffOptions.methods.previousDiff()" title="Previous Diff"
+                                    ng-class="{'aq-disabled': !options.mergelyDiffOptions.vars.selectedTab.isDiffExists || options.mergelyDiffOptions.vars.currentSelection == 1}">
+                                    <div class="qai-xs-chevron-up-large"></div>
+                                 </div>
+                                 <div class="aqi--margin-right-5 aqi--margin-left-5 aqi--align-down-3">
+                                    <span ng-if="options.mergelyDiffOptions.switches.isCountInitialized">{{options.mergelyDiffOptions.vars.currentSelection + ' / ' + options.mergelyDiffOptions.vars.changes.length }}</span>
+                                    <div class="aqs-loading aqi--align-up-1"
+                                       ng-if="!options.mergelyDiffOptions.switches.isCountInitialized">
+                                       <div class="aq-loading-dot"></div>
+                                       <div class="aq-loading-dot"></div>
+                                       <div class="aq-loading-dot"></div>
+                                    </div>
+                                 </div>
+                                 <div class="aq-toolbar-icon" ng-click="options.mergelyDiffOptions.methods.nextDiff()"
+                                    title="Next Diff"
+                                    ng-class="{'aq-disabled': !options.mergelyDiffOptions.vars.selectedTab.isDiffExists || options.mergelyDiffOptions.vars.currentSelection == options.mergelyDiffOptions.vars.changes.length}">
+                                    <div class="qai-xs-chevron-down aqi--align-down-1"></div>
+                                 </div>
+                              </div>
+                              <div class="aq-icons-section">
+                                 <div class="aq-toolbar-icon"
+                                    ng-click="options.mergelyDiffOptions.methods.toggleTextWrap()"
+                                    title="Toggle Text Wrap">
+                                    <div ng-class="{'qai-xs-wrap' : !options.mergelyDiffOptions.switches.isTextWrapped, 'qai-xs-wrap qa-active': options.mergelyDiffOptions.switches.isTextWrapped}">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="aqi--margin-left-10 aqi--margin-right-10 aqs-display-flex" ng-if="!options.mergelyDiffOptions.switches.hideDiffToolbar">
+                           <div class="js-lhs-toolbar aq-diff-toolbar aq-valign-center aqs-display-flex aq-halign-spacebetween" ng-if="!options.mergelyDiffOptions.switches.isLHSdiffCollapsed" ng-class="{'aq-borderleft-none': options.mergelyDiffOptions.switches.isLHSdiffCollapsed }">
+                              <div class="qas-title-regular aqs-overflow-ellipsis">{{options.diffOptions.lhsTitle}}</div>
+                              <div class="aqs-display-flex">
+                                  <div class="qas-sub-text">{{options.diffOptions.lhsSubtitle}}</div>
+                                   <div class="aqi--margin-left-5 aqs-cursor-pointer" ng-if="options.diffOptions.showLHSLink"><span class="aqi-sm-external-link-default" ng-click="options.diffOptions.onExternalLinkClick(true);"></span></div>
+                              </div>                              
+                           </div>
+                           <div class="js-rhs-toolbar aq-diff-toolbar  aq-valign-center aqs-display-flex aq-halign-spacebetween" ng-if="!options.mergelyDiffOptions.switches.isRHSdiffCollapsed" ng-class="{'aq-borderleft-none': !options.mergelyDiffOptions.switches.isLHSdiffCollapsed }">
+                              <div class="qas-title-regular aqs-overflow-ellipsis">{{options.diffOptions.rhsTitle}}</div>
+                              <div class="aqs-display-flex">
+                                  <div class="qas-sub-text">{{options.diffOptions.rhsSubtitle}}</div>
+                                  <div class="aqi--margin-left-5 aqs-cursor-pointer" ng-if="options.diffOptions.showRHSLink"><span class="aqi-sm-external-link-default" ng-click="options.diffOptions.onExternalLinkClick();"></span></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="aqi--margin-left-10" ng-if="options.mergelyDiffOptions.switches.showRTE">
+                            <div aq-dynamic-form-builder is-wrapped="true" form-fields="options.mergelyDiffOptions.vars.formFields"></div>
+                        </div>
+                        <div class="aq-diff-content aq-flex-grow aqi--margin-right-10" ng-hide="options.mergelyDiffOptions.switches.showRTE">
+                           <div id="action-diff-wrapper"
+                              class="js-merge-diff-wrapper aqi--margin-bottom-10 aqi--margin-left-10 col-md-12 aqs-no-padding aqs-full-height"
+                              ng-click="options.mergelyDiffOptions.methods.updateSelection()"></div>
+                            <div class="aq-diff-slider" ng-class="{'aq-left-collapsed': options.mergelyDiffOptions.switches.isLHSdiffCollapsed, 'aq-right-collapsed': options.mergelyDiffOptions.switches.isRHSdiffCollapsed}" ng-if="!options.mergelyDiffOptions.switches.showDiffSpinner && !options.mergelyDiffOptions.switches.hideCollapseHandlers">
+                                <div class="aq-border-line"></div>
+                                <div class="aq-slider-arrowblock aq-leftside-arrowblock" ng-class="{'aq-active' : __leftArrowHover}" ng-click="options.methods.toggleLeftDiff()" ng-mouseenter="__leftArrowHover = true" ng-mouseleave="__leftArrowHover = false" ng-if="!(options.mergelyDiffOptions.switches.isLHSdiffCollapsed || options.mergelyDiffOptions.switches.hideCollapseHandlers)">                              
+                                    <i ng-class="{'qai-xs-chevron-left-large-active' : __leftArrowHover, 'qai-xs-chevron-left-large': !__leftArrowHover }"></i>
+                                </div>
+                                <div class="aq-slider-arrowblock aq-rightside-arrowblock" ng-class="{'aq-active' : __rightArrowHover}" ng-click="options.methods.toggleRightDiff()" ng-mouseenter="__rightArrowHover = true" ng-mouseleave="__rightArrowHover = false" ng-if="!(options.mergelyDiffOptions.switches.isRHSdiffCollapsed || options.mergelyDiffOptions.switches.hideCollapseHandlers)">
+                                    <i  ng-class="{'qai-xs-chevron-right-large-active' : __rightArrowHover, 'qai-xs-chevron-right-large':  !__rightArrowHover }"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+           </div>
+           <div class="aqs-display-flex aq-flex-grow aqs-full-width aq-column aq-summary-details" ng-if="options.summaryOptions.showSummarySection">
+                <div class="aqs-display-flex aqs-full-width aqi--margin-top-25 aqi--margin-left-25">
+                    <div class="aqs-display-flex aqi--margin-left-15 aqi--margin-right-15">
+                        <div class="aqs-display-flex aq-flex-grow aq-column" style="background-color: #7a869a1c; width: 350px;" >
+                            <div class="qas-title aqi--margin-bottom-25 aqi--margin-top-25 aqi--margin-left-25 aqi--margin-right-25">Update Project Branch</div>
+                            <div class="aqs-display-flex aq-column aqi--margin-bottom-25 aqi--margin-left-25 aqi--margin-right-25 aqi--margin-top-15">
+                                 <div class="qas-group-header aqi--margin-bottom-5">SOURCE PROJECT</div>
+                                 <div class="qas-title-regular"> {{options.titleOptions.rhsEntityName}} </div>
+                                 <div class="aqi--margin-top-10 aqi--margin-bottom-25">
+                                     <div class="aqs-project-badge">
+                                         <div class="aqs-display-flex aq-valign-center ">
+                                             <i class="qai-xs-branch aq-no-shrink"></i> 
+                                             <div  class="aqi--margin-left-5">{{options.summaryOptions.summaryDetails.getBranchPath(options.summaryOptions.summaryDetails.projDetails.srcProj)}} </div>                                
+                                         </div>
+                                     </div>
+                                 </div>
+                            </div>
+                            <div class="aqs-display-flex aq-column aqi--margin-bottom-25 aqi--margin-left-25 aqi--margin-right-25">
+                                 <div class="qas-group-header aqi--margin-bottom-5"> TARGET PROJECT</div>
+                                 <div class="qas-title-regular">{{options.titleOptions.lhsEntityName}}</div>
+                                 <div class="aqi--margin-top-10">
+                                     <div class="aqs-project-badge">
+                                         <div class="aqs-display-flex aq-valign-center ">
+                                             <i class="qai-xs-branch aq-no-shrink"></i> 
+                                             <div class="aqi--margin-left-5">{{options.summaryOptions.summaryDetails.getBranchPath(options.summaryOptions.summaryDetails.projDetails.destProj)}} </div>                                
+                                         </div>
+                                     </div>
+                                 </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="aqs-display-flex aq-column aqi--margin-bottom-25">
+                        <div data-ng-include="'app/configuration/templates/content/conf-branching-summary.html'" style="width: 800px;"></div>
+                        <div class="aqs-display-flex aq-halign-spacebetween aqi--margin-top-25 aqi--margin-left-25">
+                            <button class="aqs-display-flex aq-valign-center qas-btn-tertiary aqs-cursor-pointer qas-link-text" ng-click="options.summaryOptions.switchToDiffSection({}, $event)">
+                                <i class="aqi-xs-chevron-left aqi--margin-right-5"></i>
+                                Back To Module Review
+                            </button>
+                            <div class="aqs-display-flex aq-halign-right">
+                                <button class="qas-btn-secondary aqi--margin-right-10" ng-class="{'qa-disabled': options.summaryOptions.showSpinner}"  ng-click="options.closeModal()()">Discard</button>
+                                <button class="qas-btn-primary aqi--margin-right-25" ng-class="{'qa-loading': options.summaryOptions.showSpinner}" ng-click="options.summaryOptions.saveHandler()">Finish & Merge</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+           </div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqDiffModalMenuPopOver" class="ng-scope">
+    <div class="aqs-popover aqs-branch-diff-popover">
+        <div class="aq-section" ng-repeat="section in options.menuItems">
+            <div class="aq-sectionitem aqs-display-flex aq-valign-center aqs-display-flex aq-halign-spacebetween" ng-repeat="item in section.items" ng-click="options.clickOnMenuItem(item, $event)" ng-show="item.showHandler? item.showHandler(): true">
+                <div class="aqs-display-flex">
+                    <i ng-class="item.iconClass" ng-if="item.iconClass && section.showIconHandler(item)"></i> <span ng-class="{'aqi--margin-left-20' : item.iconClass && !section.showIconHandler(item), 'aqi--margin-left-5': item.iconClass && section.showIconHandler(item)}">{{item.nameHandler ? item.nameHandler() : item.name}}</span>
+                </div>
+                <div class="" ng-if="section.showRightSubtext">
+                    {{item.getRightSubtext()}}
+                </div>
+            </div>            
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqChangeImpactModalTmpl" class="ng-scope">
+    <form aq-form aq-form-validate>
+        <div class="qas-section-message aqs-display-flex" ng-class="{'qa-error': options.isError, 'qa-warning': !options.isError}">
+            <div class="aqi--margin-right-10 aq-no-shrink" ng-class="{'qai-24-section-message-error': options.isError, 'qai-24-section-message-warning': !options.isError}"></div>
+            <div class="aqi--align-down-3">{{options.parentMessage}} </div>
+        </div>
+        <div class="qas-form-field aqi--margin-bottom-25" ng-repeat="entitySec in options.entitySectionList">
+            <div class="aqi--margin-bottom-10 aqs-display-flex">
+                <div class="aqi--margin-right-5 aqi--align-down-3" ng-if="options.entitySectionList.length > 1"><i ng-class="{'qai-xs-chevron-down': !entitySec.isHideSectionEntites, 'qai-xs-chevron-right-large': entitySec.isHideSectionEntites}" ng-click="entitySec.isHideSectionEntites = !entitySec.isHideSectionEntites"></i></div>
+                <div class="aqi--margin-left-5 qas-title-regular">{{entitySec.message}}</div>
+            </div>
+            <div ng-hide="entitySec.isHideSectionEntites" class="aqi--margin-left-25 aqi--margin-bottom-25">
+                <div class="aqi--margin-left-5 aqi--margin-right-5 aqi--margin-bottom-5" ng-repeat="item in entitySec.items">
+                    <div class="aqi--margin-left-5">{{item[options.uniqueName]}}</div>
+                </div>                    
+            </div>
+        </div>
+    </form>
+</script>
+<script type="text/ng-template" id="aqMergeProjInfoTmpl" class="ng-scope">
+    <form aq-form aq-form-validate no-focus="!options.defaultSelect">
+        <div class="qas-form-group aqs-merge-proj-info-modal">           
+            <div ng-show="options.vars.isInfoModal">     
+                <div class="aqs-display-flex aqs-full-width qas-form-field aq-halign-spacebetween">
+                    <div class="aq-field-width">
+                        <label class="qa-label">Source Project</label>                    
+                        <div class="">{{options.vars.sourceProj.projectDisplayName}}</div>                        
+                    </div>
+                    <div class="aq-field-width">                
+                        <label class="qa-label">Target Project</label>                        
+                        <div class="" >{{options.vars.targetProj.projectDisplayName}}</div>                        
+                    </div>
+                </div>
+                <div class="aqs-display-flex aqs-full-width qas-form-field aq-halign-spacebetween">
+                    <div class="aq-field-width">
+                        <label class="qa-label">Branch Path</label>
+                        <div class="aqs-display-flex">
+                            <div class="aqs-project-badge aqs-display-flex aq-valign-center">
+                                <div class="aq-no-shrink qai-xs-branch"></div>
+                                <div class="aqi--margin-left-5"> 
+                                    {{options.methods.getBranchPath(options.vars.sourceProj) ? options.methods.getBranchPath(options.vars.sourceProj) + ' / ': '' }} 
+                                    <span class="aqs-bold-text"> {{options.vars.sourceProj.projectDisplayName}} </span>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="aq-field-width">                
+                        <label class="qa-label">Branch Path</label>
+                        <div class="aqs-display-flex ">
+                            <div class="aqs-project-badge aqs-display-flex aq-valign-center">
+                                <div class="aq-no-shrink qai-xs-branch"></div>
+                                <div class="aqi--margin-left-5"> 
+                                    {{options.methods.getBranchPath(options.vars.targetProj) ? options.methods.getBranchPath(options.vars.targetProj) + ' / ': '' }} 
+                                    <span class="aqs-bold-text"> {{options.vars.targetProj.projectDisplayName}} </span>
+                                </div>
+                            </div>       
+                        </div>
+                    </div>
+                </div>
+                <div class="aqs-display-flex aqs-full-width qas-form-field aq-halign-spacebetween">
+                    <div class="aq-field-width">
+                        <label class="qa-label">Created</label>
+                        <div class=""> {{options.vars.sourceProj ? options.methods.getFormatedDate(options.vars.sourceProj.createdTimestamp) : '-'}}</div>
+                    </div>
+                    <div class="aq-field-width">                
+                        <label class="qa-label">Created</label>
+                        <div class=""> {{options.vars.targetProj ? options.methods.getFormatedDate(options.vars.targetProj.createdTimestamp) : '-'}}</div>
+                    </div>
+                </div>
+            </div>
+            <div ng-show="!options.vars.isInfoModal">
+                <div class="qas-form-field qa-wide">
+                    <div class="aqs-display-flex aq-column">
+                        <div class="aqi--margin-bottom-10">
+                            <span class="qas-section-header"> Target Project </span>
+                            <span qa-help-popover on="hover" class="qai-xs-help-icon-for-popover aqi--align-down js-qa-popover" header="" body="Project which is updated as part of this merge process ({{options.vars.targetProj.projectDisplayName}})" is-html="false" prefered-position="right-bottom"></span>
+                        </div>
+                        <div class="aqs-display-flex">
+                            <div class="aqs-display-flex aqi--margin-top-5">
+                                <div class="aqs-display-flex aqi--margin-bottom-20">
+                                    <div class="aqs-project-badge aqs-display-flex aq-valign-center">
+                                        <div class="aq-no-shrink qai-xs-branch"></div>
+                                        <div class="aqi--margin-left-5"> 
+                                            <span>
+                                                <span ng-if="options.methods.getBranchPath(options.vars.targetProj)">{{options.methods.getBranchPath(options.vars.targetProj) + ' / '}} </span>
+                                                <span class="aqs-bold-text"> {{options.vars.targetProj.projectDisplayName}}</span>
+                                            </span>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>                                                                                 
+                    </div>
+                </div>
+                <div class="qa-seperator"></div>
+                <div class="qas-form-field">
+                    <div class="aqi--margin-bottom-10">
+                        <span class="qas-section-header"> Source Project </span>
+                        <span qa-help-popover on="hover" class="qai-xs-help-icon-for-popover aqi--align-down js-qa-popover" header="" body="Project from which the changes are pulled/reviewed" is-html="false" prefered-position="right-bottom"></span>                                                                      
+                    </div>                   
+                </div>
+                <div class="qas-form-field qa-wide">
+                    <div class="qas-form-field " style="margin-bottom: 10px;">
+                        <div qa-drop-down is-required="true" items="options.projectList" subtext-icon="subtextIcon" subtext-property="subtext" disable-section-collapse="true" text-property="projectDisplayName" group-uid-property="groupIndex" is-group-by="true" uid-property="pid" selected-item="options.vars.sourceProj"  placeholder="Select Project" disabled="options.switches.isDisableSourceProjDropdown">                        
+                    </div>
+                    <div class="aqs-display-flex aqi--margin-bottom-20 aqi--margin-top-12">                        
+                        <div class="aqs-project-badge aqs-display-flex aq-valign-center" ng-if="options.vars.sourceProj">
+                            <div class="aq-no-shrink qai-xs-branch"></div>
+                            <div class="aqi--margin-left-5"> 
+                                <span ng-if="options.methods.getBranchPath(options.vars.sourceProj)">
+                                   {{options.methods.getBranchPath(options.vars.sourceProj) + ' / '}} 
+                                    <span class="aqs-bold-text"> {{options.vars.sourceProj.projectDisplayName}}</span>
+                                </span>
+                               <span ng-if="!options.methods.getBranchPath(options.vars.sourceProj)" class="aqs-font-style-italic qas-help-text"> Root Project</span>
+                            </div>
+                        </div>         
+                    </div>
+                </div>
+                <div class="qas-form-field qa-required ">
+                    <label class="qa-label"> Reason for Project update </label>
+                    <div aq-text-area is-required="true" rows="4" value="options.vars.mergeReason"></div>
+                </div>
+            </div>
+        </div>        
+    </form>
+</script>
+<script type="text/ng-template" id="aqMergeAnalyzeTmpl" class="ng-scope">
+    <form aq-form aq-form-validate>
+        <div class="qas-form-group aqs-merge-analyze-modal aqs-display-flex aq-valign-center aq-halign-center">
+            <div ng-if="options.switches.isAnalyzing">
+                <div class="aqi--margin-top-5 aqs-loading  qas-title qa-large aqi--margin-bottom-25 aqs-display-flex aq-valign-center aq-halign-center">
+                    Analyzing changes in the Source and Target projects 
+                    <div class="aqi--margin-left-10 aqs-loading">
+                        <div class="aq-loading-dot aq-loading-dot-gap-2 aq-loading-dot-6"></div>
+                        <div class="aq-loading-dot aq-loading-dot-gap-2 aq-loading-dot-6"></div>
+                        <div class="aq-loading-dot aq-loading-dot-6"></div>
+                    </div>
+                </div>
+            </div>
+            <div ng-if="options.switches.isIdentical && !options.switches.isAnalyzing">
+                <div class="aqi--margin-top-15 aqi--margin-bottom-25 aqs-align-center">
+                    <img src='../../assets/images/noupdates.svg'/>
+                    <div class="aqi--margin-top-10 aqi--margin-bottom-10 aqs-align-center qas-title" style="font-size: 20px;">No updates </div>
+                    <div class="qas-secondary-text">Source and Target Projects are in synch. No updates to pull.</div>
+                </div>
+            </div>
+            <div ng-if="!options.switches.isIdentical && !options.switches.isAnalyzing">
+                <div class="qas-paragraph">
+                    In the next few screens, Merge Wizard guides you through the step-by-step process to review the changes in the Source project and accept/reject them into the Target project.
+                </div>
+            </div>
+        </div>
+    </form>
+</script>
+<script type="text/ng-template" id="aqProjUpdateHistory" class="ng-scope">
+    <form aq-form aq-form-validate>
+        <div class="qas-form-group aqs-proj-update-history-modal">    
+        <div class="qas-form-field" ng-class="{ 'aq-seperator' : $index > 0 }" ng-repeat="projInfo in options.historyInfo" ng-if="!options.emptyState">
+            <div class="aqi--margin-bottom-25">
+                <div class="aqs-display-flex aq-column">
+                    <!-- <div class="qas-group-header aqi--margin-bottom-5"> Pull Changes from Related Project </div> -->
+                    <div class="aqs-display-flex aq-halign-spacebetween">
+                        <div class="qas-form-label aq-session-header">
+                            {{projInfo.inProgress ? 'Merge initiated by' : 'Merged by'}}
+                        </div>
+                        <div ng-if="projInfo.inProgress"  class="aq-session-header aq-inprogress-badge aqs-display-flex aq-valign-centers">
+                            IN PROGRESS
+                        </div>
+                    </div>
+                    <div class="aqs-display-flex aq-valign-center aqi--margin-top-4"> 
+                        <img ng-if="options.profilePictures[projInfo.userPid]" class="aq-userprofile" ng-src="{{options.profilePictures[projInfo.userPid]}}">
+                        <div ng-if="!options.profilePictures[projInfo.userPid] && options.getUserShortName(projInfo.userPid)" class="aq-userprofile">{{options.getUserShortName(projInfo.userPid)}}</div>
+                        <div ng-if="!options.profilePictures[projInfo.userPid] && !options.getUserShortName(projInfo.userPid)" class="aq-userprofile">
+                            <i class="qai-md-user"></i>
+                        </div>
+                        <span class="qas-paragraph aqi--margin-left-10"> {{options.getUserFullName(projInfo.userPid)}} </span>
+                        <span class="qas-help-text qa-small aqi--margin-left-10">{{options.getPrettyDate(projInfo.completedTimestamp)}}
+                    </div>
+                    <div class="aqi--margin-top-25 qas-form-label aq-session-header">
+                        Source Project Path
+                    </div>
+                    <div ng-init="projectPath_ = options.getBranchPath(projInfo.srcPjPid)" class="aqs-display-flex">
+                        <div class="aqs-display-flex aq-valign-center">
+                            <div class="aq-no-shrink qai-xs-branch"></div>
+                            <div class="aqi--margin-left-5"> 
+                                {{projectPath_ ? projectPath_ + ' / ': '' }} 
+                                <span class="qas-title qa-regular qa-light"> {{options.getProjectName(projInfo.srcPjPid)}} </span>                        
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="aqi--margin-top-25 qas-form-label aq-session-header">
+                        Reason for Merge
+                    </div>
+                    <div class="qas-title qa-regular qa-light">{{projInfo.mergeReason}}</div>               
+                </div>
+            </div>        
+        </div>
+        <div ng-if="options.emptyState" class="aqs-display-flex aq-column aqi--margin-top-15 aqi--margin-bottom-25 aq-valign-center aq-halign-center">
+            <img src='../../assets/images/git-branch.svg'/>
+            <div class="aqi--margin-top-10 aqi--margin-bottom-10 qas-title" style="font-size: 20px;">No updates to this Project</div>
+            <div class="qas-secondary-text">Project <span class="aqs-bold-text">{{options.projectName}} </span> has never been updated from other branches</div>
+        </div>
+    </div>
+    </form>
+</script>
+<script type="text/ng-template" id="aqSavedMergeSessionInfoTmpl" class="ng-scope">
+    <div class="qas-saved-merge-modal">
+        <div class="qas-title qa-regular qa-semibold">You have already initiated another merge session for this Project. You can either resume the existing session or start over with a new merge session.</div>
+        <div class="aqi--margin-top-24">
+            <div class="qas-group-header qa-letter-spacing-dot1 qa-text-transform-none">Source Project Path</div>
+            <div class="aqs-display-flex aqi--margin-top-4 aq-valign-center">
+                <div class="aq-no-shrink qai-xs-branch"></div>
+                <div class="qas-paragraph aqs-overflow-ellipsis" qa-tooltip-title="{{options.savedSessionInfo.sourceProjPath}}" show-on-truncation="true">{{options.savedSessionInfo.sourceProjPath}}</div>
+            </div>
+            <div class="qas-help-text qa-small qa-closertex">{{options.savedSessionInfo.initiatedAt}}</div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqMergeConflictModalTmpl" class="ng-scope">
+    <div class="qas-merge-conflict-modal">
+        <div class="qas-title qa-regular qa-semibold">Another merge session for this Project is currently in progress. You are not allowed to start another session until it is completed.</div>
+        <div>
+            <div class="aqi--margin-top-24"></div>
+            <div class="qas-group-header qa-letter-spacing-dot1 qa-text-transform-none aqi--margin-top-24">Merge initiated by</div>
+            <div class="aqs-display-flex aq-valign-center aqi--margin-top-4">
+                <img ng-if="options.conflictInfo.mergeSessionOwnerProfilePic" class="qa-userprofile" ng-src="{{options.conflictInfo.mergeSessionOwnerProfilePic}}">
+                <div ng-if="!options.conflictInfo.mergeSessionOwnerProfilePic" class="qa-userprofile qa-shortname"><div>{{options.conflictInfo.mergeSessionOwnerShortName}}</div></div>
+                <div class="qas-paragraph aqi--margin-left-8">{{options.conflictInfo.initiatedBy}}</div>
+                <div class="qas-help-text qa-small qa-closertext aqi--margin-left-8 aqi--align-down-1">{{options.conflictInfo.initiatedAt}}</div>
+            </div>
+            <div class="aqi--margin-top-24">
+                <div class="qas-group-header qa-letter-spacing-dot1 qa-text-transform-none">Source Project Path</div>
+                <div class="aqs-display-flex aqi--margin-top-4 aq-valign-center">
+                    <div class="aq-no-shrink qai-xs-branch"></div>
+                    <div class="qas-paragraph aqs-overflow-ellipsis"  qa-tooltip-title="{{options.conflictInfo.sourceProjPath}}" show-on-truncation="true">{{options.conflictInfo.sourceProjPath}}</div>
+                </div>
+            </div>
+            <div class="aqi--margin-top-24">
+                <div class="qas-group-header qa-letter-spacing-dot1 qa-text-transform-none">Reason for Merge</div>
+                <div class="qas-paragraph">{{options.conflictInfo.reasonForMerge}}</div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqCloseOptionsTmpl" class="ng-scope">
+    <div class="aqs-popover aqs-no-padding qas-closebtn-menu">
+        <div ng-repeat="item in options.closeOptions" ng-click="item.clickHandler($event)" class="aqs-display-flex aq-valign-center qa-menu-items-list qa-closebtn-menuitem" >
+            <div class="{{item.iconClass}}"></div>
+            <div class="aqi--margin-left-16">{{item.title}}</span>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqScnCompStep" class="ng-scope">
+    <li class="move-step comp-step relevant qa-editor-step js-qa-editor-step" tabindex="-1">
+        <div class="qas-skeleton-render js-qa-skeleton-spinner qa-editor-step-skeleton-spinner">
+            <div class="aqs-display-flex aqs-full-width">
+                <div class="qa-skeleton-item aq-halign-left aq-flex-grow  aqs-display-flex aq-column aqi--margin-bottom-20">
+                    <div class="qa-skeleton-header qa-skeleton-shine">&nbsp;</div>
+                    <div class="qa-skeleton-subheader qa-skeleton-shine">&nbsp;</div>
+                </div>
+                <div class="aq-halign-right aq-flex-grow aqs-display-flex">
+                    <div class="qa-skeleton-header qa-skeleton-shine">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <div class="js-step-content">
+            <div class="qa-step-gutter"></div>
+            <div class="js-editor-step-rowBoxOuter aqs-display-flex">
+                <div class="js-editor-step-rowBoxInner aqs-display-flex aqs-full-width">
+                    <div class="aqs-display-flex qa-editor-step-drag-wrapper js-wf-step-drag-wrapper">
+                        <div class="qa-step-dragicon-wrapper"><div class="qa-step-dragicon js-wf-step-drag-icon-wrapper aqi-sm-drag-default aqi--align-down-3 aqi--margin-right-10"></div></div>
+                        <div class="aqi--margin-right-5 qas-step-number js-wf-step-display-index"></div>
+                    </div>
+                    <div class="aqs-display-flex aqs-full-width">
+                        <div class="aqs-display-flex aq-column aqi--margin-left-5 aqs-position-relative aq-flex-grow">
+                            <div class="aqs-display-flex">
+                                <div class="aq-flex-grow qa-editor-step-compname-wrapper js-wf-step-comp-name-wrapper">
+                                    <div class="aqs-display-flex aq-valign-center">
+                                        <div style="width: 23px; height: 23px" class="aqs-cursor-pointer aqi--align-down-3 js-wf-step-alert aqi-md-exclamation-circle-error"></div>
+                                        <span style="vertical-align: text-bottom;max-width: 50%;" class="aqs-overflow-ellipsis qa-scn-name qas-button-text js-wf-step-comp-name"></span>
+                                        <div class="aqs-display-flex">
+                                            <div class="qas-live-logo qa-border aqi--margin-left-4 aqi--margin-right-5 aq-align-self-center js-wf-live-tag hide">
+                                                Live
+                                            </div>
+                                        </div>
+                                        <div class="aqi--margin-left-4 aqs-no-border js-wf-init-tag qas-lib-badge hide" title="Init Action">INIT</div>
+                                        <div class="aqs-category-badge aq-blue aqi--margin-left-4 js-wf-step-badge hide" style="align-self: center;">CHKD OUT</div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="aqs-display-flex aqs-full-width aq-halign-right" data-name="{{stepOriginIdentifier}}">
+                                        <div class="aqs-display-flex qas-help-text">
+                                            <div class="aqi--margin-right-5 aqs-overflow-ellipsis qa-step-righttext js-wf-step-ctx-name hide"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="aqs-display-flex aq-valign-center aqi--margin-top-10 aq-flex-wrap js-step-param-block js-wf-step-input-param-block" style="display: none !important;"></div>
+                            <div class="aqs-display-flex aq-valign-center aqi--margin-top-10 js-step-param-block aq-flex-wrap js-wf-step-output-param-block" style="display: none !important;">
+                                <span class="qa-step-badge qa-output">OUT</span>
+                            </div>
+                        </div>
+                        <div class="qa-step-menu-icon-wrapper aqi--align-up-6"><button class="qa-step-menu-icon js-qa-step-menu-icon qas-btn-secondary aqi--align-down-4 js-wf-step-menu"><i class="js-qa-context-menu-icon-ellipsis aqi-md-ellipsis-default qas-rotate-x90"></i></button></div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </li>
+</script>
+<script type="text/ng-template" id="aqScnErrorStep" class="ng-scope">
+    <li class="error-step qa-editor-step qa-error js-qa-editor-error-step">
+        <div class="qas-skeleton-render js-qa-skeleton-spinner qa-editor-step-skeleton-spinner">
+            <div class="aqs-display-flex aqs-full-width">
+                <div class="qa-skeleton-item aq-halign-left aq-flex-grow  aqs-display-flex aq-column aqi--margin-bottom-20">
+                    <div class="qa-skeleton-header qa-skeleton-shine">&nbsp;</div>
+                    <div class="qa-skeleton-subheader qa-skeleton-shine">&nbsp;</div>
+                </div>
+                <div class="aq-halign-right aq-flex-grow aqs-display-flex">
+                    <div class="qa-skeleton-header qa-skeleton-shine">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <div class="js-step-content">
+            <div class="qa-step-gutter qa-error-step-pre-gutter js-error-step-pre-gutter"></div>
+            <div class="qa-step-gutter qa-error-step-post-gutter"></div>
+            <div class="aqs-display-flex">
+                <div class="aqs-display-flex aq-valign-center">
+                    <div class="qa-step-dragicon-wrapper aq-disabled"><div class="qa-step-dragicon aqi-sm-drag-default aqi--align-down-3 aqi--margin-right-10"></div></div>
+                    <div class="qai-md-alert-warning aqs-no-margin" style="left: -2px;"></div>
+                </div>
+                <div class="aqs-display-flex aqs-full-width qa-editor-step-body">
+                    <div class="aqs-display-flex aq-flex-grow">
+                        <!-- <div class="qas-title qa-regular">Missing Step</div> -->
+                        <div class="qas-title-regular qa-light aqi--margin-bottom-5">
+                            <!-- Step #{{stepNumber}} not aligned as per previous Action's destination Context  -->
+                            <div class="js-wf-step-err-message-init hide">
+                                <span class="aqs-bold-text aqi--margin-right-4">Init Step: </span> Initialization step missing to arrive at
+                                <span class="qas-title-regular js-wf-step-err-src"></span>
+                            </div>
+                            <div class="js-wf-step-err-message hide">
+                                <span class="aqs-bold-text aqi--margin-right-4">Missing Step: </span>Review the step below and check if the business process flow is consistent.
+                            </div>
+                        </div>
+                        <div class="aqs-link qas-tag-text js-wf-step-err-learn-more aqi--margin-left-10">Learn more</div>
+                    </div>
+                    <div class="js-wf-step-err-message-insert-step hide"> 
+                        <div class="aqs-display-flex aq-valign-center aq-flex-grow aq-halign-right qa-step-insert-wrapper">
+                            <div class="qa-step-insert-icon qas-tag-text">+</div>
+                            <div class="aqs-link qas-tag-text js-wf-step-err-insert">Insert Step</div>
+                        </div>
+                    </div>
+                    <div class="js-wf-step-err-message-resolve">
+                        <div class="aqs-display-flex aq-valign-center aq-flex-grow aq-halign-right aqs-cursor-pointer js-link-text">
+                            <div class="qas-link-text"> Resolve now </div>
+                            <div class="qai-xs-down-arrow aqi--align-down-1 aqi--margin-left-2"></div>
+                        </div>
+                    </div>
+                    <div class="qa-dd-btn-spinner hide js-btn-spinner aq-halign-right">
+                        <div class="aqs-loading aqs-no-margin">
+                            <div class="aq-loading-dot aq-loading-dot-6 aq-loading-dot-gap-2"></div>
+                            <div class="aq-loading-dot aq-loading-dot-6 aq-loading-dot-gap-2"></div>
+                            <div class="aq-loading-dot aq-loading-dot-6"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</script>
+<script type="text/ng-template" id="scnStepActionAlertPopoverTmpl" class="ng-scope">
+    <div>
+        <div class="aqs-para-body-text-bold" style="margin: 5px 0 5px 0;" ng-repeat="alertPid in compAlerts">{{getCompAlertMsg(alertPid)}}</div>
+        <div class="aqs-display-flex">
+            <div class="aqi-md-goto-active"></div>
+            <span ng-click="navigateToAction()" class="qas-link-text aqi--margin-left-5 aqs-cursor-pointer">Navigate</span>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqMergeJobCreationSuccessModal" class="ng-scope">
+    <div class="aqs-align-center aqs-display-flex aq-column aq-valign-center">
+        <div class="qai-md-cross-default aqs-position-absolute aqs-cursor-pointer" style="right: 20px;top: 20px" ng-click="options.closeModal()"></div>
+        <div class="aqs-display-flex aq-valign-center aq-halign-center qa-sand-clock">
+            <div class="qa-hourglass" ng-if="options.switches.doFetchDetails">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
+            <div class="qa-tick-success-28" ng-if="options.switches.isMergeSuccess"></div>
+            <div class="qas-warning-alert_28" ng-if="options.switches.isMergeFailed"></div>
+        </div>
+        <div class="" ng-if="options.switches.doFetchDetails">
+            <div class="qas-title aqi--margin-top-16">Project Merge in Progress</div>
+            <div class="qas-help-text qa-closertext qa-small aqi--margin-top-4"> This might take a few minutes to complete</div>
+            <div class="aqi--margin-top-10 qas-paragraph">You can close this window, and we'll let you know by email when it's done!</div>
+        </div>
+        <div class="" ng-if="options.switches.isMergeSuccess">
+            <div class="qas-title aqi--margin-top-16">Project Merge completed successfully. </div>
+        </div>
+        <div class="" ng-if="options.switches.isMergeFailed">
+            <div class="qas-title aqi--margin-top-16">Project Merge Failed </div>
+            <div class="aqi--margin-top-10 qas-paragraph aqs-overflow-ellipsis" style="width: 450px;" >{{options.vars.errorMessage}}</div>
+            <div class="qas-link-text aqi--margin-top-25  aqs-cursor-pointer" ng-click="options.showErrorDetails()"> Show More </div>
+        </div>
+    </div>
+    <div class="aqs-display-flex aq-valign-center aq-halign-center aqi--margin-top-32 aqi--margin-bottom-16">
+        <button class="qas-btn-primary aqs-display-flex aq-halign-center aqi--margin-right-20" style="width: 160px" ng-click="options.notifyMeHandler()" ng-show="options.switches.doFetchDetails">Close and Notify Me</button>
+        <div class="aqs-display-flex aq-valign-center aq-halign-right">
+            <button class="qas-btn-primary aqs-display-flex aq-halign-center" style="width: 160px" ng-disabled="options.switches.doFetchDetails" ng-click="options.closeModal()">Done</button>
+        </div>
+    </div>
+    <!--<div class="aqs-display-flex">
+        <div class="aqi--margin-top-10 qas-paragraph" ng-show="options.showErrorDetails">{{options.vars.failureMessage}}</div>
+    </div>-->
+</script>
+<script type="text/ng-template" id="skeletonModalTmpl" class="ng-scope">
+    <div class="qas-skeleton-render" style="height: 174px;">
+        <div class="qa-skeleton-shine qa-skeleton-cmd-360"></div>
+        <div class="qa-skeleton-shine qa-skeleton-title aqi--margin-top-24"></div>
+        <div class="qa-skeleton-shine qa-skeleton-cmd aqi--margin-top-24"></div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqMergeErrorDetailsModalTmpl" class="ng-scope">
+    <div class="aqs-display-flex aq-halign-right aq-valign-center aqs-position-absolute" style="top: 25px; right: 25px">
+        <div qa-copy-to-clipboard position="left-middle" transparent-bg="true" copied-msg-title="Error Details" copied-msg-desc="Copied to Clipboard" class="aqs-cursor-pointer aqi--margin-right-20" on-click text="{{ options.errorAdditionalDetails }}"></div>
+        <div class="qai-xs-cross-default aqs-cursor-pointer" ng-click="options.closeHandler()"></div>
+    </div>
+    <div class="aqs-display-flex aq-column">
+        <div class="aqi--margin-top-10">{{options.errorMessage}}</div>
+        <div class="qas-paragraph aqi--margin-top-20">{{options.errorAdditionalDetails}}</div>
+    </div>
+</script>
+
+<script type="text/ng-template" id="aqAppVariantsMergeDiffTmpl" class="ng-scope">
+    <form aq-form aq-form-validate class="qas-app-variants-merge-diff-modal">
+        <div class="qas-section-message aqs-display-flex" ng-class="{'qa-error': options.isError, 'qa-warning': !options.isError}" ng-if="options.message">
+            <div class="aqi--margin-right-10 aq-no-shrink" ng-class="{'qai-24-section-message-error': options.isError, 'qai-24-section-message-warning': !options.isError}"></div>
+            <div class="aqi--align-down-2">{{options.message}}</div>
+        </div>
+        <div class="qas-paragraph aqi--margin-top-5 aqi--margin-bottom-30">
+            Review the following changes in the App Variant configuration from the Source Project and select which ones to apply to the Target Project.
+        </div>
+        <div class="aq-variants-block" ng-if="options.newVariantsOptions.variantsList.length>0">
+            <div class="aqs-display-flex aq-halign-spacebetween aqi--margin-bottom-20">
+                <div class="aqs-bold-text"> New Variants on the Source Project ({{options.newVariantsOptions.variantsList.length}})</div>
+                <div class="qas-form-label-small qa-italic""> {{options.newVariantsOptions.selectedCount}} of {{options.newVariantsOptions.variantsList.length}} selected</div>
+            </div>
+            <div class="qas-help-text qa-italic " ng-if="options.newVariantsOptions.isSimilarNameExist"> 
+                <span class="aqi--margin-right-2 aqs-bold-text"> Note: </span> Variants with the same name on the Target Project may still be listed as "New" if they were created independently or renamed on the Target Project.
+            </div>
+            <div class="qa-line-seperator aqi--margin-bottom-16 aqi--margin-top-16"></div>
+            <div class="aqs-display-flex aq-valign-center aqs-full-width aqi--margin-bottom-8">
+                <div class="qa-checkbox-column">
+                    <button type="button" class="qas-checkbox" ng-class="{ 'qa-checked': options.newVariantsOptions.isSelectAll || (options.newVariantsOptions.selectedCount > 0)}" ng-click="options.methods.onToggleSelectAllOption(options.newVariantsOptions)">
+                        <i class="qa-checkbox-tick qai-xs-tick qa-selected"  ng-show="options.newVariantsOptions.isSelectAll"></i>
+                        <div class="qa-checkbox-dash qa-small aqi--align-up-2" ng-hide="options.newVariantsOptions.isSelectAll || (options.newVariantsOptions.selectedCount == 0)">-</div>
+                    </button>
+                </div>
+                <div class="qa-variant-column qas-group-header"> VARIANT NAME </div>
+                <div class="qa-impact-column qas-group-header"> IMPACT </div>
+            </div>   
+            <div class="aqs-display-flex aq-column" ng-repeat="newVariant in options.newVariantsOptions.variantsList">
+                <div class="qa-line-seperator aqi--margin-bottom-8"></div>
+                <div class="aqs-display-flex aqi--margin-bottom-8 aq-valign-center aqs-full-width">
+                    <div class="qa-checkbox-column">
+                        <button type="button" class="qas-checkbox" ng-class="{'qa-checked': newVariant.acceptSrcEntity}" ng-click="options.methods.onUpdateVariantSelection(newVariant, options.newVariantsOptions)">
+                            <i class="qa-checkbox-tick qai-xs-tick qa-selected"></i>
+                        </button>
+                    </div>
+                    <div class="qa-variant-column"> {{newVariant.entityName}} </div>
+                    <div class="qa-impact-column qas-disabled-text aqs-flex-grow aqs-display-flex aq-column">
+                        <div class="aqs-display-flex aq-valign-center">
+                            <div  ng-class="{'qai-xs-tick-circle-green': newVariant.acceptSrcEntity, 'qai-xs-tick-disabled': !newVariant.acceptSrcEntity}" class="aqi--margin-right-4"></div>
+                            <div class="qas-help-text qa-italic" ng-class="{'qas-disabled-text': !newVariant.acceptSrcEntity}"> App Variant will be added </div>
+                        </div>
+                        <div class="qas-help-text qa-italic aqi--margin-top-4" ng-if="newVariant.acceptSrcEntity">
+                            Global property data will be copied from source project automatically
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aq-variants-block" ng-if="options.deletedVariantsOptions.variantsList.length>0">
+            <div class="aqs-display-flex aq-halign-spacebetween aqi--margin-bottom-20">
+                <div class="aqs-bold-text"> Deleted Variants on the Source Project ({{options.deletedVariantsOptions.variantsList.length}})</div>
+                <div class="qas-form-label-small qa-italic""> {{options.deletedVariantsOptions.selectedCount}} of {{options.deletedVariantsOptions.variantsList.length}} selected</div>
+            </div>
+            <div class="aqs-display-flex aq-valign-center aqs-full-width aqi--margin-bottom-8">
+                <div class="qa-checkbox-column">
+                    <button type="button" class="qas-checkbox" ng-class="{ 'qa-checked': options.deletedVariantsOptions.isSelectAll || (options.deletedVariantsOptions.selectedCount > 0)}" ng-click="options.methods.onToggleSelectAllOption(options.deletedVariantsOptions)">
+                        <i class="qa-checkbox-tick qai-xs-tick qa-selected"  ng-show="options.deletedVariantsOptions.isSelectAll"></i>
+                        <div class="qa-checkbox-dash qa-small aqi--align-up-2" ng-hide="options.deletedVariantsOptions.isSelectAll || (options.deletedVariantsOptions.selectedCount == 0)">-</div>
+                    </button>
+                </div>
+                <div class="qa-variant-column qas-group-header"> VARIANT NAME </div>
+                <div class="qa-impact-column  qas-group-header"> IMPACT </div>
+            </div>
+            <div class="aqs-display-flex aq-column" ng-repeat="deletedVariant in options.deletedVariantsOptions.variantsList">
+                <div class="qa-line-seperator aqi--margin-bottom-8"></div>
+                <div class="aqi--margin-bottom-8 aqs-display-flex aq-valign-center aqs-full-width">
+                    <div class="qa-checkbox-column">
+                        <button type="button" class="qas-checkbox" ng-class="{ 'qa-checked': deletedVariant.acceptSrcEntity}" ng-click="options.methods.onUpdateVariantSelection(deletedVariant, options.deletedVariantsOptions)">
+                            <i class="qa-checkbox-tick qai-xs-tick qa-selected"></i>
+                        </button>
+                    </div>
+                    <div class="qa-variant-column"> {{deletedVariant.entityName}} </div>
+                    <div class="qa-impact-column aqs-display-flex aq-valign-center"> 
+                        <div class="aqi--margin-right-4" ng-class="{'qai-xs-cross-disabled': !deletedVariant.acceptSrcEntity, 'qai-xs-cross-circle-red': deletedVariant.acceptSrcEntity}"></div>
+                       <div class="qas-help-text qa-italic" ng-class="{'qas-disabled-text': !deletedVariant.acceptSrcEntity}"> App Variant will be removed  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aq-variants-block qa-rename-block" ng-if="options.renamedVariantsOptions.variantsList.length>0">
+            <div class="aqs-display-flex aq-halign-spacebetween aqi--margin-bottom-20">
+                <div class="aqs-bold-text"> Renamed Variants ({{options.renamedVariantsOptions.variantsList.length}})</div>
+                <div class="qas-form-label-small qa-italic""> {{options.renamedVariantsOptions.selectedCount}} of {{options.renamedVariantsOptions.variantsList.length}} selected</div>
+            </div>
+            <div class="aqs-display-flex aq-valign-center aqs-full-width aqi--margin-bottom-8">
+                <div class="qa-checkbox-column">
+                    <button type="button" class="qas-checkbox" ng-class="{ 'qa-checked': options.renamedVariantsOptions.isSelectAll || (options.renamedVariantsOptions.selectedCount > 0)}" ng-click="options.methods.onToggleSelectAllOption(options.renamedVariantsOptions)">
+                        <i class="qa-checkbox-tick qai-xs-tick qa-selected"  ng-show="options.renamedVariantsOptions.isSelectAll"></i>
+                        <div class="qa-checkbox-dash qa-small aqi--align-up-2" ng-hide="options.renamedVariantsOptions.isSelectAll || (options.renamedVariantsOptions.selectedCount == 0)">-</div>
+                    </button>
+                </div>
+                <div class="qa-variant-column qas-group-header"> NAME CHANGE </div>
+                <div class="qa-impact-column  qas-group-header"> IMPACT </div>
+            </div>
+            <div class="aqs-display-flex aq-column" ng-repeat="renamedVariant in options.renamedVariantsOptions.variantsList">
+                <div class="qa-line-seperator aqi--margin-bottom-8"></div>
+                <div class=" aqs-display-flex aq-valign-center aqs-full-width aqi--margin-bottom-8">
+                    <div class="qa-checkbox-column">
+                        <button type="button" class="qas-checkbox" ng-class="{ 'qa-checked': renamedVariant.acceptSrcEntity}" ng-click="options.methods.onUpdateVariantSelection(renamedVariant, options.renamedVariantsOptions)">
+                            <i class="qa-checkbox-tick qai-xs-tick qa-selected"></i>
+                        </button>
+                    </div>
+                    <div class="qa-variant-column aqs-display-flex aq-valign-center">
+                        <div class="qa-variant-mini-column aq-no-shrink aqs-overflow-ellipsis"> {{renamedVariant.variantNameInDestProj}} </div>
+                        <div class="aqi--margin-left-8 aqs-display-flex aq-valign-center">
+                            <div class="aqi--margin-right-12 qai-xs-arrow-right aqi--align-down-1 aq-no-shrink"></div>
+                            <div class="qa-variant-mini-column aqs-overflow-ellipsis" > {{renamedVariant.entityName}} </div>
+                        </div>
+                    </div>
+                    <div class="qa-impact-column aqs-display-flex aq-valign-center"> 
+                        <div class="aqi--margin-right-4" ng-class="{'qai-xs-tick-disabled': !renamedVariant.acceptSrcEntity, 'qai-xs-tick-circle-blue': renamedVariant.acceptSrcEntity}"></div>
+                        <div class="qas-help-text qa-italic" ng-class="{'qas-disabled-text': !renamedVariant.acceptSrcEntity}"> App Variant will be renamed  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</script>
+<script type="text/ng-template" id="aqAppVariantsSelectionTmpl" class="ng-scope">
+    <form aq-form aq-form-validate class="qas-app-variants-selection-modal">
+        <div class="qas-paragraph aqi--margin-top-10 aqi--margin-bottom-20">
+            <span ng-show="options.isFullSync"> 
+                You have <span class="aqs-bold-text"> selected all {{options.totalCount}} pending changes </span> to sync with the Source Project.
+            </span>
+            <span ng-show="!options.isFullSync">
+                <span ng-show="options.ignoredCount == options.totalCount"> All <span class="aqs-bold-text">{{options.totalCount}} pending changes </span> will be <span class="aqs-bold-text">ignored.</span></span>
+                <span ng-show="options.ignoredCount!= options.totalCount">You have <span class="aqs-bold-text"> {{options.ignoredCount}} pending changes </span> from the Source Project that you have not selected. These items will be ignored:</span>
+            </span>
+        </div>
+        <div class="aqs-display-flex aq-column" ng-show="options.isFullSync">
+            <span class="aqi--margin-bottom-4"> You are about to apply the following [{{options.totalCount}}] changes: </span>
+            <div class="aqi--margin-left-20">
+                <li class="aqi--margin-bottom-4" ng-show="options.displayCountInfo.added > 0 "> <span class="aqs-bold-text"> Add </span> : [{{options.displayCountInfo.added}}] variants </li>
+                <li class="aqi--margin-bottom-4" ng-show="options.displayCountInfo.deleted > 0 "> <span class="aqs-bold-text"> Remove </span> : [{{options.displayCountInfo.deleted}}] variants </li>
+                <li class="aqi--margin-bottom-4" ng-show="options.displayCountInfo.renamed > 0 "> <span class="aqs-bold-text"> Rename </span> : [{{options.displayCountInfo.renamed}}] variants </li>
+            </div>
+        </div>
+        <div class="aqs-display-flex aq-column" ng-show="!options.isFullSync">
+            <div class="aqi--margin-left-20">
+                <li class="aqi--margin-bottom-4" ng-show="options.displayCountInfo.added > 0 "> {{options.displayCountInfo.added}} New variant will <span class="aqs-para-body-text-bold">not</span> be added</li>
+                <li class="aqi--margin-bottom-4" ng-show="options.displayCountInfo.deleted > 0 "> {{options.displayCountInfo.deleted}} Deleted variant will <span class="aqs-para-body-text-bold">not</span> be removed</li>
+                <li class="aqi--margin-bottom-4" ng-show="options.displayCountInfo.renamed > 0 "> {{options.displayCountInfo.renamed}} Renamed variant will <span class="aqs-para-body-text-bold">not</span> be updated</li>
+            </div>
+        </div>
+    </form>
+</script>
+
+<script type="text/ng-template" id="aqAppVariantDiffErrorTmpl" class="ng-scope">
+    <form aq-form aq-form-validate >
+        <div class="qas-paragraph aqi--margin-top-10 aqi--margin-bottom-20 aqs-display-flex aq-column">
+            <div ng-show="options.noAppVariantReferences"> Your selections would leave the target project with <span class="aqs-bold-text"> 0 App Variants </span>. A project must always have at least one variant. </div>
+            <div ng-show="options.exceedingMaxAppVariantReferences > 0">Your selections would result in <span class="aqs-bold-text"> {{options.exceedingMaxAppVariantReferences}} App Variants </span> on the target project. A project cannot have more than 50 App Variants. </div>
+        </div>
+        <div class="aqs-display-flex aqi--margin-top-20 aqi--margin-bottom-20">
+            How to Fix: 
+        </div>     
+        <div class="qas-paragraph aqi--margin-top-20 aqs-display-flex aq-column">
+            <div class="aqs-display-flex aq-column aqi--margin-bottom-10" ng-show="options.noAppVariantReferences">
+                <div> You must ensure at least one variant remains. </div>
+                <div class="aqi--margin-top-10 aqi--margin-left-16">
+                    <li class="aqi--margin-bottom-4"> Select a <span class="aqs-bold-text"> New Variant </span> to add (or) </li>
+                    <li> Uncheck a <span class="aqs-bold-text"> Deleted Variant </span> to keep it </li>
+                </div>
+            </div>
+            <div class="aqs-display-flex aq-column" ng-show="options.exceedingMaxAppVariantReferences > 0">
+                <div> You must reduce the total number of variants to 50 or less. </div>
+                <div class="aqi--margin-top-10 aqi--margin-left-16">
+                    <li class="aqi--margin-bottom-4"> Uncheck a <span class="aqs-bold-text"> New Variant </span> to avoid adding it (or) </li>
+                    <li> Select a <span class="aqs-bold-text"> Deleted Variant </span> to remove it</li>
+                </div>
+            </div>
+        </div>
+    </form>
+</script>
+
+<script type="text/ng-template" id="aqAppVariantRenameConflictTmpl" class="ng-scope">
+    <form aq-form aq-form-validate class="qas-app-variant-rename-conflict-modal">
+        <div class="qas-paragraph aqi--margin-top-10 aqi--margin-bottom-20 aqs-display-flex aq-column">
+            <div> A name conflict was detected with an existing variant on your target project. </div>
+             <div class="aqi--margin-top-4"> To prevent duplicates, the system will automatically adjust the names.</div>
+        </div>
+        <div class="aqs-display-flex aq-column" ng-if="options.newVariantOptions.variantsList.length>0">
+            <div class="aqs-bold-text aqi--margin-bottom-10"> For New Variants:  </div>
+            <div class="aqs-display-flex aq-valign-center aqi--margin-bottom-8 qas-paragraph aq-flex-wrap" ng-repeat="conflictVariant in options.newVariantOptions.variantsList">
+                The new variant <span class="qa-name-tag"> {{conflictVariant.srcEntityName}} </span> will be added as <span class="qa-name-tag"> {{conflictVariant.newName}} </span>                
+            </div>
+        </div>
+        <div class="aqs-display-flex aq-column" ng-if="options.renamedVariantOptions.variantsList.length>0">
+            <div class="aqs-bold-text aqi--margin-top-16 aqi--margin-bottom-10"> For Renamed Variants:  </div>
+            <div class="aqs-display-flex aq-valign-center aqi--margin-bottom-8 qas-paragraph aq-flex-wrap" ng-repeat="renamedVariant in options.renamedVariantOptions.variantsList">
+                <span class="qa-name-tag">{{renamedVariant.destEntityName}} </span> (being renamed to <span class="qa-name-tag"> {{renamedVariant.srcEntityName}} </span> ) will be applied as <span class="qa-name-tag"> {{renamedVariant.newName}} </span>             
+            </div>
+        </div>     
+        <div class="qas-paragraph aqi--margin-top-20 aqs-display-flex aq-column">
+            <div> All other selected changes will be applied as normal. </div>
+            <div class="aqi--margin-top-4"> Do you want to proceed with these automatic adjustments? </div>
+        </div>
+    </form>
+</script></div>
+<!-- ngInclude: 'app/common/templates/aq-user-onboarding-template.html' --><div data-ng-include="'app/common/templates/aq-user-onboarding-template.html'" class="ng-scope"><script type="text/ng-template" id="aqOnboardInitialTmpl" class="ng-scope">
+    <div class="qas-user-onboarding-modal qas-user-onboarding-modal-1000">
+        <!-- <div class="qa-modal-header" ng-if="options.vars.currentStage >= options.enums.USER_ONBOARDING_STAGE.AQ_ABOUT_CTX">
+            <div class="qa-modalheader-left">
+            </div>
+            <div class="qa-modalheader-right aqs-display-flex aq-align-center">
+                <button class="qa-closeicon aqs-display-flex" ng-click="options.close()">
+                    <i class="qai-md-cross"></i>
+                </button>
+            </div>
+        </div> -->
+        <div class="qa-onboarding-wizard aqs-display-flex aq-valign-center aqs-full-height" ng-if="options.vars.currentStage === options.enums.USER_ONBOARDING_STAGE.AQ_OVERVIEW">
+            <div class="qa-illustration">
+                <div class="qas-spinner qa-medium qa-img-loading"></div>
+                <div class="qa-illustration-thumb"></div>
+            </div>
+            <div class="qa-wizard-contents aqs-full-height">
+                <div class="qa-welcome-text aqs-display-flex aq-column aq-halign-spacebetween aqs-full-height">
+                    <div>
+                        <div class="aqs-display-flex aq-halign-right">
+                            <i class="qai-md-cross qa-close-btn aqs-cursor-pointer" ng-click="options.methods.setStage(options.enums.USER_ONBOARDING_STAGE.AQ_DO_LATER)"></i>
+                        </div>
+                        <div class="qas-title qa-contents-header">
+                            <span class="qas-heading">Hi,</span>&nbsp;<span class="qas-subtitle qa-semibold qa-username">{{ options.vars.userFname }}!</span>
+                        </div>
+                        <div class="qas-paragraph qa-content aqi--margin-top-32-important">
+                            <p >
+                                We’re thrilled to have you on board with ACCELQ, the top choice for Continuous Testing and Automation.
+                            </p>
+                            <p class="aqi--margin-top-20">
+                                ACCELQ's design-first approach in a codeless paradigm is unique, and helps you build a robust and adaptable test automation from the get-go.
+                            </p>
+                            <p class="aqi--margin-top-20">
+                                Let’s get started and guide you through your first automation test experience with ACCELQ!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="qa-contents-footer aqs-display-flex aq-halign-right">
+                        <div class="qas-btn-group">
+                            <button class="qas-btn-primary qa-announcement-btn" ng-click="options.methods.setStage(options.enums.USER_ONBOARDING_STAGE.AQ_ABOUT_CTX)">
+                                <span class="qas-btn-text">Let&#039;s get started</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qa-onboarding-wizard aqs-display-flex aq-valign-center aqs-full-height" ng-if="options.vars.currentStage == options.enums.USER_ONBOARDING_STAGE.AQ_ABOUT_CTX">
+            <div class="qa-illustration">
+                <div class="qas-spinner qa-medium qa-img-loading"></div>
+                <div class="qa-scn-illustration"></div>
+            </div>
+            <div class="qa-wizard-contents aqs-full-height">
+                <div class="qa-welcome-text aqs-display-flex aq-column aq-halign-spacebetween aqs-full-height">
+                    <div>
+                        <div class="aqs-display-flex aq-halign-right">
+                            <i class="qai-md-cross qa-close-btn aqs-cursor-pointer" ng-click="options.close()"></i>
+                        </div>
+                        <div class="qas-senario-info">
+                            <div class="qas-title qa-contents-header">
+                                <span class="qas-subtitle qa-semibold qa-username">What is a Scenario</span>
+                            </div>
+                            <div class="qas-paragraph qa-content aqi--margin-top-10">
+                                <p >
+                                    Scenario is a business process that you are automating in ACCELQ.
+                                </p>
+                            </div>
+                            <div class="aqi--margin-top-40">
+                                <div class="aqs-display-flex aq-valign-center">
+                                    <div class="qas-blue-box aqi--margin-right-8"></div>
+                                    <div class="qas-section-header">Scenario has Steps</div>
+                                </div>
+                                <div class="qas-title qa-large qa-light aqi--margin-top-16">A Scenario, such as “Verify Funds Transfer on QBank”, is composed of a series of <span class='qas-explicit-bold'>Steps</span>.</div>
+                            </div>
+                            <div class="aqi--margin-top-40">
+                                <div class="aqs-display-flex aq-valign-center">
+                                    <div class="qas-blue-box aqi--margin-right-8"></div>
+                                    <div class="qas-section-header">Step is an Action</div>
+                                </div>
+                                <div class="qas-title qa-large qa-light aqi--margin-top-16">Each Step is an <span class='qas-explicit-bold'>Action</span>, a modular block of statements that perform a specific task, such as "Login to QBank".</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qa-contents-footer aqs-display-flex aq-halign-right">
+                        <div class="qas-btn-group">
+                            <button class="qas-btn-primary qa-announcement-btn" ng-click="options.methods.setStage(options.enums.USER_ONBOARDING_STAGE.AQ_ABOUT_SCN)">
+                                <span class="qas-btn-text">Show me an example</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qa-onboarding-wizard aqs-display-flex aq-valign-center aqs-full-height" ng-if="options.vars.currentStage == options.enums.USER_ONBOARDING_STAGE.AQ_ABOUT_SCN">
+            <div class="qa-illustration">
+                <div class="qas-spinner qa-medium qa-img-loading"></div>
+                <div class="qa-scenario-example"></div>
+            </div>
+            <div class="qa-wizard-contents aqs-full-height">
+                <div class="qa-scn-example aqs-display-flex aq-column aq-halign-spacebetween aqs-full-height">
+                    <div>
+                        <div class="aqs-display-flex aq-halign-right">
+                            <i class="qai-md-cross qa-close-btn aqs-cursor-pointer" ng-click="options.close()"></i>
+                        </div>
+                        <div class="qa-scenario-example-step2">
+                    </div>
+                    </div>
+                    <div class="qa-contents-footer aqs-display-flex aq-halign-right">
+                        <div class="qas-btn-group">
+                            <button class="qas-btn-primary qa-announcement-btn" ng-click="options.methods.initVideoPlayer();">
+                                <div class="aqs-display-flex aq-valign-center">
+                                    <div class="qai-md-play-blue aqi--margin-right-8"></div>
+                                    <div class="qas-btn-text">Watch now: Amazing Way to Automate!</div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqOnboardCreateScnTmpl" class="ng-scope">
+    <div class="qas-user-onboarding-modal">
+        <div class="qa-onboarding-wizard">
+            <div class="qa-wizard-contents aqs-no-padding">
+                <div class="qas-section-header">
+                    Identify a usecase / a scenario that you would like to automate
+                </div>
+                <div class="aqi--margin-top-5">
+                    <i>
+                        For example: <span class='qas-explicit-bold'>Verify Funds Transfer</span> scenario on QBank logs into the bank and verifies funds transfer functionality
+                    </i>
+                </div>
+                <div class="qas-form-field qa-wide">
+                    <label class="qas-form-label">
+                        Provide a meaningful name to your Scenario
+                    </label>
+                    <input class="qas-input" type="text" placeholder="Scenario name" ng-model="options.vars.newScenario.scnName"  ng-class="{'qa-error': options.switches.isScnNameError}" ng-keyup="options.methods.validateScnName($event)" />
+                    <div id="qa-scn-create-errormsg" class="qas-form-errormsg">
+                        {{options.vars.scnNameErrMsg}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqOnboardCompleteTmpl" class="ng-scope">
+    <div class="qas-user-onboarding-modal qas-modal-generic">
+        <div class="qa-modal-contents">
+            <div class="qa-onboarding-wizard aqs-display-flex">
+                <div>
+                    <img src="../../assets/images/onboarding/great-job.svg" />
+                </div>
+                <div class="qa-wizard-contents aqs-no-padding aqs-display-flex aq-flex-wrap aq-valign-bottom">
+                    <div class="aq-flex-grow">
+                        <div class="qas-section-header aqi--margin-bottom-15">
+                            Great Job!
+                        </div>
+                        <div class="qas-paragraph">
+                            You {{options.vars.confirmationStr}} to the Universe. {{options.vars.contextCount + options.vars.actionCount > 1 ? "These" : "This" }} <span class='qas-explicit-bold'>reusable building block{{options.vars.contextCount + options.vars.actionCount > 1 ? "s" : "" }}</span> will be used across multiple Scenarios you will write.
+                        </div>
+                    </div>
+                    <div class="qa-contents-footer aqs-no-padding-bottom aq-flex-grow">
+                        <div class="qas-btn-group aqs-align-right">
+                            <button class="qas-btn-primary" ng-click="options.close()">
+                                Got it!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqBeforeCaptureHelpModal" class="ng-scope">
+    <div class="qas-modal-generic qas-before-capture-help-modal">
+        <div class="qa-modal-header aqs-no-padding-bottom">
+            <div class="qa-modalheader-left"></div>
+            <div class="qa-modalheader-right">
+                <button class="qa-closeicon" ng-click="options.close()">
+                    <i class="qai-md-cross"></i>
+                </button>
+            </div>
+        </div>
+        <div class="qa-modal-contents">
+            <div class="aqs-display-flex">
+                <div class="qa-thumb-container aqi--margin-right-20">
+                    <img class="qa-thumb" src="../../assets/images/onboarding/chrome-web-store.svg"/>
+                </div>
+                <div class="qa-description">
+                    <div class="qas-section-header aqi--margin-bottom-15">
+                        Record Views
+                    </div>
+                    <div class="qas-paragraph">
+                        <p>
+                            You will now be navigated to the application page in a new tab. ACCELQ Recorder plugin will open as soon as the application page is loaded.
+                        </p>
+                    </div>
+                    <div class="qas-quick-tip aqi--margin-top-20">
+                        <span class="qa-icon qai-md-info-circle-default aqi--align-down-1"></span>
+                        Remember to capture all the Views for the pages relevant for this Scenario
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qa-modal-footer">
+            <div class="qa-modalfooter-left">
+            </div>
+            <div class="qa-modalfooter-right qas-btn-group qa-reverse">
+                <button class="qas-btn-primary" ng-click="options.methods.invokeUserOnboardingViewCapture()">
+                    Record Views
+                </button>
+                <button class="qas-btn-secondary" ng-click="options.methods.cancelUserOnboarding()">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+</script>
+</div></login-page>
+</div><!-- end ngIf: !vm.isLoggedIn && vm.isValidationSessionDone -->
+<!-- ngIf: vm.isLoggedIn && vm.isValidationSessionDone --></template-loader></div>
+</div></app-root><!-- ngInclude: 'app/runner/templates/aq-awb-and-runner-modals.html' --><div data-ng-include="'app/runner/templates/aq-awb-and-runner-modals.html'" class="ng-scope"><script type="text/ng-template" id="aqReLoginDialogTmpl" class="ng-scope">
+    <div aq-login-form options="options.formOptions"></div>
+</script>
+
+<script type="text/ng-template" id="aqTestcaseAnnotationDialogTmpl" class="ng-scope">
+    <div class="aqs-modal-skytheme aqs-defects-list-dialog">
+        <div class="aq-header aqs-display-flex aq-halign-spacebetween">
+            <div class="">
+                <div class="aq-header-text">NOTE</div>
+            </div>
+            <div class="">
+                <div class="aqi-md-cross" ng-click="options.close();"></div>
+            </div>
+        </div>
+        <div class="aq-contents aqs-stepbox-textarea js-textarea">
+            <div class="aq-stepbox-textarea" ng-click="options.focusTextArea()">
+                <textarea class="js-desc-textarea" rows="4" ng-paste="options.onTextAreaPaste($event)" placeholder="Type your observation" ng-model="options.testcase.tcJson.annotation"></textarea>
+                <div class="aq-textarea-badge aq-clickable" ng-click="options.openAttachment(attachment)" ng-repeat="attachment in options.testcase.tcJson.attachments">
+                    <div class="aqi-lg-{{attachment.fileExtension}}-default aqi-lg-{{attachment.fileExtension}}-alt-default aq-file-icon"></div>
+                    <div class="aq-textareabadge-text aqs-overflow-ellipsis" title="{{ attachment.fileName }}">{{ attachment.fileName }}</div>
+                    <div class="aq-textareabadge-subtext">({{ options.getPrettyFileSize(attachment.fileSize) }})</div>
+                    <div class="aq-textareabadge-icon aqi-sm-xs-cross" ng-click="$event.stopPropagation(); options.deleteAttachment(attachment)"></div>
+                </div>
+                <div ng-show="options.attachmentInProgress">
+                    <div class="aq-textarea-badge" ng-repeat="attach in options.attachmentInProgress">
+                        <div class="aqi-lg-{{attach.fileExtension}}-default aq-file-icon"></div>
+                        <div class="aq-textareabadge-text aqs-overflow-ellipsis" title="{{ attach.fileName }}">{{ attach.fileName }}</div>
+                        <div class="aqi--margin-left-10">
+                            <div class="aqs-loading">
+                                <div class="aq-loading-dot aq-loading-dot-4"></div>
+                                <div class="aq-loading-dot aq-loading-dot-4"></div>
+                                <div class="aq-loading-dot aq-loading-dot-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aq-stepbox-errormsg js-textarea-errormsg"></div>
+            <div class="aq-stepbox-footer">
+                <span class="aq-stepbox-attachbtn">
+                    <input type="file" class="aq-attachbtn-input" accept="{{options.supportedFiles}}" multiple="true" onclick="value = null" onchange="angular.element(this).scope().options.onFileInputChange(this)" />
+                    <i class="aqi-md-attach-pin-default aq-attachbtn-icon"></i>
+                </span>
+                <!-- <span class="aqs-display-inlineflex aqs-link">
+                    <i class="aqi-sm-bug-default aqi--margin-right-5 aqi--align-down-1"></i>
+                    <span>Associate Defect</span>
+                </span> -->
+            </div>
+        </div>
+        <div class="aq-footer aqs-display-flex aq-halign-right">
+            <!-- <div class="aqs-button-default" ng-click="options.close()">Cancel</div>
+            <div class="aqs-button-primary aqi--margin-left-10" ng-click="options.save()">Ok</div> -->
+        </div>
+    </div>
+</script>
+
+<script type="text/ng-template" id="aqLinkIssuesDialogTmpl" class="ng-scope">
+    <div class="aqs-modal-new  aqs-bug-creation-modal"  ng-if="!options.switches.showSuccessMsg">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-12 aqs-no-padding">
+                     <div class="aq-header col-md-12">
+                        <div class="col-md-12 aqs-no-padding aqs-display-flex aq-halign-spacebetween">
+                           <div>
+                              <div class="aqs-para-body-text-bold aq-header-name">
+                                 {{options.title}}
+                              </div>
+                           </div>
+                           <div>
+                              <div class="aqi-md-cross aqi--align-down-1" ng-click="options.close()"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <form class="aqForm col-md-12 row aq-no-margin aq-form  aq-form-validate js-link-issues-form">
+                     <div ng-show="options.errorMessage" class="aq-globalerror">{{options.errorMessage}}</div>
+                     <!--<div class="aq-contents col-md-12 aqs-no-padding-bottom" ng-if="!options.isTFS">
+                         <div class="aq-content-label">Link Type</div>
+                         <div class="aq-content-value">
+                            <div aq-input-text label="Link Type" name="linkType" value="options.linkType" required></div>
+                         </div>
+                     </div>-->
+                     <div class="aq-contents js-contents col-md-12">                        
+                           <div class="aq-content-label">Search for {{options.isTFS? "TFS": "Jira"}} ID </div>
+                           <div class="col-md-12 aq-content aqs-no-padding">
+                                <div aq-loading-dots ng-show="options.showJiraKeySpinner" dot-count="3" dot-size="4" actuator-selector=".aqi-md-search.aq-jirakeysearch"></div>
+                                <div aq-input-text label="Issue Key" class="aq-jirakeyinput" value="options.jiraIssueKey" ng-keyup="$event.which == 13 &&options.findJiraIssueByKey(); __showHitEnter = $event.which != 13 " name="jiraIssueKey" placeholder="" autocomplete="off"></div>
+                                <div class="aq-jirakeybadge" ng-init="__showHitEnter = true" ng-show="options.jiraIssueKey && __showHitEnter">hit <i>Enter</i></div>
+                                <div class="aqi-md-search aq-jirakeysearch" ng-click="options.findJiraIssueByKey(); __showHitEnter = false"></div>                        
+                           </div>
+                        <div class="col-md-12 aqs-no-padding aqi--margin-top-10 aqi--margin-left-5" ng-if="options.selectedJiraBug">
+                            <div class="col-md-12 aqs-no-padding aqi--margin-top-10">
+                                <div class="col-md-3 aqs-no-padding aqs-para-body-text-bold">{{options.selectedJiraBug.key}}</div>
+                                <div class="col-md-9 aqs-no-padding">{{options.selectedJiraBug.title}}</div>
+                            </div>
+                            <div class="col-md-12 aqs-no-padding aqi--margin-top-10">
+                                <div class="col-md-3 aqs-no-padding aqs-para-body-text-bold">Status</div>
+                                <div class="col-md-9 aqs-no-padding">{{options.selectedJiraBug.status}}</div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="aq-footer col-md-12">
+                        <div class="aqs-no-padding aqs-align-right">
+                           <div class="aqs-button-default-medium aqi--margin-right-10" ng-click="options.close();">Cancel</div>
+                           <div class="aqs-button-primary-medium" ng-class="{'disabled': !options.selectedJiraBug}" ng-click="options.addNewLink(options.selectedJiraBug)">Add</div>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>   
+</script>
+
+<script type="text/ng-template" id="aqWarnDialogforRunSubmissionTmpl" class="ng-scope">
+    <div class="aqs-warn-dialog-for-manual-scn-runs aqs-modal-new">
+        <div class="aqi-sm-cross pull-right" ng-click="options.close()"></div> 
+        <div class="aq-title aqi--margin-bottom-10 aqs-display-flex">
+            <i class="aqi-md-exclamation-circle-error aqi--margin-right-5"></i>
+            <span> WARNING </span>
+        </div>
+        <div class="aq-globalerror col-md-12" ng-show="options.vars.globalErrorText">{{options.vars.globalErrorText}}</div>
+        <div class="col-md-12 aqi--margin-bottom-15 aqi--margin-top-10">
+                <div> {{options.vars.notRunCount}} {{options.vars.notRunCount ==1 ? 'testcase is' : 'test cases are'}}  in <span class="aqs-para-body-text-bold"> Not Run </span> status. Once the Run is marked as <span class="aqs-para-body-text-bold">Complete</span>, you cannot update the run anymore.</div>
+                
+        </div>
+        <div class="col-md-12 aqs-section-header aqi--margin-bottom-10 ">
+                Choose one of the options 
+        </div>
+        <div class="aq-content col-md-12  aqi--margin-bottom-10">
+                <div class="aq-content-value">
+                    <div class="col-md-12">
+                    <div class="js-radio-btn-group radio-btn-group aqi--margin-bottom-10" ng-click="options.vars.selectedOption = options.enums.MARK_RUN_WITH_UPDATE_OF_STATUS;options.vars.globalErrorText = ''" >
+                        <div class="radio-button" ng-class="{'selected': options.vars.selectedOption == options.enums.MARK_RUN_WITH_UPDATE_OF_STATUS }" ></div>
+                        <div class="radio-btn-label">Set a fixed status for all <span class="aqs-para-body-text-bold">Not Run</span> test cases, and submit</div>
+                    </div>
+                </div>
+                    <div class="col-md-12 aqi--margin-bottom-15 aqi--margin-left-15" ng-show="options.vars.selectedOption == options.enums.MARK_RUN_WITH_UPDATE_OF_STATUS">
+                        <div class="qas-form-field qa-half-medium qa-no-margin">
+                            <div qa-drop-down search="true" items="options.collections.statuses" text-property="text" is-required="true"
+                            selected-item="options.vars.selectedStatusObj" on-select="options.methods.onStatusSelectionChange(e)" uid-property="value"></div>
+                        </div>
+                    </div> 
+
+                    <div class="col-md-12">
+                    <div class="js-radio-btn-group radio-btn-group aqi--margin-bottom-10" ng-click="options.vars.selectedOption = options.enums.MARK_AS_COMPLETE;options.vars.globalErrorText = ''" >
+                        <div class="radio-button" ng-class="{'selected': options.vars.selectedOption == options.enums.MARK_AS_COMPLETE}" ></div>
+                        <div class="radio-btn-label">Go ahead and mark as <span class="aqs-para-body-text-bold">Complete</span></div>
+                     </div> 
+                    </div>
+                     <div class="col-md-12 ">                   
+                    <div class="js-radio-btn-group radio-btn-group aqi--margin-bottom-10" ng-click="options.vars.selectedOption = options.enums.MARK_AS_RESUME;options.vars.globalErrorText = ''">
+                            <div class="radio-button" ng-class="{'selected': options.vars.selectedOption == options.enums.MARK_AS_RESUME }" ></div>
+                            <div class="radio-btn-label">Resume test run</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <div class="aq-footer aqs-align-right">
+            <div class="aqs-button-default-medium" ng-click="options.close()">Cancel</div>
+            <div class="aqs-button-primary-medium aqi--margin-left-5"  ng-click="options.methods.save()" ng-class="{ 'aq-disabled' : !options.vars.selectedOption }">Proceed</div>
+        </div>
+    </div>
+</script>
+
+<script type="text/ng-template" id="aqViewAttachedImageDialogTmpl" class="ng-scope">
+    <div class="aqs-view-attachment-dialog">
+        <div class="aq-title aqi--margin-bottom-10  aq-header-section  aqs-display-flex aq-valign-center ">
+            <div class="aq-entity-header"> 
+                <div ng-if="options.isNameEditActive">
+
+                    <!-- <div class="aq-input-text-field" id="inputfield" aq-input-text field-type="text" value="options.fileNameCopy" maxlength="256"  ng-keyup="options.onEditFileNameKeyup($event)" ng-blur="options.onFocusOutInputField($event)" ></div> -->
+
+                    <form aq-form aq-form-validate ng-submit="options.onEditFileNameSave()" ng-keyup="options.onEditFileNameKeyup($event)">
+                        <div aq-entity-name="" regex-pattern-type="exclude" class="aq-form-control" type="text" value="options.fileNameCopy" ng-init="options.onEditFileNameInputInit()"></div>
+                        <div class="aqs-para-placeholder-text-small aqs-align-right" style="color: white">hit Enter</div>
+                    </form>            
+
+                </div>
+                <div ng-show="!options.isNameEditActive" class="aq-name-block aqs-cursor-pointer aqs-display-flex aq-valign-center " ng-click="options.isNameEditActive = true;"> 
+                    <div class="aqs-overflow-ellipsis" title="{{options.fileName}}"> 
+                        {{options.fileName}} 
+                    </div>
+                    <div class="aqi-md-pencil-default aq-edit-icon aqi--margin-left-5" title="Edit"></div>
+                </div>
+            </div>
+            <div ng-click="options.close()">
+                <i class="aqi-lg-cross-light-default aqs-cursor-pointer "></i>
+            </div>                
+        </div>
+        <img class="aq-image" ng-show="options.isImageLoaded && options.imgSrc" ng-src="{{ options.imgSrc }}">
+        <div class="" ng-if="options.isImageLoaded &&!options.imgSrc">
+            <img class="aq-image" src="/assets/images/image_not_found.svg">
+            <div class="aq-notfound-label">
+                Sorry! attachment not found
+            </div>
+        </div>
+        <div class="aqs-loading aq-loading" ng-hide="options.isImageLoaded">
+            <div class="aq-loading-dot"></div>
+            <div class="aq-loading-dot"></div>
+            <div class="aq-loading-dot"></div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="aqAttachmentNameDialogTmpl" class="ng-scope">
+    <div class="aqs-attachment-name-dialog">
+        <div class="aqs-section-header aqi--margin-bottom-10 ">
+                Attachment Name
+            <div class="aqi-sm-cross pull-right" ng-click="options.close()"></div>  
+        </div>
+        <div class="aqi--margin-bottom-15">
+            <form aq-form aq-form-validate ng-submit="options.save()">
+                <div aq-entity-name="" regex-pattern-type="exclude" class="aq-form-control" type="text" value="options.newAttachmentName"></div>
+                <div class="aqs-para-placeholder-text-small aqs-align-right aqi--margin-top-5">hit Enter</div>
+            </form>            
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="qaTraceabilityNoteTmpl" class="ng-scope">
+    <div>
+        <div class="qas-paragraph aqi--margin-bottom-5">Enter a note for the associated {{options.mode}}, to track this traceability in ACCELQ.{{options.systemName ? (" This note is not carried over to " + options.systemName) : ""}}</div>
+        <div 
+        aq-text-area 
+        max-length = "1024"
+        name="traceabilityNote"
+        is-required="false"
+        rows="5"
+        value="options.value"></div>
+    </div>
+</script>
+<script type="text/ng-template" id="qaDefectIntgSidebarTmpl" class="ng-scope">
+    <div ng-if="options.showEmptyState" style="padding: 0 25px;margin-top: 100px">
+        <qa-empty-state options="options.emptyState"></qa-empty-state>
+    </div>
+    <div ng-if="!options.showEmptyState" qa-external-integration class="aqs-full-height" options="options.createBugBindObj"></div>
+</script>
+<script type="text/ng-template" id="aqCustomSelectionSummaryTmpl" class="ng-scope">
+    <div style="min-height: 300px;">
+        <div class="qas-paragraph qa-regular aqi--margin-bottom-20">The following filters define this ad-hoc suite:</div>
+        <div class="aqi--margin-bottom-12" ng-repeat="scnFilter in options.adhocSelectionDisplayJson.displayFilterList track by $index">
+            <span class="aqi--margin-right-12">{{$index + 1}}.</span>
+            <span class="qas-help-text qa-dark">{{scnFilter[0]}}</span>
+            <span class="qas-help-text qa-italic">{{scnFilter[1]}}</span>
+            <span class="qas-help-text qa-grey">{{scnFilter[2]}}</span>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="qaTraceabilitySuccessTmpl" class="ng-scope">
+    <div class="">
+        <div style="width: 60px; height: 60px; margin: 0 auto">
+            <img src='../../assets/images/Success-Tick-Completed.svg'/>
+        </div>
+        <div class="aqi--margin-top-24 aqi--margin-bottom-12 qas-title aqs-align-center">
+            {{options.typeText}} {{!options.newBug ? 'Association Completed' : "Creation Completed"}}
+        </div>
+        <div class="aqi--margin-bottom-24 qas-title qa-light aqs-align-center">
+            {{options.typeText}} {{options.newBug ? 'created successfully!' : "associated with the test run"}}
+        </div>
+        <div style="overflow: scroll;max-height: 200px; min-width: 500px;padding: 0 24px;">
+            <div class="aqi--margin-bottom-12 aqs-display-flex aq-valign-center" ng-class="{'aq-halign-center': options.items.length === 1}" ng-repeat="item in options.items track by $index">
+                <a style="min-width: 60px;" class="qas-link aqi--margin-right-12" href="{{item.link}}" target="_blank">{{item.id}}</a>
+                <div ng-style="options.items.length !== 1 && {'max-width': '430px'}" class="qas-subtitle aqs-overflow-ellipsis" qa-tooltip-title="{{item.title}}">{{item.title}}</div>
+            </div>
+        </div>
+        <div class="aqi--margin-top-20 aqs-display-flex aq-halign-center">
+            <button class="qas-btn-secondary" ng-click="options.closePopup()">Close</button>
+        </div>
+    </div>
+</script></div><!-- ngInclude: 'app/common/templates/qa-modal-definition-template.html' --><div data-ng-include="'app/common/templates/qa-modal-definition-template.html'" class="ng-scope"><script type="text/ng-template" id="qaGenericModalDefTmpl" class="ng-scope">
+    <div class="qas-modal-generic" ng-class="{'qa-full-maxheight' : options.fullMaxHeight, 'qa-fullheight' : options.fullHeight, 'qa-no-bottompadding': options.hideBottomPadding, 'qa-no-toppadding': options.hideTopPadding, 'qa-fullheight-with-no-margin': options.isFullHeightWithoutMargin}">
+        <div class="qa-modal-header" ng-hide="options.hideHeader" ng-class="{'aqs-no-padding-bottom': options.hideHeaderBottomPadding, 'qa-line-header-separator': options.showHeaderSeparator}">
+            <div class="qa-modalheader-left" ng-class="{ 'qa-no-grow' : options.headerFreeSpaceOptions }">
+                <div ng-if="options.headerIconClass" class="qa-headerleft-iconwrapper">
+                    <i class="qa-headerleft-icon aqi--align-up-1 {{ options.headerIconClass }}"></i>
+                </div>
+                <div ng-if="options.headerCustomIcon" class="aqs-mincontent-height aqi--margin-right-12" ng-bind-html="options.headerCustomIcon"></div>
+                <div class="qa-headerleft-details">
+                    <div class="qa-headerleft-title">
+                        <span ng-if="options.headerBadge" class="qa-header-badge">{{options.headerBadge}}</span>
+                        <div ng-if="!options.isFn(options.title)" qa-force-tooltip="{{options.isForceTooltip}}" qa-tooltip-title="{{options.tooltipTitle ? options.tooltipTitle : options.title}}" class="aqs-overflow-ellipsis">
+                            {{ options.title }}
+                        </div>
+                        <div ng-if="options.isFn(options.title)" ng-init="_bindHtml = options.title()" class="aqs-overflow-ellipsis" ng-bind-html="_bindHtml"></div>
+                    </div>
+                    <div class="qa-headerleft-subtitle qas-placeholder-text aqs-overflow-ellipsis" ng-if="options.subtitle && !options.isFn(options.subtitle)" ng-class="{'qa-small': options.smallSubtitle}">
+                        {{ options.subtitle }}
+                    </div>
+                    <div class="qa-headerleft-subtitle aqs-overflow-ellipsis" 
+                    ng-if="options.subtitle && options.isFn(options.subtitle)"
+                    ng-init="_bindHtml = options.subtitle()"
+                    ng-bind-html="_bindHtml"></div>
+                </div>
+            </div>
+            <div class="qa-modalheader-freespace" ng-if="options.headerFreeSpaceOptions" aq-compile-template options="options.headerFreeSpaceOptions">
+                
+            </div>
+            <div class="qa-modalheader-right aqs-display-flex">
+                <button ng-click="options.toggleExpand()" qa-tooltip-title="{{options.isModalInExpandMode() ? 'Restore' : 'Full Screen'}}" ng-if="options.showExpandedIcon" class="aqs-cursor-pointer qas-btn-tertiary-mini aqi--margin-right-12 aqi--margin-bottom-22"><i ng-class="options.isModalInExpandMode() ? 'qai-xs-collapse-diagonal-default' : 'qai-xs-expand-diagonal-default'"></i></button>
+                <button class="qa-closeicon" ng-hide="options.hideCrossIcon" ng-click="options.close()">
+                    <i ng-class="options.closeIconClass"></i>
+                </button>
+            </div>
+        </div>
+        <div class="qa-modal-contents" ng-if="!options.showSpinner" ng-init="options.onContentInit()" ng-class="{'aqs-no-padding': options.disablePadding, 'aqs-overflow-visible':options.overflowVisible}">
+            {0}
+        </div>
+        <div class="qa-modal-contents" ng-class="{'qa-spinner-minheight' : options.minSpinnerHeight}" ng-if="options.showSpinner">
+            <div qa-spinner text="{{ options.spinnerText || 'Loading' }}"></div>
+        </div>
+        <div class="qa-modal-footer js-qa-modal-footer" ng-class="{'aqs-no-padding': !options.footerOptions, 'qa-align-center': options.footerOptions.alignCenter}" ng-hide="options.footerOptions.hideFooter">
+            <div class="qa-modalfooter-left">
+                <div class="qa-footerleft-hint" aq-compile-template options="options.footerOptions.hint" ng-if="options.footerOptions.hint && !options.showSpinner"></div>
+            </div>
+            <div class="qa-modalfooter-right qas-btn-group qa-reverse">
+                <button class="qas-btn-primary {{options.footerOptions.primary.className}}" ng-if="options.footerOptions.primary" ng-style="options.footerOptions.primary.customStyle || {}" ng-show="options.footerOptions.primary.showHandler ? options.footerOptions.primary.showHandler() : true" ng-click="(options.footerOptions.primary && options.footerOptions.primary.showSpinner) ? '' : options.footerOptions.primary.clickHandler($event)" ng-class="[(options.footerOptions.primary.disableHandler && options.footerOptions.primary.disableHandler()) || options.showSpinner || (options.footerOptions.primary && options.footerOptions.primary.showSpinner) || (options.footerOptions.secondary && options.footerOptions.secondary.showSpinner) || (options.footerOptions.tertiary && options.footerOptions.tertiary.showSpinner) ? 'qa-disabled-with-cursor' : '', (options.footerOptions.primary.type || ''), (!options.footerOptions.primary.type && options.modalType ? 'qa-' + options.modalType : ''), options.footerOptions.primary.showSpinner ? 'qa-loading' : '']" qa-tooltip-title="{{options.footerOptions.primary.disableHandler && options.footerOptions.primary.disableHandler() || options.showSpinner ? options.disabledBtnTooltip : options.footerOptions.primary.tooltipText ? options.footerOptions.primary.tooltipText() : '' }}"  ng-disabled="(options.footerOptions.primary.disableHandler && options.footerOptions.primary.disableHandler()) || options.showSpinner || (options.footerOptions.secondary && options.footerOptions.secondary.showSpinner) || (options.footerOptions.tertiary && options.footerOptions.tertiary.showSpinner)">
+                    {{ options.footerOptions.primary.displayTextHandler ?  options.footerOptions.primary.displayTextHandler() : options.footerOptions.primary.displayText }}
+                    <i ng-show="options.footerOptions.primary.iconRightClass" ng-class="options.footerOptions.primary.iconRightClass"></i>
+                </button>
+                <button class="qas-btn-secondary" ng-disabled="options.footerOptions.secondary.disableHandler() || options.showSpinner || (options.footerOptions.primary && options.footerOptions.primary.showSpinner) || (options.footerOptions.tertiary && options.footerOptions.tertiary.showSpinner)" ng-if="options.footerOptions.secondary" ng-show="options.footerOptions.secondary.showHandler ? options.footerOptions.secondary.showHandler() : true" ng-click="options.footerOptions.secondary.clickHandler($event)" ng-class="{ 'qas-disabled-click-custom-cursor': options.footerOptions.secondary.disableHandler() || options.showSpinner || (options.footerOptions.primary && options.footerOptions.primary.showSpinner) || (options.footerOptions.tertiary && options.footerOptions.tertiary.showSpinner), 'qa-loading' : options.footerOptions.secondary.showSpinner}" qa-tooltip-title="{{options.footerOptions.secondary.disableHandler && options.footerOptions.secondary.disableHandler() || options.showSpinner ? options.disabledSecondaryBtnTooltip : options.footerOptions.secondary.tooltipText ? options.footerOptions.secondary.tooltipText() : '' }}">
+                    {{ options.footerOptions.secondary.displayText }}
+                    <i ng-show="options.footerOptions.secondary.iconRightClass" ng-class="options.footerOptions.secondary.iconRightClass"></i>
+                </button>
+                <button class="qas-btn-tertiary" ng-if="options.footerOptions.tertiary" ng-show="options.footerOptions.tertiary.showHandler ? options.footerOptions.tertiary.showHandler() : true" ng-click="options.footerOptions.tertiary.clickHandler($event)" ng-class="{ 'qa-disabled': (options.footerOptions.tertiary.disableHandler && options.footerOptions.tertiary.disableHandler()) || options.showSpinner || (options.footerOptions.secondary && options.footerOptions.secondary.showSpinner) || (options.footerOptions.secondary && options.footerOptions.secondary.showSpinner) || (options.footerOptions.primary && options.footerOptions.primary.showSpinner), 'qa-loading' : options.footerOptions.tertiary.showSpinner}">{{ options.footerOptions.tertiary.displayText }}</button>
+                <div class="qa-footerleft-hint" aq-compile-template options="options.footerOptions.hint" ng-if="options.footerOptions.hint && options.footerOptions.hint.alignRight && !options.showSpinner"></div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/ng-template" id="qaTourModalDefTmpl" class="ng-scope">
+    <div class="qas-tour-popover">
+        <div class="qa-spike" ng-class="options.pointerOptions.positionClass" ></div>
+        <div class="qa-modal-header">
+            <div class="qa-modalheader-left">                
+                <div class="qa-headerleft-details" ng-if="options.title">
+                    <div class="qa-headerleft-title aqs-overflow-ellipsis">
+                        {{ options.title }}
+                    </div>                    
+                </div>               
+            </div>
+            <div class="qa-modalheader-right" ng-if="options.showCloseIcon">
+                <button class="qa-closeicon" ng-click="options.close()">
+                    <i class="qai-md-cross"></i>
+                </button>
+            </div>
+        </div>
+        <div class="qa-modal-contents">
+            {0}
+        </div>
+        <div class="qa-modal-footer" ng-hide="options.footerOptions.hideFooter">
+            <div class="qa-modalfooter-left">
+                <div class="qa-footerleft-tourdot" ng-repeat="a in options.range(7) track by $index" ng-class="{'qa-selected':$index == 2 }"></div>                
+            </div>
+            <div class="qa-modalfooter-right qas-btn-group qa-reverse">
+                <button class="qas-btn-primary" ng-if="options.footerOptions.primary" ng-click="options.footerOptions.primary.clickHandler($event)" ng-class="[ options.footerOptions.primary.disableHandler && options.footerOptions.primary.disableHandler() ? 'qa-disabled' : '', (options.footerOptions.primary.type || ''), (!options.footerOptions.primary.type && options.modalType ? 'qa-' + options.modalType : '')]">{{ options.footerOptions.primary.displayText }}</button>
+                <button class="qas-btn-secondary" ng-if="options.footerOptions.secondary" ng-click="options.footerOptions.secondary.clickHandler($event)" ng-class="{ 'qa-disabled': options.footerOptions.secondary.disableHandler()}">{{ options.footerOptions.secondary.displayText }}</button>
+                <button class="qas-btn-tertiary" ng-if="options.footerOptions.tertiary" ng-click="options.footerOptions.tertiary.clickHandler($event)" ng-class="{ 'qa-disabled': options.footerOptions.tertiary.disableHandler()}">{{ options.footerOptions.tertiary.displayText }}</button>
+            </div>
+        </div>
+    </div>
+
+</script>
+
+<script type="text/ng-template" id="qaDevArenaTmpl" class="ng-scope">
+    <div class="qas-dev-arena">
+        <div class="qas-modal-tabs aqi--margin-bottom-25" ng-init="options.activeTab = 'SMART_FOLDERS'">
+            <qa-tab selected="options.activeTab == 'BASE'" ng-click="options.activeTab = 'BASE'">
+                Base
+            </qa-tab>
+            <qa-tab selected="options.activeTab == 'PLAY'" ng-click="options.activeTab = 'PLAY'">
+                Play ground
+            </qa-tab>
+            <qa-tab selected="options.activeTab == 'SLICK_GRID'" ng-click="options.activeTab = 'SLICK_GRID'">
+                Slick Grid
+            </qa-tab>
+            <qa-tab selected="options.activeTab == 'GRID_COMP_UI'" ng-click="options.activeTab = 'GRID_COMP_UI'">
+                Grid UI
+            </qa-tab>
+            <qa-tab selected="options.activeTab == 'AUTOPILOT'" ng-click="options.activeTab = 'AUTOPILOT'">
+                Autopilot
+            </qa-tab>
+            <qa-tab selected="options.activeTab == 'SMART_FOLDERS'" ng-click="options.activeTab = 'SMART_FOLDERS'">
+                Smart Folders
+            </qa-tab>
+            <qa-tab selected="options.activeTab == 'RICH_TEXT_EDITOR'" ng-click="options.activeTab = 'RICH_TEXT_EDITOR'">
+                Rich Text Editor
+            </qa-tab>
+        </div>
+        <div ng-if="options.activeTab == 'RICH_TEXT_EDITOR'">
+            <!-- qRichTextEditor -->
+            <q-rich-text-editor show-character-limit="true" baseline-content="{{null}}" [placeholder]="'Enter description'" editable="true" on-content-change="$ctrl.handleContentChange($event)"></q-rich-text-editor>
+        </div>
+        <div ng-if="options.activeTab == 'PLAY'">
+            <app-entity-titlebar [items]="options.appEntityTitlebarOptions.items" [selected]="options.appEntityTitlebarOptions.selected" (selection-change)="options.appEntityTitlebarOptions.selectionChange($event)"></app-entity-titlebar>
+            <q-switch></q-switch>
+            <q-checkbox></q-checkbox>
+            <input type="text" style="height: 32px; top: 30px;" class="qas-input aqs-position-relative" ng-model="options.appEntityTitlebarOptions.currentVal" ng-keydown="$event.which == 13 && options.appEntityTitlebarOptions.currentVal && options.appEntityTitlebarOptions.add()">
+            <form aq-form aq-form-validate class="js-form qas-form-group ">
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Entity Name
+                    </label>
+                    <div aq-entity-name value="options.hero"  qtheme="true" required></div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Entity Name
+                    </label>
+                    <div aq-entity-name value="options.hero"  qtheme="true" required></div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Entity Name
+                    </label>
+                    <div aq-entity-name value="options.hero"  qtheme="true" required></div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Entity Name
+                    </label>
+                    <div aq-entity-name value="options.hero"  qtheme="true" required></div>
+                </div>
+                <div class="qas-form-field qa-standard">
+                    <div qa-drop-down search="true" all-selected-msg="No matching results found" enum-theme="true" btn-class="qas-btn-secondary" items="options.userTypes" text-property="text" uid-property="value" selected-item="options.selectedUserType" is_error='options.toogleErrorClass' disabled="options.toggleDisable"></div>
+                </div>
+                <div class="qas-form-field qa-standard">
+                    <label class="qa-label">
+                        Search Dropdown Example
+                    </label>
+                    <div qa-drop-down allow-create="true" is-required="true" items="[]" text-property="text" uid-property="value" placeholder="start typing" selected-item="options.selectedUserType" search="true" is_error='options.toogleErrorClass' disabled="options.toggleDisable"></div>
+                </div>
+
+                <div class="qas-form-field qa-standard">
+                    <label class="qa-label">
+                        AutoComplete Dropdown Example
+                    </label>
+                    <div qa-drop-down is-autocomplete="true" is-required="true" autocompleted-item="options.autocompleteTest.autocompletedItem" items="options.autocompleteTest.items" text-property="{{options.autocompleteTest.textProperty}}" uid-property="{{options.autocompleteTest.uidProperty}}" value-property="{{options.autocompleteTest.valueProperty}}" text-property="text" uid-property="value" placeholder="start typing"></div>
+                </div>
+
+                <div class="qas-form-field qa-wide">
+                    <label class="qa-label">
+                        Grouping dropdown test with Tabs
+                    </label>
+                    <div qa-drop-down allow-create="true" tab-text-property="{{options.groupTest.tabTextProperty}}" tab-uid-property="{{options.groupTest.tabUidProperty}}" is-required="true" items="options.groupTest.items" tabs="options.groupTest.tabs" is-group-by="true" is-multi-tab="options.groupTest.isMultiTab" tabs="options.groupTest.tabs" text-property="name" uid-property="value" placeholder="start typing" selected-item="options.groupTest.selectedItem" search="true" is_error="options.toogleErrorClass"></div>
+                </div>
+
+                <div class="qas-form-field qa-wide">
+                    <label class="qa-label">
+                        Grouping dropdown test
+                    </label>
+                    <div qa-drop-down allow-create="true" is-required="true" items="options.groupTest.items" tabs="options.groupTest.tabs" is-group-by="true" text-property="name" uid-property="value" placeholder="start typing" selected-item="options.groupTest.selectedItem" search="true" is_error="options.toogleErrorClass"></div>
+                </div>
+
+                <div class="qas-form-field qa-standard">
+                    <label class="qa-label">
+                        Lazy Dropdown Example
+                    </label>
+                    <div qa-drop-down allow-create="true" is-required="true" is-lazy-render="true" items="options.lazyRenderDD.items" text-property="text" uid-property="value" placeholder="start typing" selected-item="options.lazyRenderDD.selectedItem" search="true" is_error='options.toogleErrorClass' disabled="options.toggleDisable"></div>
+                </div>
+                <div class="qas-form-field qa-standard">
+                    <div qa-drop-down search="true" all-selected-msg="No matching results found" enum-theme="true" btn-class="qas-btn-secondary" items="options.userTypes" text-property="text" uid-property="value" selected-item="options.selectedUserType" is_error='options.toogleErrorClass' disabled="options.toggleDisable"></div>
+                </div>
+                <div class="qas-form-field qa-standard">
+                    <label class="qa-label">
+                        Group Lazy Dropdown Example
+                    </label>
+                    <div qa-drop-down allow-create="true" is-required="true" is-group-by="true" items="options.groupTest.items" text-property="name" uid-property="value" placeholder="start typing" selected-item="options.groupTest.selectedItem" search="true" is_error='options.toogleErrorClass' disabled="options.toggleDisable"></div>
+                </div>
+                
+                <div class="qa-elem-multi-row" qa-multi-row-base-list-editor options="options.multiOptions"> </div>  
+
+                <div class="qas-form-field qa-standard">
+                    <label class="qa-label">
+                        Split Button
+                    </label>
+                    <div>
+                        <div class="qas-split-button">
+                            <button type="button" class="qas-btn-primary">Click me</button>
+                            <div qa-drop-down is-required="true" items="options.userTypes" text-property="text" uid-property="value" selected-item="options.selectedUserType" is_error='options.toogleErrorClass' disabled="options.toggleDisable" menu-only="true">
+                                <button type="button" class="qas-btn-primary qa-second-btn">
+                                    <i class="qai-xs-chevron-down-light aqi--align-down-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <form aq-form aq-form-validate ng-if="options.activeTab == 'BASE'">
+            <div class="qas-form-group">
+                <div class="qas-form-field">
+                    <div qa-inline-list-editor validate-new-item-callback="options.inlineListEditorOptions.validateNewItemCallback(e)" column-id-prop="{{options.inlineListEditorOptions.columnIdProp}}" columns="options.inlineListEditorOptions.columns" style="margin-bottom: 30px;" items="options.inlineListEditorOptions.items"></div>
+                </div> 
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Loading Spinner
+                    </label>
+                    <div class="qas-spinner qa-medium"></div>
+                </div>
+                <!-- Testing search box -->
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Quick Search
+                    </label>
+                    <div qa-search-box placeholder="Search by something" search-text="text" on-search="onSearch()"></div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Quick Search trip to backend
+                    </label>
+                    <div qa-search-box search-text="text" on-search="onSearch()" lazy-search="true"></div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Name
+                    </label>
+                    <div aq-entity-name value="options.name" qtheme="true" required></div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Description
+                    </label>
+                    <textarea class="qas-textarea qa-resize"></textarea>
+                </div>
+                <div class="qas-form-field qa-standard">
+                    <div qa-drop-down btn-class="qas-btn-secondary" items="options.userTypes" text-property="text" uid-property="value" selected-item="options.selectedUserType" is_error='options.toogleErrorClass' disabled="options.toggleDisable"></div>
+                </div>
+                <div class="qas-form-field qa-standard">
+                    <label class="qa-label">
+                        Search Dropdown Example
+                    </label>
+                    <div qa-drop-down is-required="true" items="options.userTypes" text-property="text" uid-property="value" selected-item="options.selectedUserType" search="true" is_error='options.toogleErrorClass' disabled="options.toggleDisable"></div>
+                </div>
+                <div class="qas-form-field qa-standard">
+                    <label class="qa-label">
+                        Menu Only Dropdown
+                    </label>
+                    <div qa-drop-down menu-only="true" is-required="true" items="options.userTypes" text-property="text" uid-property="value" selected-item="options.selectedUserType" search="true" is_error='options.toogleErrorClass' disabled="options.toggleDisable">
+                        <a class="qas-link">
+                            {{ options.selectedUserType ? options.selectedUserType['text'] : 'click to select' }}
+                        </a>
+                    </div>
+                </div>
+                <div class="qas-form-field qa-wide">
+                    <label class="qa-label">
+                        Multi Select Dropdown Example without Checkbox
+                    </label>
+                    <div qa-drop-down items="options.userTypes" text-property="text" uid-property="value" selected-items="options.selectedUserTypes" is-multi-select="true" is_error='options.toogleErrorClass' allow-create="true" disabled="options.toggleDisable"></div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Multi Select Dropdown Example with Checkbox
+                    </label>
+                    <div qa-drop-down items="options.userTypes" text-property="text" uid-property="value" selected-items="options.selectedUserTypes" is-multi-select="true" checkbox="true" is_error='options.toogleErrorClass' allow-create="true" disabled="options.toggleDisable"></div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Tag Control example
+                    </label>
+                    <div aq-creatable-multi-select options="options.tagsControlOptions"></div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Checkbox Example
+                    </label>
+                    <div class="qas-checkbox-group" ng-init="_isTenantSelected = false;">
+                        <div class="qas-checkbox-wrapper" ng-click=" _isTenantSelected = !_isTenantSelected">
+                            <button class="qas-checkbox" ng-class="{ 'qa-checked' :  _isTenantSelected, 'qa-error': options.toogleErrorClass, 'qa-disabled': options.toggleDisable}" ng-click="$event.preventDefault();">
+                                <i class="qai-xs-tick qa-selected qa-checkbox-tick"></i>
+                            </button> 
+                            <div class="qa-checkbox-label">
+                                Tenant Admin
+                            </div>
+                        </div>
+                    </div>
+                </div>           
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Radio button Example
+                    </label>
+                    <div class="qas-radio-btn-group">
+                        <div class="qas-radiobtn-wrapper" ng-click="options.isDevRadioOptSelected = true;">
+                            <input type="radio" class="qas-radio-btn" ng-class="{'qa-selected': options.isDevRadioOptSelected, 'qa-error': options.toogleErrorClass, 'qa-disabled': options.toggleDisable }"/>
+                            <div class="qa-radiobtn-label">Developer</div>
+                        </div>
+                        <div class="qas-radiobtn-wrapper" ng-click="options.isDevRadioOptSelected = false;">
+                            <input type="radio" class="qas-radio-btn" ng-class="{'qa-selected': !options.isDevRadioOptSelected, 'qa-error': options.toogleErrorClass, 'qa-disabled': options.toggleDisable }" />
+                            <div class="qa-radiobtn-label">Tester</div>
+                        </div>
+                    </div>               
+                </div> 
+                <div class="qas-form-field">
+                    <label class="qa-label"> Info Modal Testing </label>
+                    <div> <a class="qas-link" ng-click="options.triggerInfoModal()"> Info Modal </a> </div>
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Link Example
+                    </label>
+                    <div><a class="qas-link" ng-click="options.toogleErrorClass=!options.toogleErrorClass;">Click here</a> to toggle error classes to all fields </div>            
+                </div>
+                <div class="qas-form-field">
+                    <label class="qa-label">
+                        Open one more modal
+                    </label>
+                    <div><a class="qas-link" ng-click="options.developerArena()">Click here</a> </div>            
+                </div>
+                <div class="qas-form-field">
+                    <div><button class="qas-link" ng-click="options.toggleDisable=!options.toggleDisable; $event.preventDefault();">Click here</button>to toggle disabled classes to fields.</div>
+                </div>
+                <div class="qas-section-header aqi--margin-top-15">QABulkOptionListEditor</div>
+                <qa-bulk-option-list-editor bulk-input-text="options.bulkInputListOptions.bulkInputText"
+                validate-bulk-save-fn="options.bulkInputListOptions.validateBulkEditorSave(data, isSwitchToListMode)" on-bulk-save="options.bulkInputListOptions.onBulkEditorSave(data)"
+                on-bulk-open="options.bulkInputListOptions.onBulkEditorOpen()" textbox-placeholder="Here is the placeholder, empty textarea is not allowed" ng-init="options.bulkInputListOptions.onBulkInit()">
+                    <qa-bulk-header>
+                        This is a Custom Header <a href="_blank" class="qas-link">Link</a>
+                    </qa-bulk-header>
+                    <qa-options-list-editor-input>
+                        <qa-option-list-editor items="options.bulkInputListOptions.items" on-load="options.bulkInputListOptions.onOptionListLoad(api)" on-add="options.bulkInputListOptions.onOptionListAdd()" 
+                        required="true" on-cancel="options.bulkInputListOptions.onOptionListCancel()"
+                        on-delete="options.bulkInputListOptions.onOptionListDelete()" validate-save-fn="options.bulkInputListOptions.onNewItemOrEditValidate(data)">
+                            <qa-new-item-header class="aqs-display-flex aqs-full-width">
+                                <div class="aqs-half-width qas-form-label aqi--margin-left-2">LocaleName</div>
+                                <div class="aqs-half-width qas-form-label aqi--margin-left-2">Seed data from (Optional)</div>
+                            </qa-new-item-header>
+                            <qa-new-item-input class="aqs-display-flex aq-valign-center aqs-full-width">
+                                <div class="aqs-half-width aq-flex-grow js-new-item-input">
+                                    <div aq-entity-name value="options.bulkInputListOptions.newItemName" qtheme="true" required ng-init="options.bulkInputListOptions.onNewItemOpen()"></div>
+                                </div>
+                                <div class="aqs-half-width aq-flex-grow">
+                                    <div qa-drop-down items="options.userTypes" text-property="text" uid-property="value" selected-items="options.selectedUserTypes" is-multi-select="true" checkbox="true" allow-create="true" disabled="options.toggleDisable"></div>
+                                </div>
+                            </qa-new-item-input>
+                        </qa-option-list-editor>
+                    </qa-options-list-editor-input>
+                </qa-bulk-option-list-editor>
+                <div style="height: 100px;"></div>                     
+            </div>
+        </form>
+        <div ng-if="options.activeTab == 'GRID_COMP_UI'">
+            TEST
+        </div>
+        <div ng-if="options.activeTab == 'AUTOPILOT'">
+            <div class="aqs-display-inlineblock aqi--margin-top-16 aqi--margin-bottom-20">
+                <div qpilot-gpt-reference-selector-dropdown is-recorder-available="options.isRecorderAvailable()"></div>
+            </div>
+            <div class="aqi--margin-top-16 aqi--margin-bottom-20">
+                <div class="aqs-display-inlineblock">
+                    <qpilot-360-button text="'Autopilot is working ...'"></qpilot-360-button>
+                </div>
+            </div>
+        </div>
+        <div ng-if="options.activeTab == 'SLICK_GRID'" >
+            <div style="padding: 10px 20px;border: 1px solid green;margin-bottom:26px;" class="aqs-full-width">
+                <button class="qas-btn-secondary" ng-click="options.slickGridOptions.toggleEditModes()">Toggle Edit Mode</button>
+                <button class="qas-btn-secondary aqi--margin-left-12" ng-click="options.slickGridOptions.addNewRow()">Add new row</button>
+                <button class="qas-btn-secondary aqi--margin-left-12" ng-click="options.slickGridOptions.toggleFrozenMode()">Froze Column</button>
+                <button class="qas-btn-secondary aqi--margin-left-12" ng-click="options.slickGridOptions.addCellDecorator()">Add Cell Decorator</button>
+            </div>
+            <div qa-slick-grid options="options.slickDirectiveOptions" class="aqs-full-width" style="height: 400px;"></div>
+        </div>
+        <div ng-if="options.activeTab == 'SMART_FOLDERS'">
+            <div>
+                <div class="aqs-display-flex">
+                    <div qa-resize-slider
+                        show-left-collapse-btn="true"
+                        align-bar="right"
+                        min-width="300"
+                        max-width="600"
+                        initial-width="400"
+                        toggle-behaviour="true"
+                        align-bar="left"
+                        behaviour-on-min-width="lock"
+                        style="border-right: 1px solid black; height: 340px;" >
+                        <div>TEST left</div>
+                    </div>
+                    <div>TEST right</div>
+                </div>
+                <div qa-toggle-btn switch="true" is-plain="true"></div>
+            </div>
+        </div>
+    </div>
+</script>
+<script id="qaConfirmationTmpl" type="text/ng-template" class="ng-scope">
+    <div>
+        <div>{0}</div>
+        <div class="qas-section-message aqs-display-flex aqi--margin-top-10" style="padding: 15px 10px;" ng-class="'qa-' + options.modalType" ng-if="options.sectionMessageInHtml">
+            <div ng-class="'qai-24-section-message-' + options.modalType" class="aq-no-shrink"></div>
+            <div class="aqi--margin-left-5 aqs-display-flex aq-valign-center" aq-compile-template options="options.sectionMessageOptions"></div>
+        </div>
+    </div>
+</script>
+
+<script id="qaFullScreenCustomModalDefTmpl" type="text/ng-template" class="ng-scope">
+        <div class="qa-modal-contents qas-fullscreen-modal">
+            {0}
+        </div>
+</script>
+
+<script type="text/ng-template" id="aqDialogSpinnerTmpl" class="ng-scope">
+    <div class="aqs-modal-plaintheme">
+        <div class="aqs-display-flex aq-valign-center aq-halign-spacebetween">
+            <span class="aqs-para-body-text-bold aqi--margin-right-10">{{ options.message }}</span>
+            <div class="aqs-loading">
+                <div class="aq-loading-dot aq-loading-dot-6"></div>
+                <div class="aq-loading-dot aq-loading-dot-6"></div>
+                <div class="aq-loading-dot aq-loading-dot-6"></div>
+            </div>
+        </div>
+    </div>
+</script></div><script src="/node_modules/monaco-editor/dev/vs/loader.js"></script><script src="/node_modules/monaco-editor/dev/vs/editor/editor.main.nls.js"></script><script src="/node_modules/monaco-editor/dev/vs/editor/editor.main.js"></script><script src="/src/client/assets/js/accelq_javascript/dev/monaco.contribution.js"></script><script src="/src/client/assets/js/accelq_json/dev/monaco.contribution.js"></script><script defer="defer" src="../.././src/client/js/bundle.app.3e526ccaedde47fb403e.js"></script><link href="../.././src/client/css/styles.9811159cb2243a3c2244.css" rel="stylesheet"><ul class="js-toaster-wrapper qas-toaster-wrapper"></ul></body></html>

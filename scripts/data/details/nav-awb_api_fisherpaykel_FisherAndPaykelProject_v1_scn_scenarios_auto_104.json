@@ -1,0 +1,26 @@
+{
+  "pid": 104,
+  "rootPid": 104,
+  "scnName": "Verify Unable to cancel the products with JDE ship date",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 1777,
+    "field1": "2",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1759825804920,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1750150723236,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

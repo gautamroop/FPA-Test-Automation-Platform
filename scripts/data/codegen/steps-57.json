@@ -1,0 +1,130 @@
+{
+  "scnPid": 57,
+  "scnName": "Create Ecommerce Order",
+  "steps": [
+    {
+      "index": 1,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    },
+    {
+      "index": 2,
+      "ctxPid": 202,
+      "ctxName": "F&P Home Page",
+      "compPid": 291,
+      "compName": "Validate and Accept Cookies",
+      "methodName": "validateAndAcceptCookies",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 3,
+      "ctxPid": 203,
+      "ctxName": "F&P Login Page",
+      "compPid": 292,
+      "compName": "User Login",
+      "methodName": "userLogin",
+      "params": [
+        "email",
+        "password"
+      ],
+      "returns": []
+    },
+    {
+      "index": 4,
+      "ctxPid": 202,
+      "ctxName": "F&P Home Page",
+      "compPid": 337,
+      "compName": "Navigate to Product Type and Select Product Style",
+      "methodName": "navigateToProductTypeAndSelectProductStyle",
+      "params": [
+        "productCategory",
+        "productSubCategory"
+      ],
+      "returns": []
+    },
+    {
+      "index": 5,
+      "ctxPid": 239,
+      "ctxName": "F&P Products Page",
+      "compPid": 338,
+      "compName": "Select the Product and Add to Cart",
+      "methodName": "selectTheProductAndAddToCart",
+      "params": [
+        "deliveryPinCode",
+        "orderQuantity"
+      ],
+      "returns": [
+        "Order Qty"
+      ]
+    },
+    {
+      "index": 6,
+      "ctxPid": 242,
+      "ctxName": "F&P Order Details Page",
+      "compPid": 343,
+      "compName": "Populate Customer and Delivery Details ",
+      "methodName": "populateCustomerAndDeliveryDetails",
+      "params": [
+        "addressType",
+        "addressLine1",
+        "addressLine2",
+        "state",
+        "townCity"
+      ],
+      "returns": [
+        "Customer Name",
+        "Delivery Date",
+        "Email Address",
+        "Phone Number"
+      ]
+    },
+    {
+      "index": 7,
+      "ctxPid": 245,
+      "ctxName": "F&P Order Payment DetailsPage",
+      "compPid": 347,
+      "compName": "Select type of payment and place order ",
+      "methodName": "selectTypeOfPaymentAndPlaceOrder",
+      "params": [
+        "cardNumber",
+        "expiryDate",
+        "securityCode",
+        "paymentType",
+        "depositAmount"
+      ],
+      "returns": [
+        "Billing Address"
+      ]
+    },
+    {
+      "index": 8,
+      "ctxPid": 247,
+      "ctxName": "F&P Final Checkout Page",
+      "compPid": 349,
+      "compName": "Place Order and Get Order Details ",
+      "methodName": "placeOrderAndGetOrderDetails",
+      "params": [],
+      "returns": [
+        "Additional Services",
+        "Delivery Type",
+        "Discount",
+        "Estimated Delivery Date",
+        "Item Name",
+        "Model Number",
+        "Order DU Number",
+        "Order Date",
+        "Payable Amount",
+        "Subtotal",
+        "Total"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pid": 100,
+  "rootPid": 100,
+  "scnName": "Verify Delivery instruction checkboxes carried over to new FO after every order change",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 1712,
+    "field1": "2",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1763035765057,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1750109503719,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

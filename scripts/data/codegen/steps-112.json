@@ -1,0 +1,100 @@
+{
+  "scnPid": 112,
+  "scnName": "TPP - Save or Generate Quote",
+  "steps": [
+    {
+      "index": 1,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    },
+    {
+      "index": 2,
+      "ctxPid": 413,
+      "ctxName": "TPP Login Page",
+      "compPid": 591,
+      "compName": "Login to Trade Portal",
+      "methodName": "loginToTradePortal",
+      "params": [
+        "email",
+        "password"
+      ],
+      "returns": []
+    },
+    {
+      "index": 3,
+      "ctxPid": 456,
+      "ctxName": "TPP Home Page",
+      "compPid": 653,
+      "compName": "Navigate to New Agency Order",
+      "methodName": "navigateToNewAgencyOrder",
+      "params": [
+        "tPPType"
+      ],
+      "returns": []
+    },
+    {
+      "index": 4,
+      "ctxPid": 458,
+      "ctxName": "TPP Agency Order Page",
+      "compPid": 291,
+      "compName": "Validate and Accept Cookies",
+      "methodName": "validateAndAcceptCookies",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 5,
+      "ctxPid": 458,
+      "ctxName": "TPP Agency Order Page",
+      "compPid": 655,
+      "compName": "Select TPP Product Type",
+      "methodName": "selectTPPProductType",
+      "params": [
+        "productType"
+      ],
+      "returns": []
+    },
+    {
+      "index": 6,
+      "ctxPid": 459,
+      "ctxName": "TPP Products Page",
+      "compPid": 656,
+      "compName": "Select TPP Product and Add to cart ",
+      "methodName": "selectTPPProductAndAddToCart",
+      "params": [
+        "orderQuantity",
+        "deliveryPinCode",
+        "saveAsAQuote",
+        "addToCart",
+        "emailAddress"
+      ],
+      "returns": [
+        "First Name",
+        "Last Name",
+        "Order Qty",
+        "Phone Number",
+        "Quote Created Date",
+        "Quote Number"
+      ]
+    },
+    {
+      "index": 7,
+      "ctxPid": 456,
+      "ctxName": "TPP Home Page",
+      "compPid": 680,
+      "compName": "Verify Quote is Generated",
+      "methodName": "verifyQuoteIsGenerated",
+      "params": [
+        "quoteNumber"
+      ],
+      "returns": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pid": 57,
+  "rootPid": 57,
+  "scnName": "Create Ecommerce Order ",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 968,
+    "field1": "1",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1762978599407,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1749423263226,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

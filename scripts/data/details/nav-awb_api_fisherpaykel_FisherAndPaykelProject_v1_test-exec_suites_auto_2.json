@@ -1,0 +1,428 @@
+{
+  "pid": 2,
+  "rootPid": 2,
+  "name": "Regression | Order Creation, Verification, and Delivery Date Update",
+  "testTypePid": 0,
+  "tsType": 2,
+  "status": 8,
+  "filterGroupList": [
+    {
+      "pid": 2,
+      "scnFilter": null,
+      "scnPidList": [
+        57,
+        56,
+        88
+      ],
+      "tcFilter": null,
+      "filterGroupDetails": {
+        "tcCount": 3,
+        "scnPidList": [
+          57,
+          56,
+          88
+        ],
+        "storyList": [],
+        "scnTestCases": [
+          {
+            "scnPid": 57,
+            "scnName": "Create Ecommerce Order ",
+            "status": 8,
+            "alerts": [],
+            "storyPidList": [],
+            "scnLastAlertsCalculationTimestamp": 1774497410799,
+            "totalTcCount": 1,
+            "metaValues": {
+              "pid": 968,
+              "field1": "1",
+              "pjPid": 2
+            },
+            "datadriven": true,
+            "testCases": [
+              {
+                "tcPid": 69,
+                "tcName": "Ecommerce Order - 01",
+                "alerts": null,
+                "metaValues": {
+                  "pid": 972,
+                  "pjPid": 2
+                }
+              }
+            ]
+          },
+          {
+            "scnPid": 56,
+            "scnName": "Verify Order Details on SF",
+            "status": 8,
+            "alerts": [],
+            "storyPidList": [],
+            "scnLastAlertsCalculationTimestamp": 1774497410734,
+            "totalTcCount": 1,
+            "metaValues": {
+              "pid": 947,
+              "field1": "2",
+              "pjPid": 2
+            },
+            "datadriven": true,
+            "testCases": [
+              {
+                "tcPid": 67,
+                "tcName": "Order Verification-01",
+                "alerts": null,
+                "metaValues": {
+                  "pid": 963,
+                  "pjPid": 2
+                }
+              }
+            ]
+          },
+          {
+            "scnPid": 88,
+            "scnName": "Update Order Delivery Date and Verify",
+            "status": 8,
+            "alerts": [],
+            "storyPidList": [],
+            "scnLastAlertsCalculationTimestamp": 1774497411814,
+            "totalTcCount": 1,
+            "metaValues": {
+              "pid": 1459,
+              "field1": "2",
+              "pjPid": 2
+            },
+            "datadriven": true,
+            "testCases": [
+              {
+                "tcPid": 119,
+                "tcName": "Delivery Date Update - 01",
+                "alerts": null,
+                "metaValues": {
+                  "pid": 1465,
+                  "pjPid": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "index": 1
+    }
+  ],
+  "lastRunSummaryList": [
+    {
+      "jobPid": 1921,
+      "purpose": "Test Suite - Regression | Order Creation, Verification, and Delivery Date Update",
+      "createdBy": "Roop Gautam",
+      "status": "completed",
+      "pass": 0,
+      "fail": 3,
+      "notRun": 0,
+      "testcaseCount": 3,
+      "startTimestamp": 1765413807202,
+      "completedTimestamp": 1765418222097,
+      "scenarioMetadataDef": {},
+      "testCaseMetadataDef": {
+        "Application Type": [
+          "Ecommerce",
+          "OMS",
+          "TPP",
+          "SF Core",
+          "MSD"
+        ]
+      },
+      "bugList": [],
+      "testCaseSummaryList": [
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 69,
+          "scnPid": 57,
+          "name": "Ecommerce Order - 01",
+          "status": "fail",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "[Place Order and Get Order Details ] Could not find web element: Model Number",
+          "startDate": 1765413807218,
+          "endDate": 1765416439812,
+          "jobPid": 1921,
+          "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=57&testCasePid=69&isAccessAllTC=true",
+          "selfHealingCount": 4,
+          "hostTimezone": "NZST",
+          "metadata": {
+            "Application Type": [
+              "Ecommerce"
+            ],
+            "tags": []
+          }
+        },
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 67,
+          "scnPid": 56,
+          "name": "Order Verification-01",
+          "status": "fail",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "[Search and View Details] Could not find web element: Order Summary Number",
+          "startDate": 1765416440565,
+          "endDate": 1765416875312,
+          "jobPid": 1921,
+          "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=56&testCasePid=67&isAccessAllTC=true",
+          "selfHealingCount": null,
+          "hostTimezone": "NZST",
+          "metadata": {
+            "Application Type": [
+              "OMS"
+            ],
+            "tags": []
+          }
+        },
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 119,
+          "scnPid": 88,
+          "name": "Delivery Date Update - 01",
+          "status": "fail",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "[Search and View Details] Could not find web element: Order Summary Number",
+          "startDate": 1765416875678,
+          "endDate": 1765418221798,
+          "jobPid": 1921,
+          "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=88&testCasePid=119&isAccessAllTC=true",
+          "selfHealingCount": null,
+          "hostTimezone": "NZST",
+          "metadata": {
+            "Application Type": [
+              "OMS"
+            ],
+            "tags": []
+          }
+        }
+      ],
+      "scenarioList": [
+        {
+          "name": "Create Ecommerce Order ",
+          "description": "",
+          "dbPid": 57,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "Ecommerce"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 69,
+              "name": "Ecommerce Order - 01"
+            }
+          ],
+          "jiraStoryList": []
+        },
+        {
+          "name": "Verify Order Details on SF",
+          "description": "",
+          "dbPid": 56,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "OMS"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 67,
+              "name": "Order Verification-01"
+            }
+          ],
+          "jiraStoryList": []
+        },
+        {
+          "name": "Update Order Delivery Date and Verify",
+          "description": "",
+          "dbPid": 88,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "OMS"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 119,
+              "name": "Delivery Date Update - 01"
+            }
+          ],
+          "jiraStoryList": []
+        }
+      ]
+    }
+  ],
+  "readinessPercentage": 100,
+  "developmentPercentage": 0,
+  "readyScenariosCount": 3,
+  "readyActionsCount": 0,
+  "modifiedTimestamp": 1751457407965,
+  "modifiedUser": 2,
+  "createdUser": 6,
+  "metaValues": {
+    "pid": 1509,
+    "pjPid": 2
+  },
+  "lastReadinessCalculationTimestamp": 1774497410734,
+  "historyRunSummaryList": [
+    {
+      "jobPid": 1921,
+      "purpose": "Test Suite - Regression | Order Creation, Verification, and Delivery Date Update",
+      "createdBy": "Roop Gautam",
+      "status": "completed",
+      "pass": 0,
+      "fail": 3,
+      "notRun": 0,
+      "testcaseCount": 3,
+      "startTimestamp": 1765413807202,
+      "completedTimestamp": 1765418222097,
+      "scenarioMetadataDef": {},
+      "testCaseMetadataDef": {
+        "Application Type": [
+          "Ecommerce",
+          "OMS",
+          "TPP",
+          "SF Core",
+          "MSD"
+        ]
+      },
+      "bugList": [],
+      "testCaseSummaryList": [
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 69,
+          "scnPid": 57,
+          "name": "Ecommerce Order - 01",
+          "status": "fail",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "[Place Order and Get Order Details ] Could not find web element: Model Number",
+          "startDate": 1765413807218,
+          "endDate": 1765416439812,
+          "jobPid": 1921,
+          "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=57&testCasePid=69&isAccessAllTC=true",
+          "selfHealingCount": 4,
+          "hostTimezone": "NZST",
+          "metadata": {
+            "Application Type": [
+              "Ecommerce"
+            ],
+            "tags": []
+          }
+        },
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 67,
+          "scnPid": 56,
+          "name": "Order Verification-01",
+          "status": "fail",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "[Search and View Details] Could not find web element: Order Summary Number",
+          "startDate": 1765416440565,
+          "endDate": 1765416875312,
+          "jobPid": 1921,
+          "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=56&testCasePid=67&isAccessAllTC=true",
+          "selfHealingCount": null,
+          "hostTimezone": "NZST",
+          "metadata": {
+            "Application Type": [
+              "OMS"
+            ],
+            "tags": []
+          }
+        },
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 119,
+          "scnPid": 88,
+          "name": "Delivery Date Update - 01",
+          "status": "fail",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "[Search and View Details] Could not find web element: Order Summary Number",
+          "startDate": 1765416875678,
+          "endDate": 1765418221798,
+          "jobPid": 1921,
+          "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=88&testCasePid=119&isAccessAllTC=true",
+          "selfHealingCount": null,
+          "hostTimezone": "NZST",
+          "metadata": {
+            "Application Type": [
+              "OMS"
+            ],
+            "tags": []
+          }
+        }
+      ],
+      "scenarioList": [
+        {
+          "name": "Create Ecommerce Order ",
+          "description": "",
+          "dbPid": 57,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "Ecommerce"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 69,
+              "name": "Ecommerce Order - 01"
+            }
+          ],
+          "jiraStoryList": []
+        },
+        {
+          "name": "Verify Order Details on SF",
+          "description": "",
+          "dbPid": 56,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "OMS"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 67,
+              "name": "Order Verification-01"
+            }
+          ],
+          "jiraStoryList": []
+        },
+        {
+          "name": "Update Order Delivery Date and Verify",
+          "description": "",
+          "dbPid": 88,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "OMS"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 119,
+              "name": "Delivery Date Update - 01"
+            }
+          ],
+          "jiraStoryList": []
+        }
+      ]
+    }
+  ],
+  "testCaseCount": 3,
+  "scnCount": 3
+}

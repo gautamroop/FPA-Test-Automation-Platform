@@ -1,0 +1,517 @@
+[
+  {
+    "scnStep": {
+      "pid": 4263,
+      "index": 1,
+      "paramList": [],
+      "stepType": 1,
+      "scnPid": 187
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 4264,
+      "index": 2,
+      "displayIndex": 1,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 4800,
+          "dsStepPid": null,
+          "dsTypePid": 1,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": "https://uat.fisherpaykel.com/nz/",
+          "randomValue": false,
+          "compInputParamPid": 183,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4264,
+          "stepIndex": null,
+          "scnPid": 187,
+          "paramName": null
+        }
+      ],
+      "compPid": 282,
+      "ctxPid": 197,
+      "stepType": 3,
+      "scnPid": 187
+    },
+    "compInputParams": [
+      {
+        "pid": 183,
+        "rootPid": 183,
+        "name": "URL",
+        "desc": "URL to invoke the browser with",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 282,
+        "index": 1,
+        "pubPid": 11763,
+        "primaryUsecasePid": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 197,
+    "ctxName": "Init Page",
+    "compName": "Invoke Browser",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 248,
+        "destCtxName": "Salesforce Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 413,
+        "destCtxName": "TPP Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": true,
+    "subscriberCompDetails": {
+      "subCompScmBasePid": 282,
+      "subPjPid": 2,
+      "subCustomerPid": 144,
+      "pubPjPid": 54,
+      "mpCompPid": 7716
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 4265,
+      "index": 3,
+      "displayIndex": 2,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 291,
+      "ctxPid": 202,
+      "stepType": 3,
+      "scnPid": 187
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 202,
+    "ctxName": "F&P Home Page",
+    "compName": "Validate and Accept Cookies",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 203,
+        "destCtxName": "F&P Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 458,
+        "destCtxName": "TPP Agency Order Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4266,
+      "index": 4,
+      "displayIndex": 3,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 1353,
+      "ctxPid": 202,
+      "stepType": 3,
+      "scnPid": 187
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 202,
+    "ctxName": "F&P Home Page",
+    "compName": "Navigate to Help and Support and Select Register your Product",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 946,
+        "destCtxName": "Product Registration",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4267,
+      "index": 5,
+      "displayIndex": 4,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 4796,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 816,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4267,
+          "stepIndex": null,
+          "scnPid": 187,
+          "paramName": "First Name"
+        },
+        {
+          "pid": 4798,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 818,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4267,
+          "stepIndex": null,
+          "scnPid": 187,
+          "paramName": "Email"
+        },
+        {
+          "pid": 4801,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 820,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4267,
+          "stepIndex": null,
+          "scnPid": 187,
+          "paramName": "Address"
+        },
+        {
+          "pid": 4803,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 817,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4267,
+          "stepIndex": null,
+          "scnPid": 187,
+          "paramName": "Last Name"
+        },
+        {
+          "pid": 4804,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 819,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4267,
+          "stepIndex": null,
+          "scnPid": 187,
+          "paramName": "Mobile/Cell Number"
+        }
+      ],
+      "compPid": 1354,
+      "ctxPid": 946,
+      "stepType": 3,
+      "scnPid": 187
+    },
+    "compInputParams": [
+      {
+        "pid": 816,
+        "rootPid": 816,
+        "name": "First Name",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1354,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 817,
+        "rootPid": 817,
+        "name": "Last Name",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1354,
+        "index": 2,
+        "dataListMutable": false
+      },
+      {
+        "pid": 818,
+        "rootPid": 818,
+        "name": "Email",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1354,
+        "index": 3,
+        "dataListMutable": false
+      },
+      {
+        "pid": 819,
+        "rootPid": 819,
+        "name": "Mobile/Cell Number",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1354,
+        "index": 4,
+        "dataListMutable": false
+      },
+      {
+        "pid": 820,
+        "rootPid": 820,
+        "name": "Address",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1354,
+        "index": 5,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 946,
+    "ctxName": "Product Registration",
+    "compName": "Provide customer Details",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 946,
+        "destCtxName": "Product Registration",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4268,
+      "index": 6,
+      "displayIndex": 5,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 1355,
+      "ctxPid": 946,
+      "stepType": 3,
+      "scnPid": 187
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 946,
+    "ctxName": "Product Registration",
+    "compName": "Provide Purchase info",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 946,
+        "destCtxName": "Product Registration",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4269,
+      "index": 7,
+      "displayIndex": 6,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 4799,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 826,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4269,
+          "stepIndex": null,
+          "scnPid": 187,
+          "paramName": "Product Code/SKU"
+        },
+        {
+          "pid": 4802,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 824,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4269,
+          "stepIndex": null,
+          "scnPid": 187,
+          "paramName": "Select how many products you want to register"
+        },
+        {
+          "pid": 4805,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 825,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4269,
+          "stepIndex": null,
+          "scnPid": 187,
+          "paramName": "Product Type"
+        }
+      ],
+      "compPid": 1357,
+      "ctxPid": 946,
+      "stepType": 3,
+      "scnPid": 187
+    },
+    "compInputParams": [
+      {
+        "pid": 824,
+        "rootPid": 824,
+        "name": "Select how many products you want to register",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1357,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 825,
+        "rootPid": 825,
+        "name": "Product Type",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1357,
+        "index": 2,
+        "dataListMutable": false
+      },
+      {
+        "pid": 826,
+        "rootPid": 826,
+        "name": "Product Code/SKU",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1357,
+        "index": 3,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 946,
+    "ctxName": "Product Registration",
+    "compName": "Provide Product info and Proceed",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 946,
+        "destCtxName": "Product Registration",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4270,
+      "index": 8,
+      "displayIndex": 7,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 4797,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 827,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 4270,
+          "stepIndex": null,
+          "scnPid": 187,
+          "paramName": "Success Message"
+        }
+      ],
+      "compPid": 1358,
+      "ctxPid": 946,
+      "stepType": 3,
+      "scnPid": 187
+    },
+    "compInputParams": [
+      {
+        "pid": 827,
+        "rootPid": 827,
+        "name": "Success Message",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 1358,
+        "index": 1,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 946,
+    "ctxName": "Product Registration",
+    "compName": "Validate Product is Registered",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": null,
+        "destCtxName": null,
+        "specialDestCtxPid": 3
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4271,
+      "index": 9,
+      "paramList": [],
+      "stepType": 2,
+      "scnPid": 187
+    }
+  }
+]

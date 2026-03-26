@@ -1,0 +1,26 @@
+{
+  "pid": 97,
+  "rootPid": 97,
+  "scnName": "WO/SA creation if GOP is less than 14 days",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 1685,
+    "field1": "1",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1763187811403,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1750098052169,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

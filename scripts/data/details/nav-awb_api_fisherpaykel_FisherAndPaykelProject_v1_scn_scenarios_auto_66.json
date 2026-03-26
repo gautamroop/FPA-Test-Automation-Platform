@@ -1,0 +1,26 @@
+{
+  "pid": 66,
+  "rootPid": 66,
+  "scnName": "Check Order Level Promotion",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 1098,
+    "field1": "1",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1763311635438,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1749496512444,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

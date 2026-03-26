@@ -1,0 +1,65 @@
+[
+  {
+    "pid": 4,
+    "cpRelease": "Spring 26",
+    "cpReleaseShortName": "Spring 26",
+    "tpAppTypePid": 3,
+    "parentPid": null
+  },
+  {
+    "pid": 2,
+    "cpRelease": "Spring 26",
+    "cpReleaseShortName": "Spring 26",
+    "tpAppTypePid": 1,
+    "parentPid": null
+  },
+  {
+    "pid": 1,
+    "cpRelease": null,
+    "cpReleaseShortName": null,
+    "tpAppTypePid": 999,
+    "parentPid": null
+  },
+  {
+    "pid": 6,
+    "cpRelease": "Release 23D",
+    "cpReleaseShortName": null,
+    "tpAppTypePid": 5,
+    "parentPid": null
+  },
+  {
+    "pid": 8,
+    "cpRelease": "R43",
+    "cpReleaseShortName": "R43",
+    "tpAppTypePid": 7,
+    "parentPid": null
+  },
+  {
+    "pid": 3,
+    "cpRelease": "2025 Wave 2",
+    "cpReleaseShortName": "2025 Wave 2",
+    "tpAppTypePid": 2,
+    "parentPid": null
+  },
+  {
+    "pid": 5,
+    "cpRelease": "25.3",
+    "cpReleaseShortName": "25.3",
+    "tpAppTypePid": 4,
+    "parentPid": null
+  },
+  {
+    "pid": 7,
+    "cpRelease": "Q4 2025",
+    "cpReleaseShortName": "Q4 2025",
+    "tpAppTypePid": 6,
+    "parentPid": null
+  },
+  {
+    "pid": 9,
+    "cpRelease": "2026 R1",
+    "cpReleaseShortName": "2026 R1",
+    "tpAppTypePid": 8,
+    "parentPid": null
+  }
+]

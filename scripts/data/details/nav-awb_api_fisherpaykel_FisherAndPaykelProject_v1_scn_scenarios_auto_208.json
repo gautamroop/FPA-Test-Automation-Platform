@@ -1,0 +1,46 @@
+{
+  "pid": 208,
+  "rootPid": 208,
+  "scnName": "MSD Order Creation and Validation in SF",
+  "testTypePid": 0,
+  "description": "Create MSD order at MSD Trade Portal and Verify that order details at SF",
+  "status": 5,
+  "ready": false,
+  "metaValues": {
+    "pid": 5424,
+    "field1": "5",
+    "pjPid": 2
+  },
+  "tags": [
+    {
+      "pid": 9,
+      "tagName": "MSD"
+    }
+  ],
+  "modifiedTimestamp": 1759824145705,
+  "modifiedUser": 2,
+  "jiraStoryList": [
+    {
+      "pid": 3,
+      "key": "SF-925",
+      "title": "MSD Development - Tracking Progress",
+      "type": "Story",
+      "status": "Done",
+      "link": "https://fisherpaykel.atlassian.net/browse/SF-925",
+      "lastUpdatedDate": "2025-09-08T19:46:59.094+1200",
+      "lastRefreshTimestamp": 1758683409890,
+      "active": true,
+      "project": "Salesforce Team Deliverables",
+      "pjPid": 2,
+      "aqNote": ""
+    }
+  ],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 2,
+  "createdTimestamp": 1755077344878,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

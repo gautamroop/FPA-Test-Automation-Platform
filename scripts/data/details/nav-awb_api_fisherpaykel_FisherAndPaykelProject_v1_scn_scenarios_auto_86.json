@@ -1,0 +1,26 @@
+{
+  "pid": 86,
+  "rootPid": 86,
+  "scnName": "Partial Order Cancellation",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 1428,
+    "field1": "2",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1763017263233,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1749757038740,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

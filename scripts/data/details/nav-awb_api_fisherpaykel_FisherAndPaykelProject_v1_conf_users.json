@@ -1,0 +1,67 @@
+[
+  {
+    "pid": 5,
+    "userFname": "Tharika",
+    "userLname": "Weerarathne",
+    "email": "Tharika.Weerarathne@fisherpaykel.com",
+    "phoneNumber": "",
+    "createdTimestamp": 1747720180721,
+    "lastLoginTimestamp": 1770696253157,
+    "active": true,
+    "siteAdmin": false,
+    "customerPid": 144,
+    "lastNotificationSeenTimestamp": null
+  },
+  {
+    "pid": 7,
+    "userFname": "Chandan",
+    "userLname": "Kumar",
+    "email": "chandan.kumar@fisherpaykel.com",
+    "phoneNumber": "",
+    "createdTimestamp": 1756430790258,
+    "lastLoginTimestamp": 1769620387452,
+    "active": true,
+    "siteAdmin": false,
+    "customerPid": 144,
+    "lastNotificationSeenTimestamp": null
+  },
+  {
+    "pid": 2,
+    "userFname": "Roop",
+    "userLname": "Gautam",
+    "email": "roop.gautam@fisherpaykel.com",
+    "phoneNumber": "",
+    "createdTimestamp": 1744779934326,
+    "lastLoginTimestamp": 1774497314505,
+    "active": true,
+    "siteAdmin": true,
+    "customerPid": 144,
+    "lastNotificationSeenTimestamp": null
+  },
+  {
+    "pid": 4,
+    "userFname": "Nisala",
+    "userLname": "Weerasekara",
+    "email": "Nisala.Weerasekara@fisherpaykel.com",
+    "phoneNumber": "",
+    "createdTimestamp": 1747715757006,
+    "lastLoginTimestamp": 1774230994881,
+    "active": true,
+    "siteAdmin": false,
+    "customerPid": 144,
+    "lastNotificationSeenTimestamp": null
+  },
+  {
+    "pid": 3,
+    "userFname": "TestAutomation",
+    "userLname": "FPA",
+    "email": "fpa.testautomation@fisherpaykel.com",
+    "phoneNumber": "",
+    "createdTimestamp": 1747310991892,
+    "lastLoginTimestamp": 1773710144015,
+    "active": true,
+    "siteAdmin": false,
+    "customerPid": 144,
+    "lastNotificationSeenTimestamp": null
+  }
+]

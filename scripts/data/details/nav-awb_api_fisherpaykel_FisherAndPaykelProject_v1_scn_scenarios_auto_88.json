@@ -1,0 +1,26 @@
+{
+  "pid": 88,
+  "rootPid": 88,
+  "scnName": "Update Order Delivery Date and Verify",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 1459,
+    "field1": "2",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1763036036779,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1749767167863,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

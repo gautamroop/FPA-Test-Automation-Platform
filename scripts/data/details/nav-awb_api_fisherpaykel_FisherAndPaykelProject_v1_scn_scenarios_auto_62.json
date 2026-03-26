@@ -1,0 +1,26 @@
+{
+  "pid": 62,
+  "rootPid": 62,
+  "scnName": "Create Order and Verify Paid in Full-Checkbox ",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 1040,
+    "field1": "1",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1762983458067,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1749464290797,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

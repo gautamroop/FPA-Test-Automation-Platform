@@ -1,0 +1,12 @@
+{
+  "access_token": "bca59c31c99aaf6507225f0d0b96f81806749c0de9be01bee07689a20850ddc1",
+  "refresh_token": "cade206f2d6c838afd6498bb024b218ee3a53434ec8488195bc9bf3a223d9b99",
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://fisherpaykel.accelq.io/",
+  "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+  "client_id": "ea5003bf633d290ebc1d7908787a5baf3ab836c2457e90511b48819e54cea020",
+  "sec-ch-ua-mobile": "?0",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "content-type": "application/json;charset=UTF-8"
+}

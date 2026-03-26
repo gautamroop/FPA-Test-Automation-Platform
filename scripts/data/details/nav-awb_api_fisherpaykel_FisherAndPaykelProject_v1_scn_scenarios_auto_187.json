@@ -1,0 +1,26 @@
+{
+  "pid": 187,
+  "rootPid": 187,
+  "scnName": "Register Your Product",
+  "testTypePid": 0,
+  "description": "",
+  "status": 7,
+  "ready": false,
+  "metaValues": {
+    "pid": 4217,
+    "field1": "4",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1758685721850,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 2,
+  "createdTimestamp": 1753219071190,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

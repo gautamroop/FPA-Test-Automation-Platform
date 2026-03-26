@@ -1,0 +1,35 @@
+{
+  "name": "fpa-test-automation-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:order": "playwright test --grep @order",
+    "test:e2e": "playwright test --grep @e2e",
+    "test:ci": "CI=true playwright test",
+    "test:oms": "playwright test --project=oms",
+    "report:allure": "allure generate reports/allure-results --clean -o reports/allure-report && allure open reports/allure-report",
+    "report:html": "playwright show-report reports/html",
+    "report:oms": "playwright show-report reports/salesforce/oms",
+    "publish:report": "node scripts/publish-report.js",
+    "newman": "newman run test-data/collection.json -r html --reporter-html-export reports/newman/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "allure-playwright": "^3.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1",
+    "uuid": "^13.0.0",
+    "winston": "^3.19.0"
+  }
+}

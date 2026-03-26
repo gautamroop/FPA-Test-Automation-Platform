@@ -1,0 +1,25 @@
+{
+  "pid": 60,
+  "rootPid": 60,
+  "scnName": "Validate GOP dates populated under shipping details section",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 1009,
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1763372605269,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1749459230904,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

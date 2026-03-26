@@ -1,0 +1,26 @@
+{
+  "pid": 946,
+  "rootPid": 946,
+  "contextName": "Product Registration",
+  "description": "",
+  "status": 5,
+  "ready": false,
+  "metaValues": {
+    "pid": 4224,
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1753223890669,
+  "modifiedUser": 2,
+  "createdUser": 2,
+  "viewCount": 1,
+  "elemCount": 3,
+  "actionCount": 5,
+  "alerts": [
+    6
+  ],
+  "checkedOutActionCount": 0,
+  "ownActionCount": 5,
+  "templateContext": false,
+  "templateCtxSet": []
+}

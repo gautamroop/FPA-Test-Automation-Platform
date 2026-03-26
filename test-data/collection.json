@@ -1,0 +1,74 @@
+{
+  "info": {
+    "name": "FPA Test Collection",
+    "_postman_id": "fpa-test-collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Order - Salesforce",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{SF_TOKEN}}"
+          }
+        ],
+        "url": {
+          "raw": "{{SALESFORCE_API}}/orders/{{orderId}}",
+          "host": ["{{SALESFORCE_API}}"],
+          "path": ["orders", "{{orderId}}"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+              "pm.test('Order ID exists', () => {",
+              "  const json = pm.response.json();",
+              "  pm.expect(json.id).to.be.a('string');",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Get Order - JDE",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{JDE_API}}/orders/{{orderId}}",
+          "host": ["{{JDE_API}}"],
+          "path": ["orders", "{{orderId}}"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+              "pm.test('Order exists in JDE', () => {",
+              "  const json = pm.response.json();",
+              "  pm.expect(json).to.have.property('id');",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    { "key": "SALESFORCE_API", "value": "" },
+    { "key": "JDE_API",        "value": "" },
+    { "key": "SF_TOKEN",       "value": "" },
+    { "key": "orderId",        "value": "" }
+  ]
+}

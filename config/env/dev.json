@@ -1,0 +1,4 @@
+{
+  "retryCount": 10,
+  "retryDelay": 5000
+}

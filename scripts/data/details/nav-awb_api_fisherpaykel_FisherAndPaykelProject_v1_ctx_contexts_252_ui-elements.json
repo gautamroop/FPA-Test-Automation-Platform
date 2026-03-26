@@ -1,0 +1,1897 @@
+[
+  {
+    "pid": 489,
+    "rootPid": 489,
+    "scmBasePid": 489,
+    "name": "Search Product Input",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-input\"},\"placeholder\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Search Products...\"},\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"input\"}}},\"parents\":[],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-input\",\"part\":\"input\",\"id\":\"input-1563\",\"placeholder\":\"Search Products...\",\"type\":\"search\",\"tag\":\"input\",\"aqzindex\":430,\"finalaqzindex\":430},\"top\":432.5,\"left\":322,\"width\":365.34375,\"height\":32},\"parents\":[],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 7,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1677,
+        "elemPid": 489,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"wRB\",\"top\":397.5,\"left\":322.0,\"width\":365.34375,\"height\":32.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 853,
+        "elemPid": 489,
+        "viewPid": 214,
+        "mappingJson": "[{\"aqId\":\"nNB\",\"top\":432.5,\"left\":322.0,\"width\":365.34375,\"height\":32.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 7951,
+        "elemPid": 489,
+        "viewPid": 1190,
+        "mappingJson": "[{\"aqId\":\"atD\",\"top\":337.5,\"left\":322.0,\"width\":357.5,\"height\":32.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 854,
+        "elemPid": 489,
+        "viewPid": 216,
+        "mappingJson": "[{\"aqId\":\"WeB\",\"top\":328.5,\"left\":322.0,\"width\":357.5,\"height\":32.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749493465996,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749493465996,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 507,
+    "rootPid": 507,
+    "scmBasePid": 507,
+    "name": "Refund Amount",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"lightning-formatted-number\",\"regex\":false,\"operator\":\"equals\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"value\":\"dd\",\"regex\":false,\"operator\":\"equals\"},\"title\":{\"value\":\"Refund\",\"regex\":false,\"operator\":\"equals\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"lightning-formatted-number\",\"aqzindex\":490,\"finalaqzindex\":490,\"text\":\"-NZD 119.98\",\"aq-data\":\"-NZD 119.98\"},\"top\":373,\"left\":906.734375,\"width\":72.25,\"height\":36.5},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-dl_horizontal__label slds-text-align_right slds-p-bottom_xxx-small no-padding-review-totals totals_number\",\"title\":\"Refund\",\"tag\":\"dd\",\"aqzindex\":490,\"finalaqzindex\":490,\"aq-data\":\"-NZD 119.98\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 886,
+        "elemPid": 507,
+        "viewPid": 229,
+        "mappingJson": "[{\"aqId\":\"XcB\",\"top\":373,\"left\":906.734375,\"width\":72.25,\"height\":36.5}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749504764060,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749504764060,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 490,
+    "rootPid": 490,
+    "scmBasePid": 490,
+    "name": "Qty input",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"input\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-input\"}}},\"parents\":[{\"level\":7,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-slot\"},\"aq-data\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"decrement increment\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-input\",\"part\":\"input\",\"id\":\"input-1813\",\"type\":\"text\",\"tag\":\"input\",\"aqzindex\":732,\"finalaqzindex\":732},\"top\":433.046875,\"left\":640.828125,\"width\":153.765625,\"height\":32},\"parents\":[{\"used\":true,\"level\":\"A7-\",\"props\":{\"class\":\"slds-slot\",\"tag\":\"slot\",\"aq-data\":\"decrement increment\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 7,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 855,
+        "elemPid": 490,
+        "viewPid": 216,
+        "mappingJson": "[{\"aqId\":\"ojB\",\"top\":433.046875,\"left\":640.828125,\"width\":153.765625,\"height\":32.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1678,
+        "elemPid": 490,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"EXB\",\"top\":562.296875,\"left\":640.828125,\"width\":153.765625,\"height\":32.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749493466451,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749493466451,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 799,
+    "rootPid": 799,
+    "scmBasePid": 799,
+    "name": "Total Amount_1",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"lightning-formatted-number\",\"regex\":false,\"operator\":\"equals\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"value\":\"div\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"slds-text-heading_medium\",\"regex\":false,\"operator\":\"contains\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"lightning-formatted-number\",\"aqzindex\":559,\"finalaqzindex\":559,\"text\":\"6,599.00\",\"aq-data\":\"6,599.00\"},\"top\":336.5,\"left\":954.109375,\"width\":79.875,\"height\":27},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-col slds-m-top_medium slds-text-align_right custom-text-bold slds-text-heading_medium\",\"tag\":\"div\",\"aqzindex\":559,\"finalaqzindex\":559,\"text\":\"AUD\",\"aq-data\":\"AUD 6,599.00\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1679,
+        "elemPid": 799,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"HWB\",\"top\":276.203125,\"left\":652.3125,\"width\":73.359375,\"height\":27.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1675,
+        "elemPid": 799,
+        "viewPid": 217,
+        "mappingJson": "[{\"aqId\":\"meB\",\"top\":294.0,\"left\":954.125,\"width\":79.875,\"height\":27.0},{\"aqId\":\"AfB\",\"top\":457.0,\"left\":954.125,\"width\":79.875,\"height\":27.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1676,
+        "elemPid": 799,
+        "viewPid": 216,
+        "mappingJson": "[{\"aqId\":\"riB\",\"top\":361.953125,\"left\":652.3125,\"width\":73.359375,\"height\":27.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1750138757522,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1750138757522,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 491,
+    "rootPid": 491,
+    "scmBasePid": 491,
+    "name": "Apply Order level Discount",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"input\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-input\"}}},\"parents\":[{\"level\":7,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-m-top_medium slds-text-align_right custom-text-bold slds-text-heading_small\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-input\",\"part\":\"input\",\"id\":\"input-2067\",\"type\":\"text\",\"tag\":\"input\",\"aqzindex\":576,\"finalaqzindex\":576},\"top\":394,\"left\":920.59375,\"width\":113.40625,\"height\":32},\"parents\":[{\"used\":true,\"level\":\"A7-\",\"props\":{\"class\":\"slds-col slds-m-top_medium slds-text-align_right custom-text-bold slds-text-heading_small\",\"tag\":\"div\",\"aqzindex\":574,\"finalaqzindex\":574,\"text\":\"AUD\",\"aq-data\":\"AUD\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 7,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 856,
+        "elemPid": 491,
+        "viewPid": 217,
+        "mappingJson": "[{\"aqId\":\"4eB\",\"top\":394,\"left\":920.59375,\"width\":113.40625,\"height\":32}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749493466916,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749493466916,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 488,
+    "rootPid": 488,
+    "scmBasePid": 488,
+    "name": "Total",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"lightning-formatted-number\",\"regex\":false,\"operator\":\"equals\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"value\":\"div\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"slds-text-heading_medium\",\"regex\":false,\"operator\":\"contains\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"lightning-formatted-number\",\"aqzindex\":574,\"finalaqzindex\":574,\"text\":\"3,299.00\",\"aq-data\":\"3,299.00\"},\"top\":411.5,\"left\":954.109375,\"width\":79.875,\"height\":27},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-col slds-m-top_medium slds-text-align_right custom-text-bold slds-text-heading_medium\",\"tag\":\"div\",\"aqzindex\":574,\"finalaqzindex\":574,\"text\":\"AUD\",\"aq-data\":\"AUD 3,299.00\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1687,
+        "elemPid": 488,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"HWB\",\"top\":276.203125,\"left\":652.3125,\"width\":73.359375,\"height\":27.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 852,
+        "elemPid": 488,
+        "viewPid": 216,
+        "mappingJson": "[{\"aqId\":\"riB\",\"top\":361.953125,\"left\":652.3125,\"width\":73.359375,\"height\":27.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749493465579,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1761557378802,
+    "lastModifiedUser": 4,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 442,
+    "rootPid": 442,
+    "scmBasePid": 442,
+    "name": "Order Summary Number",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"uiOutputText\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"}}},{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemView\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderSummary.OrderNumber\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"53:11968;a\",\"class\":\"uiOutputText\",\"data-aura-class\":\"uiOutputText\",\"tag\":\"span\",\"aqzindex\":57,\"finalaqzindex\":57,\"text\":\"AU400165847\",\"aq-data\":\"AU400165847\"},\"top\":457,\"left\":713.5,\"width\":86.296875,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"test-id__field-value slds-form-element__static slds-grow  is-read-only\",\"data-aura-rendered-by\":\"61:11968;a\",\"tag\":\"span\",\"aqzindex\":57,\"finalaqzindex\":57,\"aq-data\":\"AU400165847\"}},{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.OrderSummary.OrderNumber\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"55:11968;a\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":49,\"finalaqzindex\":49,\"aq-data\":\"Order Summary Number AU400165847\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 750,
+        "elemPid": 442,
+        "viewPid": 187,
+        "mappingJson": "[{\"aqId\":\"3oC\",\"top\":457,\"left\":713.5,\"width\":86.296875,\"height\":19}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749415456519,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749415456519,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 631,
+    "rootPid": 631,
+    "scmBasePid": 631,
+    "name": "JDE Order Number",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":4,\"props\":{\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderSummary.JDE_Order_Number__c\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemView\"},\"aq-data\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"JDE Order Number\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"8983:0\",\"dir\":\"auto\",\"class\":\"uiOutputNumber\",\"data-aura-class\":\"uiOutputNumber\",\"tag\":\"span\",\"aqzindex\":168,\"finalaqzindex\":168,\"text\":\"20,416,405\",\"aq-data\":\"20,416,405\"},\"top\":333,\"left\":713.5,\"width\":66.453125,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.OrderSummary.JDE_Order_Number__c\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"8985:0\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":49,\"finalaqzindex\":49,\"aq-data\":\"JDE Order Number 20,416,405\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1164,
+        "elemPid": 631,
+        "viewPid": 282,
+        "mappingJson": "[{\"aqId\":\"LiB\",\"top\":333,\"left\":713.5,\"width\":66.453125,\"height\":19}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749770554170,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749770554170,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 443,
+    "rootPid": 443,
+    "scmBasePid": 443,
+    "name": "Ordered Date",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"uiOutputDateTime\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"}}},{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemView\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderSummary.OrderedDate\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"74:11968;a\",\"class\":\"uiOutputDateTime\",\"data-aura-class\":\"uiOutputDateTime\",\"tag\":\"span\",\"aqzindex\":59,\"finalaqzindex\":59,\"text\":\"23/12/2023, 8:45 pm\",\"aq-data\":\"23/12/2023, 8:45 pm\"},\"top\":461.5,\"left\":405.5,\"width\":127.96875,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"test-id__field-value slds-form-element__static slds-grow  is-read-only\",\"data-aura-rendered-by\":\"82:11968;a\",\"tag\":\"span\",\"aqzindex\":59,\"finalaqzindex\":59,\"aq-data\":\"23/12/2023, 8:45 pm\"}},{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.OrderSummary.OrderedDate\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"76:11968;a\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":49,\"finalaqzindex\":49,\"aq-data\":\"Ordered Date 23/12/2023, 8:45 pm\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 751,
+        "elemPid": 443,
+        "viewPid": 187,
+        "mappingJson": "[{\"aqId\":\"EpC\",\"top\":505.5,\"left\":405.5,\"width\":127.96875,\"height\":19.0}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1749415600765,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749415601232,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 444,
+    "rootPid": 444,
+    "scmBasePid": 444,
+    "name": "Total Amount",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"lightning-formatted-number\",\"regex\":false,\"operator\":\"equals\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"value\":\"dd\",\"regex\":false,\"operator\":\"equals\"},\"title\":{\"value\":\"Total\",\"regex\":false,\"operator\":\"equals\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"lightning-formatted-number\",\"aqzindex\":40,\"finalaqzindex\":40,\"text\":\"AUD 1,258.95\",\"aq-data\":\"AUD 1,258.95\"},\"top\":580.5,\"left\":217.078125,\"width\":83.40625,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-dl_horizontal__label slds-text-align_right slds-p-bottom_xxx-small no-padding-review-totals totals_number\",\"title\":\"Total\",\"tag\":\"dd\",\"aqzindex\":40,\"finalaqzindex\":40,\"aq-data\":\"AUD 1,258.95\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 752,
+        "elemPid": 444,
+        "viewPid": 187,
+        "mappingJson": "[{\"aqId\":\"2WC\",\"top\":617.5,\"left\":232.078125,\"width\":83.40625,\"height\":17.0}]",
+        "accessible": true
+      },
+      {
+        "pid": 757,
+        "elemPid": 444,
+        "viewPid": 191,
+        "mappingJson": "[{\"aqId\":\"pN\",\"top\":617.5,\"left\":217.078125,\"width\":83.40625,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1680,
+        "elemPid": 444,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"3p\",\"top\":589.5,\"left\":232.078125,\"width\":83.40625,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1160,
+        "elemPid": 444,
+        "viewPid": 280,
+        "mappingJson": "[{\"aqId\":\"M9\",\"top\":617.5,\"left\":232.078125,\"width\":83.40625,\"height\":17.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749415798846,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749415799771,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 508,
+    "rootPid": 508,
+    "scmBasePid": 508,
+    "name": "Original Total",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"lightning-formatted-number\",\"regex\":false,\"operator\":\"equals\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"value\":\"dd\",\"regex\":false,\"operator\":\"equals\"},\"title\":{\"value\":\"Original Total\",\"regex\":false,\"operator\":\"equals\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"lightning-formatted-number\",\"aqzindex\":490,\"finalaqzindex\":490,\"text\":\"NZD 119.98\",\"aq-data\":\"NZD 119.98\"},\"top\":386,\"left\":902.71875,\"width\":72.25,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-dl_horizontal__label slds-text-align_right slds-p-bottom_xxx-small no-padding-review-totals totals_number\",\"title\":\"Original Total\",\"tag\":\"dd\",\"aqzindex\":490,\"finalaqzindex\":490,\"aq-data\":\"NZD 119.98\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 887,
+        "elemPid": 508,
+        "viewPid": 229,
+        "mappingJson": "[{\"aqId\":\"obB\",\"top\":15.0,\"left\":902.71875,\"width\":72.25,\"height\":17.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749504764618,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749504764618,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 632,
+    "rootPid": 632,
+    "scmBasePid": 632,
+    "name": "JDE Invoice Number",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": true,
+    "noMatch": false,
+    "ordinalPolicy": 1,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full long-text forcePageBlockItem forcePageBlockItemView\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderSummary.JDE_Invoice_Number_Display__c\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"8889:0\",\"class\":\"uiOutputTextArea\",\"data-aura-class\":\"uiOutputTextArea\",\"tag\":\"span\",\"aqzindex\":158,\"finalaqzindex\":158,\"text\":\"13089631\",\"aq-data\":\"13089631\"},\"top\":236,\"left\":405.5,\"width\":60.375,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.OrderSummary.JDE_Invoice_Number_Display__c\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full long-text forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"8893:0\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":49,\"finalaqzindex\":49,\"aq-data\":\"JDE Invoice Number 13089631\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1165,
+        "elemPid": 632,
+        "viewPid": 282,
+        "mappingJson": "[{\"aqId\":\"RhB\",\"top\":236.0,\"left\":405.5,\"width\":60.375,\"height\":19.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749770554968,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749770554968,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 445,
+    "rootPid": 445,
+    "scmBasePid": 445,
+    "name": "Billing Phone Number",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"forceOutputPhone \",\"regex\":false,\"operator\":\"contains\"}}},\"parents\":[{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemView\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderSummary.BillingPhoneNumber\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"dir\":\"ltr\",\"class\":\"forceOutputPhone \",\"data-aura-rendered-by\":\"430:11968;a\",\"tag\":\"span\",\"aqzindex\":107,\"finalaqzindex\":107,\"text\":\"0404497903\",\"aq-data\":\"0404497903\"},\"top\":461.5,\"left\":401.75,\"width\":75.46875,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.OrderSummary.BillingPhoneNumber\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"432:11968;a\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":50,\"finalaqzindex\":50,\"aq-data\":\"Billing Phone Number 0404497903\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 753,
+        "elemPid": 445,
+        "viewPid": 188,
+        "mappingJson": "[{\"aqId\":\"LZD\",\"top\":461.5,\"left\":401.75,\"width\":75.46875,\"height\":19}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1749416808224,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749416812484,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 482,
+    "rootPid": 482,
+    "scmBasePid": 482,
+    "name": "Product Code",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":3,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"secondaryFieldGrid\"},\"aq-data\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"Product Code\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"7:7354;a\",\"class\":\"uiOutputText\",\"data-aura-class\":\"uiOutputText\",\"tag\":\"span\",\"aqzindex\":713,\"finalaqzindex\":713,\"text\":\"84727\",\"aq-data\":\"84727\"},\"top\":359.5,\"left\":506,\"width\":35.046875,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A3-\",\"props\":{\"class\":\"secondaryFieldGrid\",\"data-aura-rendered-by\":\"83:7354;a\",\"tag\":\"li\",\"aqzindex\":708,\"finalaqzindex\":708,\"aq-data\":\"Product Code 84727\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 841,
+        "elemPid": 482,
+        "viewPid": 212,
+        "mappingJson": "[{\"aqId\":\"HtB\",\"top\":359.5,\"left\":506,\"width\":35.046875,\"height\":17}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749493463553,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1761553257118,
+    "lastModifiedUser": 3,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 449,
+    "rootPid": 449,
+    "scmBasePid": 449,
+    "name": "Orders View All",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":16,\"props\":{\"data-component-id\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"oms_deliveryGroup\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"view-all-label\",\"tag\":\"span\",\"aqzindex\":51,\"finalaqzindex\":51,\"text\":\"View All\",\"aq-data\":\"View All\"},\"top\":408,\"left\":651.15625,\"width\":45.671875,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A16-\",\"props\":{\"data-component-id\":\"oms_deliveryGroup\",\"data-target-selection-name\":\"oms_deliveryGroup\",\"data-aura-rendered-by\":\"1560:0\",\"class\":\"flexipageComponent\",\"data-aura-class\":\"flexipageComponent\",\"tag\":\"div\",\"aqzindex\":48,\"finalaqzindex\":48,\"aq-data\":\"Order Delivery Groups (1) Search Ship To:  Ollie Wuckert  123 George Street lane 2 , Sydney , SA  2000 , AU Navigation Mode Sort by: Name Sorted: None Show Name column actions   Sort by: JDE Ship Date Sorted: None Show JDE Ship Date column actions   Sort by: Status Sorted: None Show Status column actions   Sort by: Quantity Sorted: None Show Quantity column actions   Sort by: Unit Price Sorted: None Show Unit Price column actions   Sort by: Line Adjustments Sorted: None Show Line Adjustments column actions \"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 758,
+        "elemPid": 449,
+        "viewPid": 191,
+        "mappingJson": "[{\"aqId\":\"IZ\",\"top\":408,\"left\":651.15625,\"width\":45.671875,\"height\":17}]",
+        "accessible": true
+      },
+      {
+        "pid": 1907,
+        "elemPid": 449,
+        "viewPid": 405,
+        "mappingJson": "[{\"aqId\":\"GvG\",\"top\":579.75,\"left\":651.15625,\"width\":45.671875,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1681,
+        "elemPid": 449,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"n5\",\"top\":644.0,\"left\":651.15625,\"width\":45.671875,\"height\":17.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749419498371,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749419502530,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 483,
+    "rootPid": 483,
+    "scmBasePid": 483,
+    "name": "Item",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"slds-radio_faux\",\"regex\":false,\"operator\":\"contains\"}}},\"parents\":[{\"level\":1,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-radio__label\"},\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"label\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-radio_faux\",\"tag\":\"span\",\"aqzindex\":487,\"finalaqzindex\":487},\"top\":458.375,\"left\":310,\"width\":16,\"height\":16},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-radio__label\",\"id\":\"radio-button-label-1-1483\",\"for\":\"primitive-checkbox-radio-id-1483\",\"tag\":\"label\",\"aqzindex\":485,\"finalaqzindex\":485,\"aq-data\":\"Select Item 1\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 842,
+        "elemPid": 483,
+        "viewPid": 213,
+        "mappingJson": "[{\"aqId\":\"MQB\",\"top\":458.375,\"left\":310.0,\"width\":16.0,\"height\":16.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749493463835,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749493463835,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 456,
+    "rootPid": 456,
+    "scmBasePid": 456,
+    "name": "Status",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"}}},{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemView\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderSummary.Status\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"91:2978;a\",\"tag\":\"span\",\"aqzindex\":62,\"finalaqzindex\":62,\"text\":\"Approved\",\"aq-data\":\"Approved\"},\"top\":495,\"left\":706,\"width\":60.84375,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"test-id__field-value slds-form-element__static slds-grow \",\"data-aura-rendered-by\":\"100:2978;a\",\"tag\":\"span\",\"aqzindex\":62,\"finalaqzindex\":62,\"aq-data\":\"Approved\"}},{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.OrderSummary.Status\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"94:2978;a\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":50,\"finalaqzindex\":50,\"aq-data\":\"Status Approved Edit Status\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 770,
+        "elemPid": 456,
+        "viewPid": 187,
+        "mappingJson": "[{\"aqId\":\"PpC\",\"top\":505.5,\"left\":713.5,\"width\":100.671875,\"height\":19.0}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1749421095886,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749421096645,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 450,
+    "rootPid": 450,
+    "scmBasePid": 450,
+    "name": "Order Item ",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": true,
+    "noMatch": false,
+    "ordinalPolicy": 1,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":14,\"props\":{\"data-label\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Name\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"span\",\"aqzindex\":146,\"finalaqzindex\":146,\"text\":\"60cm Series 11 Minimal Handleless Combi-Steam Oven\",\"aq-data\":\"60cm Series 11 Minimal Handleless Combi-Steam Oven\"},\"top\":567.625,\"left\":390.75,\"width\":316.90625,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A14-\",\"props\":{\"data-label\":\"Name\",\"tag\":\"lightning-primitive-cell-factory\",\"aqzindex\":144,\"finalaqzindex\":144,\"aq-data\":\"60cm Series 11 Minimal Handleless Combi-Steam Oven Open 60cm Series 11 Minimal Handleless Combi-Steam Oven Preview Open 60cm Series 11 Minimal Handleless Combi-Steam Oven Preview\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 759,
+        "elemPid": 450,
+        "viewPid": 191,
+        "mappingJson": "[{\"aqId\":\"0V\",\"top\":325.625,\"left\":394.5,\"width\":316.90625,\"height\":17.0},{\"aqId\":\"qX\",\"top\":356.375,\"left\":394.5,\"width\":50.859375,\"height\":17.0}]",
+        "accessible": true
+      },
+      {
+        "pid": 1908,
+        "elemPid": 450,
+        "viewPid": 405,
+        "mappingJson": "[{\"aqId\":\"otG\",\"top\":528.125,\"left\":394.5,\"width\":65.90625,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1682,
+        "elemPid": 450,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"Gy\",\"top\":500.125,\"left\":394.5,\"width\":266.34375,\"height\":17.0},{\"aqId\":\"xz\",\"top\":530.875,\"left\":394.5,\"width\":324.65625,\"height\":17.0},{\"aqId\":\"e2\",\"top\":561.625,\"left\":394.5,\"width\":50.859375,\"height\":17.0},{\"aqId\":\"L4\",\"top\":592.375,\"left\":394.5,\"width\":258.109375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 7952,
+        "elemPid": 450,
+        "viewPid": 1190,
+        "mappingJson": "[{\"aqId\":\"2QD\",\"top\":525.625,\"left\":394.5,\"width\":50.859375,\"height\":17.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749419989111,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749420103178,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 463,
+    "rootPid": 463,
+    "scmBasePid": 463,
+    "name": "Name_Shipping Adress",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"a\"},\"data-special-link\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"true\"}}},\"parents\":[{\"level\":1,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-grid slds-grid--align-spread\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-refid\":\"recordId\",\"data-special-link\":\"true\",\"title\":\"Charles Tillman\",\"data-navigable\":\"true\",\"target\":\"_blank\",\"data-ownerid\":\"5197:0\",\"data-recordid\":\"0agEa000002K9h7IAC\",\"rel\":\"noreferrer\",\"href\":\"/lightning/r/0agEa000002K9h7IAC/view\",\"class\":\"slds-truncate outputLookupLink slds-truncate outputLookupLink-0agEa000002K9h7IAC-5197:0 forceOutputLookup\",\"data-aura-rendered-by\":\"5208:0\",\"data-aura-class\":\"forceOutputLookup\",\"tag\":\"a\",\"aqzindex\":105,\"finalaqzindex\":105,\"text\":\"Charles Tillman\",\"aq-data\":\"Charles Tillman\"},\"top\":315.125,\"left\":93,\"width\":87,\"height\":19.5},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-grid slds-grid--align-spread\",\"data-aura-rendered-by\":\"5218:0\",\"tag\":\"span\",\"aqzindex\":104,\"finalaqzindex\":104,\"aq-data\":\"Charles Tillman\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 9,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 7969,
+        "elemPid": 463,
+        "viewPid": 379,
+        "mappingJson": "[{\"aqId\":\"1eD\",\"top\":315.125,\"left\":93.0,\"width\":75.5625,\"height\":19.5}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1749459826186,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1761768197827,
+    "lastModifiedUser": 2380,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 484,
+    "rootPid": 484,
+    "scmBasePid": 484,
+    "name": "Search Btn",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"svg\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-button__icon\"}}},\"parents\":[{\"level\":2,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-button_icon-brand\"},\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"button\"},\"title\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Search\"},\"part\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"button button-icon\"}}},{\"level\":8,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-box slds-box_small\"},\"aq-data\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"Product List\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"focusable\":\"false\",\"viewBox\":\"0 0 520 520\",\"part\":\"icon\",\"data-key\":\"search\",\"class\":\"slds-button__icon\",\"tag\":\"svg\",\"aqzindex\":581,\"finalaqzindex\":581},\"top\":465.875,\"left\":708.203125,\"width\":14,\"height\":14},\"parents\":[{\"used\":true,\"level\":\"A2-\",\"props\":{\"class\":\"slds-button slds-button_icon slds-button_icon-brand\",\"title\":\"Search\",\"type\":\"button\",\"part\":\"button button-icon\",\"tag\":\"button\",\"aqzindex\":580,\"finalaqzindex\":580,\"aq-data\":\"Search\"}},{\"used\":true,\"level\":\"A8-\",\"props\":{\"class\":\"slds-box slds-box_small\",\"tag\":\"div\",\"aqzindex\":574,\"finalaqzindex\":574,\"aq-data\":\"Product List Clear Search Navigation Mode SKU   Name Show Name column actions   Description Show Description column actions   Unit Price Show Unit Price column actions  \"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 843,
+        "elemPid": 484,
+        "viewPid": 214,
+        "mappingJson": "[{\"aqId\":\"zNB\",\"top\":442.375,\"left\":700.34375,\"width\":14.0,\"height\":14.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1683,
+        "elemPid": 484,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"FSB\",\"top\":407.375,\"left\":700.34375,\"width\":14.0,\"height\":14.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 7953,
+        "elemPid": 484,
+        "viewPid": 1190,
+        "mappingJson": "[{\"aqId\":\"ttD\",\"top\":347.375,\"left\":692.5,\"width\":14.0,\"height\":14.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749493464121,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749493464121,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 452,
+    "rootPid": 452,
+    "scmBasePid": 452,
+    "name": "Item Quantity",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"uiOutputNumber\",\"regex\":false,\"operator\":\"contains\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"value\":\"div\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"slds-form-element__static\",\"regex\":false,\"operator\":\"contains\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"4703:0\",\"dir\":\"auto\",\"class\":\"uiOutputNumber\",\"data-aura-class\":\"uiOutputNumber\",\"tag\":\"span\",\"aqzindex\":302,\"finalaqzindex\":302,\"text\":\"1\",\"aq-data\":\"1\"},\"top\":294,\"left\":197.484375,\"width\":7.546875,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-form-element__static slds-truncate\",\"data-aura-rendered-by\":\"4712:0\",\"tag\":\"div\",\"aqzindex\":302,\"finalaqzindex\":302,\"aq-data\":\"1\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 769,
+        "elemPid": 452,
+        "viewPid": 192,
+        "mappingJson": "[{\"aqId\":\"MMB\",\"top\":294.0,\"left\":197.484375,\"width\":7.546875,\"height\":19.0}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1749420264483,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749420986330,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 485,
+    "rootPid": 485,
+    "scmBasePid": 485,
+    "name": "Show more Actions",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"lightning-primitive-icon\",\"regex\":false,\"operator\":\"equals\"}}},\"parents\":[{\"level\":7,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"uiMenu\"},\"aq-data\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"Show\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"exportparts\":\"icon\",\"size\":\"x-small\",\"variant\":\"inverse\",\"tag\":\"lightning-primitive-icon\",\"aqzindex\":502,\"finalaqzindex\":502},\"top\":178.5,\"left\":966.5,\"width\":16,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A7-\",\"props\":{\"data-aura-rendered-by\":\"8574:0\",\"class\":\"uiMenu\",\"data-aura-class\":\"uiMenu\",\"tag\":\"div\",\"aqzindex\":502,\"finalaqzindex\":502,\"aq-data\":\"Show 7 more actions\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 844,
+        "elemPid": 485,
+        "viewPid": 213,
+        "mappingJson": "[{\"aqId\":\"sy\",\"top\":178.5,\"left\":966.5,\"width\":16.0,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1910,
+        "elemPid": 485,
+        "viewPid": 405,
+        "mappingJson": "[{\"aqId\":\"gmG\",\"top\":167.25,\"left\":966.5,\"width\":16.0,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1685,
+        "elemPid": 485,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"9q\",\"top\":139.25,\"left\":966.5,\"width\":16.0,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 845,
+        "elemPid": 485,
+        "viewPid": 214,
+        "mappingJson": "[{\"aqId\":\"wy\",\"top\":150.5,\"left\":966.5,\"width\":16.0,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 7954,
+        "elemPid": 485,
+        "viewPid": 1190,
+        "mappingJson": "[{\"aqId\":\"tJD\",\"top\":153.5,\"left\":966.5,\"width\":16.0,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 846,
+        "elemPid": 485,
+        "viewPid": 187,
+        "mappingJson": "[{\"aqId\":\"DYC\",\"top\":178.5,\"left\":966.5,\"width\":16.0,\"height\":17.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749493464461,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749493464461,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 486,
+    "rootPid": 486,
+    "scmBasePid": 486,
+    "name": "Order Item Name",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": true,
+    "noMatch": false,
+    "ordinalPolicy": 1,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":14,\"props\":{\"data-label\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Name\"}}},{\"level\":15,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"private-ssr-placeholder-class\"},\"data-label\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Name\"}}},{\"level\":42,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"runtime_commerce_omsDeliveryGroup\"},\"aq-data\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"Order Delivery Groups\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"span\",\"aqzindex\":146,\"finalaqzindex\":146,\"text\":\"60cm Series 11 Minimal Handleless Combi-Steam Oven\",\"aq-data\":\"60cm Series 11 Minimal Handleless Combi-Steam Oven\"},\"top\":568.125,\"left\":423.25,\"width\":316.90625,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A14-\",\"props\":{\"data-label\":\"Name\",\"tag\":\"lightning-primitive-cell-factory\",\"aqzindex\":144,\"finalaqzindex\":144,\"aq-data\":\"60cm Series 11 Minimal Handleless Combi-Steam Oven Open 60cm Series 11 Minimal Handleless Combi-Steam Oven Preview Open 60cm Series 11 Minimal Handleless Combi-Steam Oven Preview\"}},{\"used\":true,\"level\":\"A15-\",\"props\":{\"class\":\"private-ssr-placeholder-class\",\"role\":\"rowheader\",\"scope\":\"row\",\"tabindex\":\"0\",\"data-label\":\"Name\",\"data-col-key-value\":\"Name-lstOutputLookup-0\",\"data-cell-value\":\"[object Object]\",\"tag\":\"th\",\"aqzindex\":144,\"finalaqzindex\":144,\"aq-data\":\"60cm Series 11 Minimal Handleless Combi-Steam Oven Open 60cm Series 11 Minimal Handleless Combi-Steam Oven Preview Open 60cm Series 11 Minimal Handleless Combi-Steam Oven Preview\"}},{\"used\":true,\"level\":\"A42-\",\"props\":{\"data-data-rendering-service-uid\":\"1333\",\"data-aura-rendered-by\":\"5158:0\",\"class\":\"runtime_commerce_omsDeliveryGroup\",\"data-aura-class\":\"runtime_commerce_omsDeliveryGroup\",\"tag\":\"runtime_commerce_oms-delivery-group-items\",\"aqzindex\":49,\"finalaqzindex\":49,\"aq-data\":\"Order Delivery Groups (1) Search Ship To:  Ollie Wuckert  123 George Street lane 2 , Sydney , SA  2000 , AU Navigation Mode Sort by: Name Sorted: None Show Name column actions   Sort by: JDE Ship Date Sorted: None Show JDE Ship Date column actions   Sort by: Status Sorted: None Show Status column actions   Sort by: Quantity Sorted: None Show Quantity column actions   Sort by: Unit Price Sorted: None Show Unit Price column actions   Sort by: Line Adjustments Sorted: None Show Line Adjustments column actions \"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 847,
+        "elemPid": 486,
+        "viewPid": 212,
+        "mappingJson": "[{\"aqId\":\"Na\",\"top\":337.625,\"left\":278.5,\"width\":316.90625,\"height\":17.0},{\"aqId\":\"5b\",\"top\":368.375,\"left\":394.5,\"width\":50.859375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 848,
+        "elemPid": 486,
+        "viewPid": 213,
+        "mappingJson": "[{\"aqId\":\"v6\",\"top\":550.625,\"left\":394.5,\"width\":347.4375,\"height\":17.0},{\"aqId\":\"c8\",\"top\":581.375,\"left\":394.5,\"width\":50.859375,\"height\":17.0},{\"aqId\":\"J0\",\"top\":612.125,\"left\":394.5,\"width\":347.390625,\"height\":17.0},{\"aqId\":\"1AB\",\"top\":642.875,\"left\":394.5,\"width\":513.265625,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1911,
+        "elemPid": 486,
+        "viewPid": 405,
+        "mappingJson": "[{\"aqId\":\"otG\",\"top\":528.125,\"left\":394.5,\"width\":65.90625,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 849,
+        "elemPid": 486,
+        "viewPid": 214,
+        "mappingJson": "[{\"aqId\":\"z6\",\"top\":522.625,\"left\":394.5,\"width\":347.4375,\"height\":17.0},{\"aqId\":\"g8\",\"top\":553.375,\"left\":394.5,\"width\":50.859375,\"height\":17.0},{\"aqId\":\"N0\",\"top\":584.125,\"left\":394.5,\"width\":347.390625,\"height\":17.0},{\"aqId\":\"5AB\",\"top\":614.875,\"left\":394.5,\"width\":513.265625,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1686,
+        "elemPid": 486,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"Gy\",\"top\":500.125,\"left\":394.5,\"width\":266.34375,\"height\":17.0},{\"aqId\":\"xz\",\"top\":530.875,\"left\":394.5,\"width\":324.65625,\"height\":17.0},{\"aqId\":\"e2\",\"top\":561.625,\"left\":394.5,\"width\":50.859375,\"height\":17.0},{\"aqId\":\"L4\",\"top\":592.375,\"left\":394.5,\"width\":258.109375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 850,
+        "elemPid": 486,
+        "viewPid": 191,
+        "mappingJson": "[{\"aqId\":\"0V\",\"top\":325.625,\"left\":394.5,\"width\":316.90625,\"height\":17.0},{\"aqId\":\"qX\",\"top\":356.375,\"left\":394.5,\"width\":50.859375,\"height\":17.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749493464835,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749493464835,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 453,
+    "rootPid": 453,
+    "scmBasePid": 453,
+    "name": "Model Number",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemView\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderItemSummary.manufacturerSKU__c\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"401:5856;a\",\"class\":\"uiOutputText\",\"data-aura-class\":\"uiOutputText\",\"tag\":\"span\",\"aqzindex\":50,\"finalaqzindex\":50,\"text\":\"OS60SMTNG1\",\"aq-data\":\"OS60SMTNG1\"},\"top\":363.5,\"left\":73,\"width\":88.0625,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.OrderItemSummary.manufacturerSKU__c\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"403:5856;a\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":20,\"finalaqzindex\":20,\"aq-data\":\"Model Number OS60SMTNG1\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 764,
+        "elemPid": 453,
+        "viewPid": 193,
+        "mappingJson": "[{\"aqId\":\"XQB\",\"top\":363.5,\"left\":73,\"width\":88.0625,\"height\":19}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1749420306394,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749420311845,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 504,
+    "rootPid": 504,
+    "scmBasePid": 504,
+    "name": "Delivery Group",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"slds-radio_faux\",\"regex\":false,\"operator\":\"contains\"}}},\"parents\":[],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-radio_faux\",\"tag\":\"span\",\"aqzindex\":544,\"finalaqzindex\":544},\"top\":422.375,\"left\":310,\"width\":16,\"height\":16},\"parents\":[],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 883,
+        "elemPid": 504,
+        "viewPid": 213,
+        "mappingJson": "[{\"aqId\":\"MQB\",\"top\":458.375,\"left\":310.0,\"width\":16.0,\"height\":16.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749504762478,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1761771609058,
+    "lastModifiedUser": 2,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 487,
+    "rootPid": 487,
+    "scmBasePid": 487,
+    "name": "Total Requested Payment",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"p\"},\"text\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"Total Requested Payment\"}}},\"parents\":[],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"p\",\"aqzindex\":574,\"finalaqzindex\":574,\"text\":\"Total Requested Payment : 3,279.00\",\"aq-data\":\"Total Requested Payment : 3,279.00\"},\"top\":315.5,\"left\":301,\"width\":776,\"height\":19.5},\"parents\":[],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 851,
+        "elemPid": 487,
+        "viewPid": 215,
+        "mappingJson": "[{\"aqId\":\"OeB\",\"top\":315.5,\"left\":301,\"width\":776,\"height\":19.5}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749493465204,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749493465204,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 464,
+    "rootPid": 464,
+    "scmBasePid": 464,
+    "name": "GOP Estimated Delivery Date",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"lightning-formatted-text\"}}},\"parents\":[{\"level\":7,\"props\":{\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderDeliveryGroupSummary.Estimated_Delivery_Date__c\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"lightning-formatted-text\",\"aqzindex\":99,\"finalaqzindex\":99,\"text\":\"27/06/2025\",\"aq-data\":\"27/06/2025\"},\"top\":402.75,\"left\":75,\"width\":71.296875,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A7-\",\"props\":{\"class\":\"slds-grid slds-size_1-of-1 label-stacked\",\"data-target-selection-name\":\"sfdc:RecordField.OrderDeliveryGroupSummary.Estimated_Delivery_Date__c\",\"role\":\"listitem\",\"tag\":\"div\",\"aqzindex\":39,\"finalaqzindex\":39,\"aq-data\":\"GOP Estimated Delivery Date Help GOP Estimated Delivery Date Date Updated from GOP, holds the highest promised date among the ordered products from respective delivery group. 27/06/2025\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 799,
+        "elemPid": 464,
+        "viewPid": 199,
+        "mappingJson": "[{\"aqId\":\"UT\",\"top\":402.75,\"left\":75,\"width\":71.296875,\"height\":19}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749459826406,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749459826406,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 506,
+    "rootPid": 506,
+    "scmBasePid": 506,
+    "name": "Error Message",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":1,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"errorContent slds-text-color_error slds-text-body_small slds-m-bottom--x-small slds-rich-text-editor__output\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"part\":\"formatted-rich-text\",\"tag\":\"span\",\"aqzindex\":484,\"finalaqzindex\":484,\"aq-data\":\"An unhandled fault has occurred in this flow  An unhandled fault has occurred while processing the flow.Please contact your system administrator for more information.\",\"text\":\"An unhandled fault has occurred while processing the flow.Please contact your system administrator for more information.\"},\"top\":363.25,\"left\":301,\"width\":649.671875,\"height\":34},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"errorContent slds-text-color_error slds-text-body_small slds-m-bottom--x-small slds-rich-text-editor__output\",\"tag\":\"lightning-formatted-rich-text\",\"aqzindex\":484,\"finalaqzindex\":484,\"aq-data\":\"An unhandled fault has occurred in this flow  An unhandled fault has occurred while processing the flow.Please contact your system administrator for more information.\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 885,
+        "elemPid": 506,
+        "viewPid": 228,
+        "mappingJson": "[{\"aqId\":\"qZB\",\"top\":363.25,\"left\":301,\"width\":649.671875,\"height\":34}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749504763476,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749504763476,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 578,
+    "rootPid": 578,
+    "scmBasePid": 578,
+    "name": "Item to Cancel",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": true,
+    "noMatch": false,
+    "ordinalPolicy": 1,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"slds-checkbox_faux\",\"regex\":false,\"operator\":\"contains\"}}},\"parents\":[{\"level\":1,\"props\":{\"part\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"label-container\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-checkbox__label\"},\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"label\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"part\":\"indicator\",\"class\":\"slds-checkbox_faux\",\"tag\":\"span\",\"aqzindex\":452,\"finalaqzindex\":452},\"top\":370.875,\"left\":309,\"width\":16,\"height\":16},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"part\":\"label-container\",\"class\":\"slds-checkbox__label\",\"for\":\"lgt-dt-header-factory-id-1916\",\"tag\":\"label\",\"aqzindex\":450,\"finalaqzindex\":450,\"aq-data\":\"Select All\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1763,
+        "elemPid": 578,
+        "viewPid": 374,
+        "mappingJson": "[{\"aqId\":\"qBF\",\"top\":286.375,\"left\":85.0,\"width\":16.0,\"height\":16.0},{\"aqId\":\"yDF\",\"top\":319.75,\"left\":85.0,\"width\":16.0,\"height\":16.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1083,
+        "elemPid": 578,
+        "viewPid": 199,
+        "mappingJson": "[{\"aqId\":\"GU\",\"top\":456.75,\"left\":75.0,\"width\":16.0,\"height\":16.0},{\"aqId\":\"4U\",\"top\":511.25,\"left\":75.0,\"width\":16.0,\"height\":16.0},{\"aqId\":\"gV\",\"top\":565.75,\"left\":75.0,\"width\":16.0,\"height\":16.0}]",
+        "accessible": true
+      },
+      {
+        "pid": 1084,
+        "elemPid": 578,
+        "viewPid": 216,
+        "mappingJson": "[{\"aqId\":\"4iB\",\"top\":513.203125,\"left\":367.625,\"width\":16.0,\"height\":16.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1085,
+        "elemPid": 578,
+        "viewPid": 203,
+        "mappingJson": "[{\"aqId\":\"cVB\",\"top\":286.375,\"left\":85.0,\"width\":16.0,\"height\":16.0},{\"aqId\":\"eYB\",\"top\":319.75,\"left\":85.0,\"width\":16.0,\"height\":16.0},{\"aqId\":\"QaB\",\"top\":350.5,\"left\":85.0,\"width\":16.0,\"height\":16.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749678999901,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749679573928,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 624,
+    "rootPid": 624,
+    "scmBasePid": 624,
+    "name": "Requested Delivery Date Input",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"input\"},\"aq-attch-label\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Requested Delivery Date\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-input\"}}},\"parents\":[{\"level\":7,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-grid slds-p-left_xx-small\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-input\",\"type\":\"text\",\"id\":\"input-2160\",\"part\":\"input\",\"name\":\"dt-inline-edit-dateLocal\",\"autocomplete\":\"off\",\"tag\":\"input\",\"aq-attch-label\":\"Requested Delivery Date\",\"aqzindex\":539,\"finalaqzindex\":539},\"top\":353.5,\"left\":319.296875,\"width\":310,\"height\":32},\"parents\":[{\"used\":true,\"level\":\"A7-\",\"props\":{\"class\":\"slds-grid slds-p-left_xx-small\",\"tag\":\"lightning-primitive-datatable-iedit-input-wrapper\",\"aqzindex\":535,\"finalaqzindex\":535,\"aq-data\":\"Requested Delivery Date Select a date for Requested Delivery Date Format: 31/12/2024\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 7,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1156,
+        "elemPid": 624,
+        "viewPid": 277,
+        "mappingJson": "[{\"aqId\":\"CPF\",\"top\":353.5,\"left\":319.296875,\"width\":310.0,\"height\":32.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749764796081,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749764796081,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 625,
+    "rootPid": 625,
+    "scmBasePid": 625,
+    "name": "Requested Delivery Date",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"slds-grid_align-spread\",\"regex\":false,\"operator\":\"contains\"}}},\"parents\":[{\"level\":2,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-cell-edit\"},\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"td\"},\"data-label\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Requested Delivery Date\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-grid slds-grid_align-spread\",\"tag\":\"span\",\"aqzindex\":491,\"finalaqzindex\":491,\"aq-data\":\"22 Aug 2025 Edit Requested Delivery Date\"},\"top\":460.75,\"left\":325.296875,\"width\":143,\"height\":20},\"parents\":[{\"used\":true,\"level\":\"A2-\",\"props\":{\"class\":\"slds-cell-edit\",\"role\":\"gridcell\",\"tabindex\":\"0\",\"data-label\":\"Requested Delivery Date\",\"data-col-key-value\":\"RequestedDeliveryDateValue__c-date-local-2\",\"data-cell-value\":\"2025-08-22\",\"tag\":\"td\",\"aqzindex\":491,\"finalaqzindex\":491,\"aq-data\":\"22 Aug 2025 Edit Requested Delivery Date\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1157,
+        "elemPid": 625,
+        "viewPid": 277,
+        "mappingJson": "[{\"aqId\":\"vRF\",\"top\":353.5,\"left\":322.296875,\"width\":140.0,\"height\":20.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749764796902,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749764796902,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 614,
+    "rootPid": 614,
+    "scmBasePid": 614,
+    "name": "Order Items Table",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"table\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"slds-table_tree\",\"regex\":false,\"operator\":\"contains\"}}},\"parents\":[],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-table slds-table_header-fixed slds-table_bordered slds-table_edit slds-table_resizable-cols slds-tree slds-table_tree\",\"style\":\"table-layout: fixed;width: 760px;\",\"role\":\"treegrid\",\"data-num-rows\":\"2\",\"data-num-selected-rows\":\"0\",\"tag\":\"table\",\"aqzindex\":548,\"finalaqzindex\":548,\"aq-data\":\"Choose a Row Select All Name Show Name column actions   Status Show Status column actions   Quantity To Cancel Show Quantity To Cancel column actions   Line Total Show Line Total column actions   Select Item 1 Expand 60cm Series 11 Minimal Handleless Combi-Steam Oven 60cm Series 11 Minimal Handleless Combi-Steam Oven ORDERED 1 AUD 8,499.00 Select Item 2 Expand 60cm Series 9 Minimal Compact Combi-Steam Oven 60cm Series 9 Minimal Compact Combi-Steam Oven CANCELED 0 AUD 0.00\"},\"top\":327.5,\"left\":301,\"width\":760,\"height\":66},\"parents\":[],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 11,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1142,
+        "elemPid": 614,
+        "viewPid": 271,
+        "mappingJson": "[{\"aqId\":\"dmF\",\"top\":327.5,\"left\":301,\"width\":760,\"height\":66}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749757953863,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749757953863,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 628,
+    "rootPid": 628,
+    "scmBasePid": 628,
+    "name": "Update Requested Delivery Date",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"title\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Update Requested Delivery Date\"},\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"a\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:QuickAction.OrderSummary.UpdateRequestedDeliveryDate\"}}},\"parents\":[],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-target-selection-name\":\"sfdc:QuickAction.OrderSummary.UpdateRequestedDeliveryDate\",\"class\":\"highlightButton\",\"data-aura-rendered-by\":\"8618:0\",\"href\":\"javascript:void(0);\",\"role\":\"menuitem\",\"tabindex\":\"0\",\"title\":\"Update Requested Delivery Date\",\"tag\":\"a\",\"aqzindex\":512,\"finalaqzindex\":512,\"aq-data\":\"Update Requested Delivery Date\"},\"top\":237,\"left\":813,\"width\":210.1875,\"height\":34},\"parents\":[],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 9,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1161,
+        "elemPid": 628,
+        "viewPid": 280,
+        "mappingJson": "[{\"aqId\":\"TCC\",\"top\":237,\"left\":813,\"width\":210.1875,\"height\":34}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1749765614083,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1749765619002,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 831,
+    "rootPid": 831,
+    "scmBasePid": 831,
+    "name": "Payment Number",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"a\"},\"text\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"P-\"}}},\"parents\":[{\"level\":2,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-cell-edit cellContainer\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-refid\":\"recordId\",\"data-special-link\":\"true\",\"title\":\"P-000089695\",\"data-navigable\":\"true\",\"target\":\"_blank\",\"data-ownerid\":\"25479:0\",\"data-recordid\":\"0aQEa000000B205MAC\",\"rel\":\"noreferrer\",\"href\":\"/lightning/r/0aQEa000000B205MAC/view\",\"class\":\"slds-truncate outputLookupLink slds-truncate outputLookupLink-0aQEa000000B205MAC-25479:0 forceOutputLookup\",\"data-aura-rendered-by\":\"25490:0\",\"data-aura-class\":\"forceOutputLookup\",\"tag\":\"a\",\"aqzindex\":104,\"finalaqzindex\":104,\"text\":\"P-000089695\",\"aq-data\":\"P-000089695\"},\"top\":315.125,\"left\":93,\"width\":75.5625,\"height\":19.5},\"parents\":[{\"used\":true,\"level\":\"A2-\",\"props\":{\"scope\":\"row\",\"class\":\"slds-cell-edit cellContainer\",\"tabindex\":\"-1\",\"data-aura-rendered-by\":\"25478:0\",\"tag\":\"th\",\"aqzindex\":103,\"finalaqzindex\":103,\"aq-data\":\"P-000089695\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 9,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1771,
+        "elemPid": 831,
+        "viewPid": 379,
+        "mappingJson": "[{\"aqId\":\"1eD\",\"top\":315.125,\"left\":93,\"width\":75.5625,\"height\":19.5}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1750162015517,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1750162015517,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 880,
+    "rootPid": 880,
+    "scmBasePid": 880,
+    "name": "Total Payable Amount",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"p\"},\"text\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"Total Payable Amount :\"}}},\"parents\":[],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"p\",\"aqzindex\":309,\"finalaqzindex\":309,\"text\":\"Total Payable Amount : 6,445.05\",\"aq-data\":\"Total Payable Amount : 6,445.05\"},\"top\":331.5,\"left\":301,\"width\":776,\"height\":19.5},\"parents\":[],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1913,
+        "elemPid": 880,
+        "viewPid": 405,
+        "mappingJson": "[{\"aqId\":\"d5G\",\"top\":331.5,\"left\":301,\"width\":776,\"height\":19.5}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1750286046469,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1750286434284,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 832,
+    "rootPid": 832,
+    "scmBasePid": 832,
+    "name": "JDE Order Payment Response",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": true,
+    "noMatch": false,
+    "ordinalPolicy": 1,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":3,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-form-element slds-form-element_readonly slds-form-element_edit slds-grow slds-hint-parent override--slds-form-element\"},\"aq-data\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"JDE Order Payment Response\"}}},{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full long-text forcePageBlockItem forcePageBlockItemView\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.Payment.JDE_Order_Payment_Response__c\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"1237:28534;a\",\"class\":\"uiOutputTextArea\",\"data-aura-class\":\"uiOutputTextArea\",\"tag\":\"span\",\"aqzindex\":205,\"finalaqzindex\":205,\"text\":\"13/06/2025, 10:30 pm - {\\\"customerPo\\\":\\\"02684434\\\",\\\"payments\\\":[{\\\"paymentTransactionId\\\":\\\"PNLK9W9B4RQMSR65\\\",\\\"acknowledgementReceiptNo\\\":\\\"PNLK9W9B4RQMSR65\\\",\\\"invoiceNumber\\\":\\\"13089663\\\",\\\"status\\\":\\\"success\\\",\\\"message\\\":\\\"\\\"}]} -\",\"aq-data\":\"13/06/2025, 10:30 pm - {\\\"customerPo\\\":\\\"02684434\\\",\\\"payments\\\":[{\\\"paymentTransactionId\\\":\\\"PNLK9W9B4RQMSR65\\\",\\\"acknowledgementReceiptNo\\\":\\\"PNLK9W9B4RQMSR65\\\",\\\"invoiceNumber\\\":\\\"13089663\\\",\\\"status\\\":\\\"success\\\",\\\"message\\\":\\\"\\\"}]} -\"},\"top\":373,\"left\":713.5,\"width\":533.5,\"height\":61},\"parents\":[{\"used\":true,\"level\":\"A3-\",\"props\":{\"class\":\"slds-form-element slds-form-element_readonly slds-form-element_edit slds-grow slds-hint-parent override--slds-form-element\",\"data-aura-rendered-by\":\"1242:28534;a\",\"tag\":\"div\",\"aqzindex\":204,\"finalaqzindex\":204,\"aq-data\":\"JDE Order Payment Response 13/06/2025, 10:30 pm - {\\\"customerPo\\\":\\\"02684434\\\",\\\"payments\\\":[{\\\"paymentTransactionId\\\":\\\"PNLK9W9B4RQMSR65\\\",\\\"acknowledgementReceiptNo\\\":\\\"PNLK9W9B4RQMSR65\\\",\\\"invoiceNumber\\\":\\\"13089663\\\",\\\"status\\\":\\\"success\\\",\\\"message\\\":\\\"\\\"}]} - Edit JDE Order Payment Response\"}},{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.Payment.JDE_Order_Payment_Response__c\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full long-text forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"1241:28534;a\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":22,\"finalaqzindex\":22,\"aq-data\":\"JDE Order Payment Response 13/06/2025, 10:30 pm - {\\\"customerPo\\\":\\\"02684434\\\",\\\"payments\\\":[{\\\"paymentTransactionId\\\":\\\"PNLK9W9B4RQMSR65\\\",\\\"acknowledgementReceiptNo\\\":\\\"PNLK9W9B4RQMSR65\\\",\\\"invoiceNumber\\\":\\\"13089663\\\",\\\"status\\\":\\\"success\\\",\\\"message\\\":\\\"\\\"}]} - Edit JDE Order Payment Response\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1772,
+        "elemPid": 832,
+        "viewPid": 380,
+        "mappingJson": "[{\"aqId\":\"0wD\",\"top\":373,\"left\":713.5,\"width\":533.5,\"height\":61},{\"aqId\":\"HxD\",\"top\":372,\"left\":1268,\"width\":1,\"height\":1}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1750162016597,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1750162016597,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 833,
+    "rootPid": 833,
+    "scmBasePid": 833,
+    "name": "Method",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":15,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"private-ssr-placeholder-class\"},\"role\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"rowheader\"},\"data-label\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Method\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"span\",\"aqzindex\":98,\"finalaqzindex\":98,\"text\":\"Visa - 1111\",\"aq-data\":\"Visa - 1111\"},\"top\":318.125,\"left\":117,\"width\":63.71875,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A15-\",\"props\":{\"class\":\"private-ssr-placeholder-class\",\"role\":\"rowheader\",\"scope\":\"row\",\"tabindex\":\"0\",\"data-label\":\"Method\",\"data-col-key-value\":\"Method-lstOutputLookup-2\",\"data-cell-value\":\"[object Object]\",\"tag\":\"th\",\"aqzindex\":96,\"finalaqzindex\":96,\"aq-data\":\"Visa - 1111 Open Visa - 1111 Preview Open Visa - 1111 Preview\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1773,
+        "elemPid": 833,
+        "viewPid": 381,
+        "mappingJson": "[{\"aqId\":\"jGD\",\"top\":318.125,\"left\":117,\"width\":63.71875,\"height\":17}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1750162017745,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1750162017745,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 881,
+    "rootPid": 881,
+    "scmBasePid": 881,
+    "name": "Edit Delivery Instructions ",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": true,
+    "noMatch": false,
+    "ordinalPolicy": 1,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"inline-edit-trigger-icon\",\"regex\":false,\"operator\":\"contains\"}}},\"parents\":[{\"level\":1,\"props\":{\"title\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Edit Have you checked Delivery Information\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-grid highlights-primary-row inline-edit-trigger-icon\",\"tag\":\"span\",\"aqzindex\":193,\"finalaqzindex\":193},\"top\":671,\"left\":857.046875,\"width\":14,\"height\":14},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"test-id__inline-edit-trigger slds-shrink-none inline-edit-trigger slds-button slds-button_icon\",\"title\":\"Edit Have you checked Delivery Information\",\"tag\":\"button\",\"aqzindex\":192,\"finalaqzindex\":192,\"aq-data\":\"Edit Have you checked Delivery Information\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1914,
+        "elemPid": 881,
+        "viewPid": 406,
+        "mappingJson": "[{\"aqId\":\"WPG\",\"top\":671,\"left\":857.046875,\"width\":14,\"height\":14}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1750287527145,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1750287527145,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 2951,
+    "rootPid": 2951,
+    "scmBasePid": 2951,
+    "name": "Product not available error",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-hyphenate\"},\"text\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"The Product is not available in the inventory\"}}},\"parents\":[{\"level\":1,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-modal__header\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-modal__title slds-hyphenate\",\"id\":\"modal-heading-01-742\",\"tag\":\"h1\",\"aqzindex\":689,\"finalaqzindex\":689,\"text\":\"The Product is not available in the inventory\",\"aq-data\":\"The Product is not available in the inventory\"},\"top\":271,\"left\":367.5,\"width\":628,\"height\":25},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-modal__header\",\"tag\":\"div\",\"aqzindex\":689,\"finalaqzindex\":689,\"aq-data\":\"The Product is not available in the inventory\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 7955,
+        "elemPid": 2951,
+        "viewPid": 1190,
+        "mappingJson": "[{\"aqId\":\"cxD\",\"top\":271,\"left\":367.5,\"width\":628,\"height\":25}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1761751524810,
+    "createdUser": 2,
+    "lastModifiedTimestamp": 1761751527565,
+    "lastModifiedUser": 2,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 835,
+    "rootPid": 835,
+    "scmBasePid": 835,
+    "name": "Outstanding Amount",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"lightning-formatted-number\",\"regex\":false,\"operator\":\"equals\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"value\":\"dd\",\"regex\":false,\"operator\":\"equals\"},\"title\":{\"value\":\"Outstanding Amount\",\"regex\":false,\"operator\":\"equals\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"lightning-formatted-number\",\"aqzindex\":40,\"finalaqzindex\":40,\"text\":\"AUD 0.00\",\"aq-data\":\"AUD 0.00\"},\"top\":504.5,\"left\":246.890625,\"width\":53.59375,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-dl_horizontal__label slds-text-align_right slds-p-bottom_xxx-small no-padding-review-totals totals_number\",\"title\":\"Outstanding Amount\",\"tag\":\"dd\",\"aqzindex\":40,\"finalaqzindex\":40,\"aq-data\":\"AUD 0.00\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1777,
+        "elemPid": 835,
+        "viewPid": 277,
+        "mappingJson": "[{\"aqId\":\"SLE\",\"top\":562.5,\"left\":246.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": true
+      },
+      {
+        "pid": 1778,
+        "elemPid": 835,
+        "viewPid": 213,
+        "mappingJson": "[{\"aqId\":\"bx\",\"top\":567.5,\"left\":246.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1779,
+        "elemPid": 835,
+        "viewPid": 373,
+        "mappingJson": "[{\"aqId\":\"Iw\",\"top\":607.5,\"left\":246.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1912,
+        "elemPid": 835,
+        "viewPid": 405,
+        "mappingJson": "[{\"aqId\":\"VlG\",\"top\":567.5,\"left\":246.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1780,
+        "elemPid": 835,
+        "viewPid": 215,
+        "mappingJson": "[{\"aqId\":\"w3\",\"top\":539.5,\"left\":246.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1781,
+        "elemPid": 835,
+        "viewPid": 214,
+        "mappingJson": "[{\"aqId\":\"fx\",\"top\":539.5,\"left\":246.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1782,
+        "elemPid": 835,
+        "viewPid": 217,
+        "mappingJson": "[{\"aqId\":\"w3\",\"top\":539.5,\"left\":246.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1783,
+        "elemPid": 835,
+        "viewPid": 280,
+        "mappingJson": "[{\"aqId\":\"H9\",\"top\":567.5,\"left\":261.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1784,
+        "elemPid": 835,
+        "viewPid": 216,
+        "mappingJson": "[{\"aqId\":\"q3\",\"top\":559.5,\"left\":246.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1785,
+        "elemPid": 835,
+        "viewPid": 187,
+        "mappingJson": "[{\"aqId\":\"wWC\",\"top\":567.5,\"left\":261.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1786,
+        "elemPid": 835,
+        "viewPid": 191,
+        "mappingJson": "[{\"aqId\":\"kN\",\"top\":567.5,\"left\":246.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1787,
+        "elemPid": 835,
+        "viewPid": 229,
+        "mappingJson": "[{\"aqId\":\"L5\",\"top\":580.5,\"left\":246.8125,\"width\":53.671875,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1788,
+        "elemPid": 835,
+        "viewPid": 357,
+        "mappingJson": "[{\"aqId\":\"tp\",\"top\":539.5,\"left\":246.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1789,
+        "elemPid": 835,
+        "viewPid": 228,
+        "mappingJson": "[{\"aqId\":\"N5\",\"top\":580.5,\"left\":246.8125,\"width\":53.671875,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1790,
+        "elemPid": 835,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"xp\",\"top\":539.5,\"left\":261.890625,\"width\":53.59375,\"height\":17.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1791,
+        "elemPid": 835,
+        "viewPid": 271,
+        "mappingJson": "[{\"aqId\":\"YCF\",\"top\":539.5,\"left\":223.046875,\"width\":77.4375,\"height\":17.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1750162773465,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1750162775263,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 826,
+    "rootPid": 826,
+    "scmBasePid": 826,
+    "name": "Invoice Document Number",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":15,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"private-ssr-placeholder-class\"},\"data-label\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Document Number\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"span\",\"aqzindex\":99,\"finalaqzindex\":99,\"text\":\"DOC-000029894\",\"aq-data\":\"DOC-000029894\"},\"top\":318.125,\"left\":117,\"width\":95.234375,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A15-\",\"props\":{\"class\":\"private-ssr-placeholder-class\",\"role\":\"rowheader\",\"scope\":\"row\",\"tabindex\":\"0\",\"data-label\":\"Document Number\",\"data-col-key-value\":\"DocumentNumber-lstOutputLookup-2\",\"data-cell-value\":\"[object Object]\",\"tag\":\"th\",\"aqzindex\":97,\"finalaqzindex\":97,\"aq-data\":\"DOC-000029894 Open DOC-000029894 Preview Open DOC-000029894 Preview\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1764,
+        "elemPid": 826,
+        "viewPid": 374,
+        "mappingJson": "[{\"aqId\":\"JEF\",\"top\":318.125,\"left\":117,\"width\":95.234375,\"height\":17}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1750160910006,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1750160914567,
+    "lastModifiedUser": 6,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 797,
+    "rootPid": 797,
+    "scmBasePid": 797,
+    "name": "Total Refundable Amount",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"p\"},\"text\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"Total Refundable Amount : -\"}}},\"parents\":[],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"p\",\"aqzindex\":559,\"finalaqzindex\":559,\"text\":\"Total Refundable Amount : -1,270.35.\",\"aq-data\":\"Total Refundable Amount : -1,270.35.\"},\"top\":289.75,\"left\":301,\"width\":776,\"height\":19.5},\"parents\":[],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1672,
+        "elemPid": 797,
+        "viewPid": 357,
+        "mappingJson": "[{\"aqId\":\"PQB\",\"top\":289.75,\"left\":301,\"width\":776,\"height\":19.5}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1750138755674,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1767922483503,
+    "lastModifiedUser": 3,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 798,
+    "rootPid": 798,
+    "scmBasePid": 798,
+    "name": "Available Item",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"slds-checkbox_faux\",\"regex\":false,\"operator\":\"contains\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"label\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-checkbox__label\"},\"part\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"label-container\"}}},{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"private-ssr-placeholder-class\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"part\":\"indicator\",\"class\":\"slds-checkbox_faux\",\"tag\":\"span\",\"aqzindex\":602,\"finalaqzindex\":602},\"top\":337.375,\"left\":309,\"width\":16,\"height\":16},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-checkbox__label\",\"part\":\"label-container\",\"id\":\"check-button-label-1-798\",\"for\":\"primitive-cell-checkbox-id-798\",\"tag\":\"label\",\"aqzindex\":600,\"finalaqzindex\":600,\"aq-data\":\"Select Item 1\"}},{\"used\":true,\"level\":\"A4-\",\"props\":{\"class\":\"private-ssr-placeholder-class\",\"role\":\"gridcell\",\"tabindex\":\"-1\",\"data-col-key-value\":\"0-SELECTABLE_CHECKBOX-0\",\"tag\":\"td\",\"aqzindex\":599,\"finalaqzindex\":599,\"aq-data\":\"Select Item 1\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1673,
+        "elemPid": 798,
+        "viewPid": 203,
+        "mappingJson": "[{\"aqId\":\"eYB\",\"top\":319.75,\"left\":85.0,\"width\":16.0,\"height\":16.0},{\"aqId\":\"QaB\",\"top\":350.5,\"left\":85.0,\"width\":16.0,\"height\":16.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1674,
+        "elemPid": 798,
+        "viewPid": 271,
+        "mappingJson": "[{\"aqId\":\"GoF\",\"top\":337.375,\"left\":309.0,\"width\":16.0,\"height\":16.0},{\"aqId\":\"voF\",\"top\":370.375,\"left\":309.0,\"width\":16.0,\"height\":16.0}]",
+        "accessible": false
+      },
+      {
+        "pid": 1762,
+        "elemPid": 798,
+        "viewPid": 374,
+        "mappingJson": "[{\"aqId\":\"yDF\",\"top\":319.75,\"left\":85.0,\"width\":16.0,\"height\":16.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1750138756630,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1767922554882,
+    "lastModifiedUser": 3,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 781,
+    "rootPid": 781,
+    "scmBasePid": 781,
+    "name": "Fulfillment Order number",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": true,
+    "noMatch": false,
+    "ordinalPolicy": 5,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":14,\"props\":{\"data-label\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Fulfillment Order Number\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"span\",\"aqzindex\":117,\"finalaqzindex\":117,\"text\":\"FO-60774\",\"aq-data\":\"FO-60774\"},\"top\":318.125,\"left\":117,\"width\":56.390625,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A14-\",\"props\":{\"data-label\":\"Fulfillment Order Number\",\"tag\":\"lightning-primitive-cell-factory\",\"aqzindex\":115,\"finalaqzindex\":115,\"aq-data\":\"FO-60774 Open FO-60774 Preview Open FO-60774 Preview\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 8187,
+        "elemPid": 781,
+        "viewPid": 203,
+        "mappingJson": "[{\"aqId\":\"zYB\",\"top\":318.125,\"left\":117.0,\"width\":56.390625,\"height\":17.0},{\"aqId\":\"laB\",\"top\":348.875,\"left\":117.0,\"width\":56.390625,\"height\":17.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1750101889554,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1762982077727,
+    "lastModifiedUser": 2613,
+    "pdfElement": false,
+    "alternateIDGenerated": false
+  },
+  {
+    "pid": 825,
+    "rootPid": 825,
+    "scmBasePid": 825,
+    "name": "JDE Order Response",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":3,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-form-element slds-form-element_readonly slds-grow slds-hint-parent override--slds-form-element\"},\"aq-data\":{\"regex\":false,\"operator\":\"starts-with\",\"value\":\"JDE Order Response\"}}},{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full long-text forcePageBlockItem forcePageBlockItemView\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderSummary.JDE_Order_Response__c\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"12029:0\",\"class\":\"uiOutputTextArea\",\"data-aura-class\":\"uiOutputTextArea\",\"tag\":\"span\",\"aqzindex\":180,\"finalaqzindex\":180,\"text\":\"16/06/2025, 4:56 pm - {\\\"order\\\":{\\\"orderNumber\\\":\\\"20416429\\\",\\\"orderCompany\\\":\\\"01500\\\",\\\"orderType\\\":\\\"V1\\\",\\\"invoiceNumber\\\":\\\"13089666\\\",\\\"status\\\":\\\"success\\\",\\\"message\\\":\\\"\\\"}} -\",\"aq-data\":\"16/06/2025, 4:56 pm - {\\\"order\\\":{\\\"orderNumber\\\":\\\"20416429\\\",\\\"orderCompany\\\":\\\"01500\\\",\\\"orderType\\\":\\\"V1\\\",\\\"invoiceNumber\\\":\\\"13089666\\\",\\\"status\\\":\\\"success\\\",\\\"message\\\":\\\"\\\"}} -\"},\"top\":339,\"left\":405.5,\"width\":241.015625,\"height\":103},\"parents\":[{\"used\":true,\"level\":\"A3-\",\"props\":{\"class\":\"slds-form-element slds-form-element_readonly slds-grow slds-hint-parent override--slds-form-element\",\"data-aura-rendered-by\":\"12034:0\",\"tag\":\"div\",\"aqzindex\":179,\"finalaqzindex\":179,\"aq-data\":\"JDE Order Response 16/06/2025, 4:56 pm - {\\\"order\\\":{\\\"orderNumber\\\":\\\"20416429\\\",\\\"orderCompany\\\":\\\"01500\\\",\\\"orderType\\\":\\\"V1\\\",\\\"invoiceNumber\\\":\\\"13089666\\\",\\\"status\\\":\\\"success\\\",\\\"message\\\":\\\"\\\"}} -\"}},{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.OrderSummary.JDE_Order_Response__c\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full long-text forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"12033:0\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":47,\"finalaqzindex\":47,\"aq-data\":\"JDE Order Response 16/06/2025, 4:56 pm - {\\\"order\\\":{\\\"orderNumber\\\":\\\"20416429\\\",\\\"orderCompany\\\":\\\"01500\\\",\\\"orderType\\\":\\\"V1\\\",\\\"invoiceNumber\\\":\\\"13089666\\\",\\\"status\\\":\\\"success\\\",\\\"message\\\":\\\"\\\"}} -\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1761,
+        "elemPid": 825,
+        "viewPid": 373,
+        "mappingJson": "[{\"aqId\":\"cPB\",\"top\":339,\"left\":405.5,\"width\":241.015625,\"height\":103}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1750160502403,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1768206404729,
+    "lastModifiedUser": 4,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 446,
+    "rootPid": 446,
+    "scmBasePid": 446,
+    "name": "Billing Email Address",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"a\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"emailuiFormattedEmail\"}}},\"parents\":[{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemView\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderSummary.BillingEmailAddress\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"href\":\"mailto:oyse_tuf@hotmail.com\",\"data-aura-rendered-by\":\"407:11968;a\",\"class\":\"emailuiFormattedEmail\",\"data-aura-class\":\"emailuiFormattedEmail\",\"tag\":\"a\",\"aqzindex\":105,\"finalaqzindex\":105,\"text\":\"oyse_tuf@hotmail.com\",\"aq-data\":\"oyse_tuf@hotmail.com\"},\"top\":413,\"left\":401.75,\"width\":141.078125,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.OrderSummary.BillingEmailAddress\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"411:11968;a\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":50,\"finalaqzindex\":50,\"aq-data\":\"Billing Email Address oyse_tuf@hotmail.com\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 9,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 754,
+        "elemPid": 446,
+        "viewPid": 188,
+        "mappingJson": "[{\"aqId\":\"0YD\",\"top\":413.0,\"left\":401.75,\"width\":141.078125,\"height\":19.0}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1749416834057,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1761131890774,
+    "lastModifiedUser": 4,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 451,
+    "rootPid": 451,
+    "scmBasePid": 451,
+    "name": "Item Name",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"uiOutputText\"},\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":4,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-col slds-grid slds-has-flexi-truncate full forcePageBlockItem forcePageBlockItemView\"},\"data-target-selection-name\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"sfdc:RecordField.OrderItemSummary.Name\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"data-aura-rendered-by\":\"9:5856;a\",\"class\":\"uiOutputText\",\"data-aura-class\":\"uiOutputText\",\"tag\":\"span\",\"aqzindex\":26,\"finalaqzindex\":26,\"text\":\"60cm Series 11 Minimal Handleless Combi-Steam Oven\",\"aq-data\":\"60cm Series 11 Minimal Handleless Combi-Steam Oven\"},\"top\":474.5,\"left\":73,\"width\":341.28125,\"height\":19},\"parents\":[{\"used\":true,\"level\":\"A4-\",\"props\":{\"role\":\"listitem\",\"data-target-selection-name\":\"sfdc:RecordField.OrderItemSummary.Name\",\"class\":\"slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView\",\"data-aura-rendered-by\":\"11:5856;a\",\"data-aura-class\":\"forcePageBlockItem forcePageBlockItemView\",\"tag\":\"div\",\"aqzindex\":20,\"finalaqzindex\":20,\"aq-data\":\"Name 60cm Series 11 Minimal Handleless Combi-Steam Oven\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 760,
+        "elemPid": 451,
+        "viewPid": 192,
+        "mappingJson": "[{\"aqId\":\"tNB\",\"top\":474.5,\"left\":73,\"width\":341.28125,\"height\":19}]",
+        "accessible": true
+      },
+      {
+        "pid": 762,
+        "elemPid": 451,
+        "viewPid": 193,
+        "mappingJson": "[{\"aqId\":\"tNB\",\"top\":72.5,\"left\":73.0,\"width\":341.28125,\"height\":19.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749420217918,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1761202269700,
+    "lastModifiedUser": 4,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 623,
+    "rootPid": 623,
+    "scmBasePid": 623,
+    "name": "Edit Icon",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": false,
+    "noMatch": false,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-assistive-text\"}}},\"parents\":[{\"level\":1,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-button slds-button_icon slds-button_icon-small slds-cell-edit__button slds-m-left_x-small\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-assistive-text\",\"tag\":\"span\",\"aqzindex\":495,\"finalaqzindex\":495,\"text\":\"Edit Requested Delivery Date\",\"aq-data\":\"Edit Requested Delivery Date\"},\"top\":352,\"left\":457.796875,\"width\":1,\"height\":1},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-button slds-button_icon slds-button_icon-small slds-cell-edit__button slds-m-left_x-small\",\"tabindex\":\"-1\",\"data-navigation\":\"enable\",\"data-action-triggers\":\"enter,space\",\"data-action-edit\":\"true\",\"part\":\"button button-icon\",\"tag\":\"button\",\"aqzindex\":493,\"finalaqzindex\":493,\"aq-data\":\"Edit Requested Delivery Date\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1155,
+        "elemPid": 623,
+        "viewPid": 277,
+        "mappingJson": "[{\"aqId\":\"5RF\",\"top\":363.0,\"left\":451.796875,\"width\":1.0,\"height\":1.0}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749764795391,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1763372603357,
+    "lastModifiedUser": 2,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 470,
+    "rootPid": 470,
+    "scmBasePid": 470,
+    "name": "Fulfillment Order",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": true,
+    "noMatch": false,
+    "ordinalPolicy": 5,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"span\"}}},\"parents\":[{\"level\":14,\"props\":{\"data-label\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"Fulfillment Order Number\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"tag\":\"span\",\"aqzindex\":117,\"finalaqzindex\":117,\"text\":\"FO-60774\",\"aq-data\":\"FO-60774\"},\"top\":318.125,\"left\":117,\"width\":56.390625,\"height\":17},\"parents\":[{\"used\":true,\"level\":\"A14-\",\"props\":{\"data-label\":\"Fulfillment Order Number\",\"tag\":\"lightning-primitive-cell-factory\",\"aqzindex\":115,\"finalaqzindex\":115,\"aq-data\":\"FO-60774 Open FO-60774 Preview Open FO-60774 Preview\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 811,
+        "elemPid": 470,
+        "viewPid": 203,
+        "mappingJson": "[{\"aqId\":\"zYB\",\"top\":318.125,\"left\":117,\"width\":56.390625,\"height\":17},{\"aqId\":\"laB\",\"top\":348.875,\"left\":117,\"width\":56.390625,\"height\":17}]",
+        "accessible": false
+      }
+    ],
+    "createdTimestamp": 1749464026953,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1761550491508,
+    "lastModifiedUser": 2,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  },
+  {
+    "pid": 800,
+    "rootPid": 800,
+    "scmBasePid": 800,
+    "name": "Additional Services checkbox",
+    "idType": 1,
+    "isAbstract": false,
+    "reviewed": true,
+    "repeatElement": true,
+    "noMatch": false,
+    "ordinalPolicy": 1,
+    "pvInfo": "{\"self\":{\"props\":{\"tag\":{\"value\":\"span\",\"regex\":false,\"operator\":\"equals\"},\"class\":{\"value\":\"slds-checkbox_faux\",\"regex\":false,\"operator\":\"contains\"}}},\"parents\":[{\"level\":1,\"props\":{\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"label\"},\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-checkbox__label\"}}},{\"level\":5,\"props\":{\"class\":{\"regex\":false,\"operator\":\"contains\",\"value\":\"slds-form-element\"},\"tag\":{\"regex\":false,\"operator\":\"equals\",\"value\":\"lightning-checkbox-group\"}}}],\"children\":[],\"version\":2}",
+    "pristinePVInfo": "{\"self\":{\"props\":{\"class\":\"slds-checkbox_faux\",\"tag\":\"span\",\"aqzindex\":744,\"finalaqzindex\":744},\"top\":446.953125,\"left\":355.5,\"width\":16,\"height\":16},\"parents\":[{\"used\":true,\"level\":\"A1-\",\"props\":{\"class\":\"slds-checkbox__label\",\"for\":\"checkbox-0-5064\",\"tag\":\"label\",\"aqzindex\":742,\"finalaqzindex\":742,\"aq-data\":\"Connect Dishwasher\"}},{\"used\":true,\"level\":\"A5-\",\"props\":{\"id\":\"services-5060\",\"class\":\"slds-form-element\",\"tag\":\"lightning-checkbox-group\",\"aqzindex\":740,\"finalaqzindex\":740,\"aq-data\":\"Connect Dishwasher Remove Old Appliance Dishwasher\"}}],\"children\":[],\"version\":2}",
+    "contextPid": 252,
+    "elementTypePid": 1,
+    "applicableConfiguration": "{\"resolution\":\"DESKTOP;TABLET;PHONE\"}",
+    "viewMappingList": [
+      {
+        "pid": 1688,
+        "elemPid": 800,
+        "viewPid": 358,
+        "mappingJson": "[{\"aqId\":\"XWB\",\"top\":446.953125,\"left\":355.5,\"width\":16,\"height\":16},{\"aqId\":\"dWB\",\"top\":468.453125,\"left\":355.5,\"width\":16,\"height\":16}]",
+        "accessible": true
+      }
+    ],
+    "createdTimestamp": 1750139170951,
+    "createdUser": 6,
+    "lastModifiedTimestamp": 1767922687454,
+    "lastModifiedUser": 3,
+    "pdfElement": false,
+    "alternateIDGenerated": true
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "scnPid": 208,
+  "scnName": "MSD Order Creation and Validation in SF",
+  "steps": [
+    {
+      "index": 1,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    },
+    {
+      "index": 2,
+      "ctxPid": 413,
+      "ctxName": "TPP Login Page",
+      "compPid": 1662,
+      "compName": "Login to MSD Trade Portal",
+      "methodName": "loginToMSDTradePortal",
+      "params": [
+        "email",
+        "password"
+      ],
+      "returns": []
+    },
+    {
+      "index": 3,
+      "ctxPid": 1198,
+      "ctxName": "TPP MSD Portal page",
+      "compPid": 1663,
+      "compName": "Navigate to MSD Portal",
+      "methodName": "navigateToMSDPortal",
+      "params": [
+        "tPPType"
+      ],
+      "returns": []
+    },
+    {
+      "index": 4,
+      "ctxPid": 1198,
+      "ctxName": "TPP MSD Portal page",
+      "compPid": 1796,
+      "compName": "Validate and Accept Cookies",
+      "methodName": "validateAndAcceptCookies",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 5,
+      "ctxPid": 1283,
+      "ctxName": "MSD Product Listing page",
+      "compPid": 1793,
+      "compName": "Select Product and Checkout",
+      "methodName": "selectProductAndCheckout",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 6,
+      "ctxPid": 1284,
+      "ctxName": "MSD Customer info",
+      "compPid": 1791,
+      "compName": "Provide Customer and Delivery details",
+      "methodName": "provideCustomerAndDeliveryDetails",
+      "params": [
+        "email",
+        "fixedTextLength",
+        "prefix",
+        "suffix",
+        "address"
+      ],
+      "returns": []
+    },
+    {
+      "index": 7,
+      "ctxPid": 1285,
+      "ctxName": "MSD Payment info",
+      "compPid": 1794,
+      "compName": "Provide MSD card and Confirm Payment with Agent",
+      "methodName": "provideMSDCardAndConfirmPaymentWithAgent",
+      "params": [
+        "mSDCardNumber",
+        "iConfirmIHaveCollectedTheFollowingAmount"
+      ],
+      "returns": []
+    },
+    {
+      "index": 8,
+      "ctxPid": 1286,
+      "ctxName": "MSD Checkout page",
+      "compPid": 1795,
+      "compName": "Place the Order and Get Order Details",
+      "methodName": "placeTheOrderAndGetOrderDetails",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 9,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    }
+  ]
+}

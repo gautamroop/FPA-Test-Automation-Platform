@@ -1,0 +1,31 @@
+{
+  "pid": 182,
+  "rootPid": 182,
+  "scnName": "Book a Service Online",
+  "testTypePid": 0,
+  "description": "",
+  "status": 7,
+  "ready": false,
+  "metaValues": {
+    "pid": 4122,
+    "field1": "4",
+    "pjPid": 2
+  },
+  "tags": [
+    {
+      "pid": 8,
+      "tagName": "Service"
+    }
+  ],
+  "modifiedTimestamp": 1753192372389,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 2,
+  "createdTimestamp": 1753178036126,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

@@ -1,0 +1,26 @@
+{
+  "pid": 113,
+  "rootPid": 113,
+  "scnName": "TPP - Convert Quote to Order",
+  "testTypePid": 0,
+  "description": "",
+  "status": 8,
+  "ready": true,
+  "metaValues": {
+    "pid": 1991,
+    "field1": "3",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1750340160670,
+  "modifiedUser": 6,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 6,
+  "createdTimestamp": 1750279218421,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

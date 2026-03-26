@@ -1,0 +1,438 @@
+[
+  {
+    "scnStep": {
+      "pid": 8338,
+      "index": 1,
+      "paramList": [],
+      "stepType": 1,
+      "scnPid": 66
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 8339,
+      "index": 2,
+      "displayIndex": 1,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9786,
+          "dsStepPid": null,
+          "dsTypePid": 1,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": "https://uat.fisherpaykel.com/au",
+          "randomValue": null,
+          "compInputParamPid": 183,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8339,
+          "stepIndex": null,
+          "scnPid": 66,
+          "paramName": "URL"
+        }
+      ],
+      "compPid": 282,
+      "ctxPid": 197,
+      "stepType": 3,
+      "scnPid": 66
+    },
+    "compInputParams": [
+      {
+        "pid": 183,
+        "rootPid": 183,
+        "name": "URL",
+        "desc": "URL to invoke the browser with",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 282,
+        "index": 1,
+        "pubPid": 11763,
+        "primaryUsecasePid": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 197,
+    "ctxName": "Init Page",
+    "compName": "Invoke Browser",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 248,
+        "destCtxName": "Salesforce Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 413,
+        "destCtxName": "TPP Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": true,
+    "subscriberCompDetails": {
+      "subCompScmBasePid": 282,
+      "subPjPid": 2,
+      "subCustomerPid": 144,
+      "pubPjPid": 54,
+      "mpCompPid": 7716
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 8340,
+      "index": 3,
+      "displayIndex": 2,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 291,
+      "ctxPid": 202,
+      "stepType": 3,
+      "scnPid": 66
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 202,
+    "ctxName": "F&P Home Page",
+    "compName": "Validate and Accept Cookies",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 203,
+        "destCtxName": "F&P Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 458,
+        "destCtxName": "TPP Agency Order Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8341,
+      "index": 4,
+      "displayIndex": 3,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9784,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 188,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8341,
+          "stepIndex": null,
+          "scnPid": 66,
+          "paramName": "Password"
+        },
+        {
+          "pid": 9785,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 187,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8341,
+          "stepIndex": null,
+          "scnPid": 66,
+          "paramName": "Email"
+        }
+      ],
+      "compPid": 292,
+      "ctxPid": 203,
+      "stepType": 3,
+      "scnPid": 66
+    },
+    "compInputParams": [
+      {
+        "pid": 187,
+        "rootPid": 187,
+        "name": "Email",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 292,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 188,
+        "rootPid": 188,
+        "name": "Password",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 292,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 203,
+    "ctxName": "F&P Login Page",
+    "compName": "User Login",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 239,
+        "destCtxName": "F&P Products Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8342,
+      "index": 5,
+      "displayIndex": 4,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9783,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 197,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8342,
+          "stepIndex": null,
+          "scnPid": 66,
+          "paramName": "Product Sub Category"
+        },
+        {
+          "pid": 9787,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 196,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8342,
+          "stepIndex": null,
+          "scnPid": 66,
+          "paramName": "Product Category"
+        }
+      ],
+      "compPid": 337,
+      "ctxPid": 202,
+      "stepType": 3,
+      "scnPid": 66
+    },
+    "compInputParams": [
+      {
+        "pid": 196,
+        "rootPid": 196,
+        "name": "Product Category",
+        "desc": "",
+        "valueTypePid": 2,
+        "required": true,
+        "componentPid": 337,
+        "listPid": 5,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 197,
+        "rootPid": 197,
+        "name": "Product Sub Category",
+        "desc": "",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 337,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 202,
+    "ctxName": "F&P Home Page",
+    "compName": "Navigate to Product Type and Select Product Style",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 239,
+        "destCtxName": "F&P Products Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8343,
+      "index": 6,
+      "displayIndex": 5,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9782,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 198,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8343,
+          "stepIndex": null,
+          "scnPid": 66,
+          "paramName": "Delivery Pin code"
+        },
+        {
+          "pid": 9788,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 199,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8343,
+          "stepIndex": null,
+          "scnPid": 66,
+          "paramName": "Order Quantity"
+        }
+      ],
+      "compPid": 338,
+      "ctxPid": 239,
+      "stepType": 3,
+      "scnPid": 66
+    },
+    "compInputParams": [
+      {
+        "pid": 198,
+        "rootPid": 198,
+        "name": "Delivery Pin code",
+        "desc": "",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 338,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 199,
+        "rootPid": 199,
+        "name": "Order Quantity",
+        "desc": "",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 338,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [
+      {
+        "pid": 124,
+        "rootPid": 124,
+        "name": "Order Qty",
+        "componentPid": 338
+      }
+    ],
+    "ownerCtxPid": 239,
+    "ctxName": "F&P Products Page",
+    "compName": "Select the Product and Add to Cart",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 245,
+        "destCtxName": "F&P Order Payment DetailsPage",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 242,
+        "destCtxName": "F&P Order Details Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8344,
+      "index": 7,
+      "displayIndex": 6,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 461,
+      "ctxPid": 242,
+      "stepType": 3,
+      "scnPid": 66
+    },
+    "compInputParams": [],
+    "compOutputParams": [
+      {
+        "pid": 139,
+        "rootPid": 139,
+        "name": "Order Level Discount",
+        "componentPid": 461
+      }
+    ],
+    "ownerCtxPid": 242,
+    "ctxName": "F&P Order Details Page",
+    "compName": "Verify Order Level Discount",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": null,
+        "destCtxName": null,
+        "specialDestCtxPid": 3
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8345,
+      "index": 8,
+      "paramList": [],
+      "stepType": 2,
+      "scnPid": 66
+    }
+  }
+]

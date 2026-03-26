@@ -1,0 +1,46 @@
+[
+  {
+    "pid": 20,
+    "name": "default4",
+    "description": "default4",
+    "connParamsJson": "QKtOJINB5q6BO4fsAiEqrc9q+Pz1tV2YP15C5wHIT2WUQGZ491DgHQ8ABLZiawFsDiFWAerQRuIThhj986JWJcRPIg8kBN5WBGnsy5Ggxq1rPiqoCswzLz6AkbVVxjmzf8nIw9iYUv9pIH8kRIIao5zS2YTJjiaDmra6UGckaA9M1uYkB2/y85WhzyZ++E2/xO2G3Hs/N3HRY1PDSK8D4mwpGoEa+FlY63FGCdsv+2bwGxrYcHAyVl4JRzeh4jC0Upe3PIKZFSPgrsdgXGOXKDwFX+rzhEKgTV2DspaOhve6t98EH9Zn66XpHA61Qo3iusgiHXKwnxuXWOgrn0sLCIBe9jN7KR4B6VejcYGrZ4Q/WlzfZ0pDgf/UA4OhEU6pAMJAefCuLtFE3EcZFNP+m1/FyjVq7eY9d+zRHNRWyb1+zETbly/EBLfseLJXGTdNwOQiN5INd9lwE6dA2bW7q/g9Sa92k6pvNscluv1jrpWfI+tklCAqCDoDxZGUJhQ4vHxYxOsyJAAoFTtLDfC4BmRueNGAFEua2d2VBvyNT9Leq5/ty9HbQfmPmEMRIhQI",
+    "active": true,
+    "createdUser": 2,
+    "shared": true,
+    "parallelExecutionSupported": false,
+    "numOfParallelRunsAllowed": 1,
+    "closedStatusListStr": null,
+    "pjPid": 2,
+    "platform": {
+      "pid": 4,
+      "name": "Jira",
+      "connParamTemplate": "{\"params\":[{\"name\": \"jiraUrl\", \"displayName\": \"Jira URL\"}, {\"name\": \"userName\", \"displayName\": \"User Name\"}, {\"name\": \"password\", \"hidden\": true, \"displayName\": \"Password / API Token\"}, {\"name\":\"authMode\", \"displayName\":\"Auth Type\", \"displayRadioBtns\": [{\"name\": \"Basic\", \"value\": \"1\"}, {\"name\": \"Bearer\", \"value\": \"2\"}], \"defaultValue\": \"1\"}, {\"name\": \"communicationMode\", \"displayName\": \"Connection Mode\", \"displayRadioBtns\": [{\"name\": \"Browser-side\", \"value\": \"browser\"}, {\"name\": \"Server-side\", \"value\": \"server\"}], \"defaultValue\": \"browser\"}]}",
+      "integrationType": {
+        "pid": 1,
+        "name": "Functional Traceability"
+      }
+    }
+  },
+  {
+    "pid": 19,
+    "name": "default6",
+    "description": "default6",
+    "connParamsJson": "QKtOJINB5q6BO4fsAiEqrc9q+Pz1tV2YP15C5wHIT2WqN+1MishOq+VunoQhDqgGlmJ9ccxRAoJMlv8zkwPsgE7anUsCGVTsD2nVd9maHWWYXnlxcF3uxjSoRjInX5VMKmm6yCUjhJJBeOVSr53gdpWL11lCYux/FLv8okVO/ovrNiDz06S3MiHtJl0yAFdfnjevQzp41I0PyrKbVnQJVNCIVXi+cu/ZYw3Jq4JedfcNb4pF4YgKMiIz0RJfVyKNd7tOizX/J5uvy4bXsFQoKRISg4T+ba+q25oNgljYfnt5ld1nKPyDa/Ehv18kuYEiT0/yXy1htO9WcbXp7WxebMR4sOy8yegRx9rP+uG25RFjDybDRO/wC3iWPk3LRC6LZRyTxyFqVe9FOmFotW8UBzmK1/pWzXJCViXUriODZkm/FhuAuBtf4OCOhK7R63RUyRdO/LsKr7yqILo9osZJ5mBALrQDEKaKHHxbhKROLtn9qGW3kNvAZz1/2vBxyQAYvHfZl1i7UIEtL02Oylzbj5/l/Pt4dSWCu1J/cMQWoYWC5YPLh023KviSho4NjebR",
+    "active": true,
+    "createdUser": 2,
+    "shared": true,
+    "parallelExecutionSupported": false,
+    "numOfParallelRunsAllowed": 1,
+    "closedStatusListStr": null,
+    "pjPid": 2,
+    "platform": {
+      "pid": 6,
+      "name": "Jira",
+      "connParamTemplate": "{\"params\":[{\"name\": \"jiraUrl\", \"displayName\": \"Jira URL\"}, {\"name\": \"userName\", \"displayName\": \"User Name\"}, {\"name\": \"password\", \"hidden\": true, \"displayName\": \"Password / API Token\"}, {\"name\":\"authMode\", \"displayName\":\"Auth Type\", \"displayRadioBtns\": [{\"name\": \"Basic\", \"value\": \"1\"}, {\"name\": \"Bearer\", \"value\": \"2\"}], \"defaultValue\": \"1\"}, {\"name\": \"communicationMode\", \"displayName\": \"Connection Mode\", \"displayRadioBtns\": [{\"name\": \"Browser-side\", \"value\": \"browser\"}, {\"name\": \"Server-side\", \"value\": \"server\"}], \"defaultValue\": \"browser\"}]}",
+      "integrationType": {
+        "pid": 2,
+        "name": "Bug Tracking"
+      }
+    }
+  }
+]

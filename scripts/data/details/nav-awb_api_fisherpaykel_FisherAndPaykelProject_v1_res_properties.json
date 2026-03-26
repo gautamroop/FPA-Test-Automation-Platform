@@ -1,0 +1,182 @@
+[
+  {
+    "pid": 11,
+    "rootPid": 11,
+    "propertyName": "API End Points",
+    "specificForAppEnv": true,
+    "projectPid": 2,
+    "appPropValueList": [
+      {
+        "value": "https://envoy-apim-ae-tst.azure-api.net",
+        "appPropertyPid": 11,
+        "datasetPid": 4,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://envoy-apim-ae-preprd.azure-api.net",
+        "appPropertyPid": 11,
+        "datasetPid": 5,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "",
+        "appPropertyPid": 11,
+        "datasetPid": 6,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://envoy-apim-ae-dev.azure-api.net",
+        "appPropertyPid": 11,
+        "datasetPid": 7,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://envoy-apim-ae-preprd.azure-api.net",
+        "appPropertyPid": 11,
+        "datasetPid": 35,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "",
+        "appPropertyPid": 11,
+        "datasetPid": null,
+        "appVariantOptionPid": 2
+      }
+    ]
+  },
+  {
+    "pid": 8,
+    "rootPid": 8,
+    "propertyName": "E commerce URL",
+    "specificForAppEnv": true,
+    "projectPid": 2,
+    "appPropValueList": [
+      {
+        "value": "",
+        "appPropertyPid": 8,
+        "datasetPid": 4,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "",
+        "appPropertyPid": 8,
+        "datasetPid": 6,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "",
+        "appPropertyPid": 8,
+        "datasetPid": 7,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://uat.fisherpaykel.com/nz",
+        "appPropertyPid": 8,
+        "datasetPid": 35,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://uat.fisherpaykel.com/nz",
+        "appPropertyPid": 8,
+        "datasetPid": null,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://pp.fisherpaykel.com/nz",
+        "appPropertyPid": 8,
+        "datasetPid": 5,
+        "appVariantOptionPid": 2
+      }
+    ]
+  },
+  {
+    "pid": 9,
+    "rootPid": 9,
+    "propertyName": "Salesforce Core ",
+    "specificForAppEnv": true,
+    "projectPid": 2,
+    "appPropValueList": [
+      {
+        "value": "",
+        "appPropertyPid": 9,
+        "datasetPid": 4,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "",
+        "appPropertyPid": 9,
+        "datasetPid": 6,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://fisherpaykel--uat.sandbox.lightning.force.com/",
+        "appPropertyPid": 9,
+        "datasetPid": null,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://fisherpaykel--dev.sandbox.my.salesforce.com/",
+        "appPropertyPid": 9,
+        "datasetPid": 7,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://fisherpaykel--uat.sandbox.my.salesforce.com/",
+        "appPropertyPid": 9,
+        "datasetPid": 35,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://fisherpaykel--stg.sandbox.my.salesforce.com/",
+        "appPropertyPid": 9,
+        "datasetPid": 5,
+        "appVariantOptionPid": 2
+      }
+    ]
+  },
+  {
+    "pid": 16,
+    "rootPid": 16,
+    "propertyName": "Trade Partner Portal",
+    "specificForAppEnv": true,
+    "projectPid": 2,
+    "appPropValueList": [
+      {
+        "value": "https://tradeportal-uat.fisherpaykel.com/s/",
+        "appPropertyPid": 16,
+        "datasetPid": 4,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://tradeportal-stage.fisherpaykel.com/s/",
+        "appPropertyPid": 16,
+        "datasetPid": 5,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "",
+        "appPropertyPid": 16,
+        "datasetPid": 6,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://tradeportal-dev.fisherpaykel.com/s/",
+        "appPropertyPid": 16,
+        "datasetPid": 7,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://tradeportal-uat.fisherpaykel.com/s/",
+        "appPropertyPid": 16,
+        "datasetPid": 35,
+        "appVariantOptionPid": 2
+      },
+      {
+        "value": "https://tradeportal-uat.fisherpaykel.com/s/",
+        "appPropertyPid": 16,
+        "datasetPid": null,
+        "appVariantOptionPid": 2
+      }
+    ]
+  }
+]

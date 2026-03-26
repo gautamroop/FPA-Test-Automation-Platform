@@ -1,0 +1,210 @@
+{
+  "scnPid": 85,
+  "scnName": "End-to-End Order Creation and Validation - V2",
+  "steps": [
+    {
+      "index": 1,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    },
+    {
+      "index": 2,
+      "ctxPid": 413,
+      "ctxName": "TPP Login Page",
+      "compPid": 591,
+      "compName": "Login to Trade Portal",
+      "methodName": "loginToTradePortal",
+      "params": [
+        "email",
+        "password"
+      ],
+      "returns": []
+    },
+    {
+      "index": 3,
+      "ctxPid": 456,
+      "ctxName": "TPP Home Page",
+      "compPid": 653,
+      "compName": "Navigate to New Agency Order",
+      "methodName": "navigateToNewAgencyOrder",
+      "params": [
+        "tPPType"
+      ],
+      "returns": []
+    },
+    {
+      "index": 4,
+      "ctxPid": 458,
+      "ctxName": "TPP Agency Order Page",
+      "compPid": 291,
+      "compName": "Validate and Accept Cookies",
+      "methodName": "validateAndAcceptCookies",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 5,
+      "ctxPid": 458,
+      "ctxName": "TPP Agency Order Page",
+      "compPid": 655,
+      "compName": "Select TPP Product Type",
+      "methodName": "selectTPPProductType",
+      "params": [
+        "productType"
+      ],
+      "returns": []
+    },
+    {
+      "index": 6,
+      "ctxPid": 459,
+      "ctxName": "TPP Products Page",
+      "compPid": 656,
+      "compName": "Select TPP Product and Add to cart ",
+      "methodName": "selectTPPProductAndAddToCart",
+      "params": [
+        "orderQuantity",
+        "deliveryPinCode",
+        "saveAsAQuote",
+        "addToCart",
+        "emailAddress"
+      ],
+      "returns": [
+        "First Name",
+        "Last Name",
+        "Order Qty",
+        "Phone Number",
+        "Quote Created Date",
+        "Quote Number"
+      ]
+    },
+    {
+      "index": 7,
+      "ctxPid": 462,
+      "ctxName": "TPP Customer Details Page",
+      "compPid": 660,
+      "compName": "TPP Populate Customer and Delivery Details",
+      "methodName": "tPPPopulateCustomerAndDeliveryDetails",
+      "params": [
+        "addressType",
+        "addressLine1",
+        "addressLine2",
+        "state",
+        "townCity",
+        "deliveryTo",
+        "emailAddress"
+      ],
+      "returns": [
+        "Agent Address",
+        "Customer Name",
+        "Delivery Date",
+        "Email Address",
+        "Phone Number"
+      ]
+    },
+    {
+      "index": 8,
+      "ctxPid": 245,
+      "ctxName": "F&P Order Payment DetailsPage",
+      "compPid": 347,
+      "compName": "Select type of payment and place order ",
+      "methodName": "selectTypeOfPaymentAndPlaceOrder",
+      "params": [
+        "cardNumber",
+        "expiryDate",
+        "securityCode",
+        "paymentType",
+        "depositAmount"
+      ],
+      "returns": [
+        "Billing Address"
+      ]
+    },
+    {
+      "index": 9,
+      "ctxPid": 247,
+      "ctxName": "F&P Final Checkout Page",
+      "compPid": 349,
+      "compName": "Place Order and Get Order Details ",
+      "methodName": "placeOrderAndGetOrderDetails",
+      "params": [],
+      "returns": [
+        "Additional Services",
+        "Delivery Type",
+        "Discount",
+        "Estimated Delivery Date",
+        "Item Name",
+        "Model Number",
+        "Order DU Number",
+        "Order Date",
+        "Payable Amount",
+        "Subtotal",
+        "Total"
+      ]
+    },
+    {
+      "index": 10,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    },
+    {
+      "index": 11,
+      "ctxPid": 248,
+      "ctxName": "Salesforce Login Page",
+      "compPid": 350,
+      "compName": "Login to Salesforce",
+      "methodName": "loginToSalesforce",
+      "params": [
+        "sFUsername",
+        "sFPassword",
+        "sFMFASecretKey"
+      ],
+      "returns": []
+    },
+    {
+      "index": 12,
+      "ctxPid": 249,
+      "ctxName": "Salesforce Home Page",
+      "compPid": 351,
+      "compName": "Search and View Details",
+      "methodName": "searchAndViewDetails",
+      "params": [
+        "orderDUNumber"
+      ],
+      "returns": []
+    },
+    {
+      "index": 13,
+      "ctxPid": 252,
+      "ctxName": "Salesforce Order Details Page",
+      "compPid": 354,
+      "compName": "Verify Order Details on SF",
+      "methodName": "verifyOrderDetailsOnSF",
+      "params": [
+        "orderDUNumber",
+        "orderedDate",
+        "total",
+        "emailAddress",
+        "phoneNumber",
+        "itemName",
+        "itemQty"
+      ],
+      "returns": [
+        "Status"
+      ]
+    }
+  ]
+}

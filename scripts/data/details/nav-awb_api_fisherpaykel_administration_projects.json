@@ -1,0 +1,1245 @@
+[
+  {
+    "pid": 11,
+    "projectDisplayName": "Core Apps GOP",
+    "projectName": "CoreAppsGOP",
+    "scmRepoPid": 11,
+    "description": "Core Apps GOP",
+    "createdUserPid": 2,
+    "createdTimestamp": 1748396065878,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 2,
+        "projectPid": 11,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 3,
+        "projectPid": 11,
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "enableSCMForAction": true,
+    "enableSCMForScenario": true,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 11,
+        "subscribed": true,
+        "subCreatedTimestamp": 1748396065879
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  },
+  {
+    "pid": 10,
+    "projectDisplayName": "BOM",
+    "projectName": "BOM",
+    "scmRepoPid": 10,
+    "description": "",
+    "createdUserPid": 2,
+    "createdTimestamp": 1747713951249,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 2,
+        "projectPid": 10,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 3,
+        "projectPid": 10,
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "enableSCMForAction": false,
+    "enableSCMForScenario": false,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 10,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747713951251
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  },
+  {
+    "pid": 9,
+    "projectDisplayName": "Connected Ecosystem SmartHQ",
+    "projectName": "ConnectedEcosystemSmartHQ",
+    "scmRepoPid": 9,
+    "description": "The project contains testing artifacts related to the features and enhancements developed by the team in the Connected Ecosystem space.",
+    "createdUserPid": 2,
+    "createdTimestamp": 1747310558797,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 2,
+        "projectPid": 9,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 7,
+        "projectPid": 9,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 3,
+        "projectPid": 9,
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "enableSCMForAction": true,
+    "enableSCMForScenario": true,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 9,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310558798
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  },
+  {
+    "pid": 8,
+    "projectDisplayName": "Digital Platform",
+    "projectName": "SalesforceCommerceCloudSFCC",
+    "scmRepoPid": 8,
+    "description": "The project contains testing artifacts related to the features and enhancements developed by the team in the Salesforce Commerce Cloud space.",
+    "createdUserPid": 2,
+    "createdTimestamp": 1747310413294,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 2,
+        "projectPid": 8,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 3,
+        "projectPid": 8,
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "userPid": 4,
+        "projectPid": 8,
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "userPid": 7,
+        "projectPid": 8,
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "enableSCMForAction": true,
+    "enableSCMForScenario": true,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 8,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310413295
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  },
+  {
+    "pid": 7,
+    "projectDisplayName": "E Commerce",
+    "projectName": "ECommerce",
+    "scmRepoPid": 7,
+    "description": "The project contains testing artifacts related to the features and enhancements developed by the team in the E-Commerce space.",
+    "createdUserPid": 2,
+    "createdTimestamp": 1747310325312,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 2,
+        "projectPid": 7,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 7,
+        "projectPid": 7,
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "userPid": 3,
+        "projectPid": 7,
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "userPid": 4,
+        "projectPid": 7,
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "enableSCMForAction": true,
+    "enableSCMForScenario": true,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 7,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310325313
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  },
+  {
+    "pid": 6,
+    "projectDisplayName": "Retail Experience",
+    "projectName": "RetailExperience",
+    "scmRepoPid": 6,
+    "description": "The project contains testing artifacts related to the features and enhancements developed by the team in the Retail Experience space.",
+    "createdUserPid": 2,
+    "createdTimestamp": 1747310219699,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 2,
+        "projectPid": 6,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 3,
+        "projectPid": 6,
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "enableSCMForAction": true,
+    "enableSCMForScenario": true,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 6,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310219700
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  },
+  {
+    "pid": 5,
+    "projectDisplayName": "Enterprise Content Squad",
+    "projectName": "EnterpriseContentSquad",
+    "scmRepoPid": 5,
+    "description": "The project contains testing artifacts related to the features and enhancements developed by the team in the Enterprise Content Platform space.",
+    "createdUserPid": 2,
+    "createdTimestamp": 1747310123201,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 2,
+        "projectPid": 5,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 3,
+        "projectPid": 5,
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "userPid": 5,
+        "projectPid": 5,
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "enableSCMForAction": false,
+    "enableSCMForScenario": false,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 5,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310123201
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  },
+  {
+    "pid": 4,
+    "projectDisplayName": "Enterprise Integration Platform",
+    "projectName": "IntegrationPlatform",
+    "scmRepoPid": 4,
+    "description": "The project contains testing artifacts related to the features and enhancements developed by the team in the Enterprise Integration Platform space.",
+    "createdUserPid": 2,
+    "createdTimestamp": 1747309699821,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 2,
+        "projectPid": 4,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 3,
+        "projectPid": 4,
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "enableSCMForAction": true,
+    "enableSCMForScenario": true,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 4,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747309699822
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  },
+  {
+    "pid": 3,
+    "projectDisplayName": "Software Development Platform",
+    "projectName": "SoftwareDevelopmentPlatform",
+    "scmRepoPid": 3,
+    "description": "The project contains testing artifacts related to the features and enhancements developed by the team in the Software Development Platform space.",
+    "createdUserPid": 2,
+    "createdTimestamp": 1747309663442,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 2,
+        "projectPid": 3,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 7,
+        "projectPid": 3,
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "userPid": 3,
+        "projectPid": 3,
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "enableSCMForAction": true,
+    "enableSCMForScenario": true,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 3,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747309663443
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  },
+  {
+    "pid": 2,
+    "projectDisplayName": "Salesforce Core Platform",
+    "projectName": "FisherAndPaykelProject",
+    "scmRepoPid": 2,
+    "description": "The project contains testing artifacts related to the features and enhancements developed by the team in the Salesforce CRM Platform space.",
+    "createdUserPid": 1,
+    "createdTimestamp": 1744779902604,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 3,
+        "projectPid": 2,
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "userPid": 7,
+        "projectPid": 2,
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "userPid": 2,
+        "projectPid": 2,
+        "rolePid": 100,
+        "isAdmin": true
+      }
+    ],
+    "enableSCMForAction": true,
+    "enableSCMForScenario": true,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 2,
+        "subscribed": true,
+        "subCreatedTimestamp": 1744779902606
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  },
+  {
+    "pid": 1,
+    "projectDisplayName": "Fisher Paykel API",
+    "projectName": "fisherpaykelProject",
+    "projTypePid": 1,
+    "scmRepoPid": 1,
+    "description": "The project contains all API-related testing artifacts for features and enhancements developed by the team across all enterprise-level projects.",
+    "createdUserPid": 1,
+    "createdTimestamp": 1744779363685,
+    "codeGenResetTimestamp": 1769221543283,
+    "userRoleList": [
+      {
+        "userPid": 2,
+        "projectPid": 1,
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "userPid": 3,
+        "projectPid": 1,
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "userPid": 4,
+        "projectPid": 1,
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "enableSCMForAction": false,
+    "enableSCMForScenario": false,
+    "branchProjectsCount": 0,
+    "notificationChannelSenderInfo": "[{\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":1}, {\"notificationChannelSenderName\": \"ACCELQ Result Notifier\", \"channelTypePid\":2}]",
+    "networkLogLimits": "{\"maxAccumulationPerTC\": 1000, \"requestPayloadSize\": 1, \"responseBodySize\": 2}",
+    "viewCtxMenuSelection": 4,
+    "mergeInProgress": false,
+    "copilotEnabled": false,
+    "pubSubProjectDetails": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 1,
+        "subscribed": true,
+        "subCreatedTimestamp": 1744779363685
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ]
+  }
+]

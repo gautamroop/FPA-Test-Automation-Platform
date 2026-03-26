@@ -1,0 +1,234 @@
+{
+  "197": {
+    "ctxName": "Init Page",
+    "className": "InitPage",
+    "file": "init.page.ts",
+    "actions": [
+      "invokeBrowser (CMP-282)"
+    ]
+  },
+  "202": {
+    "ctxName": "F&P Home Page",
+    "className": "FPHomePage",
+    "file": "fp-home.page.ts",
+    "actions": [
+      "validateAndAcceptCookies (CMP-291)",
+      "navigateToProductTypeAndSelectProductStyle (CMP-337)",
+      "navigateToHelpAndSupportAndSelectBookOnline (CMP-1337)",
+      "navigateToHelpAndSupportAndSelectRegisterYourProduct (CMP-1353)"
+    ]
+  },
+  "203": {
+    "ctxName": "F&P Login Page",
+    "className": "FPLoginPage",
+    "file": "fp-login.page.ts",
+    "actions": [
+      "userLogin (CMP-292)"
+    ]
+  },
+  "239": {
+    "ctxName": "F&P Products Page",
+    "className": "FPProductsPage",
+    "file": "fp-products.page.ts",
+    "actions": [
+      "selectTheProductAndAddToCart (CMP-338)",
+      "verifyProductLevelDiscountPromotion (CMP-465)",
+      "selectInStockProduct (CMP-613)"
+    ]
+  },
+  "242": {
+    "ctxName": "F&P Order Details Page",
+    "className": "FPOrderDetailsPage",
+    "file": "fp-order-details.page.ts",
+    "actions": [
+      "populateCustomerAndDeliveryDetails (CMP-343)",
+      "verifyOrderLevelDiscount (CMP-461)",
+      "verifyRefundAmountAfterOrderCancel (CMP-501)",
+      "checkOrderAndFulfillmentStatus (CMP-507)"
+    ]
+  },
+  "245": {
+    "ctxName": "F&P Order Payment DetailsPage",
+    "className": "FPPaymentPage",
+    "file": "fp-payment.page.ts",
+    "actions": [
+      "selectTypeOfPaymentAndPlaceOrder (CMP-347)"
+    ]
+  },
+  "247": {
+    "ctxName": "F&P Final Checkout Page",
+    "className": "FPCheckoutPage",
+    "file": "fp-checkout.page.ts",
+    "actions": [
+      "placeOrderAndGetOrderDetails (CMP-349)"
+    ]
+  },
+  "248": {
+    "ctxName": "Salesforce Login Page",
+    "className": "SalesforceLoginPage",
+    "file": "salesforce-login.page.ts",
+    "actions": [
+      "loginToSalesforce (CMP-350)"
+    ]
+  },
+  "249": {
+    "ctxName": "Salesforce Home Page",
+    "className": "SalesforceHomePage",
+    "file": "salesforce-home.page.ts",
+    "actions": [
+      "searchAndViewDetails (CMP-351)"
+    ]
+  },
+  "252": {
+    "ctxName": "Salesforce Order Details Page",
+    "className": "SalesforceOrderDetailsPage",
+    "file": "salesforce-order-details.page.ts",
+    "actions": [
+      "verifyOrderDetailsOnSF (CMP-354)",
+      "checkGOPDateIsPopulated (CMP-367)",
+      "verifyFulfilmentOrder (CMP-374)",
+      "verifyPaidInFullCheckbox (CMP-377)",
+      "addItemToTheOrderAndVerify (CMP-385)",
+      "fullCancelTheOrderAndVerify (CMP-398)",
+      "partialCancelTheOrderAndVerify (CMP-505)",
+      "updateRequestedDeliveryDate (CMP-510)",
+      "verifyOrderDetailsSentToJDE (CMP-517)",
+      "verifyGOPIsCreatedForLessThan14Days (CMP-605)",
+      "navigateToFulfillmentAndCreateInvoice (CMP-597)",
+      "swapItemToTheOrderAndVerify (CMP-608)",
+      "updateDeliveryInstructionCheckbox (CMP-687)",
+      "cancelTheItemAndVerifyAdditionalChargesAlsoCancelled (CMP-615)",
+      "verifyUnableToCancelTheOrderWithJDEShipDate (CMP-628)",
+      "verifyOrderPaymentResponse (CMP-632)",
+      "generatePaymentLink (CMP-637)"
+    ]
+  },
+  "364": {
+    "ctxName": "Salesforce Order Summary Details Page",
+    "className": "SalesforceOrderSummaryPage",
+    "file": "salesforce-order-summary.page.ts",
+    "actions": [
+      "verifyUpdatedDeliveryDate (CMP-511)"
+    ]
+  },
+  "413": {
+    "ctxName": "TPP Login Page",
+    "className": "TppLoginPage",
+    "file": "tpp-login.page.ts",
+    "actions": [
+      "loginToTradePortal (CMP-591)",
+      "loginToMSDTradePortal (CMP-1662)"
+    ]
+  },
+  "456": {
+    "ctxName": "TPP Home Page",
+    "className": "TppHomePage",
+    "file": "tpp-home.page.ts",
+    "actions": [
+      "navigateToNewAgencyOrder (CMP-653)",
+      "verifyQuoteIsGenerated (CMP-680)",
+      "navigateToAgencyQuotes (CMP-682)",
+      "viewOrder (CMP-1978)"
+    ]
+  },
+  "458": {
+    "ctxName": "TPP Agency Order Page",
+    "className": "TppAgencyOrderPage",
+    "file": "tpp-agency-order.page.ts",
+    "actions": [
+      "validateAndAcceptCookies (CMP-291)",
+      "selectTPPProductType (CMP-655)"
+    ]
+  },
+  "459": {
+    "ctxName": "TPP Products Page",
+    "className": "TppProductsPage",
+    "file": "tpp-products.page.ts",
+    "actions": [
+      "selectTPPProductAndAddToCart (CMP-656)"
+    ]
+  },
+  "462": {
+    "ctxName": "TPP Customer Details Page",
+    "className": "TppCustomerDetailsPage",
+    "file": "tpp-customer-details.page.ts",
+    "actions": [
+      "tPPPopulateCustomerAndDeliveryDetails (CMP-660)"
+    ]
+  },
+  "478": {
+    "ctxName": "TPP View Quotes Page",
+    "className": "TppViewQuotesPage",
+    "file": "tpp-view-quotes.page.ts",
+    "actions": [
+      "viewVerifyQuote (CMP-683)",
+      "tPPConvertQuoteToOrder (CMP-684)"
+    ]
+  },
+  "927": {
+    "ctxName": "Book a Service",
+    "className": "FPBookServicePage",
+    "file": "fp-book-service.page.ts",
+    "actions": [
+      "searchAndSelectAServiceAddress (CMP-1319)",
+      "selectAProductAndClickAtContinue (CMP-1321)",
+      "selectServiceTimeAndProceedWithBookNow (CMP-1322)",
+      "provideCustomerDetails (CMP-1323)",
+      "provideADescriptionThatFitsTheProblemWithYourAppliance (CMP-1324)",
+      "confirmTheBooking (CMP-1325)",
+      "validateBookingAndGetBookingDetails (CMP-1330)"
+    ]
+  },
+  "946": {
+    "ctxName": "Product Registration",
+    "className": "FPProductRegistrationPage",
+    "file": "fp-product-registration.page.ts",
+    "actions": [
+      "provideCustomerDetails (CMP-1354)",
+      "providePurchaseInfo (CMP-1355)",
+      "provideProductInfoAndProceed (CMP-1357)",
+      "validateProductIsRegistered (CMP-1358)"
+    ]
+  },
+  "1198": {
+    "ctxName": "TPP MSD Portal page",
+    "className": "TppMsdPortalPage",
+    "file": "tpp-msd-portal.page.ts",
+    "actions": [
+      "navigateToMSDPortal (CMP-1663)",
+      "validateAndAcceptCookies (CMP-1796)"
+    ]
+  },
+  "1283": {
+    "ctxName": "MSD Product Listing page",
+    "className": "MsdProductListingPage",
+    "file": "msd-product-listing.page.ts",
+    "actions": [
+      "selectProductAndCheckout (CMP-1793)"
+    ]
+  },
+  "1284": {
+    "ctxName": "MSD Customer info",
+    "className": "MsdCustomerInfoPage",
+    "file": "msd-customer-info.page.ts",
+    "actions": [
+      "provideCustomerAndDeliveryDetails (CMP-1791)"
+    ]
+  },
+  "1285": {
+    "ctxName": "MSD Payment info",
+    "className": "MsdPaymentInfoPage",
+    "file": "msd-payment-info.page.ts",
+    "actions": [
+      "provideMSDCardAndConfirmPaymentWithAgent (CMP-1794)"
+    ]
+  },
+  "1286": {
+    "ctxName": "MSD Checkout page",
+    "className": "MsdCheckoutPage",
+    "file": "msd-checkout.page.ts",
+    "actions": [
+      "placeTheOrderAndGetOrderDetails (CMP-1795)"
+    ]
+  }
+}

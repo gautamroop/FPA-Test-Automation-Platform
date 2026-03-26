@@ -1,0 +1,34 @@
+[
+  {
+    "id": "TS-2",
+    "pid": 2,
+    "name": "Regression | Order Creation, Verification, and Delivery Date Update",
+    "status": "Completed",
+    "scnCount": 3,
+    "testCaseCount": 3
+  },
+  {
+    "id": "TS-1",
+    "pid": 1,
+    "name": "Regression | Order Creation and Verification",
+    "status": "Completed",
+    "scnCount": 2,
+    "testCaseCount": 2
+  },
+  {
+    "id": "TS-4",
+    "pid": 4,
+    "name": "Regression | OMS | All Scenarios Execution",
+    "status": "Draft",
+    "scnCount": 24,
+    "testCaseCount": 25
+  },
+  {
+    "id": "TS-18",
+    "pid": 18,
+    "name": "Regression | Agency Order creation and Verification",
+    "status": "Completed",
+    "scnCount": 1,
+    "testCaseCount": 1
+  }
+]

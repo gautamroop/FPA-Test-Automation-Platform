@@ -1,0 +1,1028 @@
+[
+  {
+    "pid": 5,
+    "userFname": "Tharika",
+    "userLname": "Weerarathne",
+    "phoneNumber": "",
+    "email": "Tharika.Weerarathne@fisherpaykel.com",
+    "extUsername": "",
+    "createdTimestamp": 1747720180721,
+    "siteAdmin": false,
+    "agentRole": false,
+    "active": true,
+    "authType": "LEGACY_AUTH",
+    "preferences": "{\"lastLoginProjectId\":5,\"last_seen_tour\":{\"NAVIGATOR_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"ACTION_EDITOR_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESOURCES_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"RESULT_GRID_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"RESULT_PAGE_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"CONTEXT_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"SCENARIO_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"TEST_SUITE_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESULT_INFO_STATEMENT_TOUR\":{\"version\":\"1.0.0\",\"visited\":false}},\"isPlayBackJobOn\":true,\"liveRecorderCache\":{\"agentName\":\"TharikaWeerarathne\",\"lastEmulatedDeviceId\":-1},\"isFluidRecorder\":true,\"lastRunSnapshotList\":[{\"pid\":2243,\"testTypePid\":0,\"purpose\":\"Test Suite - Inriver Finished Goods and Accessories updated scenarios\",\"startTimestamp\":1770227533884,\"createdTimestamp\":1770227535895,\"createdUserPid\":5,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":60,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":11652,\"pjPid\":5},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":11651,\"pjPid\":5},\"executionParametersJson\":\"{}\",\"pjPid\":5,\"hostConfig\":{\"pid\":2243,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"TharikaWeerarathne\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":{\"pid\":7,\"webDriverConfigName\":\"Headless\",\"configValue\":\"{\\n  \\\"headless\\\": \\\"new\\\",\\n  \\\"args\\\": [\\n    \\\"window-size=1920,1080\\\",\\n    \\\"--no-sandbox\\\",\\n    \\\"--disable-dev-shm-usage\\\",\\n    \\\"--disable-gpu\\\",\\n    \\\"--ignore-certificate-errors\\\"\\n  ]\\n}\",\"appUiTypePid\":1,\"pjPid\":5},\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1770227533884,\"testSuitePid\":34,\"testSuiteName\":\"Inriver Finished Goods and Accessories updated scenarios\",\"picked\":false,\"deleted\":false,\"status\":1,\"subStatus\":11,\"summaryStatus\":\"{\\\"jobPid\\\":2243,\\\"status\\\":\\\"Scheduled\\\",\\\"subStatus\\\":\\\"Waiting for Agent\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":18,\\\"testcaseCount\\\":18,\\\"lastUpdatedTimestamp\\\":1770227535953,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Test Suite - Inriver Finished Goods and Accessories updated scenarios\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"Tharika Weerarathne\\\",\\\"startTimestamp\\\":1770227533884,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"EnterpriseContentSquad\\\",\\\"datasetName\\\":\\\"Staging\\\",\\\"appVariantOptionName\\\":\\\"Default\\\",\\\"scnCount\\\":18,\\\"testSuiteName\\\":\\\"Inriver Finished Goods and Accessories updated scenarios\\\",\\\"testSuitePid\\\":34,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"TharikaWeerarathne\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"{\\\\n  \\\\\\\"headless\\\\\\\": \\\\\\\"new\\\\\\\",\\\\n  \\\\\\\"args\\\\\\\": [\\\\n    \\\\\\\"window-size=1920,1080\\\\\\\",\\\\n    \\\\\\\"--no-sandbox\\\\\\\",\\\\n    \\\\\\\"--disable-dev-shm-usage\\\\\\\",\\\\n    \\\\\\\"--disable-gpu\\\\\\\",\\\\n    \\\\\\\"--ignore-certificate-errors\\\\\\\"\\\\n  ]\\\\n}\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"Headless\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Windows\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":false,\\\"emailNotificationMode\\\":1,\\\"notificationEmailIds\\\":\\\"Tharika.Weerarathne@fisherpaykel.com\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"60\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"Tharika.Weerarathne@fisherpaykel.com\",\"notifyOnStart\":false,\"emailNotificationMode\":1,\"datasetPid\":15,\"appVariantOptionPid\":5,\"jobType\":1,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":18,\"testCaseCount\":18,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60,\"adhocJob\":false}],\"dynamicAgentPreferred\":false,\"universeFilter\":{\"5\":{\"backendFilter\":{\"type\":\"TEST_SUITES\",\"pidList\":[23]},\"frontendFilter\":{\"states\":[]}}},\"lastHideParamsSnapShot\":[{\"hideOverriden\":false,\"hideOptional\":false,\"hideFilled\":false}],\"CAPTURE_VIEW_PREFERENCES\":{\"5\":{\"captureType\":\"WEB\"}},\"actionLogicCommandSuggestionFilter\":{\"5\":{\"1\":true,\"2\":false,\"3\":true,\"4\":false,\"5\":false}},\"isAutoPlayBackOn\":false,\"isAllStmtConv\":true,\"pdfDownloadOptions\":{\"isTestcaseListBoxChecked\":true,\"isDetailedStepsBoxChecked\":true}}",
+    "customerPid": 144,
+    "lastLoginTimestamp": 1770696253157,
+    "sessionActive": true,
+    "assignedSubscriptionLineItemPOJOList": [
+      {
+        "lineItemPid": 3,
+        "capabilityPid": 1,
+        "lineItemId": "Automate Pro",
+        "subscriptionPid": 1,
+        "subscriptionId": "1744779621196",
+        "subscriptionName": "fisherpaykel - 1",
+        "productPidList": [
+          1,
+          2,
+          6
+        ],
+        "numOfLicenses": 4,
+        "numOfLicensesAssigned": 4,
+        "startDateTimestamp": 1744626120000,
+        "endDateTimestamp": 1807611720000
+      }
+    ],
+    "expiredSubscriptionLineItemPOJOList": [],
+    "pubSubAddOnList": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 5,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310123201
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ],
+    "projRoleList": [
+      {
+        "projectPid": 5,
+        "projectName": "EnterpriseContentSquad",
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "useExtAuth": false
+  },
+  {
+    "pid": 7,
+    "userFname": "Chandan",
+    "userLname": "Kumar",
+    "phoneNumber": "",
+    "email": "chandan.kumar@fisherpaykel.com",
+    "extUsername": "",
+    "createdTimestamp": 1756430790258,
+    "siteAdmin": false,
+    "agentRole": false,
+    "active": true,
+    "authType": "LEGACY_AUTH",
+    "preferences": "{\"lastLoginProjectId\":3,\"last_seen_tour\":{\"NAVIGATOR_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"ACTION_EDITOR_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"RESOURCES_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESULT_GRID_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"RESULT_PAGE_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"CONTEXT_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"SCENARIO_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"TEST_SUITE_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"RESULT_INFO_STATEMENT_TOUR\":{\"version\":\"1.0.0\",\"visited\":false}},\"universeFilter\":{\"3\":{\"backendFilter\":{\"type\":\"ALL_SCENARIOS\",\"pidList\":[]},\"frontendFilter\":{\"states\":[]}},\"9\":{\"backendFilter\":{\"type\":\"ALL_SCENARIOS\",\"pidList\":[]},\"frontendFilter\":{\"states\":[]}}},\"projectLoginDetails\":[{\"lastLoginTimestamp\":1761698347104,\"projectPid\":7},{\"lastLoginTimestamp\":1769573662726,\"projectPid\":9},{\"lastLoginTimestamp\":1762850381861,\"projectPid\":2},{\"lastLoginTimestamp\":1769573662726,\"projectPid\":3}],\"lastRunSnapshotList\":[{\"pid\":1647,\"testTypePid\":0,\"purpose\":\"Test Suite - Regression | Order Creation and Verification\",\"startTimestamp\":1762748268769,\"createdTimestamp\":1762748268807,\"createdUserPid\":7,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":60,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":8369,\"pjPid\":2},\"runParameters\":\"{\\\"3\\\":\\\"\\\",\\\"4\\\":\\\"\\\",\\\"5\\\":\\\"\\\",\\\"7\\\":\\\"\\\",\\\"8\\\":\\\"\\\",\\\"9\\\":\\\"\\\",\\\"10\\\":\\\"\\\"}\",\"executionParameters\":{\"pid\":8368,\"pjPid\":2},\"executionParametersJson\":\"{}\",\"pjPid\":2,\"hostConfig\":{\"pid\":1647,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"FPAAGNTTWO\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":null,\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":null,\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1762748268769,\"testSuitePid\":1,\"testSuiteName\":\"Regression | Order Creation and Verification\",\"picked\":false,\"deleted\":false,\"status\":1,\"subStatus\":11,\"summaryStatus\":\"{\\\"jobPid\\\":1647,\\\"status\\\":\\\"Scheduled\\\",\\\"subStatus\\\":\\\"Waiting for Agent\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":2,\\\"testcaseCount\\\":2,\\\"lastUpdatedTimestamp\\\":1762748268831,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Test Suite - Regression | Order Creation and Verification\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"Chandan Kumar\\\",\\\"startTimestamp\\\":1762748268769,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"FisherAndPaykelProject\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"scnCount\\\":2,\\\"testSuiteName\\\":\\\"Regression | Order Creation and Verification\\\",\\\"testSuitePid\\\":1,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"FPAAGNTTWO\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":null,\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":true,\\\"emailNotificationMode\\\":0,\\\"notificationEmailIds\\\":\\\"\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"60\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"\",\"notifyOnStart\":true,\"emailNotificationMode\":0,\"datasetPid\":4,\"jobType\":1,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":2,\"testCaseCount\":2,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60}],\"dynamicAgentPreferred\":false,\"isPlayBackJobOn\":false}",
+    "customerPid": 144,
+    "lastLoginTimestamp": 1769620387452,
+    "sessionActive": true,
+    "assignedSubscriptionLineItemPOJOList": [
+      {
+        "lineItemPid": 2,
+        "capabilityPid": 1,
+        "lineItemId": "Automate Mobile",
+        "subscriptionPid": 1,
+        "subscriptionId": "1744779621196",
+        "subscriptionName": "fisherpaykel - 1",
+        "productPidList": [
+          2,
+          3,
+          6
+        ],
+        "numOfLicenses": 1,
+        "numOfLicensesAssigned": 1,
+        "startDateTimestamp": 1744626120000,
+        "endDateTimestamp": 1807611720000
+      }
+    ],
+    "expiredSubscriptionLineItemPOJOList": [],
+    "pubSubAddOnList": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 2,
+        "subscribed": true,
+        "subCreatedTimestamp": 1744779902606
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 3,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747309663443
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 7,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310325313
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 8,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310413295
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 9,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310558798
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ],
+    "projRoleList": [
+      {
+        "projectPid": 9,
+        "projectName": "ConnectedEcosystemSmartHQ",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 2,
+        "projectName": "FisherAndPaykelProject",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 7,
+        "projectName": "ECommerce",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 8,
+        "projectName": "SalesforceCommerceCloudSFCC",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 3,
+        "projectName": "SoftwareDevelopmentPlatform",
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "useExtAuth": false
+  },
+  {
+    "pid": 2,
+    "userFname": "Roop",
+    "userLname": "Gautam",
+    "phoneNumber": "",
+    "email": "roop.gautam@fisherpaykel.com",
+    "extUsername": "",
+    "createdTimestamp": 1744779934326,
+    "siteAdmin": true,
+    "agentRole": false,
+    "active": true,
+    "authType": "LEGACY_AUTH",
+    "preferences": "{\"lastLoginProjectId\":2,\"last_seen_tour\":{\"NAVIGATOR_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"ACTION_EDITOR_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESOURCES_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESULT_GRID_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESULT_PAGE_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"CONTEXT_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"SCENARIO_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"TEST_SUITE_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESULT_INFO_STATEMENT_TOUR\":{\"version\":\"1.0.0\",\"visited\":false}},\"universeFilter\":{\"2\":{\"backendFilter\":{\"type\":\"TEST_SUITES\",\"pidList\":[1]},\"frontendFilter\":{\"states\":[]}},\"5\":{\"backendFilter\":{\"type\":\"ALL_SCENARIOS\",\"pidList\":[]},\"frontendFilter\":{\"states\":[]}},\"6\":{\"backendFilter\":{\"type\":\"ALL_SCENARIOS\",\"pidList\":[]},\"frontendFilter\":{\"states\":[]}},\"7\":{\"backendFilter\":{\"type\":\"ALL_SCENARIOS\",\"pidList\":[]},\"frontendFilter\":{\"states\":[]}},\"8\":{\"backendFilter\":{\"type\":\"ALL_SCENARIOS\",\"pidList\":[]},\"frontendFilter\":{\"states\":[]}}},\"projectLoginDetails\":[{\"lastLoginTimestamp\":1751948422579,\"projectPid\":1},{\"lastLoginTimestamp\":1774494415937,\"projectPid\":2},{\"lastLoginTimestamp\":1757568208843,\"projectPid\":10},{\"lastLoginTimestamp\":1774494415937,\"projectPid\":7},{\"lastLoginTimestamp\":1761152925138,\"projectPid\":5},{\"lastLoginTimestamp\":1770241601063,\"projectPid\":8},{\"lastLoginTimestamp\":1770241003552,\"projectPid\":6},{\"lastLoginTimestamp\":1750825727628,\"projectPid\":4},{\"lastLoginTimestamp\":1751945942711,\"projectPid\":3},{\"lastLoginTimestamp\":1751946697861,\"projectPid\":9}],\"lastFuncProject\":{\"key\":\"SF\",\"name\":\"Salesforce Team Deliverables\"},\"isPlayBackJobOn\":false,\"lastRunSnapshotList\":[{\"pid\":394,\"testTypePid\":0,\"purpose\":\"Test Suite - Regression Tests\",\"startTimestamp\":1751001276193,\"createdTimestamp\":1751001264551,\"createdUserPid\":2,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":60,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":2474,\"pjPid\":6},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":2473,\"pjPid\":6},\"executionParametersJson\":\"{}\",\"pjPid\":6,\"hostConfig\":{\"pid\":394,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"FisherPaykel\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Mac\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":null,\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1751001276193,\"testSuitePid\":7,\"testSuiteName\":\"Regression Tests\",\"picked\":false,\"deleted\":false,\"status\":1,\"summaryStatus\":\"{\\\"jobPid\\\":394,\\\"status\\\":\\\"Scheduled\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":24,\\\"testcaseCount\\\":24,\\\"lastUpdatedTimestamp\\\":1751001264584,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Test Suite - Regression Tests\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"Roop Gautam\\\",\\\"startTimestamp\\\":1751001276193,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"RetailExperience\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"scnCount\\\":24,\\\"testSuiteName\\\":\\\"Regression Tests\\\",\\\"testSuitePid\\\":7,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"FisherPaykel\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Mac\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Mac\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":false,\\\"emailNotificationMode\\\":1,\\\"notificationEmailIds\\\":\\\"roop.gautam@fisherpaykel.com\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"60\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"roop.gautam@fisherpaykel.com\",\"notifyOnStart\":false,\"emailNotificationMode\":1,\"datasetPid\":17,\"jobType\":1,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":24,\"testCaseCount\":24,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60},{\"pid\":425,\"testTypePid\":0,\"purpose\":\"Local Action Execution\",\"startTimestamp\":1751272541650,\"createdTimestamp\":1751272529181,\"createdUserPid\":2,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":60,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":2655,\"pjPid\":2},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":2654,\"pjPid\":2},\"executionParametersJson\":\"{}\",\"pjPid\":2,\"hostConfig\":{\"pid\":425,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":null,\"agentNamePattern\":null,\"dynamicAgent\":true,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Any\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":null,\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1751272541650,\"scnName\":\"$R_act_Update Order Delivery Date and Verify_88\",\"compPid\":865,\"laeInputJson\":\"{\\\"inputData\\\":{},\\\"initCompPid\\\":282,\\\"globalInitCompPid\\\":null,\\\"initCompInputData\\\":{\\\"183\\\":{\\\"dsTypePid\\\":2,\\\"dsParamPid\\\":9,\\\"value\\\":\\\"\\\"}},\\\"maxWaitTime\\\":0}\",\"picked\":false,\"deleted\":false,\"status\":1,\"summaryStatus\":\"{\\\"jobPid\\\":425,\\\"status\\\":\\\"Scheduled\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":1,\\\"testcaseCount\\\":1,\\\"lastUpdatedTimestamp\\\":1751272529188,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Local Action Execution\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"Roop Gautam\\\",\\\"startTimestamp\\\":1751272541650,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"FisherAndPaykelProject\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"scnName\\\":\\\"$R_act_Update Order Delivery Date and Verify_88\\\",\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":null,\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":true,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Any\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Any\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":true,\\\"emailNotificationMode\\\":0,\\\"notificationEmailIds\\\":\\\"\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"60\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"\",\"notifyOnStart\":true,\"emailNotificationMode\":0,\"datasetPid\":4,\"jobType\":4,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":1,\"testCaseCount\":1,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60},{\"pid\":1217,\"testTypePid\":0,\"purpose\":\"Scenario - Verify BOM Use Login\",\"startTimestamp\":1757480726440,\"createdTimestamp\":1757480726606,\"createdUserPid\":2,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":60,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":6231,\"pjPid\":10},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":6230,\"pjPid\":10},\"executionParametersJson\":\"{}\",\"pjPid\":10,\"hostConfig\":{\"pid\":1217,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"FisherPaykel\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Mac\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":null,\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1757480726440,\"scnPid\":1,\"scnName\":\"Verify BOM Use Login\",\"picked\":false,\"deleted\":false,\"status\":1,\"subStatus\":11,\"summaryStatus\":\"{\\\"jobPid\\\":1217,\\\"status\\\":\\\"Scheduled\\\",\\\"subStatus\\\":\\\"Waiting for Agent\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":1,\\\"testcaseCount\\\":1,\\\"lastUpdatedTimestamp\\\":1757480726615,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Scenario - Verify BOM Use Login\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"Roop Gautam\\\",\\\"startTimestamp\\\":1757480726440,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"BOM\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"scnCount\\\":1,\\\"scnName\\\":\\\"Verify BOM Use Login\\\",\\\"scnPid\\\":1,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"FisherPaykel\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Mac\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Mac\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":true,\\\"emailNotificationMode\\\":0,\\\"notificationEmailIds\\\":\\\"\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"60\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"\",\"notifyOnStart\":true,\"emailNotificationMode\":0,\"datasetPid\":29,\"jobType\":1,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":1,\"testCaseCount\":1,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60},{\"pid\":1459,\"testTypePid\":0,\"purpose\":\"Test Suite - Regression | User Order Flow I My Account I Subscription\",\"startTimestamp\":1760304842255,\"createdTimestamp\":1760304842314,\"createdUserPid\":2,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":60,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":7407,\"pjPid\":7},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":7406,\"pjPid\":7},\"executionParametersJson\":\"{}\",\"pjPid\":7,\"hostConfig\":{\"pid\":1459,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"FisherPaykel\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Mac\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":{\"pid\":5,\"webDriverConfigName\":\"headless mode\",\"configValue\":\"{\\n  \\\"headless\\\": \\\"new\\\",\\n  \\\"args\\\": [\\n    \\\"window-size=2000,1600\\\",\\n    \\\"--no-sandbox\\\",\\n    \\\"--disable-dev-shm-usage\\\",\\n    \\\"--disable-gpu\\\",\\n    \\\"--ignore-certificate-errors\\\"\\n  ]\\n}\",\"appUiTypePid\":1,\"pjPid\":7},\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1760304842255,\"testSuitePid\":35,\"testSuiteName\":\"Regression | User Order Flow I My Account I Subscription\",\"picked\":false,\"deleted\":false,\"status\":7,\"summaryStatus\":\"{\\\"jobPid\\\":1459,\\\"status\\\":\\\"CI Job\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":10,\\\"testcaseCount\\\":10,\\\"lastUpdatedTimestamp\\\":1760304842362,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Test Suite - Regression | User Order Flow I My Account I Subscription\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"Roop Gautam\\\",\\\"startTimestamp\\\":1760304842255,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"ECommerce\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"scnCount\\\":5,\\\"testSuiteName\\\":\\\"Regression | User Order Flow I My Account I Subscription\\\",\\\"testSuitePid\\\":35,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"FisherPaykel\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"{\\\\n  \\\\\\\"headless\\\\\\\": \\\\\\\"new\\\\\\\",\\\\n  \\\\\\\"args\\\\\\\": [\\\\n    \\\\\\\"window-size=2000,1600\\\\\\\",\\\\n    \\\\\\\"--no-sandbox\\\\\\\",\\\\n    \\\\\\\"--disable-dev-shm-usage\\\\\\\",\\\\n    \\\\\\\"--disable-gpu\\\\\\\",\\\\n    \\\\\\\"--ignore-certificate-errors\\\\\\\"\\\\n  ]\\\\n}\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"headless mode\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Mac\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Mac\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":false,\\\"emailNotificationMode\\\":1,\\\"notificationEmailIds\\\":\\\"roop.gautam@fisherpaykel.com, Nisala.Weerasekara@fisherpaykel.com, kinnaree.patel@fisherpaykel.com\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"60\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"roop.gautam@fisherpaykel.com, Nisala.Weerasekara@fisherpaykel.com, kinnaree.patel@fisherpaykel.com\",\"notifyOnStart\":false,\"emailNotificationMode\":1,\"datasetPid\":20,\"jobType\":3,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":10,\"testCaseCount\":10,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60},{\"pid\":1922,\"testTypePid\":0,\"purpose\":\"Test Suite - Regression | Order Creation and Verification\",\"startTimestamp\":1765419998030,\"createdTimestamp\":1765419998390,\"createdUserPid\":2,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":120,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":9826,\"pjPid\":2},\"runParameters\":\"{\\\"3\\\":\\\"\\\",\\\"4\\\":\\\"\\\",\\\"5\\\":\\\"\\\",\\\"7\\\":\\\"\\\",\\\"8\\\":\\\"\\\",\\\"9\\\":\\\"\\\",\\\"10\\\":\\\"\\\"}\",\"executionParameters\":{\"pid\":9825,\"pjPid\":2},\"executionParametersJson\":\"{}\",\"pjPid\":2,\"hostConfig\":{\"pid\":1922,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"FPAMOBAGT\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Mac\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":{\"pid\":1,\"webDriverConfigName\":\"Headless Mode\",\"configValue\":\"{\\n\\\"headless\\\": \\\"new\\\",\\n\\\"args\\\": [\\n\\\"window-size=2000,1600\\\",\\n\\\"--no-sandbox\\\",\\n\\\"--disable-dev-shm-usage\\\",\\n\\\"--disable-gpu\\\",\\n\\\"--ignore-certificate-errors\\\"\\n]\\n}\",\"appUiTypePid\":1,\"pjPid\":2},\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1765419998030,\"testSuitePid\":1,\"testSuiteName\":\"Regression | Order Creation and Verification\",\"picked\":false,\"deleted\":false,\"status\":1,\"subStatus\":11,\"summaryStatus\":\"{\\\"jobPid\\\":1922,\\\"status\\\":\\\"Scheduled\\\",\\\"subStatus\\\":\\\"Waiting for Agent\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":2,\\\"testcaseCount\\\":2,\\\"lastUpdatedTimestamp\\\":1765419998412,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Test Suite - Regression | Order Creation and Verification\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"Roop Gautam\\\",\\\"startTimestamp\\\":1765419998030,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"FisherAndPaykelProject\\\",\\\"datasetName\\\":\\\"UAT\\\",\\\"scnCount\\\":2,\\\"testSuiteName\\\":\\\"Regression | Order Creation and Verification\\\",\\\"testSuitePid\\\":1,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"FPAMOBAGT\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"{\\\\n\\\\\\\"headless\\\\\\\": \\\\\\\"new\\\\\\\",\\\\n\\\\\\\"args\\\\\\\": [\\\\n\\\\\\\"window-size=2000,1600\\\\\\\",\\\\n\\\\\\\"--no-sandbox\\\\\\\",\\\\n\\\\\\\"--disable-dev-shm-usage\\\\\\\",\\\\n\\\\\\\"--disable-gpu\\\\\\\",\\\\n\\\\\\\"--ignore-certificate-errors\\\\\\\"\\\\n]\\\\n}\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"Headless Mode\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Mac\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Mac\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":false,\\\"emailNotificationMode\\\":1,\\\"notificationEmailIds\\\":\\\"\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"120\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"\",\"notifyOnStart\":false,\"emailNotificationMode\":1,\"datasetPid\":35,\"jobType\":1,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":2,\"testCaseCount\":2,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60}],\"dynamicAgentPreferred\":false,\"apiConnectOption\":\"browser\",\"liveRecorderCache\":{\"agentName\":\"Fisher_and_Paykel\",\"lastEmulatedDeviceId\":-1},\"lastHideParamsSnapShot\":[{\"hideOverriden\":false,\"hideOptional\":false,\"hideFilled\":false}],\"isAutoPlayBackOn\":true,\"isAllStmtConv\":true,\"gridColumnSchemaSnapshot\":{\"2\":{\"Auto Test Suite\":[\"pid\",\"name\",\"status\",\"modifiedTimestamp\"]}},\"isFluidRecorder\":true}",
+    "customerPid": 144,
+    "lastLoginTimestamp": 1774497314505,
+    "sessionActive": true,
+    "assignedSubscriptionLineItemPOJOList": [
+      {
+        "lineItemPid": 3,
+        "capabilityPid": 1,
+        "lineItemId": "Automate Pro",
+        "subscriptionPid": 1,
+        "subscriptionId": "1744779621196",
+        "subscriptionName": "fisherpaykel - 1",
+        "productPidList": [
+          1,
+          2,
+          6
+        ],
+        "numOfLicenses": 4,
+        "numOfLicensesAssigned": 4,
+        "startDateTimestamp": 1744626120000,
+        "endDateTimestamp": 1807611720000
+      }
+    ],
+    "expiredSubscriptionLineItemPOJOList": [],
+    "pubSubAddOnList": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 1,
+        "subscribed": true,
+        "subCreatedTimestamp": 1744779363685
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 2,
+        "subscribed": true,
+        "subCreatedTimestamp": 1744779902606
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 3,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747309663443
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 4,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747309699822
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 5,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310123201
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 6,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310219700
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 7,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310325313
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 8,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310413295
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 9,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310558798
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 10,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747713951251
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 11,
+        "subscribed": true,
+        "subCreatedTimestamp": 1748396065879
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ],
+    "projRoleList": [
+      {
+        "projectPid": 4,
+        "projectName": "IntegrationPlatform",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 3,
+        "projectName": "SoftwareDevelopmentPlatform",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 8,
+        "projectName": "SalesforceCommerceCloudSFCC",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 5,
+        "projectName": "EnterpriseContentSquad",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 6,
+        "projectName": "RetailExperience",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 7,
+        "projectName": "ECommerce",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 9,
+        "projectName": "ConnectedEcosystemSmartHQ",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 1,
+        "projectName": "fisherpaykelProject",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 10,
+        "projectName": "BOM",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 2,
+        "projectName": "FisherAndPaykelProject",
+        "rolePid": 100,
+        "isAdmin": true
+      },
+      {
+        "projectPid": 11,
+        "projectName": "CoreAppsGOP",
+        "rolePid": 100,
+        "isAdmin": true
+      }
+    ],
+    "useExtAuth": false
+  },
+  {
+    "pid": 4,
+    "userFname": "Nisala",
+    "userLname": "Weerasekara",
+    "phoneNumber": "",
+    "email": "Nisala.Weerasekara@fisherpaykel.com",
+    "extUsername": "",
+    "createdTimestamp": 1747715757006,
+    "siteAdmin": false,
+    "agentRole": false,
+    "active": true,
+    "authType": "LEGACY_AUTH",
+    "preferences": "{\"lastLoginProjectId\":7,\"universeFilter\":{\"7\":{\"backendFilter\":{\"type\":\"TEST_SUITES\",\"pidList\":[6]},\"frontendFilter\":{\"states\":[]}},\"8\":{\"backendFilter\":{\"type\":\"ALL_SCENARIOS\",\"pidList\":[]},\"frontendFilter\":{\"states\":[]}}},\"last_seen_tour\":{\"NAVIGATOR_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"ACTION_EDITOR_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESOURCES_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"RESULT_GRID_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESULT_PAGE_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"CONTEXT_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"SCENARIO_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"TEST_SUITE_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESULT_INFO_STATEMENT_TOUR\":{\"version\":\"1.0.0\",\"visited\":false}},\"isPlayBackJobOn\":true,\"liveRecorderCache\":{\"agentName\":\"NisalaAgent\",\"lastEmulatedDeviceId\":-1},\"isFluidRecorder\":true,\"lastHideParamsSnapShot\":[{\"hideOverriden\":false,\"hideOptional\":false,\"hideFilled\":false}],\"isAutoPlayBackOn\":false,\"lastRunSnapshotList\":[{\"pid\":1917,\"testTypePid\":0,\"purpose\":\"Scenario - Haier |Finished Goods PLP Functionalities\",\"startTimestamp\":1765361674539,\"createdTimestamp\":1765361674616,\"createdUserPid\":4,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":60,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":9772,\"pjPid\":8},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":9771,\"pjPid\":8},\"executionParametersJson\":\"{}\",\"pjPid\":8,\"hostConfig\":{\"pid\":1917,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"NisalaAgent\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":null,\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1765361674539,\"scnPid\":490,\"scnName\":\"Haier |Finished Goods PLP Functionalities\",\"picked\":false,\"deleted\":false,\"status\":1,\"subStatus\":11,\"summaryStatus\":\"{\\\"jobPid\\\":1917,\\\"status\\\":\\\"Scheduled\\\",\\\"subStatus\\\":\\\"Waiting for Agent\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":1,\\\"testcaseCount\\\":1,\\\"lastUpdatedTimestamp\\\":1765361674623,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Scenario - Haier |Finished Goods PLP Functionalities\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"Nisala Weerasekara\\\",\\\"startTimestamp\\\":1765361674539,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"SalesforceCommerceCloudSFCC\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"scnCount\\\":1,\\\"scnName\\\":\\\"Haier |Finished Goods PLP Functionalities\\\",\\\"scnPid\\\":490,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"NisalaAgent\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Windows\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":true,\\\"emailNotificationMode\\\":0,\\\"notificationEmailIds\\\":\\\"\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"60\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"\",\"notifyOnStart\":true,\"emailNotificationMode\":0,\"datasetPid\":23,\"jobType\":1,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":1,\"testCaseCount\":1,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60},{\"pid\":2349,\"testTypePid\":0,\"purpose\":\"Test Suite - Regression | User Order Flow I My Account I Subscription\",\"startTimestamp\":1774441327191,\"createdTimestamp\":1774441326668,\"createdUserPid\":4,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":180,\"elementWaitTime\":60,\"runConfigParameters\":{\"pid\":12162,\"pjPid\":7},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":12161,\"pjPid\":7},\"executionParametersJson\":\"{}\",\"pjPid\":7,\"hostConfig\":{\"pid\":2349,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":null,\"agentNamePattern\":null,\"dynamicAgent\":true,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Any\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":{\"pid\":5,\"webDriverConfigName\":\"headless mode\",\"configValue\":\"{\\n  \\\"headless\\\": \\\"new\\\",\\n  \\\"args\\\": [\\n    \\\"--window-size=1680,1050\\\",\\n    \\\"--force-device-scale-factor=1\\\",\\n    \\\"--high-dpi-support=1\\\",\\n    \\\"--no-sandbox\\\",\\n    \\\"--disable-dev-shm-usage\\\",\\n    \\\"--ignore-certificate-errors\\\",\\n    \\\"--allow-insecure-localhost\\\",\\n    \\\"--disable-gpu\\\",\\n    \\\"--disable-blink-features=AutomationControlled\\\",\\n    \\\"--disable-features=IsolateOrigins,site-per-process\\\",\\n    \\\"--disable-web-security\\\",\\n    \\\"--disable-infobars\\\",\\n    \\\"--remote-allow-origins=*\\\",\\n    \\\"--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\\\"\\n  ],\\n  \\\"prefs\\\": {\\n    \\\"credentials_enable_service\\\": false,\\n    \\\"profile.password_manager_enabled\\\": false\\n  }\\n}\",\"appUiTypePid\":1,\"pjPid\":7},\"mobileDriverConfig\":null,\"hubPid\":null},\"parentPid\":2348,\"groupLastUpdatedTimestamp\":1774441327191,\"testSuitePid\":35,\"testSuiteName\":\"Regression | User Order Flow I My Account I Subscription\",\"scnIterFilterJson\":\"[{\\\"tcPid\\\":314,\\\"scnPid\\\":210},{\\\"tcPid\\\":272,\\\"scnPid\\\":201},{\\\"tcPid\\\":280,\\\"scnPid\\\":201}]\",\"picked\":false,\"deleted\":false,\"status\":1,\"summaryStatus\":\"{\\\"jobPid\\\":2349,\\\"status\\\":\\\"Scheduled\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":3,\\\"testcaseCount\\\":3,\\\"lastUpdatedTimestamp\\\":1774441326682,\\\"reportVersion\\\":\\\"3.3\\\",\\\"parentPid\\\":2348,\\\"purpose\\\":\\\"Test Suite - Regression | User Order Flow I My Account I Subscription\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"Nisala Weerasekara\\\",\\\"startTimestamp\\\":1774441327191,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"ECommerce\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"appVariantOptionName\\\":\\\"Default\\\",\\\"scnCount\\\":2,\\\"testSuiteName\\\":\\\"Regression | User Order Flow I My Account I Subscription\\\",\\\"testSuitePid\\\":35,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":null,\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":true,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"{\\\\n  \\\\\\\"headless\\\\\\\": \\\\\\\"new\\\\\\\",\\\\n  \\\\\\\"args\\\\\\\": [\\\\n    \\\\\\\"--window-size=1680,1050\\\\\\\",\\\\n    \\\\\\\"--force-device-scale-factor=1\\\\\\\",\\\\n    \\\\\\\"--high-dpi-support=1\\\\\\\",\\\\n    \\\\\\\"--no-sandbox\\\\\\\",\\\\n    \\\\\\\"--disable-dev-shm-usage\\\\\\\",\\\\n    \\\\\\\"--ignore-certificate-errors\\\\\\\",\\\\n    \\\\\\\"--allow-insecure-localhost\\\\\\\",\\\\n    \\\\\\\"--disable-gpu\\\\\\\",\\\\n    \\\\\\\"--disable-blink-features=AutomationControlled\\\\\\\",\\\\n    \\\\\\\"--disable-features=IsolateOrigins,site-per-process\\\\\\\",\\\\n    \\\\\\\"--disable-web-security\\\\\\\",\\\\n    \\\\\\\"--disable-infobars\\\\\\\",\\\\n    \\\\\\\"--remote-allow-origins=*\\\\\\\",\\\\n    \\\\\\\"--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\\\\\\\"\\\\n  ],\\\\n  \\\\\\\"prefs\\\\\\\": {\\\\n    \\\\\\\"credentials_enable_service\\\\\\\": false,\\\\n    \\\\\\\"profile.password_manager_enabled\\\\\\\": false\\\\n  }\\\\n}\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"headless mode\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Any\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"isPrivateDevice\\\":false,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Any\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":false,\\\"emailNotificationMode\\\":1,\\\"notificationEmailIds\\\":\\\"\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"120\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"60\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"180\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false,\\\"reRunType\\\":4}\",\"notificationEmailIds\":\"\",\"notifyOnStart\":false,\"emailNotificationMode\":1,\"datasetPid\":20,\"appVariantOptionPid\":7,\"jobType\":1,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":3,\"testCaseCount\":3,\"debug\":false,\"reRunType\":4,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"templateJobType\":2,\"templateJobPid\":2309,\"apiTimeout\":120,\"adhocJob\":false}],\"dynamicAgentPreferred\":true,\"CAPTURE_VIEW_PREFERENCES\":{\"7\":{\"captureType\":\"WEB\"}},\"pdfDownloadOptions\":{\"isTestcaseListBoxChecked\":true,\"isDetailedStepsBoxChecked\":true},\"isAllStmtConv\":true,\"projectLoginDetails\":[{\"lastLoginTimestamp\":1774001656487,\"projectPid\":8},{\"lastLoginTimestamp\":1774001656487,\"projectPid\":7},{\"lastLoginTimestamp\":1758684214949,\"projectPid\":1}],\"gridColumnSchemaSnapshot\":{\"7\":{\"Auto Scenario\":[\"pid\",\"scnName\",\"numOfTestcases\",\"jiraStoryList\",\"status\",\"modifiedTimestamp\"],\"Auto Test Suite\":[\"pid\",\"name\",\"scn_iteration\",\"status\"]},\"8\":{\"Auto Scenario\":[\"pid\",\"scnName\",\"numOfTestcases\",\"jiraStoryList\",\"status\",\"modifiedTimestamp\",\"createdUser\"]}},\"lastBugProject\":{\"key\":\"EC\",\"name\":\"E-Commerce\"}}",
+    "customerPid": 144,
+    "lastLoginTimestamp": 1774230994881,
+    "sessionActive": true,
+    "assignedSubscriptionLineItemPOJOList": [
+      {
+        "lineItemPid": 3,
+        "capabilityPid": 1,
+        "lineItemId": "Automate Pro",
+        "subscriptionPid": 1,
+        "subscriptionId": "1744779621196",
+        "subscriptionName": "fisherpaykel - 1",
+        "productPidList": [
+          1,
+          2,
+          6
+        ],
+        "numOfLicenses": 4,
+        "numOfLicensesAssigned": 4,
+        "startDateTimestamp": 1744626120000,
+        "endDateTimestamp": 1807611720000
+      }
+    ],
+    "expiredSubscriptionLineItemPOJOList": [],
+    "pubSubAddOnList": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 1,
+        "subscribed": true,
+        "subCreatedTimestamp": 1744779363685
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 7,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310325313
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 8,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310413295
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ],
+    "projRoleList": [
+      {
+        "projectPid": 8,
+        "projectName": "SalesforceCommerceCloudSFCC",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 7,
+        "projectName": "ECommerce",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 1,
+        "projectName": "fisherpaykelProject",
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "useExtAuth": false
+  },
+  {
+    "pid": 3,
+    "userFname": "TestAutomation",
+    "userLname": "FPA",
+    "phoneNumber": "",
+    "email": "fpa.testautomation@fisherpaykel.com",
+    "extUsername": "",
+    "createdTimestamp": 1747310991892,
+    "siteAdmin": false,
+    "agentRole": false,
+    "active": true,
+    "authType": "LEGACY_AUTH",
+    "preferences": "{\"lastLoginProjectId\":8,\"projectLoginDetails\":[{\"lastLoginTimestamp\":1772591540643,\"projectPid\":10},{\"lastLoginTimestamp\":1756191982406,\"projectPid\":2},{\"lastLoginTimestamp\":1747720063676,\"projectPid\":5},{\"lastLoginTimestamp\":1774324459968,\"projectPid\":6},{\"lastLoginTimestamp\":1751006692109,\"projectPid\":11},{\"lastLoginTimestamp\":1770600589657,\"projectPid\":7},{\"lastLoginTimestamp\":1757670397806,\"projectPid\":1},{\"lastLoginTimestamp\":1774324459968,\"projectPid\":8}],\"last_seen_tour\":{\"NAVIGATOR_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"ACTION_EDITOR_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESOURCES_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"RESULT_GRID_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESULT_PAGE_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"CONTEXT_TOUR\":{\"version\":\"1.0.0\",\"visited\":false},\"SCENARIO_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"TEST_SUITE_TOUR\":{\"version\":\"1.0.0\",\"visited\":true},\"RESULT_INFO_STATEMENT_TOUR\":{\"version\":\"1.0.0\",\"visited\":false}},\"isPlayBackJobOn\":true,\"liveRecorderCache\":{\"agentName\":\"KasunUdana\",\"lastEmulatedDeviceId\":-1},\"isFluidRecorder\":true,\"lastHideParamsSnapShot\":[{\"hideOverriden\":false,\"hideOptional\":false,\"hideFilled\":false}],\"isAutoPlayBackOn\":false,\"lastRunSnapshotList\":[{\"pid\":471,\"testTypePid\":0,\"purpose\":\"Local Action Execution\",\"startTimestamp\":1751362317920,\"createdTimestamp\":1751362318097,\"createdUserPid\":3,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":60,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":2902,\"pjPid\":6},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":2901,\"pjPid\":6},\"executionParametersJson\":\"{}\",\"pjPid\":6,\"hostConfig\":{\"pid\":471,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"KasunUdana\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":null,\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1751362317920,\"scnName\":\"$R_act_Verify PDP Agency Product Save as a Quote Option in the Add to Cart_84\",\"compPid\":939,\"laeInputJson\":\"{\\\"inputData\\\":{},\\\"initCompPid\\\":197,\\\"globalInitCompPid\\\":null,\\\"initCompInputData\\\":{\\\"114\\\":{\\\"dsTypePid\\\":2,\\\"dsParamPid\\\":3,\\\"value\\\":\\\"\\\"}},\\\"maxWaitTime\\\":0}\",\"picked\":false,\"deleted\":false,\"status\":1,\"subStatus\":11,\"summaryStatus\":\"{\\\"jobPid\\\":471,\\\"status\\\":\\\"Scheduled\\\",\\\"subStatus\\\":\\\"Waiting for Agent\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":1,\\\"testcaseCount\\\":1,\\\"lastUpdatedTimestamp\\\":1751362318104,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Local Action Execution\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"TestAutomation FPA\\\",\\\"startTimestamp\\\":1751362317920,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"RetailExperience\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"scnName\\\":\\\"$R_act_Verify PDP Agency Product Save as a Quote Option in the Add to Cart_84\\\",\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"KasunUdana\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Windows\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":true,\\\"emailNotificationMode\\\":0,\\\"notificationEmailIds\\\":\\\"\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"60\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"\",\"notifyOnStart\":true,\"emailNotificationMode\":0,\"datasetPid\":17,\"jobType\":4,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":1,\"testCaseCount\":1,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60},{\"pid\":1099,\"testTypePid\":0,\"purpose\":\"Test Suite - Regression | Order Creation and Verification\",\"startTimestamp\":1756191107469,\"createdTimestamp\":1756191107708,\"createdUserPid\":3,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":60,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":5870,\"pjPid\":2},\"runParameters\":\"{\\\"3\\\":\\\"\\\",\\\"4\\\":\\\"\\\",\\\"5\\\":\\\"\\\",\\\"7\\\":\\\"\\\",\\\"8\\\":\\\"\\\",\\\"9\\\":\\\"\\\",\\\"10\\\":\\\"\\\"}\",\"executionParameters\":{\"pid\":5869,\"pjPid\":2},\"executionParametersJson\":\"{}\",\"pjPid\":2,\"hostConfig\":{\"pid\":1099,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"KasunUdana\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":null,\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1756191107469,\"testSuitePid\":1,\"testSuiteName\":\"Regression | Order Creation and Verification\",\"picked\":false,\"deleted\":false,\"status\":1,\"subStatus\":11,\"summaryStatus\":\"{\\\"jobPid\\\":1099,\\\"status\\\":\\\"Scheduled\\\",\\\"subStatus\\\":\\\"Waiting for Agent\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":2,\\\"testcaseCount\\\":2,\\\"lastUpdatedTimestamp\\\":1756191107737,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Test Suite - Regression | Order Creation and Verification\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"TestAutomation FPA\\\",\\\"startTimestamp\\\":1756191107469,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"FisherAndPaykelProject\\\",\\\"datasetName\\\":\\\"UAT\\\",\\\"scnCount\\\":2,\\\"testSuiteName\\\":\\\"Regression | Order Creation and Verification\\\",\\\"testSuitePid\\\":1,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"KasunUdana\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Windows\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":false,\\\"emailNotificationMode\\\":1,\\\"notificationEmailIds\\\":\\\"roop.gautam@fisherpaykel.com, Max.Graham@fisherpaykel.com\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"60\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"roop.gautam@fisherpaykel.com, Max.Graham@fisherpaykel.com\",\"notifyOnStart\":false,\"emailNotificationMode\":1,\"datasetPid\":35,\"jobType\":1,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":2,\"testCaseCount\":2,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60},{\"pid\":1242,\"testTypePid\":0,\"purpose\":\"Scenario - PartMasterSearch\",\"startTimestamp\":1757650558143,\"createdTimestamp\":1757650557914,\"createdUserPid\":3,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":60,\"elementWaitTime\":30,\"runConfigParameters\":{\"pid\":6317,\"pjPid\":10},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":6316,\"pjPid\":10},\"executionParametersJson\":\"{}\",\"pjPid\":10,\"hostConfig\":{\"pid\":1242,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":true,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"ARK_TRAINING_AGENT\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":null,\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1757650558143,\"scnPid\":221,\"scnName\":\"PartMasterSearch\",\"picked\":false,\"deleted\":false,\"status\":1,\"summaryStatus\":\"{\\\"jobPid\\\":1242,\\\"status\\\":\\\"Scheduled\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":1,\\\"testcaseCount\\\":1,\\\"lastUpdatedTimestamp\\\":1757650557921,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Scenario - PartMasterSearch\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"TestAutomation FPA\\\",\\\"startTimestamp\\\":1757650558143,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"BOM\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"scnCount\\\":1,\\\"scnName\\\":\\\"PartMasterSearch\\\",\\\"scnPid\\\":221,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"ARK_TRAINING_AGENT\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":true,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Windows\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":true,\\\"emailNotificationMode\\\":0,\\\"notificationEmailIds\\\":\\\"\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"30\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"60\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"\",\"notifyOnStart\":true,\"emailNotificationMode\":0,\"datasetPid\":29,\"jobType\":1,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":1,\"testCaseCount\":1,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60},{\"pid\":2282,\"testTypePid\":0,\"purpose\":\"Test Suite - Regression | Functional Suite - F&P AU Agency\",\"startTimestamp\":1771809300000,\"createdTimestamp\":1771808872804,\"createdUserPid\":3,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":25,\"elementWaitTime\":15,\"runConfigParameters\":{\"pid\":11871,\"pjPid\":6},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":11870,\"pjPid\":6},\"executionParametersJson\":\"{}\",\"pjPid\":6,\"hostConfig\":{\"pid\":2282,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"KasunUdana\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":{\"pid\":4,\"webDriverConfigName\":\"headless\",\"configValue\":\"{\\n  \\\"headless\\\": \\\"new\\\",\\n  \\\"args\\\": [\\n    \\\"window-size=2560,1440\\\",\\n    \\\"--no-sandbox\\\",\\n    \\\"--disable-dev-shm-usage\\\",\\n    \\\"--disable-gpu\\\",\\n    \\\"--ignore-certificate-errors\\\"\\n  ]\\n}\",\"appUiTypePid\":1,\"pjPid\":6},\"mobileDriverConfig\":null,\"hubPid\":null},\"groupLastUpdatedTimestamp\":1771809300000,\"testSuitePid\":7,\"testSuiteName\":\"Regression | Functional Suite - F&P AU Agency\",\"picked\":false,\"deleted\":false,\"status\":6,\"summaryStatus\":\"{\\\"jobPid\\\":2282,\\\"status\\\":\\\"Recurring\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":43,\\\"testcaseCount\\\":43,\\\"lastUpdatedTimestamp\\\":1771808872893,\\\"reportVersion\\\":\\\"3.3\\\",\\\"purpose\\\":\\\"Test Suite - Regression | Functional Suite - F&P AU Agency\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"TestAutomation FPA\\\",\\\"startTimestamp\\\":1771809300000,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"RetailExperience\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"appVariantOptionName\\\":\\\"Default\\\",\\\"scnCount\\\":43,\\\"testSuiteName\\\":\\\"Regression | Functional Suite - F&P AU Agency\\\",\\\"testSuitePid\\\":7,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"KasunUdana\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"{\\\\n  \\\\\\\"headless\\\\\\\": \\\\\\\"new\\\\\\\",\\\\n  \\\\\\\"args\\\\\\\": [\\\\n    \\\\\\\"window-size=2560,1440\\\\\\\",\\\\n    \\\\\\\"--no-sandbox\\\\\\\",\\\\n    \\\\\\\"--disable-dev-shm-usage\\\\\\\",\\\\n    \\\\\\\"--disable-gpu\\\\\\\",\\\\n    \\\\\\\"--ignore-certificate-errors\\\\\\\"\\\\n  ]\\\\n}\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"headless\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"isPrivateDevice\\\":false,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Windows\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":false,\\\"emailNotificationMode\\\":1,\\\"notificationEmailIds\\\":\\\"kasun.udana@fisherpaykel.com, roop.gautam@fisherpaykel.com\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"15\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"25\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"testJobRecurringInfo\\\":{\\\"pid\\\":22,\\\"frequency\\\":1,\\\"repeatInterval\\\":1,\\\"weekDayList\\\":null,\\\"monthDay\\\":null,\\\"weekNo\\\":null,\\\"startDateTime\\\":\\\"{\\\\\\\"date\\\\\\\":23,\\\\\\\"month\\\\\\\":2,\\\\\\\"year\\\\\\\":2026,\\\\\\\"hour\\\\\\\":6,\\\\\\\"minutes\\\\\\\":45,\\\\\\\"seconds\\\\\\\":null}\\\",\\\"timezone\\\":\\\"Asia/Colombo\\\",\\\"endDate\\\":\\\"{\\\\\\\"date\\\\\\\":27,\\\\\\\"month\\\\\\\":2,\\\\\\\"year\\\\\\\":2026,\\\\\\\"hour\\\\\\\":null,\\\\\\\"minutes\\\\\\\":null,\\\\\\\"seconds\\\\\\\":null}\\\",\\\"endAfterCount\\\":null,\\\"completedCount\\\":null,\\\"remainingRunsCount\\\":5},\\\"scenarioList\\\":[],\\\"autoReRun\\\":false}\",\"notificationEmailIds\":\"kasun.udana@fisherpaykel.com, roop.gautam@fisherpaykel.com\",\"notifyOnStart\":false,\"emailNotificationMode\":1,\"datasetPid\":17,\"appVariantOptionPid\":6,\"jobType\":2,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":43,\"testCaseCount\":43,\"debug\":false,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"testJobRecurringInfo\":{\"pid\":22,\"frequency\":1,\"repeatInterval\":1,\"weekDayList\":null,\"monthDay\":null,\"weekNo\":null,\"startDateTime\":\"{\\\"date\\\":23,\\\"month\\\":2,\\\"year\\\":2026,\\\"hour\\\":6,\\\"minutes\\\":45,\\\"seconds\\\":null}\",\"timezone\":\"Asia/Colombo\",\"endDate\":\"{\\\"date\\\":27,\\\"month\\\":2,\\\"year\\\":2026,\\\"hour\\\":null,\\\"minutes\\\":null,\\\"seconds\\\":null}\",\"endAfterCount\":null,\"completedCount\":null,\"remainingRunsCount\":5},\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60,\"adhocJob\":false},{\"pid\":2313,\"testTypePid\":0,\"purpose\":\"Test Suite - Haier - Functional Suite\",\"startTimestamp\":1772695074050,\"createdTimestamp\":1772695074980,\"createdUserPid\":3,\"captureScreenshot\":1,\"verbose\":false,\"enableSelfHealing\":true,\"selfHealingCount\":0,\"pageLoadWaitTime\":18,\"elementWaitTime\":20,\"runConfigParameters\":{\"pid\":12028,\"pjPid\":8},\"runParameters\":\"{}\",\"executionParameters\":{\"pid\":12027,\"pjPid\":8},\"executionParametersJson\":\"{}\",\"pjPid\":8,\"hostConfig\":{\"pid\":2313,\"webHostConfigType\":3,\"mobileHostConfigType\":3,\"webIntegrationPlatform\":{\"pid\":1,\"name\":null,\"connParamTemplate\":null,\"integrationType\":null},\"mobileIntegrationPlatform\":null,\"parallelExecution\":false,\"browserKeepAlive\":false,\"mobileKeepAlive\":true,\"numOfParallelRuns\":1,\"agentName\":\"KasunUdana\",\"agentNamePattern\":null,\"dynamicAgent\":false,\"webPlatformDetails\":\"{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"customDriverUrl\\\":null}\",\"mobilePlatformDetails\":null,\"emulatedDeviceJson\":null,\"skipReinstall\":false,\"webDriverConfig\":{\"pid\":6,\"webDriverConfigName\":\"Headless\",\"configValue\":\"{\\n  \\\"headless\\\": \\\"new\\\",\\n  \\\"args\\\": [\\n    \\\"--window-size=1351,633\\\",\\n    \\\"--start-maximized\\\",\\n    \\\"--no-sandbox\\\",\\n    \\\"--disable-dev-shm-usage\\\",\\n    \\\"--ignore-certificate-errors\\\",\\n    \\\"--allow-insecure-localhost\\\",\\n    \\\"--disable-gpu\\\",\\n    \\\"--disable-blink-features=AutomationControlled\\\",\\n    \\\"--disable-features=IsolateOrigins,site-per-process\\\",\\n    \\\"--disable-web-security\\\",\\n    \\\"--disable-infobars\\\",\\n    \\\"--remote-allow-origins=*\\\",\\n    \\\"--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\\\"\\n  ],\\n  \\\"prefs\\\": {\\n    \\\"credentials_enable_service\\\": false,\\n    \\\"profile.password_manager_enabled\\\": false\\n  }\\n}\",\"appUiTypePid\":1,\"pjPid\":8},\"mobileDriverConfig\":null,\"hubPid\":null},\"parentPid\":2312,\"groupLastUpdatedTimestamp\":1772695074050,\"testSuitePid\":55,\"testSuiteName\":\"Haier - Functional Suite\",\"scnIterFilterJson\":\"[{\\\"tcPid\\\":575,\\\"scnPid\\\":407},{\\\"tcPid\\\":767,\\\"scnPid\\\":573},{\\\"tcPid\\\":766,\\\"scnPid\\\":517},{\\\"tcPid\\\":739,\\\"scnPid\\\":537},{\\\"tcPid\\\":562,\\\"scnPid\\\":401},{\\\"tcPid\\\":563,\\\"scnPid\\\":401},{\\\"tcPid\\\":747,\\\"scnPid\\\":559},{\\\"tcPid\\\":764,\\\"scnPid\\\":571}]\",\"picked\":false,\"deleted\":false,\"status\":1,\"subStatus\":11,\"summaryStatus\":\"{\\\"jobPid\\\":2313,\\\"status\\\":\\\"Scheduled\\\",\\\"subStatus\\\":\\\"Waiting for Agent\\\",\\\"pass\\\":0,\\\"fail\\\":0,\\\"notRun\\\":8,\\\"testcaseCount\\\":8,\\\"lastUpdatedTimestamp\\\":1772695074993,\\\"reportVersion\\\":\\\"3.3\\\",\\\"parentPid\\\":2312,\\\"purpose\\\":\\\"Test Suite - Haier - Functional Suite\\\",\\\"testTypePid\\\":0,\\\"createdBy\\\":\\\"TestAutomation FPA\\\",\\\"startTimestamp\\\":1772695074050,\\\"tenantCode\\\":\\\"fisherpaykel\\\",\\\"projectCode\\\":\\\"SalesforceCommerceCloudSFCC\\\",\\\"datasetName\\\":\\\"Test\\\",\\\"appVariantOptionName\\\":\\\"Default\\\",\\\"scnCount\\\":7,\\\"testSuiteName\\\":\\\"Haier - Functional Suite\\\",\\\"testSuitePid\\\":55,\\\"hostConfig\\\":{\\\"webProviderType\\\":\\\"Local Agent\\\",\\\"mobileProviderType\\\":\\\"Local Agent\\\",\\\"webConnectionParams\\\":null,\\\"mobileConnectionParams\\\":null,\\\"agentName\\\":\\\"KasunUdana\\\",\\\"agentNamePattern\\\":null,\\\"dynamicAgent\\\":false,\\\"parallelExecution\\\":false,\\\"numOfParallelRuns\\\":1,\\\"webAdditionalCapabilities\\\":\\\"{\\\\n  \\\\\\\"headless\\\\\\\": \\\\\\\"new\\\\\\\",\\\\n  \\\\\\\"args\\\\\\\": [\\\\n    \\\\\\\"--window-size=1351,633\\\\\\\",\\\\n    \\\\\\\"--start-maximized\\\\\\\",\\\\n    \\\\\\\"--no-sandbox\\\\\\\",\\\\n    \\\\\\\"--disable-dev-shm-usage\\\\\\\",\\\\n    \\\\\\\"--ignore-certificate-errors\\\\\\\",\\\\n    \\\\\\\"--allow-insecure-localhost\\\\\\\",\\\\n    \\\\\\\"--disable-gpu\\\\\\\",\\\\n    \\\\\\\"--disable-blink-features=AutomationControlled\\\\\\\",\\\\n    \\\\\\\"--disable-features=IsolateOrigins,site-per-process\\\\\\\",\\\\n    \\\\\\\"--disable-web-security\\\\\\\",\\\\n    \\\\\\\"--disable-infobars\\\\\\\",\\\\n    \\\\\\\"--remote-allow-origins=*\\\\\\\",\\\\n    \\\\\\\"--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\\\\\\\"\\\\n  ],\\\\n  \\\\\\\"prefs\\\\\\\": {\\\\n    \\\\\\\"credentials_enable_service\\\\\\\": false,\\\\n    \\\\\\\"profile.password_manager_enabled\\\\\\\": false\\\\n  }\\\\n}\\\",\\\"mobileAdditionalCapabilities\\\":\\\"\\\",\\\"webDriverConfigName\\\":\\\"Headless\\\",\\\"mobileDriverConfigName\\\":\\\"\\\",\\\"browserKeepAlive\\\":false,\\\"mobileKeepAlive\\\":true,\\\"skipReinstall\\\":false,\\\"webPlatformDetails\\\":{\\\"os\\\":\\\"Windows\\\",\\\"osVersion\\\":\\\"\\\",\\\"browser\\\":\\\"Chrome\\\",\\\"browserVersion\\\":\\\"\\\",\\\"isRealDevice\\\":true,\\\"deviceStatus\\\":3,\\\"isPrivateDevice\\\":false,\\\"appiumDriverUrl\\\":\\\"http://127.0.0.1:4723/wd/hub\\\"},\\\"mobilePlatformDetails\\\":null,\\\"mobilePlatformDetailsList\\\":null,\\\"emulatedDeviceDetails\\\":null,\\\"tcStmtLineMaxCount\\\":100000,\\\"autoStartBsLocal\\\":false,\\\"webOs\\\":\\\"Windows\\\",\\\"webOsVersion\\\":\\\"\\\",\\\"webBrowser\\\":\\\"Chrome\\\",\\\"webBrowserVersion\\\":\\\"\\\"},\\\"notifyOnStart\\\":true,\\\"emailNotificationMode\\\":0,\\\"notificationEmailIds\\\":\\\"\\\",\\\"notificationChannels\\\":\\\"{}\\\",\\\"debug\\\":false,\\\"enableIframeFreeFormSearch\\\":true,\\\"settings\\\":{\\\"apiTimeout\\\":\\\"60\\\",\\\"enableWebAccessibilityTesting\\\":\\\"false\\\",\\\"elementWaitTime\\\":\\\"20\\\",\\\"slaThreshold\\\":\\\"0\\\",\\\"loggerLevel\\\":\\\"INFO\\\",\\\"pageLoadWaitTime\\\":\\\"18\\\",\\\"enableWebPerformanceTesting\\\":\\\"false\\\",\\\"captureScreenshot\\\":\\\"1\\\",\\\"enableSelfHealing\\\":\\\"true\\\",\\\"verbose\\\":\\\"false\\\"},\\\"runConfig\\\":{},\\\"bugsCount\\\":0,\\\"bugList\\\":[],\\\"scenarioList\\\":[],\\\"autoReRun\\\":false,\\\"reRunType\\\":4}\",\"notificationEmailIds\":\"\",\"notifyOnStart\":true,\"emailNotificationMode\":0,\"datasetPid\":23,\"appVariantOptionPid\":8,\"jobType\":1,\"completedStatusNotified\":false,\"pass\":0,\"fail\":0,\"notRun\":8,\"testCaseCount\":8,\"debug\":false,\"reRunType\":4,\"autoReRun\":false,\"enableIframeFreeFormSearch\":true,\"executionMode\":0,\"loggerLevel\":5,\"additionalReportFormats\":\"\",\"notificationChannels\":\"{}\",\"enableWebPerformanceTesting\":false,\"slaThreshold\":0,\"enableWebAccessibilityTesting\":false,\"apiTimeout\":60,\"adhocJob\":false}],\"dynamicAgentPreferred\":false,\"CAPTURE_VIEW_PREFERENCES\":{\"6\":{\"captureType\":\"WEB\"}},\"universeFilter\":{\"2\":{\"backendFilter\":{\"type\":\"ALL_SCENARIOS\",\"pidList\":[]},\"frontendFilter\":{\"states\":[]}},\"6\":{\"backendFilter\":{\"type\":\"TEST_SUITES\",\"pidList\":[7]},\"frontendFilter\":{\"states\":[]}},\"8\":{\"backendFilter\":{\"type\":\"ALL_SCENARIOS\",\"pidList\":[]},\"frontendFilter\":{\"states\":[]}},\"10\":{\"backendFilter\":{\"type\":\"ALL_SCENARIOS\",\"pidList\":[]},\"frontendFilter\":{\"states\":[]}}},\"isAllStmtConv\":true,\"pdfDownloadOptions\":{\"isTestcaseListBoxChecked\":true,\"isDetailedStepsBoxChecked\":true},\"lastFuncProject\":{\"key\":\"ETM\",\"name\":\"Enterprise Test Management\"}}",
+    "customerPid": 144,
+    "lastLoginTimestamp": 1773710144015,
+    "sessionActive": true,
+    "assignedSubscriptionLineItemPOJOList": [
+      {
+        "lineItemPid": 3,
+        "capabilityPid": 1,
+        "lineItemId": "Automate Pro",
+        "subscriptionPid": 1,
+        "subscriptionId": "1744779621196",
+        "subscriptionName": "fisherpaykel - 1",
+        "productPidList": [
+          1,
+          2,
+          6
+        ],
+        "numOfLicenses": 4,
+        "numOfLicensesAssigned": 4,
+        "startDateTimestamp": 1744626120000,
+        "endDateTimestamp": 1807611720000
+      }
+    ],
+    "expiredSubscriptionLineItemPOJOList": [],
+    "pubSubAddOnList": [
+      {
+        "mpPjPid": 67,
+        "pubProjectDisplayName": "Coupa Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 8,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 56,
+        "pubProjectDisplayName": "MS Dynamics Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 3,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 58,
+        "pubProjectDisplayName": "Oracle Cloud Live Branch",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 6,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 2,
+        "pubProjectDisplayName": "Salesforce Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 2,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 57,
+        "pubProjectDisplayName": "Salesforce Mobile Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 4,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 65,
+        "pubProjectDisplayName": "ServiceNow Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 7,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 1,
+        "subscribed": true,
+        "subCreatedTimestamp": 1744779363685
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 2,
+        "subscribed": true,
+        "subCreatedTimestamp": 1744779902606
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 3,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747309663443
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 4,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747309699822
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 5,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310123201
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 6,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310219700
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 7,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310325313
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 8,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310413295
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 9,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747310558798
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 10,
+        "subscribed": true,
+        "subCreatedTimestamp": 1747713951251
+      },
+      {
+        "mpPjPid": 54,
+        "pubProjectDisplayName": "System Project",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 1,
+        "licenseCount": -1,
+        "subPjPid": 11,
+        "subscribed": true,
+        "subCreatedTimestamp": 1748396065879
+      },
+      {
+        "mpPjPid": 66,
+        "pubProjectDisplayName": "Workday Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 9,
+        "licenseCount": 0,
+        "subscribed": false
+      },
+      {
+        "mpPjPid": 63,
+        "pubProjectDisplayName": "Ncino Live",
+        "pubApplicabilityTypePid": 1,
+        "pubCloudPlatformModuleReleasePid": 5,
+        "licenseCount": 0,
+        "subscribed": false
+      }
+    ],
+    "projRoleList": [
+      {
+        "projectPid": 2,
+        "projectName": "FisherAndPaykelProject",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 8,
+        "projectName": "SalesforceCommerceCloudSFCC",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 1,
+        "projectName": "fisherpaykelProject",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 9,
+        "projectName": "ConnectedEcosystemSmartHQ",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 3,
+        "projectName": "SoftwareDevelopmentPlatform",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 6,
+        "projectName": "RetailExperience",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 7,
+        "projectName": "ECommerce",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 5,
+        "projectName": "EnterpriseContentSquad",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 4,
+        "projectName": "IntegrationPlatform",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 10,
+        "projectName": "BOM",
+        "rolePid": 100,
+        "isAdmin": false
+      },
+      {
+        "projectPid": 11,
+        "projectName": "CoreAppsGOP",
+        "rolePid": 100,
+        "isAdmin": false
+      }
+    ],
+    "useExtAuth": false
+  }
+]

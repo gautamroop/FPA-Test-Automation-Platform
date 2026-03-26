@@ -1,0 +1,3718 @@
+{
+  "1": {
+    "pid": 1,
+    "name": "Regression | Order Creation and Verification",
+    "data": {
+      "pid": 1,
+      "rootPid": 1,
+      "name": "Regression | Order Creation and Verification",
+      "testTypePid": 0,
+      "tsType": 2,
+      "status": 8,
+      "filterGroupList": [
+        {
+          "pid": 1,
+          "scnFilter": null,
+          "scnPidList": [
+            57,
+            56
+          ],
+          "tcFilter": null,
+          "filterGroupDetails": {
+            "tcCount": 2,
+            "scnPidList": [
+              57,
+              56
+            ],
+            "storyList": [],
+            "scnTestCases": [
+              {
+                "scnPid": 57,
+                "scnName": "Create Ecommerce Order ",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497410799,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 968,
+                  "field1": "1",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 69,
+                    "tcName": "Ecommerce Order - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 972,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 56,
+                "scnName": "Verify Order Details on SF",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497410734,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 947,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 67,
+                    "tcName": "Order Verification-01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 963,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "index": 1
+        }
+      ],
+      "lastRunSummaryList": [
+        {
+          "jobPid": 1922,
+          "purpose": "Test Suite - Regression | Order Creation and Verification",
+          "createdBy": "Roop Gautam",
+          "status": "ABORTED",
+          "pass": 1,
+          "fail": 0,
+          "notRun": 1,
+          "testcaseCount": 2,
+          "startTimestamp": 1765420005819,
+          "completedTimestamp": 1765420804370,
+          "scenarioMetadataDef": {},
+          "testCaseMetadataDef": {
+            "Application Type": [
+              "Ecommerce",
+              "OMS",
+              "TPP",
+              "SF Core",
+              "MSD"
+            ]
+          },
+          "bugList": [],
+          "testCaseSummaryList": [
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 69,
+              "scnPid": 57,
+              "name": "Ecommerce Order - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1765420005835,
+              "endDate": 1765420155367,
+              "jobPid": 1922,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1922&testTypePid=0&scnPid=57&testCasePid=69&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "NZST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 67,
+              "scnPid": 56,
+              "name": "Order Verification-01",
+              "status": "aborted",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1765420155977,
+              "endDate": 0,
+              "jobPid": 1922,
+              "extResultLink": "",
+              "selfHealingCount": null,
+              "hostTimezone": "NZST",
+              "metadata": {
+                "tags": [],
+                "Application Type": [
+                  "OMS"
+                ]
+              }
+            }
+          ],
+          "scenarioList": [
+            {
+              "name": "Create Ecommerce Order ",
+              "description": "",
+              "dbPid": 57,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 69,
+                  "name": "Ecommerce Order - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Order Details on SF",
+              "description": "",
+              "dbPid": 56,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 67,
+                  "name": "Order Verification-01"
+                }
+              ],
+              "jiraStoryList": []
+            }
+          ]
+        }
+      ],
+      "readinessPercentage": 100,
+      "developmentPercentage": 0,
+      "readyScenariosCount": 2,
+      "readyActionsCount": 0,
+      "modifiedTimestamp": 1751457395433,
+      "modifiedUser": 2,
+      "createdUser": 6,
+      "metaValues": {
+        "pid": 998,
+        "pjPid": 2
+      },
+      "lastReadinessCalculationTimestamp": 1774497410734,
+      "historyRunSummaryList": [
+        {
+          "jobPid": 1922,
+          "purpose": "Test Suite - Regression | Order Creation and Verification",
+          "createdBy": "Roop Gautam",
+          "status": "ABORTED",
+          "pass": 1,
+          "fail": 0,
+          "notRun": 1,
+          "testcaseCount": 2,
+          "startTimestamp": 1765420005819,
+          "completedTimestamp": 1765420804370,
+          "scenarioMetadataDef": {},
+          "testCaseMetadataDef": {
+            "Application Type": [
+              "Ecommerce",
+              "OMS",
+              "TPP",
+              "SF Core",
+              "MSD"
+            ]
+          },
+          "bugList": [],
+          "testCaseSummaryList": [
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 67,
+              "scnPid": 56,
+              "name": "Order Verification-01",
+              "status": "running",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1765420155977,
+              "endDate": 0,
+              "jobPid": 1922,
+              "extResultLink": "",
+              "selfHealingCount": null,
+              "hostTimezone": "NZST",
+              "metadata": {
+                "tags": [],
+                "Application Type": [
+                  "OMS"
+                ]
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 69,
+              "scnPid": 57,
+              "name": "Ecommerce Order - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1765420005835,
+              "endDate": 1765420155367,
+              "jobPid": 1922,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1922&testTypePid=0&scnPid=57&testCasePid=69&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "NZST",
+              "metadata": {
+                "tags": [],
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              }
+            }
+          ],
+          "scenarioList": [
+            {
+              "name": "Create Ecommerce Order ",
+              "description": "",
+              "dbPid": 57,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 69,
+                  "name": "Ecommerce Order - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Order Details on SF",
+              "description": "",
+              "dbPid": 56,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 67,
+                  "name": "Order Verification-01"
+                }
+              ],
+              "jiraStoryList": []
+            }
+          ]
+        }
+      ],
+      "testCaseCount": 2,
+      "scnCount": 2
+    }
+  },
+  "2": {
+    "pid": 2,
+    "name": "Regression | Order Creation, Verification, and Delivery Date Update",
+    "data": {
+      "pid": 2,
+      "rootPid": 2,
+      "name": "Regression | Order Creation, Verification, and Delivery Date Update",
+      "testTypePid": 0,
+      "tsType": 2,
+      "status": 8,
+      "filterGroupList": [
+        {
+          "pid": 2,
+          "scnFilter": null,
+          "scnPidList": [
+            57,
+            56,
+            88
+          ],
+          "tcFilter": null,
+          "filterGroupDetails": {
+            "tcCount": 3,
+            "scnPidList": [
+              57,
+              56,
+              88
+            ],
+            "storyList": [],
+            "scnTestCases": [
+              {
+                "scnPid": 57,
+                "scnName": "Create Ecommerce Order ",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497410799,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 968,
+                  "field1": "1",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 69,
+                    "tcName": "Ecommerce Order - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 972,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 56,
+                "scnName": "Verify Order Details on SF",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497410734,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 947,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 67,
+                    "tcName": "Order Verification-01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 963,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 88,
+                "scnName": "Update Order Delivery Date and Verify",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411814,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1459,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 119,
+                    "tcName": "Delivery Date Update - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1465,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "index": 1
+        }
+      ],
+      "lastRunSummaryList": [
+        {
+          "jobPid": 1921,
+          "purpose": "Test Suite - Regression | Order Creation, Verification, and Delivery Date Update",
+          "createdBy": "Roop Gautam",
+          "status": "completed",
+          "pass": 0,
+          "fail": 3,
+          "notRun": 0,
+          "testcaseCount": 3,
+          "startTimestamp": 1765413807202,
+          "completedTimestamp": 1765418222097,
+          "scenarioMetadataDef": {},
+          "testCaseMetadataDef": {
+            "Application Type": [
+              "Ecommerce",
+              "OMS",
+              "TPP",
+              "SF Core",
+              "MSD"
+            ]
+          },
+          "bugList": [],
+          "testCaseSummaryList": [
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 69,
+              "scnPid": 57,
+              "name": "Ecommerce Order - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Place Order and Get Order Details ] Could not find web element: Model Number",
+              "startDate": 1765413807218,
+              "endDate": 1765416439812,
+              "jobPid": 1921,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=57&testCasePid=69&isAccessAllTC=true",
+              "selfHealingCount": 4,
+              "hostTimezone": "NZST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 67,
+              "scnPid": 56,
+              "name": "Order Verification-01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Search and View Details] Could not find web element: Order Summary Number",
+              "startDate": 1765416440565,
+              "endDate": 1765416875312,
+              "jobPid": 1921,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=56&testCasePid=67&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "NZST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 119,
+              "scnPid": 88,
+              "name": "Delivery Date Update - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Search and View Details] Could not find web element: Order Summary Number",
+              "startDate": 1765416875678,
+              "endDate": 1765418221798,
+              "jobPid": 1921,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=88&testCasePid=119&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "NZST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            }
+          ],
+          "scenarioList": [
+            {
+              "name": "Create Ecommerce Order ",
+              "description": "",
+              "dbPid": 57,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 69,
+                  "name": "Ecommerce Order - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Order Details on SF",
+              "description": "",
+              "dbPid": 56,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 67,
+                  "name": "Order Verification-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Update Order Delivery Date and Verify",
+              "description": "",
+              "dbPid": 88,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 119,
+                  "name": "Delivery Date Update - 01"
+                }
+              ],
+              "jiraStoryList": []
+            }
+          ]
+        }
+      ],
+      "readinessPercentage": 100,
+      "developmentPercentage": 0,
+      "readyScenariosCount": 3,
+      "readyActionsCount": 0,
+      "modifiedTimestamp": 1751457407965,
+      "modifiedUser": 2,
+      "createdUser": 6,
+      "metaValues": {
+        "pid": 1509,
+        "pjPid": 2
+      },
+      "lastReadinessCalculationTimestamp": 1774497410734,
+      "historyRunSummaryList": [
+        {
+          "jobPid": 1921,
+          "purpose": "Test Suite - Regression | Order Creation, Verification, and Delivery Date Update",
+          "createdBy": "Roop Gautam",
+          "status": "completed",
+          "pass": 0,
+          "fail": 3,
+          "notRun": 0,
+          "testcaseCount": 3,
+          "startTimestamp": 1765413807202,
+          "completedTimestamp": 1765418222097,
+          "scenarioMetadataDef": {},
+          "testCaseMetadataDef": {
+            "Application Type": [
+              "Ecommerce",
+              "OMS",
+              "TPP",
+              "SF Core",
+              "MSD"
+            ]
+          },
+          "bugList": [],
+          "testCaseSummaryList": [
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 69,
+              "scnPid": 57,
+              "name": "Ecommerce Order - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Place Order and Get Order Details ] Could not find web element: Model Number",
+              "startDate": 1765413807218,
+              "endDate": 1765416439812,
+              "jobPid": 1921,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=57&testCasePid=69&isAccessAllTC=true",
+              "selfHealingCount": 4,
+              "hostTimezone": "NZST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 67,
+              "scnPid": 56,
+              "name": "Order Verification-01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Search and View Details] Could not find web element: Order Summary Number",
+              "startDate": 1765416440565,
+              "endDate": 1765416875312,
+              "jobPid": 1921,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=56&testCasePid=67&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "NZST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 119,
+              "scnPid": 88,
+              "name": "Delivery Date Update - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Search and View Details] Could not find web element: Order Summary Number",
+              "startDate": 1765416875678,
+              "endDate": 1765418221798,
+              "jobPid": 1921,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1921&testTypePid=0&scnPid=88&testCasePid=119&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "NZST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            }
+          ],
+          "scenarioList": [
+            {
+              "name": "Create Ecommerce Order ",
+              "description": "",
+              "dbPid": 57,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 69,
+                  "name": "Ecommerce Order - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Order Details on SF",
+              "description": "",
+              "dbPid": 56,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 67,
+                  "name": "Order Verification-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Update Order Delivery Date and Verify",
+              "description": "",
+              "dbPid": 88,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 119,
+                  "name": "Delivery Date Update - 01"
+                }
+              ],
+              "jiraStoryList": []
+            }
+          ]
+        }
+      ],
+      "testCaseCount": 3,
+      "scnCount": 3
+    }
+  },
+  "4": {
+    "pid": 4,
+    "name": "Regression | OMS | All Scenarios Execution",
+    "data": {
+      "pid": 4,
+      "rootPid": 4,
+      "name": "Regression | OMS | All Scenarios Execution",
+      "testTypePid": 0,
+      "tsType": 2,
+      "status": 7,
+      "filterGroupList": [
+        {
+          "pid": 4,
+          "scnFilter": null,
+          "scnPidList": [
+            57,
+            56,
+            64,
+            99,
+            60,
+            63,
+            61,
+            65,
+            62,
+            78,
+            98,
+            86,
+            67,
+            79,
+            66,
+            87,
+            97,
+            108,
+            107,
+            104,
+            89,
+            88,
+            103,
+            100
+          ],
+          "tcFilter": null,
+          "filterGroupDetails": {
+            "tcCount": 25,
+            "scnPidList": [
+              57,
+              56,
+              64,
+              99,
+              60,
+              63,
+              61,
+              65,
+              62,
+              78,
+              98,
+              86,
+              67,
+              79,
+              66,
+              87,
+              97,
+              108,
+              107,
+              104,
+              89,
+              88,
+              103,
+              100
+            ],
+            "storyList": [],
+            "scnTestCases": [
+              {
+                "scnPid": 57,
+                "scnName": "Create Ecommerce Order ",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497410799,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 968,
+                  "field1": "1",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 69,
+                    "tcName": "Ecommerce Order - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 972,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 56,
+                "scnName": "Verify Order Details on SF",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497410734,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 947,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 67,
+                    "tcName": "Order Verification-01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 963,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 64,
+                "scnName": "Verify Add Item Functionality ",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411182,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1070,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 84,
+                    "tcName": "Add Item to Order - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1083,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 99,
+                "scnName": "Verify Swap Item Functionality",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497412099,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1710,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 138,
+                    "tcName": "Swap Order Item - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1739,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 60,
+                "scnName": "Validate GOP dates populated under shipping details section",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497410879,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1009,
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 74,
+                    "tcName": "Order GOP Dates Validation - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1018,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 63,
+                "scnName": "Verify Paid in Full-Checkbox",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411114,
+                "totalTcCount": 2,
+                "metaValues": {
+                  "pid": 1048,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 80,
+                    "tcName": "Paid in Full Checkbox - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1054,
+                      "pjPid": 2
+                    }
+                  },
+                  {
+                    "tcPid": 81,
+                    "tcName": "Pay in deposit checkbox - 02",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1055,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 61,
+                "scnName": "Verify Fulfilment Order Creation",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497410948,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1024,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 76,
+                    "tcName": "Fulfilment Order Validation - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1035,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 65,
+                "scnName": "Check Product Level Promotion",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411245,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1086,
+                  "field1": "1",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 86,
+                    "tcName": "Ecommerce Order - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1093,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 62,
+                "scnName": "Create Order and Verify Paid in Full-Checkbox ",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411019,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1040,
+                  "field1": "1",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 78,
+                    "tcName": "Ecommerce Order Creation and Checkbox Validation -01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1047,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 78,
+                "scnName": "Verify Order + Product Level Discount",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411439,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1296,
+                  "field1": "1",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 106,
+                    "tcName": "Order and Product Level Discount - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1323,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 98,
+                "scnName": "Generate Invoice",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497412033,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1691,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 132,
+                    "tcName": "Invoice Generate - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1701,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 86,
+                "scnName": "Partial Order Cancellation",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411666,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1428,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 115,
+                    "tcName": "Partial Order Cancellation-01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1435,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 67,
+                "scnName": "Verify Full Order Cancellation",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411378,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1113,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 90,
+                    "tcName": "Full Order Cancellation - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1120,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 79,
+                "scnName": "Verify Refund after Cancellation",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411506,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1298,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 113,
+                    "tcName": "Refund Order Cancellation -01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1423,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 66,
+                "scnName": "Check Order Level Promotion",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411312,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1098,
+                  "field1": "1",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 105,
+                    "tcName": "Order Level Promotion - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1311,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 87,
+                "scnName": "Create Order and Update Delivery Date",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411730,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1441,
+                  "field1": "1",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 117,
+                    "tcName": "Update Delivery Date Validation-01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1450,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 97,
+                "scnName": "WO/SA creation if GOP is less than 14 days",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411948,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1685,
+                  "field1": "1",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 137,
+                    "tcName": "GOP Order Creation for less than 14 days-01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1733,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 108,
+                "scnName": "Generate payment Link- Amount on screen matches Outstanding amount",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497412424,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1827,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 147,
+                    "tcName": "Generate Payment link - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1837,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 107,
+                "scnName": "Verify Payment sent to JDE",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497412360,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1821,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 145,
+                    "tcName": "JDE Payment - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1826,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 104,
+                "scnName": "Verify Unable to cancel the products with JDE ship date",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497412299,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1777,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 143,
+                    "tcName": "JDE Order Cancellation - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1820,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 89,
+                "scnName": "Verify Order is sent to JDE",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411887,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1470,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 121,
+                    "tcName": "JDE Order Sent-01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1477,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 88,
+                "scnName": "Update Order Delivery Date and Verify",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411814,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1459,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 119,
+                    "tcName": "Delivery Date Update - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1465,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 103,
+                "scnName": "Verify Automatic cancellation of additional services if products are canceled",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497412233,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1746,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 140,
+                    "tcName": "Additional Service Cancellation- 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1768,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "scnPid": 100,
+                "scnName": "Verify Delivery instruction checkboxes carried over to new FO after every order change",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497412165,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1712,
+                  "field1": "2",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 156,
+                    "tcName": "Update delivery instructions checkbox - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 2024,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "index": 1
+        }
+      ],
+      "lastRunSummaryList": [
+        {
+          "jobPid": 1788,
+          "purpose": "Test Suite - Regression | OMS | All Scenarios Execution",
+          "createdBy": "Roop Gautam",
+          "status": "completed",
+          "pass": 16,
+          "fail": 8,
+          "notRun": 0,
+          "testcaseCount": 24,
+          "startTimestamp": 1763612306642,
+          "completedTimestamp": 1763616033770,
+          "scenarioMetadataDef": {},
+          "testCaseMetadataDef": {
+            "Application Type": [
+              "Ecommerce",
+              "OMS",
+              "TPP",
+              "SF Core",
+              "MSD"
+            ]
+          },
+          "bugList": [],
+          "testCaseSummaryList": [
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 69,
+              "scnPid": 57,
+              "name": "Ecommerce Order - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612306736,
+              "endDate": 1763612475128,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=57&testCasePid=69&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 67,
+              "scnPid": 56,
+              "name": "Order Verification-01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612476023,
+              "endDate": 1763612553554,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=56&testCasePid=67&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 84,
+              "scnPid": 64,
+              "name": "Add Item to Order - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612554291,
+              "endDate": 1763612709982,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=64&testCasePid=84&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 138,
+              "scnPid": 99,
+              "name": "Swap Order Item - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612711019,
+              "endDate": 1763612876643,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=99&testCasePid=138&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 74,
+              "scnPid": 60,
+              "name": "Order GOP Dates Validation - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612877679,
+              "endDate": 1763612927696,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=60&testCasePid=74&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  null
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 80,
+              "scnPid": 63,
+              "name": "Paid in Full Checkbox - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612928324,
+              "endDate": 1763612975200,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=63&testCasePid=80&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 76,
+              "scnPid": 61,
+              "name": "Fulfilment Order Validation - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Verify Fulfilment Order] Could not find web element: Status",
+              "startDate": 1763612976043,
+              "endDate": 1763613061620,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=61&testCasePid=76&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 86,
+              "scnPid": 65,
+              "name": "Ecommerce Order - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Verify Product Level Discount/Promotion] Element Price Discount does not exist.",
+              "startDate": 1763613062256,
+              "endDate": 1763613224151,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=65&testCasePid=86&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 78,
+              "scnPid": 62,
+              "name": "Ecommerce Order Creation and Checkbox Validation -01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763613225004,
+              "endDate": 1763613506936,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=62&testCasePid=78&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 106,
+              "scnPid": 78,
+              "name": "Order and Product Level Discount - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763613508070,
+              "endDate": 1763613634355,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=78&testCasePid=106&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 113,
+              "scnPid": 79,
+              "name": "Refund Order Cancellation -01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Verify Refund Amount After Order Cancel] Element Refunded Amount is not found after waiting for: 120 seconds.",
+              "startDate": 1763613635202,
+              "endDate": 1763613983398,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=79&testCasePid=113&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 115,
+              "scnPid": 86,
+              "name": "Partial Order Cancellation-01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Partial Cancel the Order and Verify] Element Item to Cancel does not exist.",
+              "startDate": 1763613984092,
+              "endDate": 1763614191642,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=86&testCasePid=115&isAccessAllTC=true",
+              "selfHealingCount": 1,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 90,
+              "scnPid": 67,
+              "name": "Full Order Cancellation - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Full Cancel the Order and Verify] Element Original Total is not found after waiting for: 30 seconds.",
+              "startDate": 1763614192468,
+              "endDate": 1763614374927,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=67&testCasePid=90&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 105,
+              "scnPid": 66,
+              "name": "Order Level Promotion - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763614375936,
+              "endDate": 1763614514155,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=66&testCasePid=105&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 117,
+              "scnPid": 87,
+              "name": "Update Delivery Date Validation-01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763614514780,
+              "endDate": 1763614830034,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=87&testCasePid=117&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 132,
+              "scnPid": 98,
+              "name": "Invoice Generate - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Navigate to Fulfillment and Create Invoice] Element Invoice Document Number does not exist.",
+              "startDate": 1763614831019,
+              "endDate": 1763615078988,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=98&testCasePid=132&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 137,
+              "scnPid": 97,
+              "name": "GOP Order Creation for less than 14 days-01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615079885,
+              "endDate": 1763615369651,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=97&testCasePid=137&isAccessAllTC=true",
+              "selfHealingCount": 1,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 147,
+              "scnPid": 108,
+              "name": "Generate Payment link - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Generate Payment Link] Failed to verify: '0.00' is equal to '16499.00'. Error: 'Assertion failed.'",
+              "startDate": 1763615370399,
+              "endDate": 1763615540028,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=108&testCasePid=147&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 145,
+              "scnPid": 107,
+              "name": "JDE Payment - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615541062,
+              "endDate": 1763615599677,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=107&testCasePid=145&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 143,
+              "scnPid": 104,
+              "name": "JDE Order Cancellation - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615600519,
+              "endDate": 1763615666470,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=104&testCasePid=143&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 121,
+              "scnPid": 89,
+              "name": "JDE Order Sent-01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615667150,
+              "endDate": 1763615712473,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=89&testCasePid=121&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 119,
+              "scnPid": 88,
+              "name": "Delivery Date Update - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615713529,
+              "endDate": 1763615787874,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=88&testCasePid=119&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 140,
+              "scnPid": 103,
+              "name": "Additional Service Cancellation- 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Cancel the Item and Verify Additional Charges also Cancelled] Element Original Total is not found after waiting for: 30 seconds.",
+              "startDate": 1763615788880,
+              "endDate": 1763615982608,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=103&testCasePid=140&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 156,
+              "scnPid": 100,
+              "name": "Update delivery instructions checkbox - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615983413,
+              "endDate": 1763616032682,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=100&testCasePid=156&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            }
+          ],
+          "scenarioList": [
+            {
+              "name": "Create Ecommerce Order ",
+              "description": "",
+              "dbPid": 57,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 69,
+                  "name": "Ecommerce Order - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Order Details on SF",
+              "description": "",
+              "dbPid": 56,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 67,
+                  "name": "Order Verification-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Add Item Functionality ",
+              "description": "",
+              "dbPid": 64,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 84,
+                  "name": "Add Item to Order - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Swap Item Functionality",
+              "description": "",
+              "dbPid": 99,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 138,
+                  "name": "Swap Order Item - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Validate GOP dates populated under shipping details section",
+              "description": "",
+              "dbPid": 60,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  null
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 74,
+                  "name": "Order GOP Dates Validation - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Paid in Full-Checkbox",
+              "description": "",
+              "dbPid": 63,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 80,
+                  "name": "Paid in Full Checkbox - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Fulfilment Order Creation",
+              "description": "",
+              "dbPid": 61,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 76,
+                  "name": "Fulfilment Order Validation - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Check Product Level Promotion",
+              "description": "",
+              "dbPid": 65,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 86,
+                  "name": "Ecommerce Order - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Create Order and Verify Paid in Full-Checkbox ",
+              "description": "",
+              "dbPid": 62,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 78,
+                  "name": "Ecommerce Order Creation and Checkbox Validation -01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Order + Product Level Discount",
+              "description": "",
+              "dbPid": 78,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 106,
+                  "name": "Order and Product Level Discount - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Refund after Cancellation",
+              "description": "",
+              "dbPid": 79,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 113,
+                  "name": "Refund Order Cancellation -01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Partial Order Cancellation",
+              "description": "",
+              "dbPid": 86,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 115,
+                  "name": "Partial Order Cancellation-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Full Order Cancellation",
+              "description": "",
+              "dbPid": 67,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 90,
+                  "name": "Full Order Cancellation - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Check Order Level Promotion",
+              "description": "",
+              "dbPid": 66,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 105,
+                  "name": "Order Level Promotion - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Create Order and Update Delivery Date",
+              "description": "",
+              "dbPid": 87,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 117,
+                  "name": "Update Delivery Date Validation-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Generate Invoice",
+              "description": "",
+              "dbPid": 98,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 132,
+                  "name": "Invoice Generate - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "WO/SA creation if GOP is less than 14 days",
+              "description": "",
+              "dbPid": 97,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 137,
+                  "name": "GOP Order Creation for less than 14 days-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Generate payment Link- Amount on screen matches Outstanding amount",
+              "description": "",
+              "dbPid": 108,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 147,
+                  "name": "Generate Payment link - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Payment sent to JDE",
+              "description": "",
+              "dbPid": 107,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 145,
+                  "name": "JDE Payment - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Unable to cancel the products with JDE ship date",
+              "description": "",
+              "dbPid": 104,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 143,
+                  "name": "JDE Order Cancellation - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Order is sent to JDE",
+              "description": "",
+              "dbPid": 89,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 121,
+                  "name": "JDE Order Sent-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Update Order Delivery Date and Verify",
+              "description": "",
+              "dbPid": 88,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 119,
+                  "name": "Delivery Date Update - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Automatic cancellation of additional services if products are canceled",
+              "description": "",
+              "dbPid": 103,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 140,
+                  "name": "Additional Service Cancellation- 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Delivery instruction checkboxes carried over to new FO after every order change",
+              "description": "",
+              "dbPid": 100,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 156,
+                  "name": "Update delivery instructions checkbox - 01"
+                }
+              ],
+              "jiraStoryList": []
+            }
+          ]
+        }
+      ],
+      "readinessPercentage": 100,
+      "developmentPercentage": 0,
+      "readyScenariosCount": 24,
+      "readyActionsCount": 0,
+      "modifiedTimestamp": 1763615017318,
+      "modifiedUser": 2,
+      "createdUser": 6,
+      "metaValues": {
+        "pid": 2025,
+        "pjPid": 2
+      },
+      "lastReadinessCalculationTimestamp": 1774497410734,
+      "historyRunSummaryList": [
+        {
+          "jobPid": 1788,
+          "purpose": "Test Suite - Regression | OMS | All Scenarios Execution",
+          "createdBy": "Roop Gautam",
+          "status": "completed",
+          "pass": 16,
+          "fail": 8,
+          "notRun": 0,
+          "testcaseCount": 24,
+          "startTimestamp": 1763612306642,
+          "completedTimestamp": 1763616033770,
+          "scenarioMetadataDef": {},
+          "testCaseMetadataDef": {
+            "Application Type": [
+              "Ecommerce",
+              "OMS",
+              "TPP",
+              "SF Core",
+              "MSD"
+            ]
+          },
+          "bugList": [],
+          "testCaseSummaryList": [
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 69,
+              "scnPid": 57,
+              "name": "Ecommerce Order - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612306736,
+              "endDate": 1763612475128,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=57&testCasePid=69&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 67,
+              "scnPid": 56,
+              "name": "Order Verification-01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612476023,
+              "endDate": 1763612553554,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=56&testCasePid=67&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 84,
+              "scnPid": 64,
+              "name": "Add Item to Order - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612554291,
+              "endDate": 1763612709982,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=64&testCasePid=84&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 138,
+              "scnPid": 99,
+              "name": "Swap Order Item - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612711019,
+              "endDate": 1763612876643,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=99&testCasePid=138&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 74,
+              "scnPid": 60,
+              "name": "Order GOP Dates Validation - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612877679,
+              "endDate": 1763612927696,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=60&testCasePid=74&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  null
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 80,
+              "scnPid": 63,
+              "name": "Paid in Full Checkbox - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763612928324,
+              "endDate": 1763612975200,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=63&testCasePid=80&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 76,
+              "scnPid": 61,
+              "name": "Fulfilment Order Validation - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Verify Fulfilment Order] Could not find web element: Status",
+              "startDate": 1763612976043,
+              "endDate": 1763613061620,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=61&testCasePid=76&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 86,
+              "scnPid": 65,
+              "name": "Ecommerce Order - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Verify Product Level Discount/Promotion] Element Price Discount does not exist.",
+              "startDate": 1763613062256,
+              "endDate": 1763613224151,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=65&testCasePid=86&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 78,
+              "scnPid": 62,
+              "name": "Ecommerce Order Creation and Checkbox Validation -01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763613225004,
+              "endDate": 1763613506936,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=62&testCasePid=78&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 106,
+              "scnPid": 78,
+              "name": "Order and Product Level Discount - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763613508070,
+              "endDate": 1763613634355,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=78&testCasePid=106&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 113,
+              "scnPid": 79,
+              "name": "Refund Order Cancellation -01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Verify Refund Amount After Order Cancel] Element Refunded Amount is not found after waiting for: 120 seconds.",
+              "startDate": 1763613635202,
+              "endDate": 1763613983398,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=79&testCasePid=113&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 115,
+              "scnPid": 86,
+              "name": "Partial Order Cancellation-01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Partial Cancel the Order and Verify] Element Item to Cancel does not exist.",
+              "startDate": 1763613984092,
+              "endDate": 1763614191642,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=86&testCasePid=115&isAccessAllTC=true",
+              "selfHealingCount": 1,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 90,
+              "scnPid": 67,
+              "name": "Full Order Cancellation - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Full Cancel the Order and Verify] Element Original Total is not found after waiting for: 30 seconds.",
+              "startDate": 1763614192468,
+              "endDate": 1763614374927,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=67&testCasePid=90&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 105,
+              "scnPid": 66,
+              "name": "Order Level Promotion - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763614375936,
+              "endDate": 1763614514155,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=66&testCasePid=105&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 117,
+              "scnPid": 87,
+              "name": "Update Delivery Date Validation-01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763614514780,
+              "endDate": 1763614830034,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=87&testCasePid=117&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 132,
+              "scnPid": 98,
+              "name": "Invoice Generate - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Navigate to Fulfillment and Create Invoice] Element Invoice Document Number does not exist.",
+              "startDate": 1763614831019,
+              "endDate": 1763615078988,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=98&testCasePid=132&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 137,
+              "scnPid": 97,
+              "name": "GOP Order Creation for less than 14 days-01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615079885,
+              "endDate": 1763615369651,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=97&testCasePid=137&isAccessAllTC=true",
+              "selfHealingCount": 1,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 147,
+              "scnPid": 108,
+              "name": "Generate Payment link - 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Generate Payment Link] Failed to verify: '0.00' is equal to '16499.00'. Error: 'Assertion failed.'",
+              "startDate": 1763615370399,
+              "endDate": 1763615540028,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=108&testCasePid=147&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 145,
+              "scnPid": 107,
+              "name": "JDE Payment - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615541062,
+              "endDate": 1763615599677,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=107&testCasePid=145&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 143,
+              "scnPid": 104,
+              "name": "JDE Order Cancellation - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615600519,
+              "endDate": 1763615666470,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=104&testCasePid=143&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 121,
+              "scnPid": 89,
+              "name": "JDE Order Sent-01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615667150,
+              "endDate": 1763615712473,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=89&testCasePid=121&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 119,
+              "scnPid": 88,
+              "name": "Delivery Date Update - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615713529,
+              "endDate": 1763615787874,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=88&testCasePid=119&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 140,
+              "scnPid": 103,
+              "name": "Additional Service Cancellation- 01",
+              "status": "fail",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "[Cancel the Item and Verify Additional Charges also Cancelled] Element Original Total is not found after waiting for: 30 seconds.",
+              "startDate": 1763615788880,
+              "endDate": 1763615982608,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=103&testCasePid=140&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            },
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 156,
+              "scnPid": 100,
+              "name": "Update delivery instructions checkbox - 01",
+              "status": "pass",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763615983413,
+              "endDate": 1763616032682,
+              "jobPid": 1788,
+              "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1788&testTypePid=0&scnPid=100&testCasePid=156&isAccessAllTC=true",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ],
+                "tags": []
+              }
+            }
+          ],
+          "scenarioList": [
+            {
+              "name": "Create Ecommerce Order ",
+              "description": "",
+              "dbPid": 57,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 69,
+                  "name": "Ecommerce Order - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Order Details on SF",
+              "description": "",
+              "dbPid": 56,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 67,
+                  "name": "Order Verification-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Add Item Functionality ",
+              "description": "",
+              "dbPid": 64,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 84,
+                  "name": "Add Item to Order - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Swap Item Functionality",
+              "description": "",
+              "dbPid": 99,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 138,
+                  "name": "Swap Order Item - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Validate GOP dates populated under shipping details section",
+              "description": "",
+              "dbPid": 60,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  null
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 74,
+                  "name": "Order GOP Dates Validation - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Paid in Full-Checkbox",
+              "description": "",
+              "dbPid": 63,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 80,
+                  "name": "Paid in Full Checkbox - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Fulfilment Order Creation",
+              "description": "",
+              "dbPid": 61,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 76,
+                  "name": "Fulfilment Order Validation - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Check Product Level Promotion",
+              "description": "",
+              "dbPid": 65,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 86,
+                  "name": "Ecommerce Order - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Create Order and Verify Paid in Full-Checkbox ",
+              "description": "",
+              "dbPid": 62,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 78,
+                  "name": "Ecommerce Order Creation and Checkbox Validation -01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Order + Product Level Discount",
+              "description": "",
+              "dbPid": 78,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 106,
+                  "name": "Order and Product Level Discount - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Refund after Cancellation",
+              "description": "",
+              "dbPid": 79,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 113,
+                  "name": "Refund Order Cancellation -01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Partial Order Cancellation",
+              "description": "",
+              "dbPid": 86,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 115,
+                  "name": "Partial Order Cancellation-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Full Order Cancellation",
+              "description": "",
+              "dbPid": 67,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 90,
+                  "name": "Full Order Cancellation - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Check Order Level Promotion",
+              "description": "",
+              "dbPid": 66,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 105,
+                  "name": "Order Level Promotion - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Create Order and Update Delivery Date",
+              "description": "",
+              "dbPid": 87,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 117,
+                  "name": "Update Delivery Date Validation-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Generate Invoice",
+              "description": "",
+              "dbPid": 98,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 132,
+                  "name": "Invoice Generate - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "WO/SA creation if GOP is less than 14 days",
+              "description": "",
+              "dbPid": 97,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "Ecommerce"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 137,
+                  "name": "GOP Order Creation for less than 14 days-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Generate payment Link- Amount on screen matches Outstanding amount",
+              "description": "",
+              "dbPid": 108,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 147,
+                  "name": "Generate Payment link - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Payment sent to JDE",
+              "description": "",
+              "dbPid": 107,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 145,
+                  "name": "JDE Payment - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Unable to cancel the products with JDE ship date",
+              "description": "",
+              "dbPid": 104,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 143,
+                  "name": "JDE Order Cancellation - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Order is sent to JDE",
+              "description": "",
+              "dbPid": 89,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 121,
+                  "name": "JDE Order Sent-01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Update Order Delivery Date and Verify",
+              "description": "",
+              "dbPid": 88,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 119,
+                  "name": "Delivery Date Update - 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Automatic cancellation of additional services if products are canceled",
+              "description": "",
+              "dbPid": 103,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 140,
+                  "name": "Additional Service Cancellation- 01"
+                }
+              ],
+              "jiraStoryList": []
+            },
+            {
+              "name": "Verify Delivery instruction checkboxes carried over to new FO after every order change",
+              "description": "",
+              "dbPid": 100,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "OMS"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 156,
+                  "name": "Update delivery instructions checkbox - 01"
+                }
+              ],
+              "jiraStoryList": []
+            }
+          ]
+        }
+      ],
+      "testCaseCount": 25,
+      "scnCount": 24
+    }
+  },
+  "18": {
+    "pid": 18,
+    "name": "Regression | Agency Order creation and Verification",
+    "data": {
+      "pid": 18,
+      "rootPid": 18,
+      "name": "Regression | Agency Order creation and Verification",
+      "testTypePid": 0,
+      "tsType": 2,
+      "status": 8,
+      "filterGroupList": [
+        {
+          "pid": 13,
+          "scnFilter": null,
+          "scnPidList": [
+            85
+          ],
+          "tcFilter": null,
+          "filterGroupDetails": {
+            "tcCount": 1,
+            "scnPidList": [
+              85
+            ],
+            "storyList": [],
+            "scnTestCases": [
+              {
+                "scnPid": 85,
+                "scnName": "End-to-End Order Creation and Validation - V2",
+                "status": 8,
+                "alerts": [],
+                "storyPidList": [],
+                "scnLastAlertsCalculationTimestamp": 1774497411569,
+                "totalTcCount": 1,
+                "metaValues": {
+                  "pid": 1400,
+                  "field1": "3",
+                  "pjPid": 2
+                },
+                "datadriven": true,
+                "testCases": [
+                  {
+                    "tcPid": 131,
+                    "tcName": "TPP Order Creation - 01",
+                    "alerts": null,
+                    "metaValues": {
+                      "pid": 1695,
+                      "pjPid": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "index": 1
+        }
+      ],
+      "lastRunSummaryList": [
+        {
+          "jobPid": 1761,
+          "purpose": "Test Suite - Regression | Agency Order creation and Verification",
+          "createdBy": "Roop Gautam",
+          "status": "ABORTED",
+          "pass": 0,
+          "fail": 0,
+          "notRun": 1,
+          "testcaseCount": 1,
+          "startTimestamp": 1763325742626,
+          "completedTimestamp": 1763325767654,
+          "scenarioMetadataDef": {},
+          "testCaseMetadataDef": {
+            "Application Type": [
+              "Ecommerce",
+              "OMS",
+              "TPP",
+              "SF Core",
+              "MSD"
+            ]
+          },
+          "bugList": [],
+          "testCaseSummaryList": [
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 131,
+              "scnPid": 85,
+              "name": "TPP Order Creation - 01",
+              "status": "aborted",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763325742699,
+              "endDate": 0,
+              "jobPid": 1761,
+              "extResultLink": "",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "tags": [],
+                "Application Type": [
+                  "TPP"
+                ]
+              }
+            }
+          ],
+          "scenarioList": [
+            {
+              "name": "End-to-End Order Creation and Validation - V2",
+              "description": "",
+              "dbPid": 85,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "TPP"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 131,
+                  "name": "TPP Order Creation - 01"
+                }
+              ],
+              "jiraStoryList": []
+            }
+          ]
+        }
+      ],
+      "readinessPercentage": 100,
+      "developmentPercentage": 0,
+      "readyScenariosCount": 1,
+      "readyActionsCount": 0,
+      "modifiedTimestamp": 1751457421501,
+      "modifiedUser": 2,
+      "createdUser": 2,
+      "metaValues": {
+        "pid": 3029,
+        "pjPid": 2
+      },
+      "lastReadinessCalculationTimestamp": 1774497411569,
+      "historyRunSummaryList": [
+        {
+          "jobPid": 1761,
+          "purpose": "Test Suite - Regression | Agency Order creation and Verification",
+          "createdBy": "Roop Gautam",
+          "status": "ABORTED",
+          "pass": 0,
+          "fail": 0,
+          "notRun": 1,
+          "testcaseCount": 1,
+          "startTimestamp": 1763325742626,
+          "completedTimestamp": 1763325767654,
+          "scenarioMetadataDef": {},
+          "testCaseMetadataDef": {
+            "Application Type": [
+              "Ecommerce",
+              "OMS",
+              "TPP",
+              "SF Core",
+              "MSD"
+            ]
+          },
+          "bugList": [],
+          "testCaseSummaryList": [
+            {
+              "reportVersion": "3.3",
+              "id": 0,
+              "dbPid": 131,
+              "scnPid": 85,
+              "name": "TPP Order Creation - 01",
+              "status": "running",
+              "lastStatusUpdatedUserName": "",
+              "lastErrorStmtMsg": "",
+              "startDate": 1763325742699,
+              "endDate": 0,
+              "jobPid": 1761,
+              "extResultLink": "",
+              "selfHealingCount": null,
+              "hostTimezone": "IST",
+              "metadata": {
+                "tags": [],
+                "Application Type": [
+                  "TPP"
+                ]
+              }
+            }
+          ],
+          "scenarioList": [
+            {
+              "name": "End-to-End Order Creation and Validation - V2",
+              "description": "",
+              "dbPid": 85,
+              "dataDriven": true,
+              "metadata": {
+                "Application Type": [
+                  "TPP"
+                ]
+              },
+              "testCases": [],
+              "testCasesList": [
+                {
+                  "pid": 131,
+                  "name": "TPP Order Creation - 01"
+                }
+              ],
+              "jiraStoryList": []
+            }
+          ]
+        }
+      ],
+      "testCaseCount": 1,
+      "scnCount": 1
+    }
+  }
+}

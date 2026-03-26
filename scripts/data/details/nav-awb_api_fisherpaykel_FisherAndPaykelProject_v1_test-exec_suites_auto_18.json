@@ -1,0 +1,208 @@
+{
+  "pid": 18,
+  "rootPid": 18,
+  "name": "Regression | Agency Order creation and Verification",
+  "testTypePid": 0,
+  "tsType": 2,
+  "status": 8,
+  "filterGroupList": [
+    {
+      "pid": 13,
+      "scnFilter": null,
+      "scnPidList": [
+        85
+      ],
+      "tcFilter": null,
+      "filterGroupDetails": {
+        "tcCount": 1,
+        "scnPidList": [
+          85
+        ],
+        "storyList": [],
+        "scnTestCases": [
+          {
+            "scnPid": 85,
+            "scnName": "End-to-End Order Creation and Validation - V2",
+            "status": 8,
+            "alerts": [],
+            "storyPidList": [],
+            "scnLastAlertsCalculationTimestamp": 1774497411569,
+            "totalTcCount": 1,
+            "metaValues": {
+              "pid": 1400,
+              "field1": "3",
+              "pjPid": 2
+            },
+            "datadriven": true,
+            "testCases": [
+              {
+                "tcPid": 131,
+                "tcName": "TPP Order Creation - 01",
+                "alerts": null,
+                "metaValues": {
+                  "pid": 1695,
+                  "pjPid": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "index": 1
+    }
+  ],
+  "lastRunSummaryList": [
+    {
+      "jobPid": 1761,
+      "purpose": "Test Suite - Regression | Agency Order creation and Verification",
+      "createdBy": "Roop Gautam",
+      "status": "ABORTED",
+      "pass": 0,
+      "fail": 0,
+      "notRun": 1,
+      "testcaseCount": 1,
+      "startTimestamp": 1763325742626,
+      "completedTimestamp": 1763325767654,
+      "scenarioMetadataDef": {},
+      "testCaseMetadataDef": {
+        "Application Type": [
+          "Ecommerce",
+          "OMS",
+          "TPP",
+          "SF Core",
+          "MSD"
+        ]
+      },
+      "bugList": [],
+      "testCaseSummaryList": [
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 131,
+          "scnPid": 85,
+          "name": "TPP Order Creation - 01",
+          "status": "aborted",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "",
+          "startDate": 1763325742699,
+          "endDate": 0,
+          "jobPid": 1761,
+          "extResultLink": "",
+          "selfHealingCount": null,
+          "hostTimezone": "IST",
+          "metadata": {
+            "tags": [],
+            "Application Type": [
+              "TPP"
+            ]
+          }
+        }
+      ],
+      "scenarioList": [
+        {
+          "name": "End-to-End Order Creation and Validation - V2",
+          "description": "",
+          "dbPid": 85,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "TPP"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 131,
+              "name": "TPP Order Creation - 01"
+            }
+          ],
+          "jiraStoryList": []
+        }
+      ]
+    }
+  ],
+  "readinessPercentage": 100,
+  "developmentPercentage": 0,
+  "readyScenariosCount": 1,
+  "readyActionsCount": 0,
+  "modifiedTimestamp": 1751457421501,
+  "modifiedUser": 2,
+  "createdUser": 2,
+  "metaValues": {
+    "pid": 3029,
+    "pjPid": 2
+  },
+  "lastReadinessCalculationTimestamp": 1774497411569,
+  "historyRunSummaryList": [
+    {
+      "jobPid": 1761,
+      "purpose": "Test Suite - Regression | Agency Order creation and Verification",
+      "createdBy": "Roop Gautam",
+      "status": "ABORTED",
+      "pass": 0,
+      "fail": 0,
+      "notRun": 1,
+      "testcaseCount": 1,
+      "startTimestamp": 1763325742626,
+      "completedTimestamp": 1763325767654,
+      "scenarioMetadataDef": {},
+      "testCaseMetadataDef": {
+        "Application Type": [
+          "Ecommerce",
+          "OMS",
+          "TPP",
+          "SF Core",
+          "MSD"
+        ]
+      },
+      "bugList": [],
+      "testCaseSummaryList": [
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 131,
+          "scnPid": 85,
+          "name": "TPP Order Creation - 01",
+          "status": "running",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "",
+          "startDate": 1763325742699,
+          "endDate": 0,
+          "jobPid": 1761,
+          "extResultLink": "",
+          "selfHealingCount": null,
+          "hostTimezone": "IST",
+          "metadata": {
+            "tags": [],
+            "Application Type": [
+              "TPP"
+            ]
+          }
+        }
+      ],
+      "scenarioList": [
+        {
+          "name": "End-to-End Order Creation and Validation - V2",
+          "description": "",
+          "dbPid": 85,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "TPP"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 131,
+              "name": "TPP Order Creation - 01"
+            }
+          ],
+          "jiraStoryList": []
+        }
+      ]
+    }
+  ],
+  "testCaseCount": 1,
+  "scnCount": 1
+}

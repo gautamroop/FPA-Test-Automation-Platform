@@ -1,0 +1,22 @@
+[
+  {
+    "pid": 1,
+    "name": "Ecommerce"
+  },
+  {
+    "pid": 2,
+    "name": "OMS"
+  },
+  {
+    "pid": 3,
+    "name": "TPP"
+  },
+  {
+    "pid": 4,
+    "name": "SF Core"
+  },
+  {
+    "pid": 5,
+    "name": "MSD"
+  }
+]

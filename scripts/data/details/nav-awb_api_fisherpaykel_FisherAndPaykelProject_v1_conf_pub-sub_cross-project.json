@@ -1,0 +1,72 @@
+[
+  {
+    "pubPjPid": 3,
+    "pubProjectDisplayName": "Software Development Platform",
+    "pubProjectDesc": "The project contains testing artifacts related to the features and enhancements developed by the team in the Software Development Platform space.",
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 0,
+      "configured": 0
+    }
+  },
+  {
+    "pubPjPid": 4,
+    "pubProjectDisplayName": "Enterprise Integration Platform",
+    "pubProjectDesc": "The project contains testing artifacts related to the features and enhancements developed by the team in the Enterprise Integration Platform space.",
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 0,
+      "configured": 0
+    }
+  },
+  {
+    "pubPjPid": 6,
+    "pubProjectDisplayName": "Retail Experience",
+    "pubProjectDesc": "The project contains testing artifacts related to the features and enhancements developed by the team in the Retail Experience space.",
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 9,
+      "configured": 0
+    }
+  },
+  {
+    "pubPjPid": 7,
+    "pubProjectDisplayName": "E Commerce",
+    "pubProjectDesc": "The project contains testing artifacts related to the features and enhancements developed by the team in the E-Commerce space.",
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 17,
+      "configured": 0
+    }
+  },
+  {
+    "pubPjPid": 8,
+    "pubProjectDisplayName": "Digital Platform",
+    "pubProjectDesc": "The project contains testing artifacts related to the features and enhancements developed by the team in the Salesforce Commerce Cloud space.",
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 0,
+      "configured": 0
+    }
+  },
+  {
+    "pubPjPid": 9,
+    "pubProjectDisplayName": "Connected Ecosystem SmartHQ",
+    "pubProjectDesc": "The project contains testing artifacts related to the features and enhancements developed by the team in the Connected Ecosystem space.",
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 0,
+      "configured": 0
+    }
+  },
+  {
+    "pubPjPid": 11,
+    "pubProjectDisplayName": "Core Apps GOP",
+    "pubProjectDesc": "Core Apps GOP",
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 0,
+      "configured": 0
+    }
+  }
+]

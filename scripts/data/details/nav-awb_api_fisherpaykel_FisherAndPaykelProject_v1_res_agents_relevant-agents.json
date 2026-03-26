@@ -1,0 +1,33 @@
+[
+  {
+    "pid": 88913,
+    "agentName": "FPAMOBAGT",
+    "projectName": null,
+    "userId": "chandan.kumar@fisherpaykel.com",
+    "agentUrl": "NZL-HH7WM4R06D",
+    "agentPort": 49206,
+    "communicationMode": "pull",
+    "agentHostname": "NZL-HH7WM4R06D",
+    "agentWorkingDirectory": "/Users/roopgautam/ACCELQAgent_1/AgentInstances/agent",
+    "agentTypePid": 2,
+    "webProviderTypePid": 1,
+    "mobileProviderTypePid": 1,
+    "sharingType": 0,
+    "customerPid": 144,
+    "tenantCode": "fisherpaykel",
+    "version": "1774030639535",
+    "accVersion": "2.0.9",
+    "createdTimestamp": 1774479823614,
+    "pingTimestamp": 1774497309035,
+    "agentMachineInfoJson": "{\"os\":\"Mac OS X\",\"osVersion\":\"26.2\",\"agentSystemInfo\":{\"cpuUsage\":19.90950226244344,\"memUsage\":97.99270629882812,\"totalMem\":19327352832},\"architecture\":\"nullnull\",\"hostName\":\"NZL-HH7WM4R06D\",\"workingDirectory\":\"/Users/roopgautam/ACCELQAgent_1/AgentInstances/agent\",\"jdkVersion\":\"11.0.29\"}",
+    "numOfConcurrentJobs": 1,
+    "numOfParallelTestCasesPerJob": 1,
+    "inprogressJobList": [],
+    "inQueueJobList": [],
+    "inprogressPlaybackJobList": [],
+    "mobileDevicesJson": "{\"appiumUrl\":\"http://localhost:4723\",\"mobileDevicesList\":[]}",
+    "webDevicesJson": "{\"webOSBrowsersList\":[{\"os\":\"Mac\",\"browser\":\"Chrome\",\"isRealDevice\":true,\"deviceStatus\":3,\"isPrivateDevice\":false},{\"os\":\"Mac\",\"browser\":\"Firefox\",\"isRealDevice\":true,\"deviceStatus\":3,\"isPrivateDevice\":false},{\"os\":\"Mac\",\"browser\":\"Safari\",\"isRealDevice\":true,\"deviceStatus\":3,\"isPrivateDevice\":false},{\"os\":\"Mac\",\"browser\":\"Edge\",\"isRealDevice\":true,\"deviceStatus\":3,\"isPrivateDevice\":false}]}",
+    "deviceRefreshStatus": 0,
+    "agentOfflineNotificationEmails": null
+  }
+]

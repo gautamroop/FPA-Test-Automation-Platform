@@ -1,0 +1,58 @@
+{
+  "scnPid": 99,
+  "scnName": "Verify Swap Item Functionality",
+  "steps": [
+    {
+      "index": 1,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    },
+    {
+      "index": 2,
+      "ctxPid": 248,
+      "ctxName": "Salesforce Login Page",
+      "compPid": 350,
+      "compName": "Login to Salesforce",
+      "methodName": "loginToSalesforce",
+      "params": [
+        "sFUsername",
+        "sFPassword",
+        "sFMFASecretKey"
+      ],
+      "returns": []
+    },
+    {
+      "index": 3,
+      "ctxPid": 249,
+      "ctxName": "Salesforce Home Page",
+      "compPid": 351,
+      "compName": "Search and View Details",
+      "methodName": "searchAndViewDetails",
+      "params": [
+        "orderDUNumber"
+      ],
+      "returns": []
+    },
+    {
+      "index": 4,
+      "ctxPid": 252,
+      "ctxName": "Salesforce Order Details Page",
+      "compPid": 608,
+      "compName": "Swap Item to the Order and Verify",
+      "methodName": "swapItemToTheOrderAndVerify",
+      "params": [
+        "productCodeSKU"
+      ],
+      "returns": [
+        "Total Amount"
+      ]
+    }
+  ]
+}

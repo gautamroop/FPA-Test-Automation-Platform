@@ -1,0 +1,251 @@
+[
+  {
+    "pid": 50,
+    "roleName": "SME",
+    "description": "Subject Matter Expert",
+    "createdUser": 2,
+    "createdTimestamp": 1744779934326,
+    "lastModifiedUser": 2,
+    "lastModifiedTimestamp": 1744779934326,
+    "featureGroups": [
+      {
+        "pid": 32,
+        "moduleNameId": 6,
+        "featureName": "MANUAL_SCENARIOS",
+        "access": "rwd"
+      },
+      {
+        "pid": 1,
+        "moduleNameId": 1,
+        "featureName": "DATA_TYPES",
+        "access": "r"
+      },
+      {
+        "pid": 33,
+        "moduleNameId": 6,
+        "featureName": "MANUAL_TEST_CASES",
+        "access": "rwd"
+      },
+      {
+        "pid": 34,
+        "moduleNameId": 8,
+        "featureName": "MANUAL_TEST_SUITES",
+        "access": "rwd"
+      },
+      {
+        "pid": 3,
+        "moduleNameId": 4,
+        "featureName": "CONTEXTS",
+        "access": "r"
+      },
+      {
+        "pid": 5,
+        "moduleNameId": 4,
+        "featureName": "ACTIONS",
+        "access": "r"
+      },
+      {
+        "pid": 37,
+        "moduleNameId": 23,
+        "featureName": "DASHBOARD",
+        "access": "rwd"
+      },
+      {
+        "pid": 28,
+        "moduleNameId": 6,
+        "featureName": "SCENARIOS",
+        "access": "rwd"
+      },
+      {
+        "pid": 13,
+        "moduleNameId": 3,
+        "featureName": "RES",
+        "access": "r"
+      },
+      {
+        "pid": 29,
+        "moduleNameId": 6,
+        "featureName": "TEST_CASES",
+        "access": "rwd"
+      },
+      {
+        "pid": 30,
+        "moduleNameId": 8,
+        "featureName": "TEST_SUITES",
+        "access": "rwd"
+      }
+    ]
+  },
+  {
+    "pid": 100,
+    "roleName": "QA Engineer",
+    "description": "Quality Assurance Engineer",
+    "createdUser": 2,
+    "createdTimestamp": 1744779934326,
+    "lastModifiedUser": 2,
+    "lastModifiedTimestamp": 1744779934326,
+    "featureGroups": [
+      {
+        "pid": 32,
+        "moduleNameId": 6,
+        "featureName": "MANUAL_SCENARIOS",
+        "access": "rwd"
+      },
+      {
+        "pid": 33,
+        "moduleNameId": 6,
+        "featureName": "MANUAL_TEST_CASES",
+        "access": "rwd"
+      },
+      {
+        "pid": 34,
+        "moduleNameId": 8,
+        "featureName": "MANUAL_TEST_SUITES",
+        "access": "rwd"
+      },
+      {
+        "pid": 37,
+        "moduleNameId": 23,
+        "featureName": "DASHBOARD",
+        "access": "rwd"
+      },
+      {
+        "pid": 21,
+        "moduleNameId": 4,
+        "featureName": "PUBLISH_ACTION",
+        "access": "rwd"
+      },
+      {
+        "pid": 22,
+        "moduleNameId": 8,
+        "featureName": "PURGE_RESULTS",
+        "access": "rwd"
+      },
+      {
+        "pid": 24,
+        "moduleNameId": 2,
+        "featureName": "UPDATE_LIVE_RELEASES",
+        "access": "rwd"
+      },
+      {
+        "pid": 25,
+        "moduleNameId": 1,
+        "featureName": "DATA_TYPES",
+        "access": "rwd"
+      },
+      {
+        "pid": 26,
+        "moduleNameId": 4,
+        "featureName": "CONTEXTS",
+        "access": "rwd"
+      },
+      {
+        "pid": 27,
+        "moduleNameId": 4,
+        "featureName": "ACTIONS",
+        "access": "rwd"
+      },
+      {
+        "pid": 28,
+        "moduleNameId": 6,
+        "featureName": "SCENARIOS",
+        "access": "rwd"
+      },
+      {
+        "pid": 29,
+        "moduleNameId": 6,
+        "featureName": "TEST_CASES",
+        "access": "rwd"
+      },
+      {
+        "pid": 30,
+        "moduleNameId": 8,
+        "featureName": "TEST_SUITES",
+        "access": "rwd"
+      },
+      {
+        "pid": 31,
+        "moduleNameId": 3,
+        "featureName": "RES",
+        "access": "rwd"
+      }
+    ]
+  },
+  {
+    "pid": 101,
+    "roleName": "Business Admin",
+    "description": "Business Administrator",
+    "createdUser": 2,
+    "createdTimestamp": 1744779934326,
+    "lastModifiedUser": 2,
+    "lastModifiedTimestamp": 1744779934326,
+    "featureGroups": [
+      {
+        "pid": 32,
+        "moduleNameId": 6,
+        "featureName": "MANUAL_SCENARIOS",
+        "access": "rwd"
+      },
+      {
+        "pid": 1,
+        "moduleNameId": 1,
+        "featureName": "DATA_TYPES",
+        "access": "r"
+      },
+      {
+        "pid": 33,
+        "moduleNameId": 6,
+        "featureName": "MANUAL_TEST_CASES",
+        "access": "rwd"
+      },
+      {
+        "pid": 34,
+        "moduleNameId": 8,
+        "featureName": "MANUAL_TEST_SUITES",
+        "access": "rwd"
+      },
+      {
+        "pid": 3,
+        "moduleNameId": 4,
+        "featureName": "CONTEXTS",
+        "access": "r"
+      },
+      {
+        "pid": 5,
+        "moduleNameId": 4,
+        "featureName": "ACTIONS",
+        "access": "r"
+      },
+      {
+        "pid": 37,
+        "moduleNameId": 23,
+        "featureName": "DASHBOARD",
+        "access": "rwd"
+      },
+      {
+        "pid": 11,
+        "moduleNameId": 8,
+        "featureName": "TEST_SUITES",
+        "access": "r"
+      },
+      {
+        "pid": 28,
+        "moduleNameId": 6,
+        "featureName": "SCENARIOS",
+        "access": "rwd"
+      },
+      {
+        "pid": 13,
+        "moduleNameId": 3,
+        "featureName": "RES",
+        "access": "r"
+      },
+      {
+        "pid": 29,
+        "moduleNameId": 6,
+        "featureName": "TEST_CASES",
+        "access": "rwd"
+      }
+    ]
+  }
+]

@@ -1,0 +1,671 @@
+[
+  {
+    "scnStep": {
+      "pid": 2183,
+      "index": 1,
+      "paramList": [],
+      "stepType": 1,
+      "scnPid": 149
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 2184,
+      "index": 2,
+      "displayIndex": 1,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 2310,
+          "dsStepPid": null,
+          "dsTypePid": 1,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": "https://tradeportal-uat.fisherpaykel.com/s/login/?ec=302&startURL=%2Fs%2F",
+          "randomValue": null,
+          "compInputParamPid": 183,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2184,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": "URL"
+        }
+      ],
+      "compPid": 282,
+      "ctxPid": 197,
+      "stepType": 3,
+      "scnPid": 149
+    },
+    "compInputParams": [
+      {
+        "pid": 183,
+        "rootPid": 183,
+        "name": "URL",
+        "desc": "URL to invoke the browser with",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 282,
+        "index": 1,
+        "pubPid": 11763,
+        "primaryUsecasePid": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 197,
+    "ctxName": "Init Page",
+    "compName": "Invoke Browser",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 248,
+        "destCtxName": "Salesforce Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 413,
+        "destCtxName": "TPP Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": true,
+    "subscriberCompDetails": {
+      "subCompScmBasePid": 282,
+      "subPjPid": 2,
+      "subCustomerPid": 144,
+      "pubPjPid": 54,
+      "mpCompPid": 7716
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 2185,
+      "index": 3,
+      "displayIndex": 2,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 2305,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 331,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2185,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": "Email"
+        },
+        {
+          "pid": 2311,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 332,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2185,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": "Password"
+        }
+      ],
+      "compPid": 591,
+      "ctxPid": 413,
+      "stepType": 3,
+      "scnPid": 149
+    },
+    "compInputParams": [
+      {
+        "pid": 331,
+        "rootPid": 331,
+        "name": "Email",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 591,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 332,
+        "rootPid": 332,
+        "name": "Password",
+        "valueTypePid": 3,
+        "required": true,
+        "componentPid": 591,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 413,
+    "ctxName": "TPP Login Page",
+    "compName": "Login to Trade Portal",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 456,
+        "destCtxName": "TPP Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 2186,
+      "index": 4,
+      "displayIndex": 3,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 2308,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 364,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2186,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": null
+        }
+      ],
+      "compPid": 653,
+      "ctxPid": 456,
+      "stepType": 3,
+      "scnPid": 149
+    },
+    "compInputParams": [
+      {
+        "pid": 364,
+        "rootPid": 364,
+        "name": "TPP Type",
+        "desc": "",
+        "valueTypePid": 2,
+        "required": true,
+        "componentPid": 653,
+        "listPid": 11,
+        "index": 1,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 456,
+    "ctxName": "TPP Home Page",
+    "compName": "Navigate to New Agency Order",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 458,
+        "destCtxName": "TPP Agency Order Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 2187,
+      "index": 5,
+      "displayIndex": 4,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 291,
+      "ctxPid": 458,
+      "stepType": 3,
+      "scnPid": 149
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 202,
+    "ctxName": "TPP Agency Order Page",
+    "compName": "Validate and Accept Cookies",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 203,
+        "destCtxName": "F&P Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 458,
+        "destCtxName": "TPP Agency Order Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 2188,
+      "index": 6,
+      "displayIndex": 5,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 2313,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 345,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2188,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": "Product Type"
+        }
+      ],
+      "compPid": 655,
+      "ctxPid": 458,
+      "stepType": 3,
+      "scnPid": 149
+    },
+    "compInputParams": [
+      {
+        "pid": 345,
+        "rootPid": 345,
+        "name": "Product Type",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 655,
+        "index": 1,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 458,
+    "ctxName": "TPP Agency Order Page",
+    "compName": "Select TPP Product Type",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 459,
+        "destCtxName": "TPP Products Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 239,
+        "destCtxName": "F&P Products Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 2189,
+      "index": 7,
+      "displayIndex": 6,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 2303,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 362,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2189,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": "Add to Cart"
+        },
+        {
+          "pid": 2304,
+          "dsStepPid": 2185,
+          "dsTypePid": 5,
+          "dsParamPid": 331,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 368,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2189,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": null
+        },
+        {
+          "pid": 2306,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 350,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2189,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": "Delivery Pin code"
+        },
+        {
+          "pid": 2309,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 349,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2189,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": "Order Quantity"
+        },
+        {
+          "pid": 2312,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 351,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2189,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": "Save as a quote"
+        }
+      ],
+      "compPid": 656,
+      "ctxPid": 459,
+      "stepType": 3,
+      "scnPid": 149
+    },
+    "compInputParams": [
+      {
+        "pid": 349,
+        "rootPid": 349,
+        "name": "Order Quantity",
+        "desc": "",
+        "valueTypePid": 0,
+        "required": true,
+        "defaultValue": "",
+        "componentPid": 656,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 350,
+        "rootPid": 350,
+        "name": "Delivery Pin code",
+        "desc": "",
+        "valueTypePid": 0,
+        "required": true,
+        "defaultValue": "",
+        "componentPid": 656,
+        "index": 2,
+        "dataListMutable": false
+      },
+      {
+        "pid": 351,
+        "rootPid": 351,
+        "name": "Save as a quote",
+        "desc": "",
+        "valueTypePid": 2,
+        "required": true,
+        "componentPid": 656,
+        "listPid": 9,
+        "index": 3,
+        "dataListMutable": false
+      },
+      {
+        "pid": 362,
+        "rootPid": 362,
+        "name": "Add to Cart",
+        "desc": "",
+        "valueTypePid": 2,
+        "required": true,
+        "componentPid": 656,
+        "listPid": 9,
+        "index": 4,
+        "dataListMutable": false
+      },
+      {
+        "pid": 368,
+        "rootPid": 368,
+        "name": "Email Address",
+        "desc": "",
+        "valueTypePid": 0,
+        "required": true,
+        "defaultValue": "",
+        "componentPid": 656,
+        "index": 5,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [
+      {
+        "pid": 177,
+        "rootPid": 177,
+        "name": "First Name",
+        "componentPid": 656
+      },
+      {
+        "pid": 178,
+        "rootPid": 178,
+        "name": "Last Name",
+        "componentPid": 656
+      },
+      {
+        "pid": 173,
+        "rootPid": 173,
+        "name": "Order Qty",
+        "componentPid": 656
+      },
+      {
+        "pid": 179,
+        "rootPid": 179,
+        "name": "Phone Number",
+        "componentPid": 656
+      },
+      {
+        "pid": 188,
+        "rootPid": 188,
+        "name": "Quote Created Date",
+        "componentPid": 656
+      },
+      {
+        "pid": 187,
+        "rootPid": 187,
+        "name": "Quote Number",
+        "componentPid": 656
+      }
+    ],
+    "ownerCtxPid": 459,
+    "ctxName": "TPP Products Page",
+    "compName": "Select TPP Product and Add to cart ",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 462,
+        "destCtxName": "TPP Customer Details Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 456,
+        "destCtxName": "TPP Home Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 460,
+        "destCtxName": "TPP Cart Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 2190,
+      "index": 8,
+      "displayIndex": 7,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 2307,
+          "dsStepPid": 2189,
+          "dsTypePid": 6,
+          "dsParamPid": 187,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 369,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 2190,
+          "stepIndex": null,
+          "scnPid": 149,
+          "paramName": "Quote Number"
+        }
+      ],
+      "compPid": 680,
+      "ctxPid": 456,
+      "stepType": 3,
+      "scnPid": 149
+    },
+    "compInputParams": [
+      {
+        "pid": 369,
+        "rootPid": 369,
+        "name": "Quote Number",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 680,
+        "index": 1,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 478,
+    "ctxName": "TPP Home Page",
+    "compName": "Verify Quote is Generated",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 478,
+        "destCtxName": "TPP View Quotes Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4227,
+      "index": 9,
+      "displayIndex": 8,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 684,
+      "ctxPid": 478,
+      "stepType": 3,
+      "scnPid": 149
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 478,
+    "ctxName": "TPP View Quotes Page",
+    "compName": "TPP - Convert Quote to Order",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 462,
+        "destCtxName": "TPP Customer Details Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 456,
+        "destCtxName": "TPP Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 4228,
+      "index": 10,
+      "displayIndex": 9,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 1978,
+      "ctxPid": 456,
+      "stepType": 3,
+      "scnPid": 149
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 456,
+    "ctxName": "TPP Home Page",
+    "compName": "View Order",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": null,
+        "destCtxName": null,
+        "specialDestCtxPid": 3
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 2191,
+      "index": 11,
+      "paramList": [],
+      "stepType": 2,
+      "scnPid": 149
+    }
+  }
+]

@@ -1,0 +1,90 @@
+name: OMS Tests + Publish Report
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'projects/salesforce/oms/**'
+      - 'core/**'
+      - 'playwright.config.ts'
+  pull_request:
+    branches: [main, master]
+    paths:
+      - 'projects/salesforce/oms/**'
+      - 'core/**'
+      - 'playwright.config.ts'
+  workflow_dispatch:   # allow manual runs
+
+jobs:
+  oms-tests:
+    name: Run OMS Scenarios
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+
+    env:
+      # Secrets — set these in the repo's Settings > Secrets and variables > Actions
+      SALESFORCE_URL:      ${{ secrets.SALESFORCE_URL }}
+      SALESFORCE_USERNAME: ${{ secrets.SALESFORCE_USERNAME }}
+      SALESFORCE_PASSWORD: ${{ secrets.SALESFORCE_PASSWORD }}
+      COMMERCE_URL:        ${{ secrets.COMMERCE_URL }}
+      TPP_URL:             ${{ secrets.TPP_URL }}
+      MSD_URL:             ${{ secrets.MSD_URL }}
+      ENV:                 ${{ vars.ENV || 'uat' }}
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
+      - name: Run OMS tests
+        run: npm run test:oms
+        # Report is written to reports/salesforce/oms/ regardless of pass/fail
+
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: oms-playwright-report
+          path: reports/salesforce/oms/
+          retention-days: 30
+
+      # ── Publish to GitHub Pages repo ──────────────────────────────────────
+      - name: Publish report to GitHub Pages
+        if: always() && github.event_name != 'pull_request'
+        env:
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.REPORT_TOKEN }}
+        run: |
+          # Configure git identity for the clone
+          git config --global user.email "ci@fpa-test-automation"
+          git config --global user.name "FPA CI"
+
+          # Clone the Pages repo (gh-pages branch)
+          git clone --branch gh-pages --single-branch --depth 1 \
+            "https://${{ secrets.REPORT_TOKEN }}@github.com/gautamroop/fp-openwebui-test-report.git" \
+            .tmp-report-publish
+
+          # Replace salesforce/oms subfolder with fresh report
+          rm -rf .tmp-report-publish/salesforce/oms
+          mkdir -p .tmp-report-publish/salesforce/oms
+          cp -r reports/salesforce/oms/. .tmp-report-publish/salesforce/oms/
+
+          # Commit & push
+          cd .tmp-report-publish
+          git add salesforce/oms
+          git commit -m "ci: publish OMS Playwright report [$(date -u '+%Y-%m-%d %H:%M UTC')]" \
+            || echo "Nothing to commit"
+          git push origin gh-pages
+
+          echo ""
+          echo "Report live at: https://gautamroop.github.io/fp-openwebui-test-report/salesforce/oms/"

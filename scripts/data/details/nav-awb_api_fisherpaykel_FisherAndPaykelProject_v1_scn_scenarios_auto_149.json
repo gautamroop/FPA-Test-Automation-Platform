@@ -1,0 +1,26 @@
+{
+  "pid": 149,
+  "rootPid": 149,
+  "scnName": "Draft | TPP - Save or Generate Quote",
+  "testTypePid": 0,
+  "description": "",
+  "status": 5,
+  "ready": false,
+  "metaValues": {
+    "pid": 3054,
+    "field1": "3",
+    "pjPid": 2
+  },
+  "tags": [],
+  "modifiedTimestamp": 1753192289528,
+  "modifiedUser": 2,
+  "jiraStoryList": [],
+  "numOfTestcases": 1,
+  "alerts": [],
+  "isWorkflowDefined": true,
+  "createdUser": 2,
+  "createdTimestamp": 1751455684937,
+  "linkedScnList": [],
+  "isWorkbenchMode": false,
+  "bugsCount": 0
+}

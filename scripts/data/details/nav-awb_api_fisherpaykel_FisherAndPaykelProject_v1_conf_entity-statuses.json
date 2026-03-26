@@ -1,0 +1,38 @@
+[
+  {
+    "pid": 5,
+    "rootPid": 5,
+    "statusName": "New",
+    "color": "#FFA500",
+    "index": 1,
+    "projectPid": 2,
+    "categoryPid": 1
+  },
+  {
+    "pid": 6,
+    "rootPid": 6,
+    "statusName": "Work In Progress",
+    "color": "#0000CD",
+    "index": 2,
+    "projectPid": 2,
+    "categoryPid": 2
+  },
+  {
+    "pid": 7,
+    "rootPid": 7,
+    "statusName": "Under Review",
+    "color": "#C71585",
+    "index": 3,
+    "projectPid": 2,
+    "categoryPid": 2
+  },
+  {
+    "pid": 8,
+    "rootPid": 8,
+    "statusName": "Completed",
+    "color": "#228B22",
+    "index": 4,
+    "projectPid": 2,
+    "categoryPid": 3
+  }
+]

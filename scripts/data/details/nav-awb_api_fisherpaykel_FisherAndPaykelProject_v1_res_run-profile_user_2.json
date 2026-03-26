@@ -1,0 +1,12 @@
+{
+  "pid": 2,
+  "rootPid": 2,
+  "pjPid": 2,
+  "profileName": "Playback Profile",
+  "createdTimestamp": 1751272695964,
+  "createdUser": 2,
+  "lastModifiedUser": 2,
+  "lastModifiedTimestamp": 1751272695964,
+  "settingsJson": "{\"enableSelfHealing\":false,\"enableAutoResizeRecorderBrowser\":true,\"elementSyncTime\":30,\"pageSyncTime\":60,\"apiTimeout\":60,\"playbackElemWaitTime\":5,\"startPlaybackOnLogin\":false,\"enablePauseOnPlayback\":true,\"maxInactivityTimeInMins\":120,\"datasetPid\":35,\"driverProfilePid\":null}",
+  "profileType": 1
+}

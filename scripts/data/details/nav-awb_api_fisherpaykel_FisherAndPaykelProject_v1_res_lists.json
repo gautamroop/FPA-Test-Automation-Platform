@@ -1,0 +1,256 @@
+[
+  {
+    "pid": 12,
+    "rootPid": 12,
+    "name": "Postal Code",
+    "description": "2013",
+    "valueList": [
+      {
+        "pid": 37,
+        "rootPid": 37,
+        "value": "2013",
+        "index": 0
+      },
+      {
+        "pid": 38,
+        "rootPid": 38,
+        "value": "2010",
+        "index": 1
+      },
+      {
+        "pid": 39,
+        "rootPid": 39,
+        "value": "2019",
+        "index": 2
+      }
+    ],
+    "pjPid": 2,
+    "subscribed": false
+  },
+  {
+    "pid": 5,
+    "rootPid": 5,
+    "name": "Product Category",
+    "description": null,
+    "valueList": [
+      {
+        "pid": 11,
+        "rootPid": 11,
+        "value": "COOKING",
+        "index": 0
+      },
+      {
+        "pid": 12,
+        "rootPid": 12,
+        "value": "COOLING",
+        "index": 1
+      },
+      {
+        "pid": 13,
+        "rootPid": 13,
+        "value": "FABRIC CARE",
+        "index": 2
+      },
+      {
+        "pid": 14,
+        "rootPid": 14,
+        "value": "VENTILATION",
+        "index": 3
+      },
+      {
+        "pid": 15,
+        "rootPid": 15,
+        "value": "DISHWASHING",
+        "index": 4
+      },
+      {
+        "pid": 16,
+        "rootPid": 16,
+        "value": "OUTDOOR",
+        "index": 5
+      },
+      {
+        "pid": 17,
+        "rootPid": 17,
+        "value": "ACCESSORIES & SPARE PARTS",
+        "index": 6
+      },
+      {
+        "pid": 32,
+        "rootPid": 32,
+        "value": "PROMOTIONS",
+        "index": 7
+      }
+    ],
+    "pjPid": 2,
+    "subscribed": false
+  },
+  {
+    "pid": 6,
+    "rootPid": 6,
+    "name": "Address Type",
+    "description": null,
+    "valueList": [
+      {
+        "pid": 18,
+        "rootPid": 18,
+        "value": "Manually",
+        "index": 0
+      },
+      {
+        "pid": 19,
+        "rootPid": 19,
+        "value": "Auto Select",
+        "index": 1
+      }
+    ],
+    "pjPid": 2,
+    "subscribed": false
+  },
+  {
+    "pid": 7,
+    "rootPid": 7,
+    "name": "State",
+    "description": null,
+    "valueList": [
+      {
+        "pid": 20,
+        "rootPid": 20,
+        "value": "Australian Capital Territory",
+        "index": 0
+      },
+      {
+        "pid": 21,
+        "rootPid": 21,
+        "value": "New South Wales",
+        "index": 1
+      },
+      {
+        "pid": 22,
+        "rootPid": 22,
+        "value": "Victoria",
+        "index": 2
+      },
+      {
+        "pid": 23,
+        "rootPid": 23,
+        "value": "Queensland",
+        "index": 3
+      },
+      {
+        "pid": 24,
+        "rootPid": 24,
+        "value": "South Australia",
+        "index": 4
+      },
+      {
+        "pid": 25,
+        "rootPid": 25,
+        "value": "Western Australia",
+        "index": 5
+      },
+      {
+        "pid": 26,
+        "rootPid": 26,
+        "value": "Tasmania",
+        "index": 6
+      },
+      {
+        "pid": 27,
+        "rootPid": 27,
+        "value": "Northern Territory",
+        "index": 7
+      }
+    ],
+    "pjPid": 2,
+    "subscribed": false
+  },
+  {
+    "pid": 8,
+    "rootPid": 8,
+    "name": "Payment Type",
+    "description": null,
+    "valueList": [
+      {
+        "pid": 28,
+        "rootPid": 28,
+        "value": "Pay in Full",
+        "index": 0
+      },
+      {
+        "pid": 29,
+        "rootPid": 29,
+        "value": "Pay a Deposit",
+        "index": 1
+      }
+    ],
+    "pjPid": 2,
+    "subscribed": false
+  },
+  {
+    "pid": 9,
+    "rootPid": 9,
+    "name": "Boolean",
+    "description": null,
+    "valueList": [
+      {
+        "pid": 30,
+        "rootPid": 30,
+        "value": "Yes",
+        "index": 0
+      },
+      {
+        "pid": 31,
+        "rootPid": 31,
+        "value": "No",
+        "index": 1
+      }
+    ],
+    "pjPid": 2,
+    "subscribed": false
+  },
+  {
+    "pid": 10,
+    "rootPid": 10,
+    "name": "Delivery To",
+    "description": null,
+    "valueList": [
+      {
+        "pid": 33,
+        "rootPid": 33,
+        "value": "Customer",
+        "index": 0
+      },
+      {
+        "pid": 34,
+        "rootPid": 34,
+        "value": "Agent",
+        "index": 1
+      }
+    ],
+    "pjPid": 2,
+    "subscribed": false
+  },
+  {
+    "pid": 11,
+    "rootPid": 11,
+    "name": "TPP Types",
+    "description": null,
+    "valueList": [
+      {
+        "pid": 35,
+        "rootPid": 35,
+        "value": "Order",
+        "index": 0
+      },
+      {
+        "pid": 36,
+        "rootPid": 36,
+        "value": "Quote",
+        "index": 1
+      }
+    ],
+    "pjPid": 2,
+    "subscribed": false
+  }
+]

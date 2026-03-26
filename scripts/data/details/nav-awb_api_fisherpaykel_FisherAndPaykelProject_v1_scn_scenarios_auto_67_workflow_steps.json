@@ -1,0 +1,302 @@
+[
+  {
+    "scnStep": {
+      "pid": 8247,
+      "index": 1,
+      "paramList": [],
+      "stepType": 1,
+      "scnPid": 67
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 8248,
+      "index": 2,
+      "displayIndex": 1,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9699,
+          "dsStepPid": null,
+          "dsTypePid": 1,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": "https://fisherpaykel--uat.sandbox.lightning.force.com/",
+          "randomValue": null,
+          "compInputParamPid": 183,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8248,
+          "stepIndex": null,
+          "scnPid": 67,
+          "paramName": "URL"
+        }
+      ],
+      "compPid": 282,
+      "ctxPid": 197,
+      "stepType": 3,
+      "scnPid": 67
+    },
+    "compInputParams": [
+      {
+        "pid": 183,
+        "rootPid": 183,
+        "name": "URL",
+        "desc": "URL to invoke the browser with",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 282,
+        "index": 1,
+        "pubPid": 11763,
+        "primaryUsecasePid": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 197,
+    "ctxName": "Init Page",
+    "compName": "Invoke Browser",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 248,
+        "destCtxName": "Salesforce Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 413,
+        "destCtxName": "TPP Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": true,
+    "subscriberCompDetails": {
+      "subCompScmBasePid": 282,
+      "subPjPid": 2,
+      "subCustomerPid": 144,
+      "pubPjPid": 54,
+      "mpCompPid": 7716
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 8249,
+      "index": 3,
+      "displayIndex": 2,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9698,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 216,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8249,
+          "stepIndex": null,
+          "scnPid": 67,
+          "paramName": "SF Password"
+        },
+        {
+          "pid": 9700,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 215,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8249,
+          "stepIndex": null,
+          "scnPid": 67,
+          "paramName": "SF Username"
+        },
+        {
+          "pid": 9701,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 217,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8249,
+          "stepIndex": null,
+          "scnPid": 67,
+          "paramName": "SF MFA Secret Key"
+        }
+      ],
+      "compPid": 350,
+      "ctxPid": 248,
+      "stepType": 3,
+      "scnPid": 67
+    },
+    "compInputParams": [
+      {
+        "pid": 215,
+        "rootPid": 215,
+        "name": "SF Username",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 350,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 216,
+        "rootPid": 216,
+        "name": "SF Password",
+        "valueTypePid": 3,
+        "required": true,
+        "componentPid": 350,
+        "index": 2,
+        "dataListMutable": false
+      },
+      {
+        "pid": 217,
+        "rootPid": 217,
+        "name": "SF MFA Secret Key",
+        "valueTypePid": 3,
+        "required": true,
+        "componentPid": 350,
+        "index": 3,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 248,
+    "ctxName": "Salesforce Login Page",
+    "compName": "Login to Salesforce",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 249,
+        "destCtxName": "Salesforce Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8250,
+      "index": 4,
+      "displayIndex": 3,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9697,
+          "dsStepPid": null,
+          "dsTypePid": 3,
+          "dsParamPid": 3,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 218,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8250,
+          "stepIndex": null,
+          "scnPid": 67,
+          "paramName": "Order DU Number"
+        }
+      ],
+      "compPid": 351,
+      "ctxPid": 249,
+      "stepType": 3,
+      "scnPid": 67
+    },
+    "compInputParams": [
+      {
+        "pid": 218,
+        "rootPid": 218,
+        "name": "Order DU Number",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 351,
+        "index": 1,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 249,
+    "ctxName": "Salesforce Home Page",
+    "compName": "Search and View Details",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 252,
+        "destCtxName": "Salesforce Order Details Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8251,
+      "index": 5,
+      "displayIndex": 4,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 398,
+      "ctxPid": 252,
+      "stepType": 3,
+      "scnPid": 67
+    },
+    "compInputParams": [],
+    "compOutputParams": [
+      {
+        "pid": 129,
+        "rootPid": 129,
+        "name": "Original Total",
+        "componentPid": 398
+      },
+      {
+        "pid": 130,
+        "rootPid": 130,
+        "name": "Refund Amount",
+        "componentPid": 398
+      }
+    ],
+    "ownerCtxPid": 252,
+    "ctxName": "Salesforce Order Details Page",
+    "compName": "Full Cancel the Order and Verify",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 242,
+        "destCtxName": "F&P Order Details Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8252,
+      "index": 6,
+      "paramList": [],
+      "stepType": 2,
+      "scnPid": 67
+    }
+  }
+]

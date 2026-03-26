@@ -1,0 +1,44 @@
+[
+  {
+    "pid": 1,
+    "mappingOrder": 1,
+    "name": "Kendo",
+    "description": "Kendo UI framework"
+  },
+  {
+    "pid": 3,
+    "mappingOrder": 2,
+    "name": "BootStrap",
+    "description": "Bootstrap UI framework"
+  },
+  {
+    "pid": 4,
+    "mappingOrder": 2,
+    "name": "TerminalEmulator",
+    "description": "Terminal Emulator (TE) UI framework"
+  },
+  {
+    "pid": 7,
+    "mappingOrder": 2,
+    "name": "SAP",
+    "description": "SAP UI Elements"
+  },
+  {
+    "pid": 5,
+    "mappingOrder": 2,
+    "name": "WindowsUI",
+    "description": "Windows UI Element framework"
+  },
+  {
+    "pid": 6,
+    "mappingOrder": 2,
+    "name": "Mobile",
+    "description": "Mobile UI Elements"
+  },
+  {
+    "pid": 2,
+    "mappingOrder": 3,
+    "name": "HTML5",
+    "description": "HTML5 UI Elements"
+  }
+]

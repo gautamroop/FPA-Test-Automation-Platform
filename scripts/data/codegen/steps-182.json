@@ -1,0 +1,130 @@
+{
+  "scnPid": 182,
+  "scnName": "Book a Service Online",
+  "steps": [
+    {
+      "index": 1,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    },
+    {
+      "index": 2,
+      "ctxPid": 202,
+      "ctxName": "F&P Home Page",
+      "compPid": 291,
+      "compName": "Validate and Accept Cookies",
+      "methodName": "validateAndAcceptCookies",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 3,
+      "ctxPid": 202,
+      "ctxName": "F&P Home Page",
+      "compPid": 1337,
+      "compName": "Navigate to Help and Support and Select Book Online",
+      "methodName": "navigateToHelpAndSupportAndSelectBookOnline",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 4,
+      "ctxPid": 927,
+      "ctxName": "Book a Service",
+      "compPid": 1319,
+      "compName": "Search and Select a Service Address",
+      "methodName": "searchAndSelectAServiceAddress",
+      "params": [
+        "param43Meadway"
+      ],
+      "returns": []
+    },
+    {
+      "index": 5,
+      "ctxPid": 927,
+      "ctxName": "Book a Service",
+      "compPid": 1321,
+      "compName": "Select a Product and Click at Continue",
+      "methodName": "selectAProductAndClickAtContinue",
+      "params": [
+        "productType"
+      ],
+      "returns": []
+    },
+    {
+      "index": 6,
+      "ctxPid": 927,
+      "ctxName": "Book a Service",
+      "compPid": 1322,
+      "compName": "Select Service Time and Proceed with Book Now",
+      "methodName": "selectServiceTimeAndProceedWithBookNow",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 7,
+      "ctxPid": 927,
+      "ctxName": "Book a Service",
+      "compPid": 1323,
+      "compName": "Provide Customer details",
+      "methodName": "provideCustomerDetails",
+      "params": [
+        "firstName",
+        "lastName",
+        "mobileNumber",
+        "emailAddress"
+      ],
+      "returns": []
+    },
+    {
+      "index": 8,
+      "ctxPid": 927,
+      "ctxName": "Book a Service",
+      "compPid": 1324,
+      "compName": "Provide a description that fits the problem with your appliance",
+      "methodName": "provideADescriptionThatFitsTheProblemWithYourAppliance",
+      "params": [
+        "pleaseSelectADescriptionThatFitsTheProblemWithYourAppliance",
+        "pleaseProvideALittleMoreDetailOfTheIssueWithYourAppliance"
+      ],
+      "returns": []
+    },
+    {
+      "index": 9,
+      "ctxPid": 927,
+      "ctxName": "Book a Service",
+      "compPid": 1325,
+      "compName": "Confirm the Booking",
+      "methodName": "confirmTheBooking",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 10,
+      "ctxPid": 927,
+      "ctxName": "Book a Service",
+      "compPid": 1330,
+      "compName": "Validate Booking and Get Booking Details",
+      "methodName": "validateBookingAndGetBookingDetails",
+      "params": [
+        "n",
+        "initialCustomDateFormat"
+      ],
+      "returns": [
+        "Estimated Delivery Date",
+        "Model Number",
+        "Product Type",
+        "Service Address",
+        "Service Appointment Number",
+        "Service Date"
+      ]
+    }
+  ]
+}

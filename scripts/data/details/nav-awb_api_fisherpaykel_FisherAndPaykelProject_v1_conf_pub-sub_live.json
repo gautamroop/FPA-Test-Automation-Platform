@@ -1,0 +1,112 @@
+[
+  {
+    "mpPjPid": 67,
+    "pubProjectDisplayName": "Coupa Live",
+    "pubApplicabilityTypePid": 1,
+    "pubCloudPlatformModuleReleasePid": 8,
+    "licenseCount": 0,
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 10,
+      "configured": 0
+    }
+  },
+  {
+    "mpPjPid": 56,
+    "pubProjectDisplayName": "MS Dynamics Live",
+    "pubApplicabilityTypePid": 1,
+    "pubCloudPlatformModuleReleasePid": 3,
+    "licenseCount": 0,
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 21,
+      "configured": 0
+    }
+  },
+  {
+    "mpPjPid": 58,
+    "pubProjectDisplayName": "Oracle Cloud Live Branch",
+    "pubApplicabilityTypePid": 1,
+    "pubCloudPlatformModuleReleasePid": 6,
+    "licenseCount": 0,
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 49,
+      "configured": 0
+    }
+  },
+  {
+    "mpPjPid": 2,
+    "pubProjectDisplayName": "Salesforce Live",
+    "pubApplicabilityTypePid": 1,
+    "pubCloudPlatformModuleReleasePid": 2,
+    "licenseCount": 0,
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 41,
+      "configured": 0
+    }
+  },
+  {
+    "mpPjPid": 57,
+    "pubProjectDisplayName": "Salesforce Mobile Live",
+    "pubApplicabilityTypePid": 1,
+    "pubCloudPlatformModuleReleasePid": 4,
+    "licenseCount": 0,
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 16,
+      "configured": 0
+    }
+  },
+  {
+    "mpPjPid": 65,
+    "pubProjectDisplayName": "ServiceNow Live",
+    "pubApplicabilityTypePid": 1,
+    "pubCloudPlatformModuleReleasePid": 7,
+    "licenseCount": 0,
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 25,
+      "configured": 0
+    }
+  },
+  {
+    "mpPjPid": 54,
+    "pubProjectDisplayName": "System Project",
+    "pubApplicabilityTypePid": 1,
+    "pubCloudPlatformModuleReleasePid": 1,
+    "licenseCount": -1,
+    "subPjPid": 2,
+    "subscribed": true,
+    "subCreatedTimestamp": 1744779902606,
+    "totalAndConfiguredCounts": {
+      "total": 2,
+      "configured": 1
+    }
+  },
+  {
+    "mpPjPid": 66,
+    "pubProjectDisplayName": "Workday Live",
+    "pubApplicabilityTypePid": 1,
+    "pubCloudPlatformModuleReleasePid": 9,
+    "licenseCount": 0,
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 12,
+      "configured": 0
+    }
+  },
+  {
+    "mpPjPid": 63,
+    "pubProjectDisplayName": "Ncino Live",
+    "pubApplicabilityTypePid": 1,
+    "pubCloudPlatformModuleReleasePid": 5,
+    "licenseCount": 0,
+    "subscribed": false,
+    "totalAndConfiguredCounts": {
+      "total": 7,
+      "configured": 0
+    }
+  }
+]

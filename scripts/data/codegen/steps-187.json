@@ -1,0 +1,90 @@
+{
+  "scnPid": 187,
+  "scnName": "Register Your Product",
+  "steps": [
+    {
+      "index": 1,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    },
+    {
+      "index": 2,
+      "ctxPid": 202,
+      "ctxName": "F&P Home Page",
+      "compPid": 291,
+      "compName": "Validate and Accept Cookies",
+      "methodName": "validateAndAcceptCookies",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 3,
+      "ctxPid": 202,
+      "ctxName": "F&P Home Page",
+      "compPid": 1353,
+      "compName": "Navigate to Help and Support and Select Register your Product",
+      "methodName": "navigateToHelpAndSupportAndSelectRegisterYourProduct",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 4,
+      "ctxPid": 946,
+      "ctxName": "Product Registration",
+      "compPid": 1354,
+      "compName": "Provide customer Details",
+      "methodName": "provideCustomerDetails",
+      "params": [
+        "firstName",
+        "lastName",
+        "email",
+        "mobileCellNumber",
+        "address"
+      ],
+      "returns": []
+    },
+    {
+      "index": 5,
+      "ctxPid": 946,
+      "ctxName": "Product Registration",
+      "compPid": 1355,
+      "compName": "Provide Purchase info",
+      "methodName": "providePurchaseInfo",
+      "params": [],
+      "returns": []
+    },
+    {
+      "index": 6,
+      "ctxPid": 946,
+      "ctxName": "Product Registration",
+      "compPid": 1357,
+      "compName": "Provide Product info and Proceed",
+      "methodName": "provideProductInfoAndProceed",
+      "params": [
+        "selectHowManyProductsYouWantToRegister",
+        "productType",
+        "productCodeSKU"
+      ],
+      "returns": []
+    },
+    {
+      "index": 7,
+      "ctxPid": 946,
+      "ctxName": "Product Registration",
+      "compPid": 1358,
+      "compName": "Validate Product is Registered",
+      "methodName": "validateProductIsRegistered",
+      "params": [
+        "successMessage"
+      ],
+      "returns": []
+    }
+  ]
+}

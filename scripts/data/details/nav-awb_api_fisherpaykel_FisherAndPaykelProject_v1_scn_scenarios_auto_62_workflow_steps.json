@@ -1,0 +1,1164 @@
+[
+  {
+    "scnStep": {
+      "pid": 8197,
+      "index": 1,
+      "paramList": [],
+      "stepType": 1,
+      "scnPid": 62
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 8198,
+      "index": 2,
+      "displayIndex": 1,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9658,
+          "dsStepPid": null,
+          "dsTypePid": 2,
+          "dsParamPid": 8,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 183,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8198,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "URL"
+        }
+      ],
+      "compPid": 282,
+      "ctxPid": 197,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [
+      {
+        "pid": 183,
+        "rootPid": 183,
+        "name": "URL",
+        "desc": "URL to invoke the browser with",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 282,
+        "index": 1,
+        "pubPid": 11763,
+        "primaryUsecasePid": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 197,
+    "ctxName": "Init Page",
+    "compName": "Invoke Browser",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 248,
+        "destCtxName": "Salesforce Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 413,
+        "destCtxName": "TPP Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": true,
+    "subscriberCompDetails": {
+      "subCompScmBasePid": 282,
+      "subPjPid": 2,
+      "subCustomerPid": 144,
+      "pubPjPid": 54,
+      "mpCompPid": 7716
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 8199,
+      "index": 3,
+      "displayIndex": 2,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 291,
+      "ctxPid": 202,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [],
+    "compOutputParams": [],
+    "ownerCtxPid": 202,
+    "ctxName": "F&P Home Page",
+    "compName": "Validate and Accept Cookies",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 203,
+        "destCtxName": "F&P Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 458,
+        "destCtxName": "TPP Agency Order Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8200,
+      "index": 4,
+      "displayIndex": 3,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9654,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 187,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8200,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Email"
+        },
+        {
+          "pid": 9663,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 188,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8200,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Password"
+        }
+      ],
+      "compPid": 292,
+      "ctxPid": 203,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [
+      {
+        "pid": 187,
+        "rootPid": 187,
+        "name": "Email",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 292,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 188,
+        "rootPid": 188,
+        "name": "Password",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 292,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 203,
+    "ctxName": "F&P Login Page",
+    "compName": "User Login",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 239,
+        "destCtxName": "F&P Products Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8201,
+      "index": 5,
+      "displayIndex": 4,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9665,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 196,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8201,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Product Category"
+        },
+        {
+          "pid": 9666,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 197,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8201,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Product Sub Category"
+        }
+      ],
+      "compPid": 337,
+      "ctxPid": 202,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [
+      {
+        "pid": 196,
+        "rootPid": 196,
+        "name": "Product Category",
+        "desc": "",
+        "valueTypePid": 2,
+        "required": true,
+        "componentPid": 337,
+        "listPid": 5,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 197,
+        "rootPid": 197,
+        "name": "Product Sub Category",
+        "desc": "",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 337,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 202,
+    "ctxName": "F&P Home Page",
+    "compName": "Navigate to Product Type and Select Product Style",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 239,
+        "destCtxName": "F&P Products Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8202,
+      "index": 6,
+      "displayIndex": 5,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9664,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 198,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8202,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Delivery Pin code"
+        },
+        {
+          "pid": 9668,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 199,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8202,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Order Quantity"
+        }
+      ],
+      "compPid": 338,
+      "ctxPid": 239,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [
+      {
+        "pid": 198,
+        "rootPid": 198,
+        "name": "Delivery Pin code",
+        "desc": "",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 338,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 199,
+        "rootPid": 199,
+        "name": "Order Quantity",
+        "desc": "",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 338,
+        "index": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [
+      {
+        "pid": 124,
+        "rootPid": 124,
+        "name": "Order Qty",
+        "componentPid": 338
+      }
+    ],
+    "ownerCtxPid": 239,
+    "ctxName": "F&P Products Page",
+    "compName": "Select the Product and Add to Cart",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 245,
+        "destCtxName": "F&P Order Payment DetailsPage",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 242,
+        "destCtxName": "F&P Order Details Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8203,
+      "index": 7,
+      "displayIndex": 6,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9650,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 204,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8203,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Address Line 2"
+        },
+        {
+          "pid": 9652,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 205,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8203,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "State"
+        },
+        {
+          "pid": 9653,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 209,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8203,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Address Type"
+        },
+        {
+          "pid": 9656,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 206,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8203,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Town / City"
+        },
+        {
+          "pid": 9667,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 203,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8203,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Address Line 1"
+        }
+      ],
+      "compPid": 343,
+      "ctxPid": 242,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [
+      {
+        "pid": 209,
+        "rootPid": 209,
+        "name": "Address Type",
+        "desc": "",
+        "valueTypePid": 2,
+        "required": true,
+        "componentPid": 343,
+        "listPid": 6,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 203,
+        "rootPid": 203,
+        "name": "Address Line 1",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 343,
+        "index": 2,
+        "dataListMutable": false
+      },
+      {
+        "pid": 204,
+        "rootPid": 204,
+        "name": "Address Line 2",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 343,
+        "index": 3,
+        "dataListMutable": false
+      },
+      {
+        "pid": 205,
+        "rootPid": 205,
+        "name": "State",
+        "valueTypePid": 2,
+        "required": true,
+        "componentPid": 343,
+        "listPid": 7,
+        "index": 4,
+        "dataListMutable": false
+      },
+      {
+        "pid": 206,
+        "rootPid": 206,
+        "name": "Town / City",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 343,
+        "index": 5,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [
+      {
+        "pid": 106,
+        "rootPid": 106,
+        "name": "Customer Name",
+        "componentPid": 343
+      },
+      {
+        "pid": 105,
+        "rootPid": 105,
+        "name": "Delivery Date",
+        "componentPid": 343
+      },
+      {
+        "pid": 119,
+        "rootPid": 119,
+        "name": "Email Address",
+        "componentPid": 343
+      },
+      {
+        "pid": 104,
+        "rootPid": 104,
+        "name": "Phone Number",
+        "componentPid": 343
+      }
+    ],
+    "ownerCtxPid": 242,
+    "ctxName": "F&P Order Details Page",
+    "compName": "Populate Customer and Delivery Details ",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 245,
+        "destCtxName": "F&P Order Payment DetailsPage",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8204,
+      "index": 8,
+      "displayIndex": 7,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9649,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 211,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8204,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Expiry Date"
+        },
+        {
+          "pid": 9651,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 212,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8204,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Security Code"
+        },
+        {
+          "pid": 9661,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 210,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8204,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Card Number"
+        },
+        {
+          "pid": 9669,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 213,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8204,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Payment Type"
+        },
+        {
+          "pid": 9670,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 214,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8204,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Deposit Amount"
+        }
+      ],
+      "compPid": 347,
+      "ctxPid": 245,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [
+      {
+        "pid": 210,
+        "rootPid": 210,
+        "name": "Card Number",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 347,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 211,
+        "rootPid": 211,
+        "name": "Expiry Date",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 347,
+        "index": 2,
+        "dataListMutable": false
+      },
+      {
+        "pid": 212,
+        "rootPid": 212,
+        "name": "Security Code",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 347,
+        "index": 3,
+        "dataListMutable": false
+      },
+      {
+        "pid": 213,
+        "rootPid": 213,
+        "name": "Payment Type",
+        "desc": "",
+        "valueTypePid": 2,
+        "required": true,
+        "componentPid": 347,
+        "listPid": 8,
+        "index": 4,
+        "dataListMutable": false
+      },
+      {
+        "pid": 214,
+        "rootPid": 214,
+        "name": "Deposit Amount",
+        "desc": "",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 347,
+        "index": 5,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [
+      {
+        "pid": 110,
+        "rootPid": 110,
+        "name": "Billing Address",
+        "componentPid": 347
+      }
+    ],
+    "ownerCtxPid": 245,
+    "ctxName": "F&P Order Payment DetailsPage",
+    "compName": "Select type of payment and place order ",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 247,
+        "destCtxName": "F&P Final Checkout Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8205,
+      "index": 9,
+      "displayIndex": 8,
+      "editorDispStr": "a",
+      "paramList": [],
+      "compPid": 349,
+      "ctxPid": 247,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [],
+    "compOutputParams": [
+      {
+        "pid": 113,
+        "rootPid": 113,
+        "name": "Additional Services",
+        "componentPid": 349
+      },
+      {
+        "pid": 115,
+        "rootPid": 115,
+        "name": "Delivery Type",
+        "componentPid": 349
+      },
+      {
+        "pid": 114,
+        "rootPid": 114,
+        "name": "Discount",
+        "componentPid": 349
+      },
+      {
+        "pid": 120,
+        "rootPid": 120,
+        "name": "Estimated Delivery Date",
+        "componentPid": 349
+      },
+      {
+        "pid": 121,
+        "rootPid": 121,
+        "name": "Item Name",
+        "componentPid": 349
+      },
+      {
+        "pid": 122,
+        "rootPid": 122,
+        "name": "Model Number",
+        "componentPid": 349
+      },
+      {
+        "pid": 111,
+        "rootPid": 111,
+        "name": "Order DU Number",
+        "componentPid": 349
+      },
+      {
+        "pid": 118,
+        "rootPid": 118,
+        "name": "Order Date",
+        "componentPid": 349
+      },
+      {
+        "pid": 117,
+        "rootPid": 117,
+        "name": "Payable Amount",
+        "componentPid": 349
+      },
+      {
+        "pid": 112,
+        "rootPid": 112,
+        "name": "Subtotal",
+        "componentPid": 349
+      },
+      {
+        "pid": 116,
+        "rootPid": 116,
+        "name": "Total",
+        "componentPid": 349
+      }
+    ],
+    "ownerCtxPid": 247,
+    "ctxName": "F&P Final Checkout Page",
+    "compName": "Place Order and Get Order Details ",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 197,
+        "destCtxName": "Init Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8206,
+      "index": 10,
+      "displayIndex": 9,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9671,
+          "dsStepPid": null,
+          "dsTypePid": 1,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": "https://fisherpaykel--uat.sandbox.lightning.force.com/",
+          "randomValue": null,
+          "compInputParamPid": 183,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8206,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "URL"
+        }
+      ],
+      "compPid": 282,
+      "ctxPid": 197,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [
+      {
+        "pid": 183,
+        "rootPid": 183,
+        "name": "URL",
+        "desc": "URL to invoke the browser with",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 282,
+        "index": 1,
+        "pubPid": 11763,
+        "primaryUsecasePid": 2,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 197,
+    "ctxName": "Init Page",
+    "compName": "Invoke Browser",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 248,
+        "destCtxName": "Salesforce Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 413,
+        "destCtxName": "TPP Login Page",
+        "specialDestCtxPid": null
+      },
+      {
+        "destCtxPid": 202,
+        "destCtxName": "F&P Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": true,
+    "subscriberCompDetails": {
+      "subCompScmBasePid": 282,
+      "subPjPid": 2,
+      "subCustomerPid": 144,
+      "pubPjPid": 54,
+      "mpCompPid": 7716
+    }
+  },
+  {
+    "scnStep": {
+      "pid": 8207,
+      "index": 11,
+      "displayIndex": 10,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9655,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 216,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8207,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "SF Password"
+        },
+        {
+          "pid": 9657,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 217,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8207,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "SF MFA Secret Key"
+        },
+        {
+          "pid": 9662,
+          "dsStepPid": null,
+          "dsTypePid": null,
+          "dsParamPid": null,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 215,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8207,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "SF Username"
+        }
+      ],
+      "compPid": 350,
+      "ctxPid": 248,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [
+      {
+        "pid": 215,
+        "rootPid": 215,
+        "name": "SF Username",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 350,
+        "index": 1,
+        "dataListMutable": false
+      },
+      {
+        "pid": 216,
+        "rootPid": 216,
+        "name": "SF Password",
+        "valueTypePid": 3,
+        "required": true,
+        "componentPid": 350,
+        "index": 2,
+        "dataListMutable": false
+      },
+      {
+        "pid": 217,
+        "rootPid": 217,
+        "name": "SF MFA Secret Key",
+        "valueTypePid": 3,
+        "required": true,
+        "componentPid": 350,
+        "index": 3,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 248,
+    "ctxName": "Salesforce Login Page",
+    "compName": "Login to Salesforce",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 249,
+        "destCtxName": "Salesforce Home Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8208,
+      "index": 12,
+      "displayIndex": 11,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9660,
+          "dsStepPid": 8205,
+          "dsTypePid": 6,
+          "dsParamPid": 111,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 218,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8208,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Order DU Number"
+        }
+      ],
+      "compPid": 351,
+      "ctxPid": 249,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [
+      {
+        "pid": 218,
+        "rootPid": 218,
+        "name": "Order DU Number",
+        "valueTypePid": 0,
+        "required": true,
+        "componentPid": 351,
+        "index": 1,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 249,
+    "ctxName": "Salesforce Home Page",
+    "compName": "Search and View Details",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": 252,
+        "destCtxName": "Salesforce Order Details Page",
+        "specialDestCtxPid": null
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8209,
+      "index": 13,
+      "displayIndex": 12,
+      "editorDispStr": "a",
+      "paramList": [
+        {
+          "pid": 9659,
+          "dsStepPid": 8204,
+          "dsTypePid": 5,
+          "dsParamPid": 213,
+          "dtMemberPid": null,
+          "value": null,
+          "randomValue": null,
+          "compInputParamPid": 229,
+          "compOutputParamPid": null,
+          "globalCompInputParamPid": null,
+          "globalCompOutputParamPid": null,
+          "scnStepPid": 8209,
+          "stepIndex": null,
+          "scnPid": 62,
+          "paramName": "Payment Type"
+        }
+      ],
+      "compPid": 377,
+      "ctxPid": 252,
+      "stepType": 3,
+      "scnPid": 62
+    },
+    "compInputParams": [
+      {
+        "pid": 229,
+        "rootPid": 229,
+        "name": "Payment Type",
+        "desc": "",
+        "valueTypePid": 2,
+        "required": true,
+        "componentPid": 377,
+        "listPid": 8,
+        "index": 1,
+        "dataListMutable": false
+      }
+    ],
+    "compOutputParams": [],
+    "ownerCtxPid": 252,
+    "ctxName": "Salesforce Order Details Page",
+    "compName": "Verify Paid in Full-Checkbox",
+    "libAction": false,
+    "compDestCtxSet": [
+      {
+        "destCtxPid": null,
+        "destCtxName": null,
+        "specialDestCtxPid": 3
+      }
+    ],
+    "initAction": false
+  },
+  {
+    "scnStep": {
+      "pid": 8210,
+      "index": 14,
+      "paramList": [],
+      "stepType": 2,
+      "scnPid": 62
+    }
+  }
+]

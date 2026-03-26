@@ -1,0 +1,318 @@
+{
+  "pid": 1,
+  "rootPid": 1,
+  "name": "Regression | Order Creation and Verification",
+  "testTypePid": 0,
+  "tsType": 2,
+  "status": 8,
+  "filterGroupList": [
+    {
+      "pid": 1,
+      "scnFilter": null,
+      "scnPidList": [
+        57,
+        56
+      ],
+      "tcFilter": null,
+      "filterGroupDetails": {
+        "tcCount": 2,
+        "scnPidList": [
+          57,
+          56
+        ],
+        "storyList": [],
+        "scnTestCases": [
+          {
+            "scnPid": 57,
+            "scnName": "Create Ecommerce Order ",
+            "status": 8,
+            "alerts": [],
+            "storyPidList": [],
+            "scnLastAlertsCalculationTimestamp": 1774497410799,
+            "totalTcCount": 1,
+            "metaValues": {
+              "pid": 968,
+              "field1": "1",
+              "pjPid": 2
+            },
+            "datadriven": true,
+            "testCases": [
+              {
+                "tcPid": 69,
+                "tcName": "Ecommerce Order - 01",
+                "alerts": null,
+                "metaValues": {
+                  "pid": 972,
+                  "pjPid": 2
+                }
+              }
+            ]
+          },
+          {
+            "scnPid": 56,
+            "scnName": "Verify Order Details on SF",
+            "status": 8,
+            "alerts": [],
+            "storyPidList": [],
+            "scnLastAlertsCalculationTimestamp": 1774497410734,
+            "totalTcCount": 1,
+            "metaValues": {
+              "pid": 947,
+              "field1": "2",
+              "pjPid": 2
+            },
+            "datadriven": true,
+            "testCases": [
+              {
+                "tcPid": 67,
+                "tcName": "Order Verification-01",
+                "alerts": null,
+                "metaValues": {
+                  "pid": 963,
+                  "pjPid": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "index": 1
+    }
+  ],
+  "lastRunSummaryList": [
+    {
+      "jobPid": 1922,
+      "purpose": "Test Suite - Regression | Order Creation and Verification",
+      "createdBy": "Roop Gautam",
+      "status": "ABORTED",
+      "pass": 1,
+      "fail": 0,
+      "notRun": 1,
+      "testcaseCount": 2,
+      "startTimestamp": 1765420005819,
+      "completedTimestamp": 1765420804370,
+      "scenarioMetadataDef": {},
+      "testCaseMetadataDef": {
+        "Application Type": [
+          "Ecommerce",
+          "OMS",
+          "TPP",
+          "SF Core",
+          "MSD"
+        ]
+      },
+      "bugList": [],
+      "testCaseSummaryList": [
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 69,
+          "scnPid": 57,
+          "name": "Ecommerce Order - 01",
+          "status": "pass",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "",
+          "startDate": 1765420005835,
+          "endDate": 1765420155367,
+          "jobPid": 1922,
+          "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1922&testTypePid=0&scnPid=57&testCasePid=69&isAccessAllTC=true",
+          "selfHealingCount": null,
+          "hostTimezone": "NZST",
+          "metadata": {
+            "Application Type": [
+              "Ecommerce"
+            ],
+            "tags": []
+          }
+        },
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 67,
+          "scnPid": 56,
+          "name": "Order Verification-01",
+          "status": "aborted",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "",
+          "startDate": 1765420155977,
+          "endDate": 0,
+          "jobPid": 1922,
+          "extResultLink": "",
+          "selfHealingCount": null,
+          "hostTimezone": "NZST",
+          "metadata": {
+            "tags": [],
+            "Application Type": [
+              "OMS"
+            ]
+          }
+        }
+      ],
+      "scenarioList": [
+        {
+          "name": "Create Ecommerce Order ",
+          "description": "",
+          "dbPid": 57,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "Ecommerce"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 69,
+              "name": "Ecommerce Order - 01"
+            }
+          ],
+          "jiraStoryList": []
+        },
+        {
+          "name": "Verify Order Details on SF",
+          "description": "",
+          "dbPid": 56,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "OMS"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 67,
+              "name": "Order Verification-01"
+            }
+          ],
+          "jiraStoryList": []
+        }
+      ]
+    }
+  ],
+  "readinessPercentage": 100,
+  "developmentPercentage": 0,
+  "readyScenariosCount": 2,
+  "readyActionsCount": 0,
+  "modifiedTimestamp": 1751457395433,
+  "modifiedUser": 2,
+  "createdUser": 6,
+  "metaValues": {
+    "pid": 998,
+    "pjPid": 2
+  },
+  "lastReadinessCalculationTimestamp": 1774497410734,
+  "historyRunSummaryList": [
+    {
+      "jobPid": 1922,
+      "purpose": "Test Suite - Regression | Order Creation and Verification",
+      "createdBy": "Roop Gautam",
+      "status": "ABORTED",
+      "pass": 1,
+      "fail": 0,
+      "notRun": 1,
+      "testcaseCount": 2,
+      "startTimestamp": 1765420005819,
+      "completedTimestamp": 1765420804370,
+      "scenarioMetadataDef": {},
+      "testCaseMetadataDef": {
+        "Application Type": [
+          "Ecommerce",
+          "OMS",
+          "TPP",
+          "SF Core",
+          "MSD"
+        ]
+      },
+      "bugList": [],
+      "testCaseSummaryList": [
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 67,
+          "scnPid": 56,
+          "name": "Order Verification-01",
+          "status": "running",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "",
+          "startDate": 1765420155977,
+          "endDate": 0,
+          "jobPid": 1922,
+          "extResultLink": "",
+          "selfHealingCount": null,
+          "hostTimezone": "NZST",
+          "metadata": {
+            "tags": [],
+            "Application Type": [
+              "OMS"
+            ]
+          }
+        },
+        {
+          "reportVersion": "3.3",
+          "id": 0,
+          "dbPid": 69,
+          "scnPid": 57,
+          "name": "Ecommerce Order - 01",
+          "status": "pass",
+          "lastStatusUpdatedUserName": "",
+          "lastErrorStmtMsg": "",
+          "startDate": 1765420005835,
+          "endDate": 1765420155367,
+          "jobPid": 1922,
+          "extResultLink": "https://au.accelq.io/#/forward?tenantCode=fisherpaykel&projectCode=FisherAndPaykelProject&jobPid=1922&testTypePid=0&scnPid=57&testCasePid=69&isAccessAllTC=true",
+          "selfHealingCount": null,
+          "hostTimezone": "NZST",
+          "metadata": {
+            "tags": [],
+            "Application Type": [
+              "Ecommerce"
+            ]
+          }
+        }
+      ],
+      "scenarioList": [
+        {
+          "name": "Create Ecommerce Order ",
+          "description": "",
+          "dbPid": 57,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "Ecommerce"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 69,
+              "name": "Ecommerce Order - 01"
+            }
+          ],
+          "jiraStoryList": []
+        },
+        {
+          "name": "Verify Order Details on SF",
+          "description": "",
+          "dbPid": 56,
+          "dataDriven": true,
+          "metadata": {
+            "Application Type": [
+              "OMS"
+            ]
+          },
+          "testCases": [],
+          "testCasesList": [
+            {
+              "pid": 67,
+              "name": "Order Verification-01"
+            }
+          ],
+          "jiraStoryList": []
+        }
+      ]
+    }
+  ],
+  "testCaseCount": 2,
+  "scnCount": 2
+}

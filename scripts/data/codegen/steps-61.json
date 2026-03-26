@@ -1,0 +1,54 @@
+{
+  "scnPid": 61,
+  "scnName": "Verify Fulfilment Order Creation",
+  "steps": [
+    {
+      "index": 1,
+      "ctxPid": 197,
+      "ctxName": "Init Page",
+      "compPid": 282,
+      "compName": "Invoke Browser",
+      "methodName": "invokeBrowser",
+      "params": [
+        "uRL"
+      ],
+      "returns": []
+    },
+    {
+      "index": 2,
+      "ctxPid": 248,
+      "ctxName": "Salesforce Login Page",
+      "compPid": 350,
+      "compName": "Login to Salesforce",
+      "methodName": "loginToSalesforce",
+      "params": [
+        "sFUsername",
+        "sFPassword",
+        "sFMFASecretKey"
+      ],
+      "returns": []
+    },
+    {
+      "index": 3,
+      "ctxPid": 249,
+      "ctxName": "Salesforce Home Page",
+      "compPid": 351,
+      "compName": "Search and View Details",
+      "methodName": "searchAndViewDetails",
+      "params": [
+        "orderDUNumber"
+      ],
+      "returns": []
+    },
+    {
+      "index": 4,
+      "ctxPid": 252,
+      "ctxName": "Salesforce Order Details Page",
+      "compPid": 374,
+      "compName": "Verify Fulfilment Order",
+      "methodName": "verifyFulfilmentOrder",
+      "params": [],
+      "returns": []
+    }
+  ]
+}
