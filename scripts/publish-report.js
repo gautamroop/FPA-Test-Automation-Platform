@@ -2,8 +2,10 @@
  * publish-report.js
  *
  * Publishes the Playwright HTML report from reports/salesforce/oms/ to the
- * GitHub Pages repo (gautamroop/fp-openwebui-test-report) under:
+ * GitHub Pages repo (gautamroop/gautamroop.github.io) under:
  *   salesforce/oms/
+ *
+ * Live URL: https://gautamroop.github.io/salesforce/oms/
  *
  * Usage:
  *   npm run publish:report
@@ -27,9 +29,9 @@ if (!PAT) {
 }
 
 // ── Config ─────────────────────────────────────────────────────────────────
-const REPORT_OWNER = 'gautamroop';
-const REPORT_REPO  = 'fp-openwebui-test-report';
-const REPORT_BRANCH = 'gh-pages';
+const REPORT_OWNER  = 'gautamroop';
+const REPORT_REPO   = 'gautamroop.github.io';
+const REPORT_BRANCH = 'main';
 const LOCAL_REPORT_DIR = path.resolve(__dirname, '../reports/salesforce/oms');
 const DEST_SUBFOLDER   = 'salesforce/oms';
 
@@ -83,7 +85,7 @@ run(`git push origin ${REPORT_BRANCH}`, tmpDir);
 fs.rmSync(tmpDir, { recursive: true, force: true });
 
 console.log(`\nReport published successfully!`);
-console.log(`View at: https://${REPORT_OWNER}.github.io/${REPORT_REPO}/${DEST_SUBFOLDER}/`);
+console.log(`View at: https://${REPORT_OWNER}.github.io/${DEST_SUBFOLDER}/`);
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 function copyDir(src, dest) {

@@ -69,9 +69,9 @@ jobs:
           git config --global user.email "ci@fpa-test-automation"
           git config --global user.name "FPA CI"
 
-          # Clone the Pages repo (gh-pages branch)
-          git clone --branch gh-pages --single-branch --depth 1 \
-            "https://${{ secrets.REPORT_TOKEN }}@github.com/gautamroop/fp-openwebui-test-report.git" \
+          # Clone gautamroop.github.io (main branch)
+          git clone --branch main --single-branch --depth 1 \
+            "https://${{ secrets.REPORT_TOKEN }}@github.com/gautamroop/gautamroop.github.io.git" \
             .tmp-report-publish
 
           # Replace salesforce/oms subfolder with fresh report
@@ -84,7 +84,7 @@ jobs:
           git add salesforce/oms
           git commit -m "ci: publish OMS Playwright report [$(date -u '+%Y-%m-%d %H:%M UTC')]" \
             || echo "Nothing to commit"
-          git push origin gh-pages
+          git push origin main
 
           echo ""
-          echo "Report live at: https://gautamroop.github.io/fp-openwebui-test-report/salesforce/oms/"
+          echo "Report live at: https://gautamroop.github.io/salesforce/oms/"
