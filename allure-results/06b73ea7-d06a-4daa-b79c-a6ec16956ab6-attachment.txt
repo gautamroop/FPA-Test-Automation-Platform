@@ -1,0 +1,25 @@
+[2026-03-27 09:28:47] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 09:28:49] debug: [TppLoginPage] loginToTradePortal: fpa.testautomation@fisherpaykel.com
+[2026-03-27 09:28:55] warn: [TppLoginPage] loginToTradePortal — still on login page after submit, credentials may be invalid
+[2026-03-27 09:28:55] debug: [TppLoginPage] loginToTradePortal login submitted
+[2026-03-27 09:28:55] debug: [TppHomePage] navigateToNewAgencyOrder: undefined
+[2026-03-27 09:29:00] warn: [TppHomePage] Could not find New Agency Order button
+[2026-03-27 09:29:00] debug: [TppAgencyOrderPage] validateAndAcceptCookies
+[2026-03-27 09:29:08] debug: [TppAgencyOrderPage] No cookie banner found, continuing
+[2026-03-27 09:29:08] debug: [TppAgencyOrderPage] selectTPPProductType: undefined
+[2026-03-27 09:29:08] warn: [TppAgencyOrderPage] No product type provided
+[2026-03-27 09:29:08] warn: [TppProductsPage] No product data provided, skipping selectTPPProductAndAddToCart
+[2026-03-27 09:29:08] debug: [TppCustomerDetailsPage] tPPPopulateCustomerAndDeliveryDetails
+[2026-03-27 09:29:08] warn: [TppCustomerDetailsPage] No address data provided, skipping tPPPopulateCustomerAndDeliveryDetails
+[2026-03-27 09:29:08] debug: [FPPaymentPage] selectTypeOfPaymentAndPlaceOrder paymentType=undefined
+[2026-03-27 09:29:08] warn: [FPPaymentPage] No payment data provided, skipping selectTypeOfPaymentAndPlaceOrder
+[2026-03-27 09:29:08] debug: [FPCheckoutPage] placeOrderAndGetOrderDetails
+[2026-03-27 09:29:18] warn: [FPCheckoutPage] Not on order confirmation page, returning empty result
+[2026-03-27 09:29:18] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 09:29:18] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-27 09:29:27] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-27 09:29:35] warn: [SalesforceLoginPage] Could not confirm SF home page loaded — continuing anyway
+[2026-03-27 09:29:35] debug: [SalesforceHomePage] searchAndViewDetails: 
+[2026-03-27 09:29:35] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-27 09:29:35] debug: [SalesforceOrderDetailsPage] verifyOrderDetailsOnSF: 
+[2026-03-27 09:29:35] warn: [SalesforceOrderDetailsPage] No orderDUNumber provided, skipping verifyOrderDetailsOnSF

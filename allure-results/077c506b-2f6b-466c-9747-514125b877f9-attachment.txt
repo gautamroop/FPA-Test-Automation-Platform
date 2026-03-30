@@ -1,0 +1,8 @@
+[2026-03-26 18:42:38] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 18:42:47] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-26 18:43:02] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-26 18:43:08] warn: [SalesforceLoginPage] Could not confirm SF home page loaded
+[2026-03-26 18:43:08] debug: [SalesforceHomePage] searchAndViewDetails: undefined
+[2026-03-26 18:43:08] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-26 18:43:08] debug: [SalesforceOrderDetailsPage] verifyOrderPaymentResponse
+[2026-03-26 18:43:08] warn: [SalesforceOrderDetailsPage] Payment response section not found

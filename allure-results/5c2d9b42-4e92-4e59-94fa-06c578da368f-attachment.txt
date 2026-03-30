@@ -1,0 +1,25 @@
+[2026-03-27 09:04:27] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 09:04:30] debug: [FPHomePage] validateAndAcceptCookies
+[2026-03-27 09:04:31] debug: [FPHomePage] Cookie banner accepted
+[2026-03-27 09:04:31] debug: [FPLoginPage] userLogin: fpa.testautomation@fisherpaykel.com
+[2026-03-27 09:04:46] debug: [FPLoginPage] Login submitted
+[2026-03-27 09:04:46] debug: [FPHomePage] navigateToProductType: undefined > undefined
+[2026-03-27 09:04:46] warn: [FPHomePage] productCategory is empty, skipping navigation
+[2026-03-27 09:04:46] debug: [FPProductsPage] selectInStockProduct
+[2026-03-27 09:05:06] warn: [FPProductsPage] No products found on page, skipping selectInStockProduct
+[2026-03-27 09:05:06] debug: [FPProductsPage] selectTheProductAndAddToCart qty=1
+[2026-03-27 09:05:06] warn: [FPProductsPage] No product data provided, skipping selectTheProductAndAddToCart
+[2026-03-27 09:05:06] debug: [FPOrderDetailsPage] populateCustomerAndDeliveryDetails
+[2026-03-27 09:05:06] warn: [FPOrderDetailsPage] No address data provided, skipping populateCustomerAndDeliveryDetails
+[2026-03-27 09:05:06] debug: [FPPaymentPage] selectTypeOfPaymentAndPlaceOrder paymentType=undefined
+[2026-03-27 09:05:06] warn: [FPPaymentPage] No payment data provided, skipping selectTypeOfPaymentAndPlaceOrder
+[2026-03-27 09:05:06] debug: [FPCheckoutPage] placeOrderAndGetOrderDetails
+[2026-03-27 09:05:16] warn: [FPCheckoutPage] Not on order confirmation page, returning empty result
+[2026-03-27 09:05:16] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 09:05:18] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-27 09:05:29] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-27 09:05:44] warn: [SalesforceLoginPage] Could not confirm SF home page loaded — continuing anyway
+[2026-03-27 09:05:44] debug: [SalesforceHomePage] searchAndViewDetails: 
+[2026-03-27 09:05:44] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-27 09:05:44] debug: [SalesforceOrderDetailsPage] verifyGOPIsCreatedForLessThan14Days
+[2026-03-27 09:05:52] warn: [SalesforceOrderDetailsPage] Not on a record page, skipping verifyGOPIsCreatedForLessThan14Days

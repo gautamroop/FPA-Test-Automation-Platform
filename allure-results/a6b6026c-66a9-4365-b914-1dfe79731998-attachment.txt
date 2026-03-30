@@ -1,0 +1,17 @@
+[2026-03-27 09:41:05] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 09:41:11] debug: [TppLoginPage] loginToTradePortal: fpa.testautomation@fisherpaykel.com
+[2026-03-27 09:41:16] warn: [TppLoginPage] loginToTradePortal — still on login page after submit, credentials may be invalid
+[2026-03-27 09:41:16] debug: [TppLoginPage] loginToTradePortal login submitted
+[2026-03-27 09:41:16] debug: [TppHomePage] navigateToNewAgencyOrder: undefined
+[2026-03-27 09:41:21] warn: [TppHomePage] Could not find New Agency Order button
+[2026-03-27 09:41:21] debug: [TppAgencyOrderPage] validateAndAcceptCookies
+[2026-03-27 09:41:29] debug: [TppAgencyOrderPage] No cookie banner found, continuing
+[2026-03-27 09:41:29] debug: [TppAgencyOrderPage] selectTPPProductType: undefined
+[2026-03-27 09:41:29] warn: [TppAgencyOrderPage] No product type provided
+[2026-03-27 09:41:29] warn: [TppProductsPage] No product data provided, skipping selectTPPProductAndAddToCart
+[2026-03-27 09:41:29] debug: [TppHomePage] verifyQuoteIsGenerated: 
+[2026-03-27 09:41:29] warn: [TppHomePage] No quote number to verify
+[2026-03-27 09:41:29] debug: [TppViewQuotesPage] tPPConvertQuoteToOrder
+[2026-03-27 09:41:44] warn: [TppViewQuotesPage] Could not convert quote to order
+[2026-03-27 09:41:44] debug: [TppHomePage] viewOrder
+[2026-03-27 09:41:49] warn: [TppHomePage] Could not click View Order

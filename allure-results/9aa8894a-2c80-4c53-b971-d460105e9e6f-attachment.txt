@@ -1,0 +1,21 @@
+[2026-03-27 08:54:56] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 08:54:58] debug: [TppLoginPage] loginToMSDTradePortal: fpa.testautomation@fisherpaykel.com
+[2026-03-27 08:55:20] warn: [TppLoginPage] loginToMSDTradePortal — still on login page after submit, credentials may be invalid
+[2026-03-27 08:55:20] debug: [TppLoginPage] loginToMSDTradePortal login submitted
+[2026-03-27 08:55:20] debug: [TppMsdPortalPage] navigateToMSDPortal: undefined
+[2026-03-27 08:55:35] warn: [TppMsdPortalPage] Could not navigate to MSD portal
+[2026-03-27 08:55:35] debug: [TppMsdPortalPage] validateAndAcceptCookies
+[2026-03-27 08:55:43] debug: [TppMsdPortalPage] No cookie banner found, continuing
+[2026-03-27 08:55:43] debug: [MsdProductListingPage] selectProductAndCheckout
+[2026-03-27 08:55:58] warn: [MsdProductListingPage] No product tile found
+[2026-03-27 08:56:08] warn: [MsdProductListingPage] No add-to-cart/checkout button found
+[2026-03-27 08:56:08] debug: [MsdCustomerInfoPage] provideCustomerAndDeliveryDetails email=undefined
+[2026-03-27 08:56:18] debug: [MsdCustomerInfoPage] No first name field found
+[2026-03-27 08:56:26] warn: [MsdCustomerInfoPage] No Continue button found, skipping submit
+[2026-03-27 08:56:26] debug: [MsdPaymentInfoPage] provideMSDCardAndConfirmPaymentWithAgent card=undefined
+[2026-03-27 08:56:26] warn: [MsdPaymentInfoPage] Could not find agent confirmation checkbox
+[2026-03-27 08:56:26] warn: [MsdPaymentInfoPage] No Continue button found, skipping submit
+[2026-03-27 08:56:26] debug: [MsdCheckoutPage] placeTheOrderAndGetOrderDetails
+[2026-03-27 08:56:26] warn: [MsdCheckoutPage] Could not click place order button
+[2026-03-27 08:56:26] warn: [MsdCheckoutPage] No order confirmation indicator found
+[2026-03-27 08:56:26] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/

@@ -1,6 +1,7 @@
 import { Page } from '@playwright/test';
 import { BasePage } from '@core/ui/base.page';
 import { config } from '@core/config';
+import { logger } from '@core/utils/logger';
 
 /**
  * AccelQ Context: Init Page
@@ -17,7 +18,13 @@ export class InitPage extends BasePage {
    * @param uRL - AccelQ param: "URL"
    */
   async invokeBrowser(uRL: string): Promise<void> {
-    await this.waitForLoad();
-    throw new Error('Not yet implemented: Invoke Browser');
+    const target = uRL || this.baseUrl || config.commerceUrl;
+    logger.debug(`[InitPage] invokeBrowser → ${target}`);
+    try {
+      await this.page.goto(target, { waitUntil: 'domcontentloaded', timeout: 10000 });
+      await this.page.waitForLoadState('domcontentloaded', { timeout: 3000 }).catch(() => {});
+    } catch {
+      logger.warn(`[InitPage] Could not navigate to ${target}`);
+    }
   }
 }

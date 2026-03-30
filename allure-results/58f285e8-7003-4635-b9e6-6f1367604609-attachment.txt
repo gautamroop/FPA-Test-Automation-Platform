@@ -1,0 +1,25 @@
+[2026-03-27 09:35:40] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 09:35:42] debug: [FPHomePage] validateAndAcceptCookies
+[2026-03-27 09:35:43] debug: [FPHomePage] Cookie banner accepted
+[2026-03-27 09:35:43] debug: [FPLoginPage] userLogin: fpa.testautomation@fisherpaykel.com
+[2026-03-27 09:35:51] debug: [FPLoginPage] Login submitted
+[2026-03-27 09:35:51] debug: [FPHomePage] navigateToProductType: undefined > undefined
+[2026-03-27 09:35:51] warn: [FPHomePage] productCategory is empty, skipping navigation
+[2026-03-27 09:35:51] debug: [FPProductsPage] selectTheProductAndAddToCart qty=1
+[2026-03-27 09:35:51] warn: [FPProductsPage] No product data provided, skipping selectTheProductAndAddToCart
+[2026-03-27 09:35:51] debug: [FPOrderDetailsPage] populateCustomerAndDeliveryDetails
+[2026-03-27 09:35:51] warn: [FPOrderDetailsPage] No address data provided, skipping populateCustomerAndDeliveryDetails
+[2026-03-27 09:35:51] debug: [FPPaymentPage] selectTypeOfPaymentAndPlaceOrder paymentType=undefined
+[2026-03-27 09:35:51] warn: [FPPaymentPage] No payment data provided, skipping selectTypeOfPaymentAndPlaceOrder
+[2026-03-27 09:35:51] debug: [FPCheckoutPage] placeOrderAndGetOrderDetails
+[2026-03-27 09:36:01] warn: [FPCheckoutPage] Not on order confirmation page, returning empty result
+[2026-03-27 09:36:01] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 09:36:03] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-27 09:36:11] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-27 09:36:19] warn: [SalesforceLoginPage] Could not confirm SF home page loaded — continuing anyway
+[2026-03-27 09:36:19] debug: [SalesforceHomePage] searchAndViewDetails: 
+[2026-03-27 09:36:19] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-27 09:36:19] debug: [SalesforceOrderDetailsPage] updateRequestedDeliveryDate: undefined
+[2026-03-27 09:36:19] warn: [SalesforceOrderDetailsPage] No new delivery date provided
+[2026-03-27 09:36:19] debug: [SalesforceOrderSummaryPage] verifyUpdatedDeliveryDate: 
+[2026-03-27 09:36:19] warn: [SalesforceOrderSummaryPage] No delivery date to verify

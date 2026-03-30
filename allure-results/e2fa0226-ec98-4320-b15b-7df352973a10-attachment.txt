@@ -1,0 +1,10 @@
+[2026-03-26 18:28:15] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 18:28:20] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-26 18:28:33] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-26 18:28:46] warn: [SalesforceLoginPage] Could not confirm SF home page loaded
+[2026-03-26 18:28:46] debug: [SalesforceHomePage] searchAndViewDetails: undefined
+[2026-03-26 18:28:46] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-26 18:28:46] debug: [SalesforceOrderDetailsPage] partialCancelTheOrderAndVerify
+[2026-03-26 18:28:46] warn: [SalesforceOrderDetailsPage] Could not perform partial cancel
+[2026-03-26 18:28:46] debug: [FPOrderDetailsPage] checkOrderAndFulfillmentStatus
+[2026-03-26 18:28:46] debug: [FPOrderDetailsPage] Could not read fulfillment order number

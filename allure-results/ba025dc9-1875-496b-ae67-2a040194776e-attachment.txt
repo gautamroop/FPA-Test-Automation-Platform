@@ -1,0 +1,2 @@
+[2026-03-26 18:40:32] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 18:40:37] debug: [TppLoginPage] loginToMSDTradePortal: fpa.testautomation@fisherpaykel.com

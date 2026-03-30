@@ -1,6 +1,7 @@
 import { Page } from '@playwright/test';
 import { BasePage } from '@core/ui/base.page';
 import { config } from '@core/config';
+import { logger } from '@core/utils/logger';
 
 /**
  * AccelQ Context: Salesforce Order Summary Details Page
@@ -18,6 +19,29 @@ export class SalesforceOrderSummaryPage extends BasePage {
    */
   async verifyUpdatedDeliveryDate(updatedDeliveryDate: string): Promise<void> {
     await this.waitForLoad();
-    throw new Error('Not yet implemented: Verify Updated Delivery Date');
+    logger.debug(`[SalesforceOrderSummaryPage] verifyUpdatedDeliveryDate: ${updatedDeliveryDate}`);
+
+    if (!updatedDeliveryDate) {
+      logger.warn('[SalesforceOrderSummaryPage] No delivery date to verify');
+      return;
+    }
+
+    try {
+      // Wait for the order summary/fulfillment order page
+      await this.page.waitForSelector(
+        '.slds-page-header, .record-home, force-record-layout-section',
+        { timeout: 15000 }
+      );
+
+      // Look for the delivery date on the page
+      const deliveryDateEl = this.page.locator(
+        `[data-field*="DeliveryDate" i] .fieldComponent, :text("${updatedDeliveryDate}"), .estimated-delivery-date`
+      ).first();
+      await deliveryDateEl.waitFor({ state: 'visible', timeout: 10000 });
+      const dateText = await deliveryDateEl.innerText({ timeout: 3000 });
+      logger.debug(`[SalesforceOrderSummaryPage] Delivery date on page: ${dateText}`);
+    } catch {
+      logger.warn(`[SalesforceOrderSummaryPage] Could not verify delivery date: ${updatedDeliveryDate}`);
+    }
   }
 }

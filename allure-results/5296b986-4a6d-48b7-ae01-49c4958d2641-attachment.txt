@@ -1,0 +1,14 @@
+[2026-03-27 08:56:39] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 08:56:42] debug: [FPHomePage] validateAndAcceptCookies
+[2026-03-27 08:56:43] debug: [FPHomePage] Cookie banner accepted
+[2026-03-27 08:56:43] debug: [FPLoginPage] userLogin: fpa.testautomation@fisherpaykel.com
+[2026-03-27 08:56:56] debug: [FPLoginPage] Login submitted
+[2026-03-27 08:56:56] debug: [FPHomePage] navigateToProductType: undefined > undefined
+[2026-03-27 08:56:56] warn: [FPHomePage] productCategory is empty, skipping navigation
+[2026-03-27 08:56:56] debug: [FPProductsPage] verifyProductLevelDiscountPromotion
+[2026-03-27 08:58:09] debug: [FPProductsPage] Could not read product name
+[2026-03-27 08:58:09] debug: [FPProductsPage] Could not read product discount
+[2026-03-27 08:58:09] debug: [FPProductsPage] selectTheProductAndAddToCart qty=1
+[2026-03-27 08:58:09] warn: [FPProductsPage] No product data provided, skipping selectTheProductAndAddToCart
+[2026-03-27 08:58:09] debug: [FPOrderDetailsPage] verifyOrderLevelDiscount
+[2026-03-27 08:58:09] debug: [FPOrderDetailsPage] Could not read order level discount

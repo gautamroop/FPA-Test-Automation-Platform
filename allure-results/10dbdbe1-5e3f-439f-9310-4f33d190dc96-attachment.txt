@@ -1,0 +1,15 @@
+[2026-03-27 09:28:25] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 09:28:28] debug: [FPHomePage] validateAndAcceptCookies
+[2026-03-27 09:28:29] debug: [FPHomePage] Cookie banner accepted
+[2026-03-27 09:28:29] debug: [FPLoginPage] userLogin: fpa.testautomation@fisherpaykel.com
+[2026-03-27 09:28:37] debug: [FPLoginPage] Login submitted
+[2026-03-27 09:28:37] debug: [FPHomePage] navigateToProductType: undefined > undefined
+[2026-03-27 09:28:37] warn: [FPHomePage] productCategory is empty, skipping navigation
+[2026-03-27 09:28:37] debug: [FPProductsPage] selectTheProductAndAddToCart qty=1
+[2026-03-27 09:28:37] warn: [FPProductsPage] No product data provided, skipping selectTheProductAndAddToCart
+[2026-03-27 09:28:37] debug: [FPOrderDetailsPage] populateCustomerAndDeliveryDetails
+[2026-03-27 09:28:37] warn: [FPOrderDetailsPage] No address data provided, skipping populateCustomerAndDeliveryDetails
+[2026-03-27 09:28:37] debug: [FPPaymentPage] selectTypeOfPaymentAndPlaceOrder paymentType=undefined
+[2026-03-27 09:28:37] warn: [FPPaymentPage] No payment data provided, skipping selectTypeOfPaymentAndPlaceOrder
+[2026-03-27 09:28:37] debug: [FPCheckoutPage] placeOrderAndGetOrderDetails
+[2026-03-27 09:28:47] warn: [FPCheckoutPage] Not on order confirmation page, returning empty result

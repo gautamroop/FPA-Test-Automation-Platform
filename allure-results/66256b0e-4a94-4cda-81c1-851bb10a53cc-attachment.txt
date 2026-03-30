@@ -1,0 +1,5 @@
+[2026-03-26 18:54:43] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 18:54:47] debug: [FPHomePage] validateAndAcceptCookies
+[2026-03-26 18:54:49] debug: [FPHomePage] Cookie banner accepted
+[2026-03-26 18:54:49] debug: [FPHomePage] navigateToHelpAndSupportAndSelectBookOnline
+[2026-03-26 18:54:52] debug: [FPBookServicePage] searchAndSelectAServiceAddress: 43 meadway

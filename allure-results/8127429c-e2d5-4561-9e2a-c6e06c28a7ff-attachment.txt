@@ -1,0 +1,19 @@
+[2026-03-27 09:08:10] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 09:08:13] debug: [FPHomePage] validateAndAcceptCookies
+[2026-03-27 09:08:14] debug: [FPHomePage] Cookie banner accepted
+[2026-03-27 09:08:14] debug: [FPHomePage] navigateToHelpAndSupportAndSelectBookOnline
+[2026-03-27 09:08:17] debug: [FPBookServicePage] searchAndSelectAServiceAddress: 43 meadway
+[2026-03-27 09:08:32] warn: [FPBookServicePage] Could not find address input, skipping searchAndSelectAServiceAddress
+[2026-03-27 09:08:32] debug: [FPBookServicePage] selectAProductAndClickAtContinue: undefined
+[2026-03-27 09:08:42] warn: [FPBookServicePage] Could not complete selectAProductAndClickAtContinue
+[2026-03-27 09:08:42] debug: [FPBookServicePage] selectServiceTimeAndProceedWithBookNow
+[2026-03-27 09:08:57] warn: [FPBookServicePage] No time slot found, continuing
+[2026-03-27 09:09:07] warn: [FPBookServicePage] Could not complete selectServiceTimeAndProceedWithBookNow
+[2026-03-27 09:09:07] debug: [FPBookServicePage] provideCustomerDetails: undefined undefined
+[2026-03-27 09:09:07] warn: [FPBookServicePage] No customer data provided, skipping provideCustomerDetails
+[2026-03-27 09:09:07] debug: [FPBookServicePage] provideADescriptionThatFitsTheProblemWithYourAppliance
+[2026-03-27 09:09:17] warn: [FPBookServicePage] Could not complete provideADescriptionThatFitsTheProblemWithYourAppliance
+[2026-03-27 09:09:17] debug: [FPBookServicePage] confirmTheBooking
+[2026-03-27 09:09:27] warn: [FPBookServicePage] Could not confirm booking
+[2026-03-27 09:09:27] debug: [FPBookServicePage] validateBookingAndGetBookingDetails
+[2026-03-27 09:09:40] warn: [FPBookServicePage] No booking confirmation element found

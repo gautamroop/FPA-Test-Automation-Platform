@@ -1,0 +1,8 @@
+[2026-03-26 18:39:59] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 18:40:05] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-26 18:40:19] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-26 18:40:30] warn: [SalesforceLoginPage] Could not confirm SF home page loaded
+[2026-03-26 18:40:30] debug: [SalesforceHomePage] searchAndViewDetails: undefined
+[2026-03-26 18:40:30] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-26 18:40:30] debug: [SalesforceOrderDetailsPage] updateDeliveryInstructionCheckbox
+[2026-03-26 18:40:30] warn: [SalesforceOrderDetailsPage] Could not update delivery instruction checkbox

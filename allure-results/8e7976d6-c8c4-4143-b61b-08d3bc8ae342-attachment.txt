@@ -1,0 +1,17 @@
+[2026-03-27 08:51:28] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 08:51:37] debug: [TppLoginPage] loginToTradePortal: fpa.testautomation@fisherpaykel.com
+[2026-03-27 08:52:00] warn: [TppLoginPage] loginToTradePortal — still on login page after submit, credentials may be invalid
+[2026-03-27 08:52:00] debug: [TppLoginPage] loginToTradePortal login submitted
+[2026-03-27 08:52:00] debug: [TppHomePage] navigateToAgencyQuotes
+[2026-03-27 08:52:05] warn: [TppHomePage] Could not navigate to Agency Quotes
+[2026-03-27 08:52:05] debug: [TppViewQuotesPage] viewVerifyQuote: undefined
+[2026-03-27 08:52:05] warn: [TppViewQuotesPage] No quote number provided, opening first available quote
+[2026-03-27 08:52:20] warn: [TppViewQuotesPage] Could not open any quote
+[2026-03-27 08:52:20] debug: [TppViewQuotesPage] tPPConvertQuoteToOrder
+[2026-03-27 08:52:35] warn: [TppViewQuotesPage] Could not convert quote to order
+[2026-03-27 08:52:35] debug: [TppCustomerDetailsPage] tPPPopulateCustomerAndDeliveryDetails
+[2026-03-27 08:52:35] warn: [TppCustomerDetailsPage] No address data provided, skipping tPPPopulateCustomerAndDeliveryDetails
+[2026-03-27 08:52:35] debug: [FPPaymentPage] selectTypeOfPaymentAndPlaceOrder paymentType=undefined
+[2026-03-27 08:52:35] warn: [FPPaymentPage] No payment data provided, skipping selectTypeOfPaymentAndPlaceOrder
+[2026-03-27 08:52:35] debug: [FPCheckoutPage] placeOrderAndGetOrderDetails
+[2026-03-27 08:52:45] warn: [FPCheckoutPage] Not on order confirmation page, returning empty result

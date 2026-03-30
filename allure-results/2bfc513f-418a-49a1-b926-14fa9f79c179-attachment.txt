@@ -1,0 +1,8 @@
+[2026-03-27 09:06:45] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 09:06:47] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-27 09:07:00] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-27 09:07:15] warn: [SalesforceLoginPage] Could not confirm SF home page loaded — continuing anyway
+[2026-03-27 09:07:15] debug: [SalesforceHomePage] searchAndViewDetails: undefined
+[2026-03-27 09:07:15] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-27 09:07:15] debug: [SalesforceOrderDetailsPage] addItemToTheOrderAndVerify sku=undefined
+[2026-03-27 09:07:23] warn: [SalesforceOrderDetailsPage] Not on a record page, skipping addItemToTheOrderAndVerify

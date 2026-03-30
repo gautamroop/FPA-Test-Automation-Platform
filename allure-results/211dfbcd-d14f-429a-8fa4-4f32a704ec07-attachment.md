@@ -1,0 +1,54 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e1]:
+    - paragraph [ref=e7]:
+      - img [ref=e8]
+      - text: Replace this text with content of your own.
+    - generic [ref=e12]:
+      - generic [ref=e15]:
+        - paragraph [ref=e16]
+        - paragraph [ref=e17]: TRADE PORTAL
+        - paragraph [ref=e18]
+        - paragraph [ref=e19]: This portal is accessible to Retail and Authorised Builder Distributors/Resellers with a Fisher & Paykel account number only
+        - paragraph [ref=e20]
+        - paragraph [ref=e21]: To login, enter your login details below
+        - paragraph [ref=e22]
+      - generic [ref=e24]:
+        - generic [ref=e27]: You don't have an Account. Please register.
+        - generic [ref=e29]:
+          - generic [ref=e30]: Language
+          - combobox "Language" [ref=e31]:
+            - option "English" [selected]
+            - option "Canada Français"
+        - generic [ref=e33]:
+          - generic [ref=e34]: Email
+          - textbox "Email" [ref=e35]: fpa.testautomation@fisherpaykel.com
+        - generic [ref=e37]:
+          - generic [ref=e38]: Password
+          - textbox "Password" [ref=e39]: Fpasfccakl@2025
+        - emphasis [ref=e41]:
+          - link "Forgot your password?" [ref=e42] [cursor=pointer]:
+            - /url: https://tradeportal.fisherpaykel.com/s/login/ForgotPassword
+        - generic [ref=e43]:
+          - text: By logging in, I agree to the
+          - emphasis [ref=e44]:
+            - link "T&Cs" [ref=e45] [cursor=pointer]:
+              - /url: https://tradeportal.fisherpaykel.com/s/termsandconditions
+          - text: and to Fisher & Paykel's collection, use and storage of my personal information as set out in the
+          - emphasis [ref=e46]:
+            - link "Collection Notice." [ref=e47] [cursor=pointer]:
+              - /url: https://www.fisherpaykel.com/privacy
+        - button "Login" [active] [ref=e49] [cursor=pointer]:
+          - generic [ref=e50]: Login
+      - paragraph [ref=e54]: OR
+      - paragraph [ref=e58]:
+        - text: Not registered yet?
+        - link "R" [ref=e59] [cursor=pointer]:
+          - /url: https://fisherandpaykel.force.com/tradeportal/s/login/SelfRegister
+        - link "egister here" [ref=e60] [cursor=pointer]:
+          - /url: https://tradeportal.fisherpaykel.com/s/login/SelfRegister
+    - paragraph [ref=e66]: © Fisher & Paykel Appliances Ltd 2025
+  - generic [ref=e67]: Login
+```

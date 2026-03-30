@@ -1,0 +1,4 @@
+[2026-03-26 18:43:10] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 18:43:18] debug: [FPHomePage] validateAndAcceptCookies
+[2026-03-26 18:43:25] debug: [FPHomePage] Cookie banner accepted
+[2026-03-26 18:43:25] debug: [FPLoginPage] userLogin: fpa.testautomation@fisherpaykel.com

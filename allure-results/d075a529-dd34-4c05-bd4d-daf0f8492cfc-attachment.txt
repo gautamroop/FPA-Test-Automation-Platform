@@ -1,0 +1,12 @@
+[2026-03-26 18:51:31] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 18:51:35] debug: [TppLoginPage] loginToMSDTradePortal: fpa.testautomation@fisherpaykel.com
+[2026-03-26 18:51:39] debug: [TppLoginPage] loginToMSDTradePortal login submitted
+[2026-03-26 18:51:39] debug: [TppMsdPortalPage] navigateToMSDPortal: undefined
+[2026-03-26 18:51:54] warn: [TppMsdPortalPage] Could not navigate to MSD portal
+[2026-03-26 18:51:54] debug: [TppMsdPortalPage] validateAndAcceptCookies
+[2026-03-26 18:52:01] debug: [TppMsdPortalPage] No cookie banner found, continuing
+[2026-03-26 18:52:01] debug: [MsdProductListingPage] selectProductAndCheckout
+[2026-03-26 18:52:01] warn: [MsdProductListingPage] No product tile found
+[2026-03-26 18:52:01] warn: [MsdProductListingPage] No add-to-cart/checkout button found
+[2026-03-26 18:52:01] debug: [MsdCustomerInfoPage] provideCustomerAndDeliveryDetails email=undefined
+[2026-03-26 18:52:01] debug: [MsdCustomerInfoPage] No first name field found

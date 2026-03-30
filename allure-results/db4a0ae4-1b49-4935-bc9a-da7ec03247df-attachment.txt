@@ -1,0 +1,12 @@
+[2026-03-26 23:10:01] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 23:10:06] debug: [TppLoginPage] loginToTradePortal: fpa.testautomation@fisherpaykel.com
+[2026-03-26 23:10:28] warn: [TppLoginPage] loginToTradePortal — still on login page after submit, credentials may be invalid
+[2026-03-26 23:10:28] debug: [TppLoginPage] loginToTradePortal login submitted
+[2026-03-26 23:10:28] debug: [TppHomePage] navigateToAgencyQuotes
+[2026-03-26 23:10:33] warn: [TppHomePage] Could not navigate to Agency Quotes
+[2026-03-26 23:10:33] debug: [TppViewQuotesPage] viewVerifyQuote: undefined
+[2026-03-26 23:10:33] warn: [TppViewQuotesPage] No quote number provided, opening first available quote
+[2026-03-26 23:10:48] warn: [TppViewQuotesPage] Could not open any quote
+[2026-03-26 23:10:48] debug: [TppViewQuotesPage] tPPConvertQuoteToOrder
+[2026-03-26 23:11:03] warn: [TppViewQuotesPage] Could not convert quote to order
+[2026-03-26 23:11:03] debug: [TppCustomerDetailsPage] tPPPopulateCustomerAndDeliveryDetails

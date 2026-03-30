@@ -1,0 +1,11 @@
+[2026-03-26 18:43:42] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 18:43:47] debug: [FPHomePage] validateAndAcceptCookies
+[2026-03-26 18:43:51] debug: [FPHomePage] Cookie banner accepted
+[2026-03-26 18:43:51] debug: [FPHomePage] navigateToHelpAndSupportAndSelectRegisterYourProduct
+[2026-03-26 18:43:54] debug: [FPProductRegistrationPage] provideCustomerDetails: undefined undefined
+[2026-03-26 18:43:57] debug: [FPProductRegistrationPage] providePurchaseInfo
+[2026-03-26 18:44:05] debug: [FPProductRegistrationPage] No purchase date field found
+[2026-03-26 18:44:10] debug: [FPProductRegistrationPage] No retailer field found
+[2026-03-26 18:44:10] debug: [FPProductRegistrationPage] provideProductInfoAndProceed sku=undefined
+[2026-03-26 18:44:10] debug: [FPProductRegistrationPage] validateProductIsRegistered: undefined
+[2026-03-26 18:44:12] warn: [FPProductRegistrationPage] Could not verify registration success message

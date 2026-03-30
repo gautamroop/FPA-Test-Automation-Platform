@@ -1,0 +1,10 @@
+[2026-03-26 18:37:20] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 18:37:26] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-26 18:37:40] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-26 18:37:49] warn: [SalesforceLoginPage] Could not confirm SF home page loaded
+[2026-03-26 18:37:49] debug: [SalesforceHomePage] searchAndViewDetails: undefined
+[2026-03-26 18:37:49] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-26 18:37:49] debug: [SalesforceOrderDetailsPage] fullCancelTheOrderAndVerify
+[2026-03-26 18:37:49] warn: [SalesforceOrderDetailsPage] Could not cancel order
+[2026-03-26 18:37:49] debug: [FPOrderDetailsPage] verifyRefundAmountAfterOrderCancel originalTotal= refund=
+[2026-03-26 18:37:49] warn: [FPOrderDetailsPage] Could not find refund amount on page

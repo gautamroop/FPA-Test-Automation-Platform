@@ -1,0 +1,8 @@
+[2026-03-26 23:04:49] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 23:04:53] debug: [FPHomePage] validateAndAcceptCookies
+[2026-03-26 23:04:54] debug: [FPHomePage] Cookie banner accepted
+[2026-03-26 23:04:54] debug: [FPLoginPage] userLogin: fpa.testautomation@fisherpaykel.com
+[2026-03-26 23:05:06] debug: [FPLoginPage] Login submitted
+[2026-03-26 23:05:06] debug: [FPHomePage] navigateToProductType: undefined > undefined
+[2026-03-26 23:05:06] warn: [FPHomePage] productCategory is empty, skipping navigation
+[2026-03-26 23:05:06] debug: [FPProductsPage] selectTheProductAndAddToCart qty=undefined

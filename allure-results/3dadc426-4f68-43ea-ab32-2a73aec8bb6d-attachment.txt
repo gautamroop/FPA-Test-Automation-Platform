@@ -1,0 +1,8 @@
+[2026-03-26 18:28:29] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 18:28:33] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-26 18:28:46] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-26 18:28:59] warn: [SalesforceLoginPage] Could not confirm SF home page loaded
+[2026-03-26 18:28:59] debug: [SalesforceHomePage] searchAndViewDetails: undefined
+[2026-03-26 18:28:59] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-26 18:28:59] debug: [SalesforceOrderDetailsPage] checkGOPDateIsPopulated
+[2026-03-26 18:28:59] debug: [SalesforceOrderDetailsPage] Could not read GOP date

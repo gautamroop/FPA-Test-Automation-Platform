@@ -1,0 +1,8 @@
+[2026-03-26 23:12:28] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-26 23:12:31] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-26 23:12:44] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-26 23:12:59] warn: [SalesforceLoginPage] Could not confirm SF home page loaded — continuing anyway
+[2026-03-26 23:12:59] debug: [SalesforceHomePage] searchAndViewDetails: undefined
+[2026-03-26 23:12:59] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-26 23:12:59] debug: [SalesforceOrderDetailsPage] verifyUnableToCancelTheOrderWithJDEShipDate
+[2026-03-26 23:13:09] warn: [SalesforceOrderDetailsPage] Could not verify cancel restriction

@@ -1,0 +1,1034 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - iframe [ref=e2]:
+    - generic [active]:
+      - generic [ref=f1e55]:
+        - generic:
+          - table:
+            - rowgroup:
+              - row:
+                - cell:
+                  - link [ref=f1e56] [cursor=pointer]:
+                    - /url: "#"
+      - generic [ref=f1e70]:
+        - generic [ref=f1e71]: Cache Information (Page)
+        - table [ref=f1e74]:
+          - rowgroup [ref=f1e75]:
+            - 'row "Remote Include Controller: Account-Header (app_retailer) Template: /default/account/sfLoginHeader.isml (app_retailer) Processing Time: 51 ms Caching Status: Not cached" [ref=f1e76]':
+              - 'cell "Remote Include Controller: Account-Header (app_retailer) Template: /default/account/sfLoginHeader.isml (app_retailer) Processing Time: 51 ms Caching Status: Not cached" [ref=f1e77]':
+                - generic [ref=f1e78]:
+                  - generic [ref=f1e81]: Remote Include
+                  - generic [ref=f1e86]:
+                    - generic [ref=f1e87]:
+                      - table [ref=f1e89]:
+                        - rowgroup [ref=f1e90]:
+                          - 'row "Controller: Account-Header (app_retailer)" [ref=f1e91]':
+                            - cell "Controller:" [ref=f1e92]:
+                              - generic [ref=f1e93]: "Controller:"
+                            - cell "Account-Header (app_retailer)" [ref=f1e94]:
+                              - generic [ref=f1e95]: Account-Header (app_retailer)
+                      - table [ref=f1e97]:
+                        - rowgroup [ref=f1e98]:
+                          - 'row "Template: /default/account/sfLoginHeader.isml (app_retailer)" [ref=f1e99]':
+                            - cell "Template:" [ref=f1e100]:
+                              - generic [ref=f1e101]: "Template:"
+                            - cell "/default/account/sfLoginHeader.isml (app_retailer)" [ref=f1e102]:
+                              - generic [ref=f1e103]: /default/account/sfLoginHeader.isml (app_retailer)
+                      - table [ref=f1e105]:
+                        - rowgroup [ref=f1e106]:
+                          - 'row "Processing Time: 51 ms" [ref=f1e107]':
+                            - cell "Processing Time:" [ref=f1e108]:
+                              - generic [ref=f1e109]: "Processing Time:"
+                            - cell "51 ms" [ref=f1e110]:
+                              - generic [ref=f1e111]: 51 ms
+                      - table [ref=f1e113]:
+                        - rowgroup [ref=f1e114]:
+                          - 'row "Caching Status: Not cached" [ref=f1e115]':
+                            - cell "Caching Status:" [ref=f1e116]:
+                              - generic [ref=f1e117]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e118]:
+                              - generic [ref=f1e119]: Not cached
+                    - link [ref=f1e120] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Wishlist-Total (plugin_cartridge_merge) Template: /default//components/header/wishlist.isml (app_retailer) Processing Time: 23 ms Caching Status: Not cached" [ref=f1e121]':
+              - 'cell "Remote Include Controller: Wishlist-Total (plugin_cartridge_merge) Template: /default//components/header/wishlist.isml (app_retailer) Processing Time: 23 ms Caching Status: Not cached" [ref=f1e122]':
+                - generic [ref=f1e123]:
+                  - generic [ref=f1e126]: Remote Include
+                  - generic [ref=f1e131]:
+                    - generic [ref=f1e132]:
+                      - table [ref=f1e134]:
+                        - rowgroup [ref=f1e135]:
+                          - 'row "Controller: Wishlist-Total (plugin_cartridge_merge)" [ref=f1e136]':
+                            - cell "Controller:" [ref=f1e137]:
+                              - generic [ref=f1e138]: "Controller:"
+                            - cell "Wishlist-Total (plugin_cartridge_merge)" [ref=f1e139]:
+                              - generic [ref=f1e140]: Wishlist-Total (plugin_cartridge_merge)
+                      - table [ref=f1e142]:
+                        - rowgroup [ref=f1e143]:
+                          - 'row "Template: /default//components/header/wishlist.isml (app_retailer)" [ref=f1e144]':
+                            - cell "Template:" [ref=f1e145]:
+                              - generic [ref=f1e146]: "Template:"
+                            - cell "/default//components/header/wishlist.isml (app_retailer)" [ref=f1e147]:
+                              - generic [ref=f1e148]: /default//components/header/wishlist.isml (app_retailer)
+                      - table [ref=f1e150]:
+                        - rowgroup [ref=f1e151]:
+                          - 'row "Processing Time: 23 ms" [ref=f1e152]':
+                            - cell "Processing Time:" [ref=f1e153]:
+                              - generic [ref=f1e154]: "Processing Time:"
+                            - cell "23 ms" [ref=f1e155]:
+                              - generic [ref=f1e156]: 23 ms
+                      - table [ref=f1e158]:
+                        - rowgroup [ref=f1e159]:
+                          - 'row "Caching Status: Not cached" [ref=f1e160]':
+                            - cell "Caching Status:" [ref=f1e161]:
+                              - generic [ref=f1e162]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e163]:
+                              - generic [ref=f1e164]: Not cached
+                    - link [ref=f1e165] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Cart-MiniCart (int_abandoned_cart) Template: /default//components/header/miniCart.isml (app_retailer) Processing Time: 15 ms Caching Status: Not cached" [ref=f1e166]':
+              - 'cell "Remote Include Controller: Cart-MiniCart (int_abandoned_cart) Template: /default//components/header/miniCart.isml (app_retailer) Processing Time: 15 ms Caching Status: Not cached" [ref=f1e167]':
+                - generic [ref=f1e168]:
+                  - generic [ref=f1e171]: Remote Include
+                  - generic [ref=f1e176]:
+                    - generic [ref=f1e177]:
+                      - table [ref=f1e179]:
+                        - rowgroup [ref=f1e180]:
+                          - 'row "Controller: Cart-MiniCart (int_abandoned_cart)" [ref=f1e181]':
+                            - cell "Controller:" [ref=f1e182]:
+                              - generic [ref=f1e183]: "Controller:"
+                            - cell "Cart-MiniCart (int_abandoned_cart)" [ref=f1e184]:
+                              - generic [ref=f1e185]: Cart-MiniCart (int_abandoned_cart)
+                      - table [ref=f1e187]:
+                        - rowgroup [ref=f1e188]:
+                          - 'row "Template: /default//components/header/miniCart.isml (app_retailer)" [ref=f1e189]':
+                            - cell "Template:" [ref=f1e190]:
+                              - generic [ref=f1e191]: "Template:"
+                            - cell "/default//components/header/miniCart.isml (app_retailer)" [ref=f1e192]:
+                              - generic [ref=f1e193]: /default//components/header/miniCart.isml (app_retailer)
+                      - table [ref=f1e195]:
+                        - rowgroup [ref=f1e196]:
+                          - 'row "Processing Time: 15 ms" [ref=f1e197]':
+                            - cell "Processing Time:" [ref=f1e198]:
+                              - generic [ref=f1e199]: "Processing Time:"
+                            - cell "15 ms" [ref=f1e200]:
+                              - generic [ref=f1e201]: 15 ms
+                      - table [ref=f1e203]:
+                        - rowgroup [ref=f1e204]:
+                          - 'row "Caching Status: Not cached" [ref=f1e205]':
+                            - cell "Caching Status:" [ref=f1e206]:
+                              - generic [ref=f1e207]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e208]:
+                              - generic [ref=f1e209]: Not cached
+                    - link [ref=f1e210] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Search-HeaderSearch (int_gtm) Template: /default/components/header/search.isml (app_retailer) Processing Time: 7 ms Caching Status: Not cached" [ref=f1e211]':
+              - 'cell "Remote Include Controller: Search-HeaderSearch (int_gtm) Template: /default/components/header/search.isml (app_retailer) Processing Time: 7 ms Caching Status: Not cached" [ref=f1e212]':
+                - generic [ref=f1e213]:
+                  - generic [ref=f1e216]: Remote Include
+                  - generic [ref=f1e221]:
+                    - generic [ref=f1e222]:
+                      - table [ref=f1e224]:
+                        - rowgroup [ref=f1e225]:
+                          - 'row "Controller: Search-HeaderSearch (int_gtm)" [ref=f1e226]':
+                            - cell "Controller:" [ref=f1e227]:
+                              - generic [ref=f1e228]: "Controller:"
+                            - cell "Search-HeaderSearch (int_gtm)" [ref=f1e229]:
+                              - generic [ref=f1e230]: Search-HeaderSearch (int_gtm)
+                      - table [ref=f1e232]:
+                        - rowgroup [ref=f1e233]:
+                          - 'row "Template: /default/components/header/search.isml (app_retailer)" [ref=f1e234]':
+                            - cell "Template:" [ref=f1e235]:
+                              - generic [ref=f1e236]: "Template:"
+                            - cell "/default/components/header/search.isml (app_retailer)" [ref=f1e237]:
+                              - generic [ref=f1e238]: /default/components/header/search.isml (app_retailer)
+                      - table [ref=f1e240]:
+                        - rowgroup [ref=f1e241]:
+                          - 'row "Processing Time: 7 ms" [ref=f1e242]':
+                            - cell "Processing Time:" [ref=f1e243]:
+                              - generic [ref=f1e244]: "Processing Time:"
+                            - cell "7 ms" [ref=f1e245]:
+                              - generic [ref=f1e246]: 7 ms
+                      - table [ref=f1e248]:
+                        - rowgroup [ref=f1e249]:
+                          - 'row "Caching Status: Not cached" [ref=f1e250]':
+                            - cell "Caching Status:" [ref=f1e251]:
+                              - generic [ref=f1e252]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e253]:
+                              - generic [ref=f1e254]: Not cached
+                    - link [ref=f1e255] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-IncludeHeaderMenu (int_gtm) Template: /default//components/header/menu.isml (app_retailer) Processing Time: 6 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e256]':
+              - 'cell "Remote Include Controller: Page-IncludeHeaderMenu (int_gtm) Template: /default//components/header/menu.isml (app_retailer) Processing Time: 6 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e257]':
+                - generic [ref=f1e258]:
+                  - generic [ref=f1e261]: Remote Include
+                  - generic [ref=f1e266]:
+                    - generic [ref=f1e267]:
+                      - table [ref=f1e269]:
+                        - rowgroup [ref=f1e270]:
+                          - 'row "Controller: Page-IncludeHeaderMenu (int_gtm)" [ref=f1e271]':
+                            - cell "Controller:" [ref=f1e272]:
+                              - generic [ref=f1e273]: "Controller:"
+                            - cell "Page-IncludeHeaderMenu (int_gtm)" [ref=f1e274]:
+                              - generic [ref=f1e275]: Page-IncludeHeaderMenu (int_gtm)
+                      - table [ref=f1e277]:
+                        - rowgroup [ref=f1e278]:
+                          - 'row "Template: /default//components/header/menu.isml (app_retailer)" [ref=f1e279]':
+                            - cell "Template:" [ref=f1e280]:
+                              - generic [ref=f1e281]: "Template:"
+                            - cell "/default//components/header/menu.isml (app_retailer)" [ref=f1e282]:
+                              - generic [ref=f1e283]: /default//components/header/menu.isml (app_retailer)
+                      - table [ref=f1e285]:
+                        - rowgroup [ref=f1e286]:
+                          - 'row "Processing Time: 6 ms" [ref=f1e287]':
+                            - cell "Processing Time:" [ref=f1e288]:
+                              - generic [ref=f1e289]: "Processing Time:"
+                            - cell "6 ms" [ref=f1e290]:
+                              - generic [ref=f1e291]: 6 ms
+                      - table [ref=f1e293]:
+                        - rowgroup [ref=f1e294]:
+                          - 'row "Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e295]':
+                            - cell "Caching Status:" [ref=f1e296]:
+                              - generic [ref=f1e297]: "Caching Status:"
+                            - 'cell "Cached until: 03/27/2026 6:29 pm" [ref=f1e298]':
+                              - generic [ref=f1e299]: "Cached until: 03/27/2026 6:29 pm"
+                    - link [ref=f1e300] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 7 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e301]':
+              - 'cell "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 7 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e302]':
+                - generic [ref=f1e303]:
+                  - generic [ref=f1e306]: Remote Include
+                  - generic [ref=f1e311]:
+                    - generic [ref=f1e312]:
+                      - table [ref=f1e314]:
+                        - rowgroup [ref=f1e315]:
+                          - 'row "Controller: Page-Include (int_gtm)" [ref=f1e316]':
+                            - cell "Controller:" [ref=f1e317]:
+                              - generic [ref=f1e318]: "Controller:"
+                            - cell "Page-Include (int_gtm)" [ref=f1e319]:
+                              - generic [ref=f1e320]: Page-Include (int_gtm)
+                      - table [ref=f1e322]:
+                        - rowgroup [ref=f1e323]:
+                          - 'row "Template: /default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e324]':
+                            - cell "Template:" [ref=f1e325]:
+                              - generic [ref=f1e326]: "Template:"
+                            - cell "/default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e327]:
+                              - generic [ref=f1e329] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetPlain.isml
+                                - text: (app_retailer)
+                      - table [ref=f1e331]:
+                        - rowgroup [ref=f1e332]:
+                          - 'row "Processing Time: 7 ms" [ref=f1e333]':
+                            - cell "Processing Time:" [ref=f1e334]:
+                              - generic [ref=f1e335]: "Processing Time:"
+                            - cell "7 ms" [ref=f1e336]:
+                              - generic [ref=f1e337]: 7 ms
+                      - table [ref=f1e339]:
+                        - rowgroup [ref=f1e340]:
+                          - 'row "Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e341]':
+                            - cell "Caching Status:" [ref=f1e342]:
+                              - generic [ref=f1e343]: "Caching Status:"
+                            - 'cell "Cached until: 03/27/2026 6:29 pm" [ref=f1e344]':
+                              - generic [ref=f1e345]: "Cached until: 03/27/2026 6:29 pm"
+                    - link [ref=f1e346] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 6 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e347]':
+              - 'cell "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 6 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e348]':
+                - generic [ref=f1e349]:
+                  - generic [ref=f1e352]: Remote Include
+                  - generic [ref=f1e357]:
+                    - generic [ref=f1e358]:
+                      - table [ref=f1e360]:
+                        - rowgroup [ref=f1e361]:
+                          - 'row "Controller: Page-Include (int_gtm)" [ref=f1e362]':
+                            - cell "Controller:" [ref=f1e363]:
+                              - generic [ref=f1e364]: "Controller:"
+                            - cell "Page-Include (int_gtm)" [ref=f1e365]:
+                              - generic [ref=f1e366]: Page-Include (int_gtm)
+                      - table [ref=f1e368]:
+                        - rowgroup [ref=f1e369]:
+                          - 'row "Template: /default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e370]':
+                            - cell "Template:" [ref=f1e371]:
+                              - generic [ref=f1e372]: "Template:"
+                            - cell "/default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e373]:
+                              - generic [ref=f1e375] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetPlain.isml
+                                - text: (app_retailer)
+                      - table [ref=f1e377]:
+                        - rowgroup [ref=f1e378]:
+                          - 'row "Processing Time: 6 ms" [ref=f1e379]':
+                            - cell "Processing Time:" [ref=f1e380]:
+                              - generic [ref=f1e381]: "Processing Time:"
+                            - cell "6 ms" [ref=f1e382]:
+                              - generic [ref=f1e383]: 6 ms
+                      - table [ref=f1e385]:
+                        - rowgroup [ref=f1e386]:
+                          - 'row "Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e387]':
+                            - cell "Caching Status:" [ref=f1e388]:
+                              - generic [ref=f1e389]: "Caching Status:"
+                            - 'cell "Cached until: 03/27/2026 6:29 pm" [ref=f1e390]':
+                              - generic [ref=f1e391]: "Cached until: 03/27/2026 6:29 pm"
+                    - link [ref=f1e392] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 6 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e393]':
+              - 'cell "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 6 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e394]':
+                - generic [ref=f1e395]:
+                  - generic [ref=f1e398]: Remote Include
+                  - generic [ref=f1e403]:
+                    - generic [ref=f1e404]:
+                      - table [ref=f1e406]:
+                        - rowgroup [ref=f1e407]:
+                          - 'row "Controller: Page-Include (int_gtm)" [ref=f1e408]':
+                            - cell "Controller:" [ref=f1e409]:
+                              - generic [ref=f1e410]: "Controller:"
+                            - cell "Page-Include (int_gtm)" [ref=f1e411]:
+                              - generic [ref=f1e412]: Page-Include (int_gtm)
+                      - table [ref=f1e414]:
+                        - rowgroup [ref=f1e415]:
+                          - 'row "Template: /default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e416]':
+                            - cell "Template:" [ref=f1e417]:
+                              - generic [ref=f1e418]: "Template:"
+                            - cell "/default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e419]:
+                              - generic [ref=f1e421] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetPlain.isml
+                                - text: (app_retailer)
+                      - table [ref=f1e423]:
+                        - rowgroup [ref=f1e424]:
+                          - 'row "Processing Time: 6 ms" [ref=f1e425]':
+                            - cell "Processing Time:" [ref=f1e426]:
+                              - generic [ref=f1e427]: "Processing Time:"
+                            - cell "6 ms" [ref=f1e428]:
+                              - generic [ref=f1e429]: 6 ms
+                      - table [ref=f1e431]:
+                        - rowgroup [ref=f1e432]:
+                          - 'row "Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e433]':
+                            - cell "Caching Status:" [ref=f1e434]:
+                              - generic [ref=f1e435]: "Caching Status:"
+                            - 'cell "Cached until: 03/27/2026 6:29 pm" [ref=f1e436]':
+                              - generic [ref=f1e437]: "Cached until: 03/27/2026 6:29 pm"
+                    - link [ref=f1e438] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 8 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e439]':
+              - 'cell "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 8 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e440]':
+                - generic [ref=f1e441]:
+                  - generic [ref=f1e444]: Remote Include
+                  - generic [ref=f1e449]:
+                    - generic [ref=f1e450]:
+                      - table [ref=f1e452]:
+                        - rowgroup [ref=f1e453]:
+                          - 'row "Controller: Page-Include (int_gtm)" [ref=f1e454]':
+                            - cell "Controller:" [ref=f1e455]:
+                              - generic [ref=f1e456]: "Controller:"
+                            - cell "Page-Include (int_gtm)" [ref=f1e457]:
+                              - generic [ref=f1e458]: Page-Include (int_gtm)
+                      - table [ref=f1e460]:
+                        - rowgroup [ref=f1e461]:
+                          - 'row "Template: /default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e462]':
+                            - cell "Template:" [ref=f1e463]:
+                              - generic [ref=f1e464]: "Template:"
+                            - cell "/default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e465]:
+                              - generic [ref=f1e467] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetPlain.isml
+                                - text: (app_retailer)
+                      - table [ref=f1e469]:
+                        - rowgroup [ref=f1e470]:
+                          - 'row "Processing Time: 8 ms" [ref=f1e471]':
+                            - cell "Processing Time:" [ref=f1e472]:
+                              - generic [ref=f1e473]: "Processing Time:"
+                            - cell "8 ms" [ref=f1e474]:
+                              - generic [ref=f1e475]: 8 ms
+                      - table [ref=f1e477]:
+                        - rowgroup [ref=f1e478]:
+                          - 'row "Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e479]':
+                            - cell "Caching Status:" [ref=f1e480]:
+                              - generic [ref=f1e481]: "Caching Status:"
+                            - 'cell "Cached until: 03/27/2026 6:29 pm" [ref=f1e482]':
+                              - generic [ref=f1e483]: "Cached until: 03/27/2026 6:29 pm"
+                    - link [ref=f1e484] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 5 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e485]':
+              - 'cell "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 5 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e486]':
+                - generic [ref=f1e487]:
+                  - generic [ref=f1e490]: Remote Include
+                  - generic [ref=f1e495]:
+                    - generic [ref=f1e496]:
+                      - table [ref=f1e498]:
+                        - rowgroup [ref=f1e499]:
+                          - 'row "Controller: Page-Include (int_gtm)" [ref=f1e500]':
+                            - cell "Controller:" [ref=f1e501]:
+                              - generic [ref=f1e502]: "Controller:"
+                            - cell "Page-Include (int_gtm)" [ref=f1e503]:
+                              - generic [ref=f1e504]: Page-Include (int_gtm)
+                      - table [ref=f1e506]:
+                        - rowgroup [ref=f1e507]:
+                          - 'row "Template: /default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e508]':
+                            - cell "Template:" [ref=f1e509]:
+                              - generic [ref=f1e510]: "Template:"
+                            - cell "/default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e511]:
+                              - generic [ref=f1e513] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetPlain.isml
+                                - text: (app_retailer)
+                      - table [ref=f1e515]:
+                        - rowgroup [ref=f1e516]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e517]':
+                            - cell "Processing Time:" [ref=f1e518]:
+                              - generic [ref=f1e519]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e520]:
+                              - generic [ref=f1e521]: 5 ms
+                      - table [ref=f1e523]:
+                        - rowgroup [ref=f1e524]:
+                          - 'row "Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e525]':
+                            - cell "Caching Status:" [ref=f1e526]:
+                              - generic [ref=f1e527]: "Caching Status:"
+                            - 'cell "Cached until: 03/27/2026 6:29 pm" [ref=f1e528]':
+                              - generic [ref=f1e529]: "Cached until: 03/27/2026 6:29 pm"
+                    - link [ref=f1e530] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 7 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e531]':
+              - 'cell "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 7 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e532]':
+                - generic [ref=f1e533]:
+                  - generic [ref=f1e536]: Remote Include
+                  - generic [ref=f1e541]:
+                    - generic [ref=f1e542]:
+                      - table [ref=f1e544]:
+                        - rowgroup [ref=f1e545]:
+                          - 'row "Controller: Page-Include (int_gtm)" [ref=f1e546]':
+                            - cell "Controller:" [ref=f1e547]:
+                              - generic [ref=f1e548]: "Controller:"
+                            - cell "Page-Include (int_gtm)" [ref=f1e549]:
+                              - generic [ref=f1e550]: Page-Include (int_gtm)
+                      - table [ref=f1e552]:
+                        - rowgroup [ref=f1e553]:
+                          - 'row "Template: /default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e554]':
+                            - cell "Template:" [ref=f1e555]:
+                              - generic [ref=f1e556]: "Template:"
+                            - cell "/default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e557]:
+                              - generic [ref=f1e559] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetPlain.isml
+                                - text: (app_retailer)
+                      - table [ref=f1e561]:
+                        - rowgroup [ref=f1e562]:
+                          - 'row "Processing Time: 7 ms" [ref=f1e563]':
+                            - cell "Processing Time:" [ref=f1e564]:
+                              - generic [ref=f1e565]: "Processing Time:"
+                            - cell "7 ms" [ref=f1e566]:
+                              - generic [ref=f1e567]: 7 ms
+                      - table [ref=f1e569]:
+                        - rowgroup [ref=f1e570]:
+                          - 'row "Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e571]':
+                            - cell "Caching Status:" [ref=f1e572]:
+                              - generic [ref=f1e573]: "Caching Status:"
+                            - 'cell "Cached until: 03/27/2026 6:29 pm" [ref=f1e574]':
+                              - generic [ref=f1e575]: "Cached until: 03/27/2026 6:29 pm"
+                    - link [ref=f1e576] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 6 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e577]':
+              - 'cell "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetPlain.isml (app_retailer) Processing Time: 6 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e578]':
+                - generic [ref=f1e579]:
+                  - generic [ref=f1e582]: Remote Include
+                  - generic [ref=f1e587]:
+                    - generic [ref=f1e588]:
+                      - table [ref=f1e590]:
+                        - rowgroup [ref=f1e591]:
+                          - 'row "Controller: Page-Include (int_gtm)" [ref=f1e592]':
+                            - cell "Controller:" [ref=f1e593]:
+                              - generic [ref=f1e594]: "Controller:"
+                            - cell "Page-Include (int_gtm)" [ref=f1e595]:
+                              - generic [ref=f1e596]: Page-Include (int_gtm)
+                      - table [ref=f1e598]:
+                        - rowgroup [ref=f1e599]:
+                          - 'row "Template: /default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e600]':
+                            - cell "Template:" [ref=f1e601]:
+                              - generic [ref=f1e602]: "Template:"
+                            - cell "/default/components/content/contentAssetPlain.isml (app_retailer)" [ref=f1e603]:
+                              - generic [ref=f1e605] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetPlain.isml
+                                - text: (app_retailer)
+                      - table [ref=f1e607]:
+                        - rowgroup [ref=f1e608]:
+                          - 'row "Processing Time: 6 ms" [ref=f1e609]':
+                            - cell "Processing Time:" [ref=f1e610]:
+                              - generic [ref=f1e611]: "Processing Time:"
+                            - cell "6 ms" [ref=f1e612]:
+                              - generic [ref=f1e613]: 6 ms
+                      - table [ref=f1e615]:
+                        - rowgroup [ref=f1e616]:
+                          - 'row "Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e617]':
+                            - cell "Caching Status:" [ref=f1e618]:
+                              - generic [ref=f1e619]: "Caching Status:"
+                            - 'cell "Cached until: 03/27/2026 6:29 pm" [ref=f1e620]':
+                              - generic [ref=f1e621]: "Cached until: 03/27/2026 6:29 pm"
+                    - link [ref=f1e622] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_retailer) Processing Time: 4 ms Caching Status: Not cached" [ref=f1e623]':
+              - 'cell "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_retailer) Processing Time: 4 ms Caching Status: Not cached" [ref=f1e624]':
+                - generic [ref=f1e625]:
+                  - generic [ref=f1e628]: Remote Include
+                  - generic [ref=f1e633]:
+                    - generic [ref=f1e634]:
+                      - table [ref=f1e636]:
+                        - rowgroup [ref=f1e637]:
+                          - 'row "Pipeline: Internal" [ref=f1e638]':
+                            - cell "Pipeline:" [ref=f1e639]:
+                              - generic [ref=f1e640]: "Pipeline:"
+                            - cell "Internal" [ref=f1e641]:
+                              - generic [ref=f1e642]: Internal
+                      - table [ref=f1e644]:
+                        - rowgroup [ref=f1e645]:
+                          - 'row "Template: /default/slots/content/contentAssetBody.isml (app_retailer)" [ref=f1e646]':
+                            - cell "Template:" [ref=f1e647]:
+                              - generic [ref=f1e648]: "Template:"
+                            - cell "/default/slots/content/contentAssetBody.isml (app_retailer)" [ref=f1e649]:
+                              - generic [ref=f1e650]: /default/slots/content/contentAssetBody.isml (app_retailer)
+                      - table [ref=f1e652]:
+                        - rowgroup [ref=f1e653]:
+                          - 'row "Processing Time: 4 ms" [ref=f1e654]':
+                            - cell "Processing Time:" [ref=f1e655]:
+                              - generic [ref=f1e656]: "Processing Time:"
+                            - cell "4 ms" [ref=f1e657]:
+                              - generic [ref=f1e658]: 4 ms
+                      - table [ref=f1e660]:
+                        - rowgroup [ref=f1e661]:
+                          - 'row "Caching Status: Not cached" [ref=f1e662]':
+                            - cell "Caching Status:" [ref=f1e663]:
+                              - generic [ref=f1e664]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e665]:
+                              - generic [ref=f1e666]: Not cached
+                    - link [ref=f1e667] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetInc.isml (app_retailer) Processing Time: 6 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e668]':
+              - 'cell "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetInc.isml (app_retailer) Processing Time: 6 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e669]':
+                - generic [ref=f1e670]:
+                  - generic [ref=f1e673]: Remote Include
+                  - generic [ref=f1e678]:
+                    - generic [ref=f1e679]:
+                      - table [ref=f1e681]:
+                        - rowgroup [ref=f1e682]:
+                          - 'row "Controller: Page-Include (int_gtm)" [ref=f1e683]':
+                            - cell "Controller:" [ref=f1e684]:
+                              - generic [ref=f1e685]: "Controller:"
+                            - cell "Page-Include (int_gtm)" [ref=f1e686]:
+                              - generic [ref=f1e687]: Page-Include (int_gtm)
+                      - table [ref=f1e689]:
+                        - rowgroup [ref=f1e690]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_retailer)" [ref=f1e691]':
+                            - cell "Template:" [ref=f1e692]:
+                              - generic [ref=f1e693]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_retailer)" [ref=f1e694]:
+                              - generic [ref=f1e696] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_retailer)
+                      - table [ref=f1e698]:
+                        - rowgroup [ref=f1e699]:
+                          - 'row "Processing Time: 6 ms" [ref=f1e700]':
+                            - cell "Processing Time:" [ref=f1e701]:
+                              - generic [ref=f1e702]: "Processing Time:"
+                            - cell "6 ms" [ref=f1e703]:
+                              - generic [ref=f1e704]: 6 ms
+                      - table [ref=f1e706]:
+                        - rowgroup [ref=f1e707]:
+                          - 'row "Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e708]':
+                            - cell "Caching Status:" [ref=f1e709]:
+                              - generic [ref=f1e710]: "Caching Status:"
+                            - 'cell "Cached until: 03/27/2026 6:29 pm" [ref=f1e711]':
+                              - generic [ref=f1e712]: "Cached until: 03/27/2026 6:29 pm"
+                    - link [ref=f1e713] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_retailer) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e714]':
+              - 'cell "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_retailer) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e715]':
+                - generic [ref=f1e716]:
+                  - generic [ref=f1e719]: Remote Include
+                  - generic [ref=f1e724]:
+                    - generic [ref=f1e725]:
+                      - table [ref=f1e727]:
+                        - rowgroup [ref=f1e728]:
+                          - 'row "Pipeline: Internal" [ref=f1e729]':
+                            - cell "Pipeline:" [ref=f1e730]:
+                              - generic [ref=f1e731]: "Pipeline:"
+                            - cell "Internal" [ref=f1e732]:
+                              - generic [ref=f1e733]: Internal
+                      - table [ref=f1e735]:
+                        - rowgroup [ref=f1e736]:
+                          - 'row "Template: /default/slots/content/contentAssetBody.isml (app_retailer)" [ref=f1e737]':
+                            - cell "Template:" [ref=f1e738]:
+                              - generic [ref=f1e739]: "Template:"
+                            - cell "/default/slots/content/contentAssetBody.isml (app_retailer)" [ref=f1e740]:
+                              - generic [ref=f1e741]: /default/slots/content/contentAssetBody.isml (app_retailer)
+                      - table [ref=f1e743]:
+                        - rowgroup [ref=f1e744]:
+                          - 'row "Processing Time: 3 ms" [ref=f1e745]':
+                            - cell "Processing Time:" [ref=f1e746]:
+                              - generic [ref=f1e747]: "Processing Time:"
+                            - cell "3 ms" [ref=f1e748]:
+                              - generic [ref=f1e749]: 3 ms
+                      - table [ref=f1e751]:
+                        - rowgroup [ref=f1e752]:
+                          - 'row "Caching Status: Not cached" [ref=f1e753]':
+                            - cell "Caching Status:" [ref=f1e754]:
+                              - generic [ref=f1e755]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e756]:
+                              - generic [ref=f1e757]: Not cached
+                    - link [ref=f1e758] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_retailer) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e759]':
+              - 'cell "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_retailer) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e760]':
+                - generic [ref=f1e761]:
+                  - generic [ref=f1e764]: Remote Include
+                  - generic [ref=f1e769]:
+                    - generic [ref=f1e770]:
+                      - table [ref=f1e772]:
+                        - rowgroup [ref=f1e773]:
+                          - 'row "Pipeline: Internal" [ref=f1e774]':
+                            - cell "Pipeline:" [ref=f1e775]:
+                              - generic [ref=f1e776]: "Pipeline:"
+                            - cell "Internal" [ref=f1e777]:
+                              - generic [ref=f1e778]: Internal
+                      - table [ref=f1e780]:
+                        - rowgroup [ref=f1e781]:
+                          - 'row "Template: /default/slots/content/contentAssetBody.isml (app_retailer)" [ref=f1e782]':
+                            - cell "Template:" [ref=f1e783]:
+                              - generic [ref=f1e784]: "Template:"
+                            - cell "/default/slots/content/contentAssetBody.isml (app_retailer)" [ref=f1e785]:
+                              - generic [ref=f1e786]: /default/slots/content/contentAssetBody.isml (app_retailer)
+                      - table [ref=f1e788]:
+                        - rowgroup [ref=f1e789]:
+                          - 'row "Processing Time: 11 ms" [ref=f1e790]':
+                            - cell "Processing Time:" [ref=f1e791]:
+                              - generic [ref=f1e792]: "Processing Time:"
+                            - cell "11 ms" [ref=f1e793]:
+                              - generic [ref=f1e794]: 11 ms
+                      - table [ref=f1e796]:
+                        - rowgroup [ref=f1e797]:
+                          - 'row "Caching Status: Not cached" [ref=f1e798]':
+                            - cell "Caching Status:" [ref=f1e799]:
+                              - generic [ref=f1e800]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e801]:
+                              - generic [ref=f1e802]: Not cached
+                    - link [ref=f1e803] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_retailer) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e804]':
+              - 'cell "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_retailer) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e805]':
+                - generic [ref=f1e806]:
+                  - generic [ref=f1e809]: Remote Include
+                  - generic [ref=f1e814]:
+                    - generic [ref=f1e815]:
+                      - table [ref=f1e817]:
+                        - rowgroup [ref=f1e818]:
+                          - 'row "Pipeline: Internal" [ref=f1e819]':
+                            - cell "Pipeline:" [ref=f1e820]:
+                              - generic [ref=f1e821]: "Pipeline:"
+                            - cell "Internal" [ref=f1e822]:
+                              - generic [ref=f1e823]: Internal
+                      - table [ref=f1e825]:
+                        - rowgroup [ref=f1e826]:
+                          - 'row "Template: /default/slots/content/contentAssetBody.isml (app_retailer)" [ref=f1e827]':
+                            - cell "Template:" [ref=f1e828]:
+                              - generic [ref=f1e829]: "Template:"
+                            - cell "/default/slots/content/contentAssetBody.isml (app_retailer)" [ref=f1e830]:
+                              - generic [ref=f1e831]: /default/slots/content/contentAssetBody.isml (app_retailer)
+                      - table [ref=f1e833]:
+                        - rowgroup [ref=f1e834]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e835]':
+                            - cell "Processing Time:" [ref=f1e836]:
+                              - generic [ref=f1e837]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e838]:
+                              - generic [ref=f1e839]: 5 ms
+                      - table [ref=f1e841]:
+                        - rowgroup [ref=f1e842]:
+                          - 'row "Caching Status: Not cached" [ref=f1e843]':
+                            - cell "Caching Status:" [ref=f1e844]:
+                              - generic [ref=f1e845]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e846]:
+                              - generic [ref=f1e847]: Not cached
+                    - link [ref=f1e848] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_retailer) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e849]':
+              - 'cell "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_retailer) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e850]':
+                - generic [ref=f1e851]:
+                  - generic [ref=f1e854]: Remote Include
+                  - generic [ref=f1e859]:
+                    - generic [ref=f1e860]:
+                      - table [ref=f1e862]:
+                        - rowgroup [ref=f1e863]:
+                          - 'row "Pipeline: Internal" [ref=f1e864]':
+                            - cell "Pipeline:" [ref=f1e865]:
+                              - generic [ref=f1e866]: "Pipeline:"
+                            - cell "Internal" [ref=f1e867]:
+                              - generic [ref=f1e868]: Internal
+                      - table [ref=f1e870]:
+                        - rowgroup [ref=f1e871]:
+                          - 'row "Template: /default/slots/content/contentAssetBody.isml (app_retailer)" [ref=f1e872]':
+                            - cell "Template:" [ref=f1e873]:
+                              - generic [ref=f1e874]: "Template:"
+                            - cell "/default/slots/content/contentAssetBody.isml (app_retailer)" [ref=f1e875]:
+                              - generic [ref=f1e876]: /default/slots/content/contentAssetBody.isml (app_retailer)
+                      - table [ref=f1e878]:
+                        - rowgroup [ref=f1e879]:
+                          - 'row "Processing Time: 3 ms" [ref=f1e880]':
+                            - cell "Processing Time:" [ref=f1e881]:
+                              - generic [ref=f1e882]: "Processing Time:"
+                            - cell "3 ms" [ref=f1e883]:
+                              - generic [ref=f1e884]: 3 ms
+                      - table [ref=f1e886]:
+                        - rowgroup [ref=f1e887]:
+                          - 'row "Caching Status: Not cached" [ref=f1e888]':
+                            - cell "Caching Status:" [ref=f1e889]:
+                              - generic [ref=f1e890]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e891]:
+                              - generic [ref=f1e892]: Not cached
+                    - link [ref=f1e893] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetInc.isml (app_retailer) Processing Time: 12 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e894]':
+              - 'cell "Remote Include Controller: Page-Include (int_gtm) Template: /default/components/content/contentAssetInc.isml (app_retailer) Processing Time: 12 ms Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e895]':
+                - generic [ref=f1e896]:
+                  - generic [ref=f1e899]: Remote Include
+                  - generic [ref=f1e904]:
+                    - generic [ref=f1e905]:
+                      - table [ref=f1e907]:
+                        - rowgroup [ref=f1e908]:
+                          - 'row "Controller: Page-Include (int_gtm)" [ref=f1e909]':
+                            - cell "Controller:" [ref=f1e910]:
+                              - generic [ref=f1e911]: "Controller:"
+                            - cell "Page-Include (int_gtm)" [ref=f1e912]:
+                              - generic [ref=f1e913]: Page-Include (int_gtm)
+                      - table [ref=f1e915]:
+                        - rowgroup [ref=f1e916]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_retailer)" [ref=f1e917]':
+                            - cell "Template:" [ref=f1e918]:
+                              - generic [ref=f1e919]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_retailer)" [ref=f1e920]:
+                              - generic [ref=f1e922] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_retailer)
+                      - table [ref=f1e924]:
+                        - rowgroup [ref=f1e925]:
+                          - 'row "Processing Time: 12 ms" [ref=f1e926]':
+                            - cell "Processing Time:" [ref=f1e927]:
+                              - generic [ref=f1e928]: "Processing Time:"
+                            - cell "12 ms" [ref=f1e929]:
+                              - generic [ref=f1e930]: 12 ms
+                      - table [ref=f1e932]:
+                        - rowgroup [ref=f1e933]:
+                          - 'row "Caching Status: Cached until: 03/27/2026 6:29 pm" [ref=f1e934]':
+                            - cell "Caching Status:" [ref=f1e935]:
+                              - generic [ref=f1e936]: "Caching Status:"
+                            - 'cell "Cached until: 03/27/2026 6:29 pm" [ref=f1e937]':
+                              - generic [ref=f1e938]: "Cached until: 03/27/2026 6:29 pm"
+                    - link [ref=f1e939] [cursor=pointer]:
+                      - /url: "#"
+      - generic [ref=f1e953]:
+        - generic [ref=f1e954]: Search Query
+        - generic [ref=f1e955]:
+          - generic:
+            - table:
+              - rowgroup:
+                - row:
+                  - cell:
+                    - link [ref=f1e956] [cursor=pointer]:
+                      - /url: "#"
+      - table [ref=f1e974]:
+        - rowgroup [ref=f1e975]:
+          - row:
+            - cell:
+              - link [ref=f1e976] [cursor=pointer]:
+                - /url: "#"
+          - row [ref=f1e977]:
+            - cell [ref=f1e978]:
+              - link [ref=f1e981] [cursor=pointer]:
+                - /url: "#"
+          - row [ref=f1e982]:
+            - cell [ref=f1e983]:
+              - link [ref=f1e986] [cursor=pointer]:
+                - /url: "#"
+          - row [ref=f1e987]:
+            - cell [ref=f1e988]:
+              - link [ref=f1e991] [cursor=pointer]:
+                - /url: "#"
+          - row "Searchable Product Attributes" [ref=f1e992]:
+            - cell "Searchable Product Attributes" [ref=f1e993]:
+              - generic [ref=f1e994]:
+                - generic [ref=f1e995]: Searchable Product Attributes
+                - link [ref=f1e996] [cursor=pointer]:
+                  - /url: "#"
+          - row "Searchable Category Attributes" [ref=f1e997]:
+            - cell "Searchable Category Attributes" [ref=f1e998]:
+              - generic [ref=f1e1000]: Searchable Category Attributes
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - generic [ref=e7]:
+          - button "Search" [ref=e9] [cursor=pointer]:
+            - img [ref=e11]
+          - img [ref=e15]
+          - link "View Wishlist" [ref=e18] [cursor=pointer]:
+            - /url: /on/demandware.store/Sites-FisherPaykelNZ-Site/en_NZ/Wishlist-ShowLogin
+            - img [ref=e20]
+          - link "View Cart" [ref=e24] [cursor=pointer]:
+            - /url: /nz/cart
+            - img [ref=e26]
+          - button "Toggle navigation" [ref=e28] [cursor=pointer]:
+            - img [ref=e30]
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - link "Fisher & Paykel New Zealand home page" [ref=e35] [cursor=pointer]:
+              - /url: /nz/
+              - generic [ref=e36]: Fisher & Paykel New Zealand home page
+              - img [ref=e38]
+            - link "Skip to content" [ref=e40] [cursor=pointer]:
+              - /url: "#main"
+          - navigation "Mega Menu" [ref=e42]:
+            - navigation "Main menu" [ref=e43]:
+              - menu [ref=e44]:
+                - menuitem "Products" [ref=e45]:
+                  - button "Products" [ref=e46] [cursor=pointer]
+                - menuitem "Shop" [ref=e47]:
+                  - button "Shop" [ref=e48] [cursor=pointer]
+                - menuitem "Connected Home" [ref=e49]:
+                  - button "Connected Home" [ref=e50] [cursor=pointer]
+                - menuitem "Inspiration" [ref=e51]:
+                  - button "Inspiration" [ref=e52] [cursor=pointer]
+                - menuitem "Our story" [ref=e53]:
+                  - button "Our story" [ref=e54] [cursor=pointer]
+                - menuitem "Where to buy" [ref=e55]:
+                  - button "Where to buy" [ref=e56] [cursor=pointer]
+                - menuitem "Trade Resources" [ref=e57]:
+                  - button "Trade Resources" [ref=e58] [cursor=pointer]
+                - menuitem "Support" [ref=e59]:
+                  - button "Support" [ref=e60] [cursor=pointer]
+    - main [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - heading "Luxury Appliances. Est. 1934" [level=1] [ref=e67]
+            - generic [ref=e71]:
+              - heading "Designed in New Zealand" [level=2] [ref=e72]:
+                - text: Designed in
+                - text: New Zealand
+              - link "Explore Appliances" [ref=e73] [cursor=pointer]:
+                - /url: "#wayfinding"
+              - link "Shop Now" [ref=e74] [cursor=pointer]:
+                - /url: /nz/shop-now
+            - link "Explore Appliances" [ref=e76] [cursor=pointer]:
+              - /url: "#wayfinding"
+          - paragraph [ref=e80]:
+            - text: Up to $500 Cashback
+            - link "T&Cs apply" [ref=e81] [cursor=pointer]:
+              - /url: /nz/promotions/2025/kitchen-laundry-cashback-up-to-500#terms
+            - link "Find out more" [ref=e82] [cursor=pointer]:
+              - /url: /nz/promotions/2025/kitchen-laundry-cashback-up-to-500
+        - generic [ref=e84]:
+          - generic [ref=e88]:
+            - heading "The Complete Appliance Suite" [level=2] [ref=e89]
+            - paragraph [ref=e90]:
+              - text: Bring design freedom to the home with a comprehensive suite of
+              - text: luxury appliances that complement the way you live.
+          - generic [ref=e93]:
+            - link "Cooking" [ref=e95] [cursor=pointer]:
+              - /url: /nz/cooking/
+              - img [ref=e97]
+              - heading "Cooking" [level=3] [ref=e100]
+            - link "Ventilation" [ref=e102] [cursor=pointer]:
+              - /url: /nz/rangehoods/
+              - img [ref=e104]
+              - heading "Ventilation" [level=3] [ref=e107]
+            - link "Cooling" [ref=e109] [cursor=pointer]:
+              - /url: /nz/cooling/
+              - img [ref=e111]
+              - heading "Cooling" [level=3] [ref=e114]
+            - link "Dishwashing" [ref=e116] [cursor=pointer]:
+              - /url: /nz/dishwashing/
+              - img [ref=e118]
+              - heading "Dishwashing" [level=3] [ref=e121]
+            - link "Laundry" [ref=e123] [cursor=pointer]:
+              - /url: /nz/laundry/
+              - img [ref=e125]
+              - heading "Laundry" [level=3] [ref=e128]
+            - link "Outdoor" [ref=e130] [cursor=pointer]:
+              - /url: /nz/outdoor/
+              - img [ref=e132]
+              - heading "Outdoor" [level=3] [ref=e135]
+        - generic [ref=e136]:
+          - link [ref=e141] [cursor=pointer]:
+            - /url: /nz/ultimate-kitchen-solutions
+          - link "Shop Now" [ref=e157] [cursor=pointer]:
+            - /url: /nz/shop-now
+          - link "Discover more" [ref=e166] [cursor=pointer]:
+            - /url: /nz/inspiration/experience-centres/auckland
+          - link "Learn more" [ref=e179] [cursor=pointer]:
+            - /url: /nz/carbon-impact
+        - link "More Projects" [ref=e218] [cursor=pointer]:
+          - /url: /nz/inspiration/projects
+    - contentinfo [ref=e219]:
+      - generic [ref=e220]:
+        - generic [ref=e222]:
+          - generic [ref=e224]:
+            - link "Register your product" [ref=e226] [cursor=pointer]:
+              - /url: https://support.fisherpaykel.com/s/product-registration?country=NEW+ZEALAND&brand=FNP&type=&code=registration-fpa-nz
+              - img [ref=e228]
+              - paragraph [ref=e230]: Register your product
+            - link "Resolve an Issue" [ref=e232] [cursor=pointer]:
+              - /url: https://support.fisherpaykel.com/s/new-zealand
+              - img [ref=e234]
+              - paragraph [ref=e236]: Resolve an Issue
+            - link "Book a Service" [ref=e238] [cursor=pointer]:
+              - /url: https://support.fisherpaykel.com/s/book-a-service
+              - img [ref=e240]
+              - paragraph [ref=e242]: Book a Service
+          - link "Back to top" [ref=e246] [cursor=pointer]:
+            - /url: "#top"
+            - img [ref=e248]
+            - generic: Back to top
+          - generic [ref=e251]:
+            - list [ref=e253]:
+              - listitem [ref=e254]:
+                - paragraph [ref=e255]: Products
+              - listitem [ref=e256]:
+                - link "Cooking" [ref=e257] [cursor=pointer]:
+                  - /url: /nz/cooking/
+              - listitem [ref=e258]:
+                - link "Ventilation" [ref=e259] [cursor=pointer]:
+                  - /url: /nz/rangehoods/
+              - listitem [ref=e260]:
+                - link "Cooling" [ref=e261] [cursor=pointer]:
+                  - /url: /nz/cooling/
+              - listitem [ref=e262]:
+                - link "Dishwashing" [ref=e263] [cursor=pointer]:
+                  - /url: /nz/dishwashing/
+              - listitem [ref=e264]:
+                - link "Fabric Care" [ref=e265] [cursor=pointer]:
+                  - /url: /nz/laundry/
+              - listitem [ref=e266]:
+                - link "Parts & Accessories" [ref=e267] [cursor=pointer]:
+                  - /url: /nz/accessories/
+              - listitem [ref=e268]:
+                - link "Connected Home" [ref=e269] [cursor=pointer]:
+                  - /url: /nz/connected-home
+                  - paragraph [ref=e270]: Connected Home
+              - listitem [ref=e271]:
+                - link "SmartHQ support" [ref=e272] [cursor=pointer]:
+                  - /url: https://support.fisherpaykel.com/s/article/Setting-up-with-SmartHQ
+              - listitem [ref=e273]:
+                - link "Cyber Security" [ref=e274] [cursor=pointer]:
+                  - /url: https://support.fisherpaykel.com/s/article/Cyber-Security
+            - list [ref=e276]:
+              - listitem [ref=e277]:
+                - link "Inspiration" [ref=e278] [cursor=pointer]:
+                  - /url: /nz/inspiration
+                  - paragraph [ref=e279]: Inspiration
+              - listitem [ref=e280]:
+                - link "Experience Centres" [ref=e281] [cursor=pointer]:
+                  - /url: /nz/inspiration/experience-centres
+              - listitem [ref=e282]:
+                - link "Projects" [ref=e283] [cursor=pointer]:
+                  - /url: /nz/inspiration/projects
+              - listitem [ref=e284]:
+                - link "Articles" [ref=e285] [cursor=pointer]:
+                  - /url: /nz/inspiration/articles
+              - listitem [ref=e286]:
+                - link "Our Story" [ref=e287] [cursor=pointer]:
+                  - /url: /nz/our-story
+                  - paragraph [ref=e288]: Our Story
+              - listitem [ref=e289]:
+                - link "About Us" [ref=e290] [cursor=pointer]:
+                  - /url: /nz/our-story/about-us
+              - listitem [ref=e291]:
+                - link "Carbon Impact" [ref=e292] [cursor=pointer]:
+                  - /url: /nz/carbon-impact
+              - listitem [ref=e293]:
+                - link "History" [ref=e294] [cursor=pointer]:
+                  - /url: /nz/our-story/history
+              - listitem [ref=e295]:
+                - link "Careers" [ref=e296] [cursor=pointer]:
+                  - /url: /nz/our-story/careers
+            - list [ref=e298]:
+              - listitem [ref=e299]:
+                - link "Help & Support" [ref=e300] [cursor=pointer]:
+                  - /url: /nz/help-and-support
+                  - paragraph [ref=e301]: Help & Support
+              - listitem [ref=e302]:
+                - link "Delivery" [ref=e303] [cursor=pointer]:
+                  - /url: https://support.fisherpaykel.com/s/article/Delivery-Times-and-areas
+              - listitem [ref=e304]:
+                - link "Installation" [ref=e305] [cursor=pointer]:
+                  - /url: https://support.fisherpaykel.com/s/article/Installation
+              - listitem [ref=e306]:
+                - link "Payments & Purchases" [ref=e307] [cursor=pointer]:
+                  - /url: https://support.fisherpaykel.com/s/article/Payments-and-purchases
+              - listitem [ref=e308]:
+                - link "Returns" [ref=e309] [cursor=pointer]:
+                  - /url: https://support.fisherpaykel.com/s/article/Returns
+              - listitem [ref=e310]:
+                - link "FAQ and Contact Us" [ref=e311] [cursor=pointer]:
+                  - /url: /nz/help-and-support/contact-us
+              - listitem [ref=e312]:
+                - paragraph [ref=e313]: Quick Links
+              - listitem [ref=e314]:
+                - link "Trade Resources" [ref=e315] [cursor=pointer]:
+                  - /url: /nz/trade-resources
+              - listitem [ref=e316]:
+                - link "Promotions" [ref=e317] [cursor=pointer]:
+                  - /url: /nz/promotions
+              - listitem [ref=e318]:
+                - link "Home Solutions" [ref=e319] [cursor=pointer]:
+                  - /url: https://www.fisherpaykelhomesolutions.com/nz
+            - generic [ref=e320]:
+              - link "Where to buy" [ref=e321] [cursor=pointer]:
+                - /url: /nz/where-to-buy/
+              - generic [ref=e322]:
+                - generic [ref=e323]: Change Location
+                - generic [ref=e324]:
+                  - img [ref=e326]
+                  - combobox "Change Location" [ref=e328]:
+                    - option "Asia"
+                    - option "Australia"
+                    - option "Canada (English)"
+                    - option "Canada (Français)"
+                    - option "China"
+                    - option "Europe"
+                    - option "Ireland"
+                    - option "New Zealand" [selected]
+                    - option "Singapore"
+                    - option "United Kingdom"
+                    - option "United States"
+        - generic [ref=e330]:
+          - generic [ref=e331]:
+            - link "Fisher & Paykel New Zealand" [ref=e333] [cursor=pointer]:
+              - /url: /nz/
+              - img [ref=e335]
+            - list [ref=e338]:
+              - listitem [ref=e339]:
+                - link "Facebook" [ref=e340] [cursor=pointer]:
+                  - /url: https://www.facebook.com/FisherPaykelNZ/
+              - listitem [ref=e341]:
+                - link "Instagram" [ref=e342] [cursor=pointer]:
+                  - /url: https://www.instagram.com/fisherpaykel/
+              - listitem [ref=e343]:
+                - link "YouTube" [ref=e344] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/fisherandpaykel
+              - listitem [ref=e345]:
+                - link "Houzz" [ref=e346] [cursor=pointer]:
+                  - /url: https://www.houzz.com/professionals/appliances/fisher-and-paykel-pfvwus-pf~1476524071
+          - generic [ref=e347]:
+            - list [ref=e349]:
+              - listitem [ref=e350]:
+                - link "Privacy" [ref=e351] [cursor=pointer]:
+                  - /url: /nz/privacy-policy
+              - listitem [ref=e352]:
+                - link "Terms & Conditions" [ref=e353] [cursor=pointer]:
+                  - /url: /nz/terms-and-conditions
+              - listitem [ref=e354]:
+                - link "Disclaimer" [ref=e355] [cursor=pointer]:
+                  - /url: /nz/disclaimer
+              - listitem [ref=e356]:
+                - link "Sitemap" [ref=e357] [cursor=pointer]:
+                  - /url: /nz/sitemap
+            - paragraph [ref=e359]: © Fisher & Paykel Appliances Ltd 2026
+          - list [ref=e362]:
+            - listitem [ref=e363]:
+              - link "NKBA Member of National Kitchen & Bath Association" [ref=e364] [cursor=pointer]:
+                - /url: https://nkba.org.nz/
+                - img "NKBA" [ref=e365]
+                - paragraph [ref=e366]: Member of National Kitchen & Bath Association
+```

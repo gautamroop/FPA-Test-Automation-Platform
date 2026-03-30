@@ -1,0 +1,23 @@
+[2026-03-27 08:53:56] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 08:53:59] debug: [FPHomePage] validateAndAcceptCookies
+[2026-03-27 08:53:59] debug: [FPHomePage] Cookie banner accepted
+[2026-03-27 08:53:59] debug: [FPLoginPage] userLogin: fpa.testautomation@fisherpaykel.com
+[2026-03-27 08:54:12] debug: [FPLoginPage] Login submitted
+[2026-03-27 08:54:12] debug: [FPHomePage] navigateToProductType: undefined > undefined
+[2026-03-27 08:54:12] warn: [FPHomePage] productCategory is empty, skipping navigation
+[2026-03-27 08:54:12] debug: [FPProductsPage] selectTheProductAndAddToCart qty=1
+[2026-03-27 08:54:12] warn: [FPProductsPage] No product data provided, skipping selectTheProductAndAddToCart
+[2026-03-27 08:54:12] debug: [FPOrderDetailsPage] populateCustomerAndDeliveryDetails
+[2026-03-27 08:54:12] warn: [FPOrderDetailsPage] No address data provided, skipping populateCustomerAndDeliveryDetails
+[2026-03-27 08:54:12] debug: [FPPaymentPage] selectTypeOfPaymentAndPlaceOrder paymentType=undefined
+[2026-03-27 08:54:12] warn: [FPPaymentPage] No payment data provided, skipping selectTypeOfPaymentAndPlaceOrder
+[2026-03-27 08:54:12] debug: [FPCheckoutPage] placeOrderAndGetOrderDetails
+[2026-03-27 08:54:22] warn: [FPCheckoutPage] Not on order confirmation page, returning empty result
+[2026-03-27 08:54:22] debug: [InitPage] invokeBrowser → https://uat.fisherpaykel.com/nz/
+[2026-03-27 08:54:23] debug: [SalesforceLoginPage] loginToSalesforce: roop.gautam@fisherpaykel.com.uat
+[2026-03-27 08:54:35] debug: [SalesforceLoginPage] No MFA challenge, proceeding
+[2026-03-27 08:54:50] warn: [SalesforceLoginPage] Could not confirm SF home page loaded — continuing anyway
+[2026-03-27 08:54:50] debug: [SalesforceHomePage] searchAndViewDetails: 
+[2026-03-27 08:54:50] warn: [SalesforceHomePage] No order DU number provided, skipping search
+[2026-03-27 08:54:50] debug: [SalesforceOrderDetailsPage] verifyOrderDetailsOnSF: 
+[2026-03-27 08:54:50] warn: [SalesforceOrderDetailsPage] No orderDUNumber provided, skipping verifyOrderDetailsOnSF
